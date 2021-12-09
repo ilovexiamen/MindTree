@@ -49,6 +49,23 @@
 </node>
 </node>
 </node>
+<node CREATED="1638971864498" ID="ID_1522719636" MODIFIED="1638971939073" TEXT="&#x7528;ananconda&#x5e93;&#x7684;&#x65f6;&#x5019;&#x4e0d;&#x77e5;&#x9053;&#x4e3a;&#x4ec0;&#x4e48;tensorflow &#x4e0b;&#x7684;keras&#x5e93;&#x627e;&#x4e0d;&#x5230;">
+<node CREATED="1638971943599" ID="ID_1545522284" MODIFIED="1638971954431" TEXT="&#x89e3;&#x51b3;&#x65b9;&#x5f0f;">
+<node CREATED="1638971956310" ID="ID_20838281" MODIFIED="1638972006668" TEXT="&#x9519;&#x8bef;&#xff1a;pip install keras">
+<node CREATED="1638972008086" ID="ID_1959407412" MODIFIED="1638972054746" TEXT="&#x56e0;&#x4e3a;tensorflow&#x4e0b;&#x9762;&#x5df2;&#x7ecf;&#x6709;&#x5305;&#x542b;&#x6709;keras&#x5e93;&#x4e86;&#xff0c;&#x6240;&#x4ee5;&#x518d;&#x88c5;&#x4e00;&#x4e2a;keras&#x5e93;&#x4f1a;&#x5bfc;&#x81f4;keras&#x5e93;&#x91cd;&#x53e0;"/>
+</node>
+<node CREATED="1638972060545" ID="ID_1097239980" MODIFIED="1638972100169" TEXT="&#x5728;pip&#x4e0a;&#x91cd;&#x65b0;&#x5b89;&#x88c5;tensorflow&#x7248;&#x672c;&#xff0c;&#x8c03;&#x7528;&#x6700;&#x65b0;&#x7248;&#x672c;&#x7684;tensorflow">
+<node COLOR="#ff3333" CREATED="1638972131390" ID="ID_1416152167" MODIFIED="1638972552485" TEXT="&#x9519;&#x8bef;&#xff1a;&#x5b89;&#x88c5;&#x7684;&#x65f6;&#x5019;&#x56e0;&#x4e3a;&#x7f51;&#x7edc;&#x95ee;&#x9898;&#x9700;&#x8981;&#x91c7;&#x7528;&#xff08;pip --default-timeout=100 [install tensorflow-gup] -i https://pypi.douban.com/simple&#xff09;"/>
+<node COLOR="#ff3333" CREATED="1638972243816" ID="ID_1501955995" MODIFIED="1638972563553" TEXT="&#x9519;&#x8bef;&#xff1a;&#x66f4;&#x65b0;pip&#x7248;&#x672c;&#x7684;&#x65f6;&#x5019;&#x51fa;&#x73b0;&#x9519;&#x8bef;&#xff0c;&#x5fc5;&#x987b;&#x8981;&#x91cd;&#x65b0;&#x65b0;&#x5b89;&#x88c5;pip3">
+<node CREATED="1638972294339" ID="ID_42011037" MODIFIED="1638972409499" TEXT="stp1&#xff1a;curl https&#xff1a;//bootstrap.pypa.io/get-pip.py -o get-pip.py"/>
+<node CREATED="1638972411916" ID="ID_1672797269" MODIFIED="1638972445411" TEXT="stp2:&#xff1a;python get-pip.py --force-reinstall"/>
+</node>
+<node CREATED="1638972451603" ID="ID_1099596596" MODIFIED="1638972497114" TEXT="&#x91cd;&#x88c5;&#x5b8c;tensorflow&#x540e;&#x5728;pycharm&#x4e2d;&#x8c03;&#x7528;&#x4f9d;&#x8d56; File-&#x300b;Setting">
+<node CREATED="1638972498420" ID="ID_1400107863" MODIFIED="1638972515062" TEXT="&#x6d4b;&#x8bd5;&#x8fd0;&#x884c;&#x6210;&#x529f;"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1637717572471" ID="ID_673385917" MODIFIED="1637717575743" POSITION="left" TEXT="CUDA">
