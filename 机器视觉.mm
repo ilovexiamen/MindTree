@@ -66,6 +66,22 @@
 </node>
 </node>
 </node>
+<node CREATED="1639044161749" ID="ID_1171846618" MODIFIED="1639044490943" TEXT="&#x534a;&#x76d1;&#x7763;&#x5b66;&#x4e60;&#x6d4b;&#x8bd5;&#x6a21;&#x578b;&#x76f8;&#x5bf9;&#x4f1a;&#x4f4e;&#x4e8e;&#x8bad;&#x7ec3;&#x6a21;&#x578b;&#xff08;&#x8fc7;&#x62df;&#x5408;&#x548c;&#x6b20;&#x62df;&#x5408;&#x7684;&#x95ee;&#x9898;&#xff09;">
+<node CREATED="1639044343731" ID="ID_164673782" MODIFIED="1639044348128" TEXT="&#x8fc7;&#x62df;&#x5408;">
+<node CREATED="1639044492535" ID="ID_853668628" MODIFIED="1639044632758" TEXT="&#x5df2;&#x7ecf;&#x8d85;&#x51fa;&#x5b9e;&#x9645;&#x8303;&#x56f4;&#xff0c;&#x65e0;&#x6cd5;&#x7406;&#x89e3;&#x80cc;&#x540e;&#x7684;&#x89c4;&#x5f8b;&#xff0c;&#x6cdb;&#x5316;&#x80fd;&#x529b;&#x5dee;&#x52b2;"/>
+<node CREATED="1639044834052" ID="ID_1442976245" MODIFIED="1639044839760" TEXT="&#x6539;&#x6b63;&#x65b9;&#x5f0f;">
+<node CREATED="1639044861410" ID="ID_1266679587" MODIFIED="1639044896286" TEXT="&#x6b63;&#x5219;&#x5316;&#xff1a;&#x4fee;&#x6539;&#x5b66;&#x4e60;&#x7b97;&#x6cd5;&#xff0c;&#x964d;&#x4f4e;&#x5176;&#x6cdb;&#x5316;&#x8bef;&#x5dee;&#x800c;&#x4e0d;&#x662f;&#x8bad;&#x7ec3;&#x8bef;&#x5dee;"/>
+<node CREATED="1639045030283" ID="ID_1960945846" MODIFIED="1639045054676" TEXT="&#x521b;&#x5efa;&#x201d;&#x5047;&#x6570;&#x636e;&#x201c;&#x653e;&#x5165;&#x5230;&#x6570;&#x636e;&#x96c6;&#x5f53;&#x4e2d;"/>
+<node CREATED="1639045065219" ID="ID_667855092" MODIFIED="1639045072422" TEXT="&#x964d;&#x4f4e;&#x7279;&#x5f81;&#x6570;"/>
+</node>
+</node>
+<node CREATED="1639044349584" ID="ID_1076168828" MODIFIED="1639044353719" TEXT="&#x6b20;&#x62df;&#x5408;">
+<node CREATED="1639044635501" ID="ID_1564838899" MODIFIED="1639044658399" TEXT="&#x6ca1;&#x6709;&#x83b7;&#x5f97;&#x8db3;&#x591f;&#x7684;&#x8bad;&#x7ec3;&#x91cf;"/>
+</node>
+<node CREATED="1639045775495" ID="ID_1713282322" MODIFIED="1639045779850" TEXT="&#x635f;&#x5931;&#x51fd;&#x6570;">
+<node CREATED="1639045781748" ID="ID_784097261" MODIFIED="1639045823626" TEXT="&#x8bad;&#x7ec3;&#x96c6;&#x548c;&#x6d4b;&#x8bd5;&#x96c6;&#x4e4b;&#x95f4;&#x7684;&#x5dee;&#x8ddd;&#x6743;&#x91cd;&#xff0c;&#x6743;&#x91cd;&#x8d8a;&#x5c0f;&#x8d8a;&#x51c6;&#x786e;"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1637717572471" ID="ID_673385917" MODIFIED="1637717575743" POSITION="left" TEXT="CUDA">
