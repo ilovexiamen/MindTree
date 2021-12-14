@@ -27,9 +27,9 @@
 <node CREATED="1637719336939" ID="ID_947023495" MODIFIED="1637719340610" TEXT="&#x7f3a;&#x70b9;">
 <node CREATED="1637719341515" ID="ID_1674619350" MODIFIED="1637719397570" TEXT="&#x8d44;&#x6e90;&#x9965;&#x997f;"/>
 </node>
-<node CREATED="1637721984701" ID="ID_79909981" MODIFIED="1637721988121" TEXT="&#x5b66;&#x4e60;">
-<node CREATED="1637722052870" ID="ID_1485402587" MODIFIED="1637722062394" TEXT="&#x6e90;&#x7801;&#x56de;&#x63a8;">
-<node CREATED="1637722073986" ID="ID_163764214" MODIFIED="1637722087375" TEXT="tensorflow">
+<node CREATED="1637721984701" ID="ID_79909981" MODIFIED="1639273191100" TEXT="&#x5b66;&#x4e60;">
+<node CREATED="1637722052870" FOLDED="true" ID="ID_1485402587" MODIFIED="1639271638653" TEXT="&#x6e90;&#x7801;&#x56de;&#x63a8;">
+<node CREATED="1637722073986" FOLDED="true" ID="ID_163764214" MODIFIED="1639271637253" TEXT="tensorflow">
 <node CREATED="1637722088014" ID="ID_572787703" MODIFIED="1637722091770" TEXT="keras">
 <node CREATED="1637722093402" ID="ID_1692628989" MODIFIED="1637722369986" TEXT="_LazyLoader(&apos;&apos;kreas&apos;&apos;,globals(),_kreas_module) &#x6587;&#x6863;&#x6ca1;&#x6709;&#x8be6;&#x7ec6;&#x8bf4;&#x660e;&#x6b64;class&#x7684;&#x7528;&#x9014;&#xff0c;&#x53ea;&#x662f;&#x8bf4;&#x65b9;&#x4fbf;&#x8bfb;&#x8005;&#x80fd;&#x591f;&#x7b80;&#x5355;&#x7684;&#x4f7f;&#x7528;&#x4ee3;&#x7801;&#x5e93;&#x5373;&#x53ef;">
 <node CREATED="1637722371691" ID="ID_1511314633" MODIFIED="1637722819608" TEXT="&#x5f15;&#x7528;&#x5e93;">
@@ -82,6 +82,86 @@
 <node CREATED="1639045781748" ID="ID_784097261" MODIFIED="1639045823626" TEXT="&#x8bad;&#x7ec3;&#x96c6;&#x548c;&#x6d4b;&#x8bd5;&#x96c6;&#x4e4b;&#x95f4;&#x7684;&#x5dee;&#x8ddd;&#x6743;&#x91cd;&#xff0c;&#x6743;&#x91cd;&#x8d8a;&#x5c0f;&#x8d8a;&#x51c6;&#x786e;"/>
 </node>
 </node>
+<node CREATED="1639273196582" ID="ID_1678403145" MODIFIED="1639298839239" TEXT="cloth_analysis(&#x4ece;60000&#x4ef6;&#x8863;&#x7269;&#x8bad;&#x7ec3;&#x6d4b;&#x8bd5;&#x7528;&#x4f8b;&#x4e2d;&#x5b66;&#x4e60;&#x6570;&#x636e;&#x53ef;&#x89c6;&#x5316;&#xff0c;&#x534a;&#x76d1;&#x7763;&#x5f0f;&#x5b66;&#x4e60;&#x7684;&#x65b9;&#x5f0f;&#x6d41;&#x7a0b;)">
+<node CREATED="1639298271563" ID="ID_1860867625" MODIFIED="1639364262983" TEXT="&#x56fe;&#x50cf;&#x663e;&#x793a;&#x6240;&#x8fd0;&#x7528;&#x5230;&#x7684;api">
+<node CREATED="1639298285261" ID="ID_1514501160" MODIFIED="1639298967010" TEXT="import matplotlib.pyplot as plt">
+<node CREATED="1639298323251" ID="ID_1514057445" MODIFIED="1639298335911" TEXT="figure()">
+<node CREATED="1639298339958" ID="ID_35594704" MODIFIED="1639298378175" TEXT="&#x786e;&#x8ba4;&#x663e;&#x793a;&#x56fe;&#x50cf;&#x7684;&#x957f;&#x5bbd;&#x548c;&#x8fb9;&#x6846;&#x663e;&#x793a;&#x7b49;&#x7b49;"/>
+</node>
+<node CREATED="1639298381069" ID="ID_483052643" MODIFIED="1639298386987" TEXT="imshow()">
+<node CREATED="1639298387697" ID="ID_1216478881" MODIFIED="1639298483646" TEXT="&#x5c06;&#x56fe;&#x50cf;&#x7684;&#x683c;&#x5f0f;&#x6570;&#x636e;&#x663e;&#x793a;&#x51fa;&#x6765;">
+<node CREATED="1639298485020" ID="ID_619376543" MODIFIED="1639298506188" TEXT="&#x4f8b;&#x5982;&#xff1a;AxesImage(350,308;2170x2156)"/>
+</node>
+</node>
+<node CREATED="1639298523258" ID="ID_57863563" MODIFIED="1639298547738" TEXT="show()">
+<node CREATED="1639298549463" ID="ID_1520366351" MODIFIED="1639298561565" TEXT="&#x5c06;&#x56fe;&#x50cf;&#x6253;&#x5370;&#x51fa;&#x6765;"/>
+</node>
+<node CREATED="1639298969101" ID="ID_669999808" MODIFIED="1639299768664" TEXT="subplot({&#x884c;&#x6570;}&#xff0c;{&#x5217;&#x6570;}&#xff0c;{&#x7d22;&#x5f15;&#x4f4d;&#x7f6e;})">
+<node CREATED="1639299372139" ID="ID_402253566" MODIFIED="1639299384345" TEXT="&#x8868;&#x683c;&#x5316;&#x663e;&#x793a;&#x56fe;&#x50cf;"/>
+</node>
+</node>
+</node>
+<node CREATED="1639298841798" ID="ID_1055262159" MODIFIED="1639300790108" TEXT="&#x6784;&#x5efa;&#x795e;&#x7ecf;&#x6a21;&#x578b;&#xff08;&#x5c42;&#xff09;">
+<node CREATED="1639300792826" ID="ID_1481653298" MODIFIED="1639301124699" TEXT="&#x4f7f;&#x7528;tensorflow&#x4e2d;&#x7684;keras&#x5e93;&#xff08;&#x6240;&#x4f7f;&#x7528;&#x7684;&#x65b9;&#x5f0f;&#x8981;&#x53bb;&#x770b;keras&#x6240;&#x63d0;&#x4f9b;&#x7684;&#x5b98;&#x65b9;&#x624b;&#x518c;&#xff09;">
+<node CREATED="1639301063833" ID="ID_1813590676" MODIFIED="1639301235986" TEXT="&#x6240;&#x8c03;&#x7528;&#x7684;api">
+<node CREATED="1639301087213" ID="ID_1411459897" MODIFIED="1639302622728" TEXT="Sequential()">
+<node CREATED="1639301175288" ID="ID_870469805" MODIFIED="1639301220019" TEXT="&#x4e00;&#x4e2a;&#x4f18;&#x5316;&#x7684;&#x6a21;&#x578b;&#x6846;&#x67b6;&#xff0c;url:https://keras.io/zh/models/sequential/#sequential-api"/>
+<node CREATED="1639302629227" FOLDED="true" ID="ID_707274049" MODIFIED="1639303558046" TEXT="compile()">
+<node CREATED="1639302640361" ID="ID_609131564" MODIFIED="1639302664692" TEXT="compile( optimizer=&apos;rmsprop&apos;, loss=None, metrics=None, loss_weights=None,     weighted_metrics=None, run_eagerly=None, steps_per_execution=None, **kwargs )">
+<node CREATED="1639302743662" ID="ID_732045495" MODIFIED="1639302754865" TEXT="optimizer">
+<node CREATED="1639302756349" ID="ID_1701338325" MODIFIED="1639302896518" TEXT="&#x5b57;&#x7b26;&#x4e32;&#x6216;&#x8f6c;&#x5316;&#x5668;&#x5b9e;&#x4f8b;">
+<node CREATED="1639302845935" ID="ID_446505658" MODIFIED="1639302848847" TEXT="adam">
+<node CREATED="1639302902842" ID="ID_1593989463" MODIFIED="1639302905212" TEXT="Adam &#x4f18;&#x5316;&#x5668;&#x3002;">
+<node CREATED="1639302977697" ID="ID_1749563881" MODIFIED="1639303170287" TEXT=" Adam&#xff0c;&#x9019;&#x662f;&#x4e00;&#x7a2e;&#x57fa;&#x65bc;&#x4f4e;&#x968e;&#x77e9;&#x7684;&#x81ea;&#x9069;&#x61c9;&#x4f30;&#x8a08;&#x7684;&#x96a8;&#x6a5f;&#x76ee;&#x6a19;&#x51fd;&#x6578;&#x4e00;&#x968e;&#x68af;&#x5ea6;&#x512a;&#x5316;&#x7b97;&#x6cd5;&#x3002;&#x8a72;&#x65b9;&#x6cd5;&#x6613;&#x65bc;&#x5be6;&#x73fe;&#xff0c;&#x8a08;&#x7b97;&#x6548;&#x7387;&#x9ad8;&#xff0c;&#x5167;&#x5b58;&#x9700;&#x6c42;&#x5c0f;&#xff0c;&#x5c0d;&#x68af;&#x5ea6;&#x7684;&#x5c0d;&#x89d2;&#x7dda;&#x91cd;&#x65b0;&#x7e2e;&#x653e;&#x5177;&#x6709;&#x4e0d;&#x8b8a;&#x6027;&#xff0c;&#x4e26;&#x4e14;&#x975e;&#x5e38;&#x9069;&#x7528;&#x65bc;&#x6578;&#x64da;&#x548c;/&#x6216;&#x53c3;&#x6578;&#x8f03;&#x5927;&#x7684;&#x554f;&#x984c;&#x3002;"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1639302828276" ID="ID_63745837" MODIFIED="1639303051698" TEXT="loss">
+<node CREATED="1639302833280" ID="ID_1969496754" MODIFIED="1639302839288" TEXT="&#x635f;&#x5931;&#x51fd;&#x6570;"/>
+</node>
+<node CREATED="1639303090590" ID="ID_1558510481" MODIFIED="1639303097262" TEXT="metrics">
+<node CREATED="1639303102960" ID="ID_420367667" MODIFIED="1639303158938" TEXT="&#x6307;&#x6807; - &#x7528;&#x4e8e;&#x76d1;&#x63a7;&#x8bad;&#x7ec3;&#x548c;&#x6d4b;&#x8bd5;&#x6b65;&#x9aa4;&#x3002;&#x4ee5;&#x4e0b;&#x793a;&#x4f8b;&#x4f7f;&#x7528;&#x4e86;&#x51c6;&#x786e;&#x7387;&#xff0c;&#x5373;&#x88ab;&#x6b63;&#x786e;&#x5206;&#x7c7b;&#x7684;&#x56fe;&#x50cf;&#x7684;&#x6bd4;&#x7387;&#x3002;"/>
+</node>
+</node>
+</node>
+<node CREATED="1639303220665" ID="ID_218394391" MODIFIED="1639303224492" TEXT="fit()">
+<node CREATED="1639303225682" ID="ID_790350152" MODIFIED="1639303260568" TEXT="&#x5c06;&#x6a21;&#x578b;&#x4e0e;&#x8bad;&#x7ec3;&#x6570;&#x636e;&#x8fdb;&#x884c;&#x62df;&#x5408;"/>
+</node>
+<node CREATED="1639303373609" ID="ID_1987117272" MODIFIED="1639303878321" TEXT="predict">
+<node CREATED="1639303887308" ID="ID_518604957" MODIFIED="1639303892798" TEXT="&#x56fe;&#x50cf;&#x9884;&#x6d4b;"/>
+</node>
+</node>
+<node CREATED="1639301277642" ID="ID_1790939252" MODIFIED="1639301297126" TEXT=" keras.layers.Flatten(input_shape=(28, 28))">
+<node CREATED="1639301416985" ID="ID_1259810025" MODIFIED="1639301463336" TEXT="&#x8fd9;&#x4e2a;&#x65b9;&#x5f0f;&#x53ea;&#x662f;&#x8d77;&#x5230;&#x4e86;&#x56fe;&#x50cf;&#x8f6c;&#x6362;&#x7684;&#x4f5c;&#x7528;&#xff0c;&#x5c06;28&#xff0c;28&#x50cf;&#x7d20;&#x7684;&#x56fe;&#x50cf;&#x8fdb;&#x884c;&#x94fa;&#x5e73;"/>
+</node>
+<node CREATED="1639301477510" ID="ID_1239764993" MODIFIED="1639301483435" TEXT=" keras.layers.Dense(128, activation=&apos;relu&apos;),">
+<node CREATED="1639301485679" ID="ID_1604758016" MODIFIED="1639301911346" TEXT="&#x6fc0;&#x6d3b;&#xff08;&#x8f93;&#x51fa;&#x51fd;&#x6570;relu&#xff09;&#xff0c;&#x6709;128&#x4e2a;&#x795e;&#x7ecf;&#x8282;&#x70b9;"/>
+</node>
+<node CREATED="1639301654429" FOLDED="true" ID="ID_1009644136" MODIFIED="1639303416096" TEXT="tf.keras.layers.Dense( )">
+<node CREATED="1639301671789" ID="ID_1668350074" MODIFIED="1639301673988" TEXT="tf.keras.layers.Dense(     units, activation=None, use_bias=True,     kernel_initializer=&apos;glorot_uniform&apos;,     bias_initializer=&apos;zeros&apos;, kernel_regularizer=None,     bias_regularizer=None, activity_regularizer=None, kernel_constraint=None,     bias_constraint=None, **kwargs )">
+<node CREATED="1639301721817" ID="ID_1939544577" MODIFIED="1639301772561" TEXT="units">
+<node CREATED="1639301774877" ID="ID_969176439" MODIFIED="1639301785098" TEXT="&#x6b63;&#x6574;&#x6570;&#xff0c;&#x8f93;&#x51fa;&#x7a7a;&#x95f4;&#x7b49;&#x5355;&#x4f4d;"/>
+</node>
+<node CREATED="1639301835679" ID="ID_123016703" MODIFIED="1639301854344" TEXT="activility_regularizer">
+<node CREATED="1639301856458" ID="ID_288670080" MODIFIED="1639301893212" TEXT="&#x5e38;&#x89c4;&#x8f93;&#x51fa;&#x56fe;&#x6848;&#xff08;&#x5373;&#x201c;&#x6fc0;&#x6d3b;&#x201d;&#xff09;"/>
+</node>
+</node>
+</node>
+<node CREATED="1639302606274" ID="ID_1627359546" MODIFIED="1639303445823" TEXT="tf.keras.layers.Softnax()">
+<node CREATED="1639303807308" ID="ID_1977406249" MODIFIED="1639303859723" TEXT="&#x8f6c;&#x5316;&#x6210;&#x6574;&#x6570;&#x5217;&#x8868;&#xff0c;&#x8f6c;&#x5316;&#x4e3a;&#x66f4;&#x5bb9;&#x6613;&#x7406;&#x89e3;&#x7684;&#x6982;&#x7387;"/>
+</node>
+<node CREATED="1639303829094" ID="ID_1605197380" MODIFIED="1639304059817" TEXT="numpy">
+<node CREATED="1639304061540" ID="ID_680852102" MODIFIED="1639304107472" TEXT="argmax()">
+<node CREATED="1639304108535" ID="ID_1707649990" MODIFIED="1639304117306" TEXT="&#x53d6;&#x51fa;&#x6700;&#x5927;&#x503c;"/>
+</node>
+</node>
+</node>
+<node CREATED="1639301957260" ID="ID_1990455738" MODIFIED="1639302149287" TEXT="&#x5c06;&#x56fe;&#x50cf;&#x5148;&#x8fdb;&#x884c;&#x94fa;&#x5e73;&#xff0c;&#x7136;&#x540e;&#x901a;&#x8fc7;&#x4e24;&#x5c42;&#x7684;&#x795e;&#x7ecf;&#x7f51;&#x7edc;&#xff0c;&#x5c06;&#x9010;&#x5c42;&#x7684;&#x50cf;&#x7d20;&#x5f97;&#x5206;&#x8868;&#x793a;&#x51fa;&#x6765;&#xff08;0~9&#x5206;&#x522b;&#x4ee3;&#x8868;&#x4e0d;&#x540c;&#x7684;&#x5f62;&#x5f0f;&#x7684;&#x670d;&#x88c5;&#xff09;&#xff0c;&#x901a;&#x8fc7;&#x6743;&#x91cd;&#x6bd4;&#x8f83;&#x8f93;&#x51fa;&#x8f83;&#x5927;&#x7684;&#x53ef;&#x80fd;&#x6027;&#x4f5c;&#x4e3a;&#x6700;&#x540e;&#x7684;&#x5f97;&#x5206;"/>
+<node COLOR="#66cc00" CREATED="1639302267542" ID="ID_1001484404" MODIFIED="1639302704665" TEXT="&#x8fd8;&#x6ca1;&#x6709;&#x7814;&#x7a76;&#x795e;&#x7ecf;&#x5c42;&#x5373;&#x522b;&#x4eba;&#x5199;&#x7684;&#x6fc0;&#x6d3b;&#x8f93;&#x51fa;&#x51fd;&#x6570;"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1637717572471" ID="ID_673385917" MODIFIED="1637717575743" POSITION="left" TEXT="CUDA">
@@ -97,12 +177,18 @@
 <node CREATED="1637717978236" ID="ID_707718169" MODIFIED="1637718000062" TEXT="&#x56e0;&#x4e3a;&#x7528;&#x5230;&#x7684;&#x662f;GPU&#x6240;&#x4ee5;&#x76f8;&#x5bf9;&#x6765;&#x8bf4;&#x6bd4;&#x8f83;&#x8017;&#x80fd;"/>
 </node>
 </node>
-<node CREATED="1637723092680" ID="ID_1056834573" MODIFIED="1637724771870" POSITION="left" TEXT="python&#x5e38;&#x8bc6;">
+<node CREATED="1637723092680" ID="ID_1056834573" MODIFIED="1639272645477" POSITION="left" TEXT="python&#x5e38;&#x8bc6;">
 <node CREATED="1637723109901" ID="ID_1883702978" MODIFIED="1637723141513" TEXT="&#x4e3a;&#x5565;&#x6709;&#x4e9b;class&#x4e0b;&#x9762;&#x6709;&#x5b9a;&#x4e49;__init__&#xff08;&#xff09;&#x51fd;&#x6570;&#x5462;&#xff1f;">
 <node CREATED="1637723152455" ID="ID_1513556747" MODIFIED="1637723283604" TEXT="__init__.py&#x8be5;&#x6587;&#x4ef6;&#x7684;&#x4f5c;&#x7528;&#x5c31;&#x662f;&#x76f8;&#x5f53;&#x4e8e;&#x628a;&#x81ea;&#x8eab;&#x6574;&#x4e2a;&#x6587;&#x4ef6;&#x5939;&#x5f53;&#x4f5c;&#x4e00;&#x4e2a;&#x5305;&#x6765;&#x7ba1;&#x7406;&#xff0c;&#x6bcf;&#x5f53;&#x6709;&#x5916;&#x90e8;import&#x7684;&#x65f6;&#x5019;&#xff0c;&#x5c31;&#x4f1a;&#x81ea;&#x52a8;&#x6267;&#x884c;&#x91cc;&#x9762;&#x7684;&#x51fd;&#x6570;&#x3002;"/>
 </node>
 <node CREATED="1637724773644" ID="ID_1983861373" MODIFIED="1637724820138" TEXT="python&#x4e2d;&#x7684;__all__&#x7684;&#x4f5c;&#x7528;&#x662f;&#x4ec0;&#x4e48;&#x5462;&#xff1f;">
 <node CREATED="1637724821962" ID="ID_1122196180" MODIFIED="1637724852706" TEXT="__all__ &#x53d8;&#x91cf;&#xff0c;&#x8be5;&#x53d8;&#x91cf;&#x7684;&#x503c;&#x662f;&#x4e00;&#x4e2a;&#x5217;&#x8868;&#xff0c;&#x5b58;&#x50a8;&#x7684;&#x662f;&#x5f53;&#x524d;&#x6a21;&#x5757;&#x4e2d;&#x4e00;&#x4e9b;&#x6210;&#x5458;&#xff08;&#x53d8;&#x91cf;&#x3001;&#x51fd;&#x6570;&#x6216;&#x8005;&#x7c7b;&#xff09;&#x7684;&#x540d;&#x79f0;&#x3002;&#x901a;&#x8fc7;&#x5728;&#x6a21;&#x5757;&#x6587;&#x4ef6;&#x4e2d;&#x8bbe;&#x7f6e; __all__ &#x53d8;&#x91cf;&#xff0c;&#x5f53;&#x5176;&#x5b83;&#x6587;&#x4ef6;&#x4ee5;&#x201c;from &#x6a21;&#x5757;&#x540d; import *&#x201d;&#x7684;&#x5f62;&#x5f0f;&#x5bfc;&#x5165;&#x8be5;&#x6a21;&#x5757;&#x65f6;&#xff0c;&#x8be5;&#x6587;&#x4ef6;&#x4e2d;&#x53ea;&#x80fd;&#x4f7f;&#x7528; __all__ &#x5217;&#x8868;&#x4e2d;&#x6307;&#x5b9a;&#x7684;&#x6210;&#x5458;&#x3002;"/>
+</node>
+<node CREATED="1639272649970" ID="ID_1148824524" MODIFIED="1639272760673" TEXT="&#x8981;&#x5982;&#x4f55;&#x67e5;&#x770b;python&#x6587;&#x4ef6;&#x4e2d;&#x7684;&#x5305;&#xff0c;&#x8fd8;&#x6709;&#x5305;&#x7684;&#x6e90;&#x8def;&#x5f84;&#x5462;&#xff1f;">
+<node CREATED="1639272764256" ID="ID_1595238785" MODIFIED="1639273044789" TEXT="&#x9996;&#x5148;&#x4f5c;&#x4e3a;&#x4e00;&#x4e2a;&#x5305;&#x8981;&#x6709;__init__.py&#x8fd9;&#x4e2a;&#x6587;&#x4ef6;&#xff0c;&#x82e5;&#x5305;&#x7684;&#x5bfc;&#x5165;&#x9519;&#x8bef;&#x7684;&#x8bdd;&#xff0c;&#x53ef;&#x4ee5;&#x901a;&#x8fc7;&#x67e5;&#x770b;sys.path&#x8fd9;&#x4e2a;&#x6587;&#x4ef6;&#x91cc;&#x6709;&#x6ca1;&#x6709;&#x5305;&#x542b;&#x8fd9;&#x4e2a;&#x5305;"/>
+</node>
+<node CREATED="1639300247362" ID="ID_789661718" MODIFIED="1639300280137" TEXT="python&#x7684;&#x5faa;&#x73af;&#x8bed;&#x53e5;&#x5185;&#xff0c;&#x7528;&#x6765;&#x6307;&#x5b9a;&#x8303;&#x56f4;&#x7684;&#x662f;range()&#x8bed;&#x53e5;&#x6765;&#x8fdb;&#x884c;&#x8fed;&#x4ee3;">
+<node CREATED="1639300284368" ID="ID_640862229" MODIFIED="1639300378883" TEXT="&#x4f8b;&#x5982;&#xff1a;for num in range(10,20)(&#x5373;10~20&#x4e4b;&#x95f4;&#x7684;&#x6570;&#x5b57;)"/>
 </node>
 </node>
 </node>
