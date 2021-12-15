@@ -126,7 +126,7 @@
 </node>
 </node>
 <node CREATED="1639303220665" ID="ID_218394391" MODIFIED="1639303224492" TEXT="fit()">
-<node CREATED="1639303225682" ID="ID_790350152" MODIFIED="1639303260568" TEXT="&#x5c06;&#x6a21;&#x578b;&#x4e0e;&#x8bad;&#x7ec3;&#x6570;&#x636e;&#x8fdb;&#x884c;&#x62df;&#x5408;"/>
+<node CREATED="1639303225682" ID="ID_790350152" MODIFIED="1639530438504" TEXT="&#x5c06;&#x6a21;&#x578b;&#x4e0e;&#x8bad;&#x7ec3;&#x6570;&#x636e;&#x8fdb;&#x884c;&#x62df;&#x5408;&#xff0c;&#x8bad;&#x7ec3;&#x6a21;&#x578b;"/>
 </node>
 <node CREATED="1639303373609" ID="ID_1987117272" MODIFIED="1639303878321" TEXT="predict">
 <node CREATED="1639303887308" ID="ID_518604957" MODIFIED="1639303892798" TEXT="&#x56fe;&#x50cf;&#x9884;&#x6d4b;"/>
@@ -138,8 +138,8 @@
 <node CREATED="1639301477510" ID="ID_1239764993" MODIFIED="1639301483435" TEXT=" keras.layers.Dense(128, activation=&apos;relu&apos;),">
 <node CREATED="1639301485679" ID="ID_1604758016" MODIFIED="1639301911346" TEXT="&#x6fc0;&#x6d3b;&#xff08;&#x8f93;&#x51fa;&#x51fd;&#x6570;relu&#xff09;&#xff0c;&#x6709;128&#x4e2a;&#x795e;&#x7ecf;&#x8282;&#x70b9;"/>
 </node>
-<node CREATED="1639301654429" FOLDED="true" ID="ID_1009644136" MODIFIED="1639303416096" TEXT="tf.keras.layers.Dense( )">
-<node CREATED="1639301671789" ID="ID_1668350074" MODIFIED="1639301673988" TEXT="tf.keras.layers.Dense(     units, activation=None, use_bias=True,     kernel_initializer=&apos;glorot_uniform&apos;,     bias_initializer=&apos;zeros&apos;, kernel_regularizer=None,     bias_regularizer=None, activity_regularizer=None, kernel_constraint=None,     bias_constraint=None, **kwargs )">
+<node CREATED="1639301654429" ID="ID_1009644136" MODIFIED="1639442774816" TEXT="tf.keras.layers.Dense( )">
+<node CREATED="1639301671789" FOLDED="true" ID="ID_1668350074" MODIFIED="1639487101783" TEXT="tf.keras.layers.Dense(     units, activation=None, use_bias=True,     kernel_initializer=&apos;glorot_uniform&apos;,     bias_initializer=&apos;zeros&apos;, kernel_regularizer=None,     bias_regularizer=None, activity_regularizer=None, kernel_constraint=None,     bias_constraint=None, **kwargs )">
 <node CREATED="1639301721817" ID="ID_1939544577" MODIFIED="1639301772561" TEXT="units">
 <node CREATED="1639301774877" ID="ID_969176439" MODIFIED="1639301785098" TEXT="&#x6b63;&#x6574;&#x6570;&#xff0c;&#x8f93;&#x51fa;&#x7a7a;&#x95f4;&#x7b49;&#x5355;&#x4f4d;"/>
 </node>
@@ -148,7 +148,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1639302606274" ID="ID_1627359546" MODIFIED="1639303445823" TEXT="tf.keras.layers.Softnax()">
+<node CREATED="1639302606274" ID="ID_1627359546" MODIFIED="1639442783138" TEXT="tf.keras.layers.Softnax()">
 <node CREATED="1639303807308" ID="ID_1977406249" MODIFIED="1639303859723" TEXT="&#x8f6c;&#x5316;&#x6210;&#x6574;&#x6570;&#x5217;&#x8868;&#xff0c;&#x8f6c;&#x5316;&#x4e3a;&#x66f4;&#x5bb9;&#x6613;&#x7406;&#x89e3;&#x7684;&#x6982;&#x7387;"/>
 </node>
 <node CREATED="1639303829094" ID="ID_1605197380" MODIFIED="1639304059817" TEXT="numpy">
@@ -162,6 +162,39 @@
 </node>
 </node>
 </node>
+<node CREATED="1639446266528" ID="ID_534475614" MODIFIED="1639446452881" TEXT="test_analysis(&#x4ece;10000&#x6761;&#x5f71;&#x8bc4;&#x5f53;&#x4e2d;&#x6311;&#x9009;positive&#x7684;dialogue&#x4e0e;Negative&#x7684;dialogue)">
+<node CREATED="1639446473505" ID="ID_875256373" MODIFIED="1639446484005" TEXT="&#x6784;&#x5efa;&#x795e;&#x7ecf;&#x6a21;&#x578b;&#xff08;&#x5c42;&#xff09;">
+<node CREATED="1639446486041" ID="ID_486211591" MODIFIED="1639446512268" TEXT="&#x4f7f;&#x7528;tensorflow&#x4e2d;&#x7684;keras&#x5e93;">
+<node CREATED="1639446515570" ID="ID_1371647898" MODIFIED="1639446521209" TEXT="&#x6240;&#x8c03;&#x7528;&#x7684;api">
+<node CREATED="1639446525509" ID="ID_855137260" MODIFIED="1639529914305" TEXT="Sequential&#xff08;&#xff09;forming or following in a logical order or sequence.">
+<node CREATED="1639478837321" ID="ID_1759982518" MODIFIED="1639478884838" TEXT="compile()">
+<node CREATED="1639478888367" ID="ID_125235975" MODIFIED="1639479165650" TEXT="Configures the model for training."/>
+</node>
+<node CREATED="1639529916938" ID="ID_1852102223" MODIFIED="1639529920631" TEXT="fit(     x=None, y=None, batch_size=None, epochs=1, verbose=&apos;auto&apos;,     callbacks=None, validation_split=0.0, validation_data=None, shuffle=True,     class_weight=None, sample_weight=None, initial_epoch=0, steps_per_epoch=None,     validation_steps=None, validation_batch_size=None, validation_freq=1,     max_queue_size=10, workers=1, use_multiprocessing=False )">
+<node CREATED="1639530166630" ID="ID_912753" MODIFIED="1639530171548" TEXT="epoch">
+<node CREATED="1639530174182" ID="ID_909844574" MODIFIED="1639530225312" TEXT="number of epoch to train the model"/>
+</node>
+</node>
+</node>
+<node CREATED="1639463678458" ID="ID_1456308495" MODIFIED="1639463717377" TEXT="keras.layers.Embedding(vocab_size,16)">
+<node CREATED="1639477902223" ID="ID_668323273" MODIFIED="1639477941984" TEXT="&#x5c06;&#x6b63;&#x6574;&#x6570;&#x7d22;&#x5f15;&#x8f6c;&#x5316;&#x4e3a;&#x56fa;&#x5b9a;&#x5927;&#x5c0f;&#x7684;&#x5bc6;&#x96c6;&#x5411;&#x91cf;"/>
+</node>
+<node CREATED="1639463721214" ID="ID_1618089901" MODIFIED="1639463745628" TEXT="keras.layers.GlobalAveragePooling1D()">
+<node CREATED="1639478018007" ID="ID_250692170" MODIFIED="1639478047071" TEXT="&#x65f6;&#x95f4;&#x6570;&#x636e;&#x5168;&#x5c40;&#x5e73;&#x5747;&#x503c;&#x8bdd;&#x64cd;&#x4f5c;"/>
+</node>
+<node CREATED="1639463748226" ID="ID_1136074085" MODIFIED="1639463784604" TEXT="keras.layers.Dense(16,activation=&apos;relu&apos;)"/>
+<node CREATED="1639463823088" ID="ID_1162276788" MODIFIED="1639463847042" TEXT="keras.layers.Dense(1,activation=&apos;sigmoid&apos;)">
+<node CREATED="1639478530448" ID="ID_70327464" MODIFIED="1639478533027" TEXT="Sigmoid &#x6fc0;&#x6d3b;&#x51fd;&#x6578;&#xff0c;sigmoid(x) = 1 / (1 + exp(-x))"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1639487153210" ID="ID_348768599" MODIFIED="1639487252871" TEXT="&#x5bf9;&#x6bd4;&#x51c6;&#x786e;&#x503c;&#x548c;&#x635f;&#x5931;&#x7387;&#xff0c;&#x6765;&#x627e;&#x51fa;&#x6700;&#x4f73;&#x7684;&#x8fed;&#x4ee3;&#x6b21;&#x6570;&#xff0c;&#x9632;&#x6b62;&#x8fc7;&#x62df;&#x5408;&#x548c;&#x6b20;&#x62df;&#x5408;">
+<node CREATED="1639487187022" ID="ID_886599716" MODIFIED="1639487191766" TEXT="&#x51c6;&#x786e;&#x503c;"/>
+<node CREATED="1639487194882" ID="ID_1965444796" MODIFIED="1639487199194" TEXT="&#x635f;&#x5931;&#x7387;"/>
+</node>
+</node>
+<node CREATED="1639537297845" ID="ID_810058546" MODIFIED="1639537576260" TEXT="tensorflow_hub()(&#x4e00;&#x4e2a;&#x5305;&#x542b;&#x7ecf;&#x8fc7;&#x8bad;&#x7ec3;&#x7684;&#x673a;&#x5668;&#x5b66;&#x4e60;&#x6a21;&#x578b;&#x4ee3;&#x7801;&#x5e93;&#xff0c;&#x8fd9;&#x4e9b;&#x6a21;&#x578b;&#x7a0d;&#x4f5c;&#x8c03;&#x6574;&#x5c31;&#x53ef;&#x4ee5;&#x90e8;&#x7f72;&#x5230;&#x4efb;&#x4f55;&#x7684;&#x8bbe;&#x5907;&#x4e0a;&#x3002;&#x901a;&#x8fc7;&#x51e0;&#x884c;&#x4ee3;&#x7801;&#x65e2;&#x53ef;&#x4ee5;&#x4ece;&#x7236;&#x4f7f;&#x7528;&#x7ecf;&#x8fc7;&#x8bad;&#x7ec3;&#x7684;&#x6a21;&#x578b;BERT&#x548c;Faster R-CNN)"/>
 </node>
 </node>
 <node CREATED="1637717572471" ID="ID_673385917" MODIFIED="1637717575743" POSITION="left" TEXT="CUDA">
@@ -189,6 +222,13 @@
 </node>
 <node CREATED="1639300247362" ID="ID_789661718" MODIFIED="1639300280137" TEXT="python&#x7684;&#x5faa;&#x73af;&#x8bed;&#x53e5;&#x5185;&#xff0c;&#x7528;&#x6765;&#x6307;&#x5b9a;&#x8303;&#x56f4;&#x7684;&#x662f;range()&#x8bed;&#x53e5;&#x6765;&#x8fdb;&#x884c;&#x8fed;&#x4ee3;">
 <node CREATED="1639300284368" ID="ID_640862229" MODIFIED="1639300378883" TEXT="&#x4f8b;&#x5982;&#xff1a;for num in range(10,20)(&#x5373;10~20&#x4e4b;&#x95f4;&#x7684;&#x6570;&#x5b57;)"/>
+</node>
+<node CREATED="1639533726354" ID="ID_204047039" MODIFIED="1639533746620" TEXT="python&#x5f53;&#x4e2d;&#x7684;next&#x548c;iter&#x65b9;&#x6cd5;">
+<node CREATED="1639533748340" ID="ID_262476488" MODIFIED="1639534153366" TEXT="python&#x7684;next&#x65b9;&#x6cd5;&#x662f;&#x8fdb;&#x884c;&#x8fed;&#x4ee3;&#xff0c;&#x8fed;&#x4ee3;&#x5230;&#x4e0b;&#x4e00;&#x4e2a;&#x6570;&#x7ec4;&#x5143;&#x7d20;&#xff0c;next()&#x51fd;&#x6570;&#x8981;&#x548c;&#x8fed;&#x4ee3;&#x751f;&#x6210;&#x5668;iter()&#x51fd;&#x6570;&#x4e00;&#x8d77;&#x4f7f;&#x7528;">
+<node CREATED="1639533778657" FOLDED="true" ID="ID_613134855" MODIFIED="1639534033479" TEXT="&#x4f8b;&#x5b50;">
+<node CREATED="1639533782069" ID="ID_232271565" MODIFIED="1639534029746" TEXT="&gt;&gt;&gt;    li    =    [11,    22,    33,    44,    55]                                                                         &gt;&gt;&gt;    li_iter    =    iter(li)  &gt;&gt;&gt;    next(li_iter) 11                                                              &gt;&gt;&gt;    next(li_iter) 22                                                                                                         &gt;&gt;&gt;    next(li_iter) 33                                                                                                       &gt;&gt;&gt;    next(li_iter) 44                                                                                                       &gt;&gt;&gt;    next(li_iter) 55                                                                                                            &gt;&gt;&gt;    next(li_iter)  Traceback    (most    recent    call    last):  File    &quot;&lt;stdin&gt;&quot;,    line    1,    in    &lt;module&gt;  StopIteration  &gt;&gt;&gt;  "/>
+</node>
+</node>
 </node>
 </node>
 </node>
