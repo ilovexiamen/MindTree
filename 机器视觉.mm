@@ -255,6 +255,13 @@
 </node>
 <node CREATED="1637723092680" ID="ID_1056834573" MODIFIED="1639272645477" POSITION="left" TEXT="python&#x5e38;&#x8bc6;">
 <node CREATED="1637723109901" ID="ID_1883702978" MODIFIED="1637723141513" TEXT="&#x4e3a;&#x5565;&#x6709;&#x4e9b;class&#x4e0b;&#x9762;&#x6709;&#x5b9a;&#x4e49;__init__&#xff08;&#xff09;&#x51fd;&#x6570;&#x5462;&#xff1f;">
+<node CREATED="1639970872522" ID="ID_949558631" MODIFIED="1639971100605" TEXT="&#x5b50;&#x7c7b;&#x5728;&#x8c03;&#x7528;&#x7236;&#x7c7b;&#x7684;&#x65f6;&#x5019;&#x6240;&#x7ee7;&#x627f;&#x7684;&#x7236;&#x7c7b;&#x6784;&#x9020;&#x51fd;&#x6570;__init__&#x65f6;&#x5019;&#x7684;&#x6ce8;&#x610f;&#x4e8b;&#x9879;">
+<node CREATED="1639970929524" ID="ID_1376147664" MODIFIED="1639971069193" TEXT="&#x82e5;&#x5b50;&#x7c7b;&#x8c03;&#x7528;&#x7236;&#x7c7b;&#x7684;__init__&#x6784;&#x9020;&#x51fd;&#x6570;&#x65f6;&#x5019;&#xff0c;&#x82e5;&#x5b50;&#x7c7b;&#x6ca1;&#x6709;&#x91cd;&#x5199;&#x7236;&#x7c7b;&#x7684;&#x65b9;&#x6cd5;&#x65f6;&#x5019;&#x90a3;&#x4e48;&#x5b50;&#x7c7b;&#x5c31;&#x4f1a;&#x7ee7;&#x627f;&#x7236;&#x7c7b;&#x7684;init&#x65b9;&#x6cd5;"/>
+<node CREATED="1639971135648" ID="ID_1816291281" MODIFIED="1639971146455" TEXT="&#x4f8b;&#x5b50;">
+<node CREATED="1639971148035" ID="ID_1961060283" MODIFIED="1639971210655" TEXT="class Father(object): def __init__(self,name):......   "/>
+<node CREATED="1639971214697" ID="ID_19354280" MODIFIED="1639971368204" TEXT="class Son(Father): #&#x82e5;&#x5b50;&#x7c7b;&#x6ca1;&#x6709;&#x8986;&#x5199;&#x7236;&#x7c7b;&#x7684;&#x6784;&#x9020;&#x51fd;&#x6570;&#x90a3;&#x4e48;&#x5c31;&#x4f1a;&#x7ee7;&#x627f;&#x7236;&#x7c7b;&#x7684;&#x6784;&#x9020;&#x51fd;&#x6570;"/>
+</node>
+</node>
 <node CREATED="1637723152455" ID="ID_1513556747" MODIFIED="1637723283604" TEXT="__init__.py&#x8be5;&#x6587;&#x4ef6;&#x7684;&#x4f5c;&#x7528;&#x5c31;&#x662f;&#x76f8;&#x5f53;&#x4e8e;&#x628a;&#x81ea;&#x8eab;&#x6574;&#x4e2a;&#x6587;&#x4ef6;&#x5939;&#x5f53;&#x4f5c;&#x4e00;&#x4e2a;&#x5305;&#x6765;&#x7ba1;&#x7406;&#xff0c;&#x6bcf;&#x5f53;&#x6709;&#x5916;&#x90e8;import&#x7684;&#x65f6;&#x5019;&#xff0c;&#x5c31;&#x4f1a;&#x81ea;&#x52a8;&#x6267;&#x884c;&#x91cc;&#x9762;&#x7684;&#x51fd;&#x6570;&#x3002;"/>
 </node>
 <node CREATED="1637724773644" ID="ID_1983861373" MODIFIED="1637724820138" TEXT="python&#x4e2d;&#x7684;__all__&#x7684;&#x4f5c;&#x7528;&#x662f;&#x4ec0;&#x4e48;&#x5462;&#xff1f;">
@@ -281,6 +288,10 @@
 <node CREATED="1639905815154" ID="ID_391286639" MODIFIED="1639905873486" TEXT="&#x7528;expect&#xff0c;&#x82e5;try&#x6ca1;&#x6709;&#x6267;&#x884c;&#x5219;&#x80fd;&#x591f;&#x901a;&#x8fc7;except&#x8fd4;&#x56de;&#x9519;&#x8bef;&#x7684;&#x4fe1;&#x606f;"/>
 </node>
 </node>
+<node CREATED="1639971378822" ID="ID_95110170" MODIFIED="1639971400341" TEXT="python3&#x5b50;&#x7c7b;&#x5982;&#x4f55;&#x7ee7;&#x627f;&#x7236;&#x7c7b;">
+<node CREATED="1639971409309" ID="ID_903482976" MODIFIED="1639971434754" TEXT="class Son(Father): #Father&#x5373;&#x7236;&#x7c7b;&#x540d;"/>
+</node>
+<node CREATED="1639972080494" ID="ID_1598994403" MODIFIED="1639972080494" TEXT=""/>
 <node CREATED="1639901257238" ID="ID_637219340" MODIFIED="1639904224650" TEXT="python3&#x591a;&#x7ebf;&#x7a0b;">
 <arrowlink DESTINATION="ID_637219340" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1080719079" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_637219340" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1080719079" SOURCE="ID_637219340" STARTARROW="None" STARTINCLINATION="0;0;"/>
@@ -303,23 +314,47 @@
 <node CREATED="1639901920752" ID="ID_322390707" MODIFIED="1639901981067" TEXT="&#x7ebf;&#x7a0b;&#x662f;&#x8fdb;&#x7a0b;&#x7684;&#x4e00;&#x4e2a;&#x5b9e;&#x4f53;&#xff0c;&#x662f;CPU&#x8c03;&#x5ea6;&#x548c;&#x5206;&#x6d3e;&#x7684;&#x57fa;&#x672c;&#x5355;&#x4f4d;&#x3002;&#x8fdb;&#x7a0b;&#x662f;&#x8d44;&#x6e90;&#x5206;&#x914d;&#x7684;&#x6700;&#x5c0f;&#x5355;&#x4f4d;&#xff0c;&#x7ebf;&#x7a0b;&#x662f;&#x7a0b;&#x5e8f;&#x6267;&#x884c;&#x7684;&#x6700;&#x5c0f;&#x5355;&#x4f4d;"/>
 </node>
 <node CREATED="1639902827173" ID="ID_1609095046" MODIFIED="1639902839374" TEXT="python3 threading API">
-<node CREATED="1639902866560" ID="ID_1929741164" MODIFIED="1639903134725" TEXT="threading.enumerate() #&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x6b63;&#x5728;&#x8fd0;&#x884c;&#x7684;&#x7ebf;&#x7a0b;list">
+<node CREATED="1639902866560" FOLDED="true" ID="ID_1929741164" MODIFIED="1639975684187" TEXT="threading.enumerate() #&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x6b63;&#x5728;&#x8fd0;&#x884c;&#x7684;&#x7ebf;&#x7a0b;list">
 <node CREATED="1639903018012" ID="ID_1170157075" MODIFIED="1639903042092" TEXT="    print(&apos;threading.enumerate is:&apos;, threading.enumerate())">
 <node CREATED="1639903048437" ID="ID_840746285" MODIFIED="1639903058429" TEXT="threading.enumerate is: [&lt;_MainThread(MainThread, started 8396)&gt;]"/>
 </node>
 </node>
-<node CREATED="1639902934405" ID="ID_570375416" MODIFIED="1639903164082" TEXT=" threading.active_count() #&#x8fd4;&#x56de;&#x7ebf;&#x7a0b;&#x6d3b;&#x8dc3;&#x7684;&#x6570;&#x91cf;">
+<node CREATED="1639902934405" FOLDED="true" ID="ID_570375416" MODIFIED="1639975687323" TEXT=" threading.active_count() #&#x8fd4;&#x56de;&#x7ebf;&#x7a0b;&#x6d3b;&#x8dc3;&#x7684;&#x6570;&#x91cf;">
 <node CREATED="1639903144198" ID="ID_750388839" MODIFIED="1639903148036" TEXT="   print(&apos;threading_active_count is:&apos;, threading.active_count())">
 <node CREATED="1639903169309" ID="ID_965035620" MODIFIED="1639903178290" TEXT="threading_active_count is: 1"/>
 </node>
 </node>
-<node CREATED="1639903542828" ID="ID_930824129" MODIFIED="1639903616211" TEXT="threading.currentThread() # &#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x5f53;&#x524d;&#x7684;&#x7ebf;&#x7a0b;">
+<node CREATED="1639903542828" FOLDED="true" ID="ID_930824129" MODIFIED="1639975688348" TEXT="threading.currentThread() # &#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x5f53;&#x524d;&#x7684;&#x7ebf;&#x7a0b;">
 <node CREATED="1639903624931" ID="ID_889781909" MODIFIED="1639903631489" TEXT=" print(&apos;threading_current_thread is :&apos;,threading.currentThread())">
 <node CREATED="1639903633456" ID="ID_1307351297" MODIFIED="1639903651908" TEXT="threading_current_thread is : &lt;_MainThread(MainThread, started 8396)&gt;"/>
 </node>
 </node>
+<node COLOR="#ff3333" CREATED="1639974224186" ID="ID_1799953197" MODIFIED="1639974619646" TEXT="&#x9519;&#x8bef;:&#x8c03;&#x7528;threading.Thread&#x7684;&#x7c7b;&#x65f6;&#x5019;&#xff0c;&#x8986;&#x5199;&#x65b9;&#x6cd5;&#x65f6;&#x5019;&#x6ca1;&#x6709;&#x8c03;&#x7528;&#x7c7b;&#x81ea;&#x8eab;&#x7684;__init__(self)&#x5bfc;&#x81f4;&#x62a5;&#x9519;&#xff08;AssertionError: Thread.__init__() not called&#xff09;">
+<node CREATED="1639974778844" ID="ID_1606504654" MODIFIED="1639974782427" TEXT="&#x89e3;&#x51b3;&#x65b9;&#x5f0f;">
+<node CREATED="1639974784196" ID="ID_1116622136" MODIFIED="1639975209402" TEXT="threading.Thread.__init__()"/>
+<node CREATED="1639975215683" ID="ID_519309208" MODIFIED="1639975237014" TEXT="super().__init__() #&#x8c03;&#x7528;&#x7236;&#x7c7b;&#x7684;&#x65b9;&#x6cd5;"/>
+</node>
+<node CREATED="1639975029195" ID="ID_371397283" MODIFIED="1639975032855" TEXT="&#x539f;&#x56e0;">
+<node CREATED="1639975036369" ID="ID_415730957" MODIFIED="1639975172138" TEXT="&#x56e0;&#x4e3a;&#x5b50;&#x7c7b;&#x5728;&#x8986;&#x5199;&#x7236;&#x7c7b;&#x7684;&#x6784;&#x9020;&#x51fd;&#x6570;&#x7684;&#x65f6;&#x5019;&#x6ca1;&#x6709;&#x8c03;&#x7528;&#x7236;&#x7c7b;&#x7684;&#x6784;&#x9020;&#x51fd;&#x6570;&#xff0c;&#x6240;&#x4ee5;&#x7f16;&#x8bd1;&#x5668;&#x4f1a;&#x62a5;&#x9519;&#x8bf4;__init__()&#x672a;&#x8fdb;&#x884c;&#x521d;&#x59cb;&#x5316;"/>
+</node>
+</node>
+<node CREATED="1639975533670" ID="ID_915223892" MODIFIED="1639976111998" TEXT="threading.thread.run() # &#x8868;&#x793a;&#x7ebf;&#x7a0b;&#x542f;&#x7528;&#x540e;&#x6240;&#x8c03;&#x7528;&#x7684;&#x6d3b;&#x52a8;&#x542f;&#x7528;&#x7684;&#x5185;&#x5bb9;&#x6210;&#x79f0;&#x4e3a;Activity&#x7684;&#x65b9;&#x6cd5;">
+<node CREATED="1639975645243" ID="ID_1198004006" MODIFIED="1639975672475" TEXT="#&#x8986;&#x5199;run()">
+<node CREATED="1639975674168" ID="ID_439607305" MODIFIED="1639975868796" TEXT=" def run(self):        &#xa;       for i in range(100):             &#xa;            time.sleep(2)             &#xa;            print(&apos;threading run start &#x7ebf;&#x7a0b;&apos;, self.name, &apos;&#x5f00;&#x59cb;&apos;, &apos;count:{}&apos;.format(i))"/>
+</node>
+</node>
+<node CREATED="1639975982993" ID="ID_1027525303" MODIFIED="1639976036763" TEXT="threading.thread.start() # &#x542f;&#x7528;&#x7ebf;&#x7a0b;&#x7684;&#x65b9;&#x6cd5;"/>
 </node>
 <node CREATED="1639904230491" ID="ID_1219621415" MODIFIED="1639904239767" TEXT="python3 _thread API">
+<node COLOR="#ff6666" CREATED="1639906286318" ID="ID_1124588447" MODIFIED="1639908053071" TEXT="&#x9519;&#x8bef;&#xff1a;&#x6267;&#x884c;&#x5b8c;start_new_thread&#x5b8c;&#x4e86;&#x4e4b;&#x540e;&#x76f4;&#x63a5;&#x7ed3;&#x675f;&#xff0c;&#x6ca1;&#x6709;&#x8fd4;&#x56de;&#x4efb;&#x4f55;&#x51fd;&#x6570;&#x503c;&#xff0c;&#x8fdb;&#x7a0b;&#x7ed3;&#x675f;">
+<arrowlink DESTINATION="ID_1124588447" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_28761489" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1124588447" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_28761489" SOURCE="ID_1124588447" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<node CREATED="1639906441895" FOLDED="true" ID="ID_1701734128" MODIFIED="1639908394516" TEXT="&#x589e;&#x52a0;while.....pass.....,&#x8fd9;&#x5c5e;&#x4e8e;&#x4e00;&#x4e2a;&#x7a7a;&#x5faa;&#x73af;&#xff0c;&#x7531;&#x4e8e;&#x8fdb;&#x7a0b;&#x5728;&#x6267;&#x884c;&#x7684;&#x65f6;&#x5019;&#x5c31;&#x5df2;&#x7ecf;&#x7ed3;&#x675f;&#x7f16;&#x8bd1;&#x4e86;&#x7a0b;&#x5e8f;&#x5c31;&#x7ed3;&#x675f;&#x4e86;&#xff0c;&#x8981;&#x52a0;&#x4e2a;&#x65f6;&#x95f4;&#x51fd;&#x6570;&#x4fdd;&#x8bc1;&#x7a0b;&#x5e8f;&#x7684;&#x8fd0;&#x884c;&#x72b6;&#x6001;">
+<node CREATED="1639906757370" ID="ID_323782300" MODIFIED="1639906766617" TEXT="while 0&#xff1a; pass"/>
+</node>
+<node CREATED="1639906677496" ID="ID_923607054" MODIFIED="1639906741550" TEXT="Thread-1: Sun Dec 19 17:37:11 2021 count1 &#xa;Thread-2: Sun Dec 19 17:37:13 2021 count1 &#xa;Thread-1: Sun Dec 19 17:37:13 2021 count2 &#xa;Thread-1: Sun Dec 19 17:37:15 2021 count3&#xa;Thread-2: Sun Dec 19 17:37:17 2021 count2 &#xa;Thread-1: Sun Dec 19 17:37:17 2021 count4 &#xa;Thread-1: Sun Dec 19 17:37:19 2021 count5 &#xa;Thread-2: Sun Dec 19 17:37:21 2021 count3 &#xa;Thread-2: Sun Dec 19 17:37:25 2021 count4 &#xa;Thread-2: Sun Dec 19 17:37:29 2021 count5"/>
+<node COLOR="#99ff33" CREATED="1639908236820" ID="ID_813676248" MODIFIED="1639908391362" TEXT="&#x4e3a;&#x4ec0;&#x4e48;&#x521b;&#x5efa;&#x4e24;&#x4e2a;&#x4e0d;&#x4e00;&#x6837;&#x7684;thread,threading active count &#x4ecd;&#x7136;&#x663e;&#x793a;&#x7684;&#x662f;&#x53ea;&#x6709;&#x4e00;&#x4e2a;&#x8fdb;&#x7a0b;&#xff1f;"/>
+</node>
 <node CREATED="1639904250410" ID="ID_767090879" MODIFIED="1639906753839" TEXT="_thread.start_new_thread(function, args, kwargs=None) #&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x65b0;&#x7684;&#x7ebf;&#x7a0b;&#xff0c;&#x65b0;&#x7684;&#x7ebf;&#x7a0b;&#x6807;&#x8bc6;&#x7b26;">
 <node CREATED="1639904314787" ID="ID_692993644" MODIFIED="1639904321083" TEXT="args">
 <node CREATED="1639904323873" ID="ID_746980057" MODIFIED="1639904339443" TEXT="&#x7ebf;&#x7a0b;&#x51fd;&#x6570;&#x7684;&#x53c2;&#x6570;"/>
@@ -329,14 +364,68 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff6666" CREATED="1639906286318" ID="ID_1124588447" MODIFIED="1639908053071" TEXT="&#x9519;&#x8bef;&#xff1a;&#x6267;&#x884c;&#x5b8c;start_new_thread&#x5b8c;&#x4e86;&#x4e4b;&#x540e;&#x76f4;&#x63a5;&#x7ed3;&#x675f;&#xff0c;&#x6ca1;&#x6709;&#x8fd4;&#x56de;&#x4efb;&#x4f55;&#x51fd;&#x6570;&#x503c;&#xff0c;&#x8fdb;&#x7a0b;&#x7ed3;&#x675f;">
-<arrowlink DESTINATION="ID_1124588447" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_28761489" STARTARROW="None" STARTINCLINATION="0;0;"/>
-<linktarget COLOR="#b0b0b0" DESTINATION="ID_1124588447" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_28761489" SOURCE="ID_1124588447" STARTARROW="None" STARTINCLINATION="0;0;"/>
-<node CREATED="1639906441895" FOLDED="true" ID="ID_1701734128" MODIFIED="1639908394516" TEXT="&#x589e;&#x52a0;while.....pass.....,&#x8fd9;&#x5c5e;&#x4e8e;&#x4e00;&#x4e2a;&#x7a7a;&#x5faa;&#x73af;&#xff0c;&#x7531;&#x4e8e;&#x8fdb;&#x7a0b;&#x5728;&#x6267;&#x884c;&#x7684;&#x65f6;&#x5019;&#x5c31;&#x5df2;&#x7ecf;&#x7ed3;&#x675f;&#x7f16;&#x8bd1;&#x4e86;&#x7a0b;&#x5e8f;&#x5c31;&#x7ed3;&#x675f;&#x4e86;&#xff0c;&#x8981;&#x52a0;&#x4e2a;&#x65f6;&#x95f4;&#x51fd;&#x6570;&#x4fdd;&#x8bc1;&#x7a0b;&#x5e8f;&#x7684;&#x8fd0;&#x884c;&#x72b6;&#x6001;">
-<node CREATED="1639906757370" ID="ID_323782300" MODIFIED="1639906766617" TEXT="while 0&#xff1a; pass"/>
 </node>
-<node CREATED="1639906677496" ID="ID_923607054" MODIFIED="1639906741550" TEXT="Thread-1: Sun Dec 19 17:37:11 2021 count1 &#xa;Thread-2: Sun Dec 19 17:37:13 2021 count1 &#xa;Thread-1: Sun Dec 19 17:37:13 2021 count2 &#xa;Thread-1: Sun Dec 19 17:37:15 2021 count3&#xa;Thread-2: Sun Dec 19 17:37:17 2021 count2 &#xa;Thread-1: Sun Dec 19 17:37:17 2021 count4 &#xa;Thread-1: Sun Dec 19 17:37:19 2021 count5 &#xa;Thread-2: Sun Dec 19 17:37:21 2021 count3 &#xa;Thread-2: Sun Dec 19 17:37:25 2021 count4 &#xa;Thread-2: Sun Dec 19 17:37:29 2021 count5"/>
-<node COLOR="#99ff33" CREATED="1639908236820" ID="ID_813676248" MODIFIED="1639908391362" TEXT="&#x4e3a;&#x4ec0;&#x4e48;&#x521b;&#x5efa;&#x4e24;&#x4e2a;&#x4e0d;&#x4e00;&#x6837;&#x7684;thread,threading active count &#x4ecd;&#x7136;&#x663e;&#x793a;&#x7684;&#x662f;&#x53ea;&#x6709;&#x4e00;&#x4e2a;&#x8fdb;&#x7a0b;&#xff1f;"/>
+<node CREATED="1639980829333" ID="ID_1080020666" MODIFIED="1639980854265" TEXT="python3&#x7ebf;&#x7a0b;&#x9501;">
+<node CREATED="1639980860471" ID="ID_233026973" MODIFIED="1639980870503" TEXT="python3 threading API">
+<node CREATED="1639981389953" ID="ID_1715989546" MODIFIED="1639981401852" TEXT="threading.lock.acquire()">
+<node CREATED="1639981438329" ID="ID_1389612154" MODIFIED="1639981449651" TEXT="&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x9501;"/>
+</node>
+<node CREATED="1639981418168" ID="ID_1814597702" MODIFIED="1639981431100" TEXT="threading.lock.release()">
+<node CREATED="1639981465047" ID="ID_1339719251" MODIFIED="1639981475664" TEXT="&#x91ca;&#x653e;&#x4e00;&#x4e2a;&#x9501;"/>
+</node>
+</node>
+<node CREATED="1639981491705" ID="ID_484391975" MODIFIED="1639981506889" TEXT="&#x9501;&#x80fd;&#x6709;&#x5f88;&#x591a;&#x4e2a;&#x5417;&#xff1f;">
+<node CREATED="1640003562299" ID="ID_58447356" MODIFIED="1640003622717" TEXT="&#x53ef;&#x4ee5;&#x7684;&#x548c;&#x7ebf;&#x7a0b;&#x4e00;&#x6837;&#x9501;&#x4e5f;&#x80fd;&#x521b;&#x5efa;&#x5f88;&#x591a;&#x4e2a;&#xff0c;&#x4e0d;&#x540c;&#x9501;&#x4e4b;&#x95f4;&#x4e0d;&#x4f1a;&#x76f8;&#x4e92;&#x7684;&#x5e72;&#x6270;"/>
+</node>
+<node CREATED="1640003823610" ID="ID_61032538" MODIFIED="1640004071380" TEXT="&#x5982;&#x679c;&#x7528;&#x540c;&#x4e00;&#x4e2a;&#x9501;&#x6765;&#x63a7;&#x5236;&#x4e24;&#x4e2a;&#x4e0d;&#x540c;&#x7684;&#x8fdb;&#x7a0b;&#x4f1a;&#x600e;&#x4e48;&#x6837;&#x5462;&#xff1f;&#x4e00;&#x8d77;run()&#x5de6;&#x8fb9;&#x4e24;&#x4e2a;activity">
+<node CREATED="1640003884411" ID="ID_419862872" MODIFIED="1640004028904" TEXT="self.lock.acquire()             &#xa;    for i in range(6):               &#xa;         time.sleep(2)                 &#xa;         print(&apos;threading run start &#x7ebf;&#x7a0b;&apos;, self.name, &#x5f00;&#x59cb;&apos;,&apos;count:{}&apos;.format(i))             &#xa;         self.lock.release()"/>
+<node CREATED="1640004075411" ID="ID_663865050" MODIFIED="1640004128816" TEXT="self.lock.acquire()             &#xa;       for k in range(36):                 &#xa;       time.sleep(4)                 &#xa;       print(&apos;i am process 3,the lock won&#x2018;t exit&apos;)             &#xa;       self.lock.release()"/>
+<node CREATED="1640004223222" ID="ID_1206718203" MODIFIED="1640004318268" TEXT="&#x7ed3;&#x679c;">
+<node CREATED="1640004320111" ID="ID_294791118" MODIFIED="1640004391961" TEXT="threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:0 &#xa;threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:1 &#xa;threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:2 &#xa;threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:3 &#xa;threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:4 &#xa;threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:5 &#xa;i am process 3,the lock won&#x2018;t exit &#xa;i am process 3,the lock won&#x2018;t exit &#xa;i am process 3,the lock won&#x2018;t exit &#xa;i am process 3,the lock won&#x2018;t exit &#xa;i am process 3,the lock won&#x2018;t exit"/>
+</node>
+</node>
+</node>
+<node CREATED="1640004866513" ID="ID_1309101097" MODIFIED="1640004943944" TEXT="python3&#x7ebf;&#x7a0b;&#x5835;&#x585e;">
+<node CREATED="1640007228441" ID="ID_1367210928" MODIFIED="1640007237344" TEXT="python3 threading API">
+<node CREATED="1640007238764" ID="ID_315871924" MODIFIED="1640007275308" TEXT="threading.Thread.join()">
+<node CREATED="1640007276889" ID="ID_1288547670" MODIFIED="1640007336971" TEXT="&#x963b;&#x585e;&#x540e;&#x7eed;&#x7684;&#x7ebf;&#x7a0b;&#xff0c;&#x5148;&#x5b8c;&#x6210;&#x5f53;&#x524d;&#x7ebf;&#x7a0b;&#x7684;&#x4efb;&#x52a1;"/>
+</node>
+</node>
+<node CREATED="1640007343564" ID="ID_763249253" MODIFIED="1640007669515" TEXT="&#x4e09;&#x4e2a;&#x4e0d;&#x540c;&#x7684;&#x7ebf;&#x7a0b;&#x6ca1;&#x6709;&#x4e0a;&#x9501;">
+<node CREATED="1640007588912" ID="ID_1547143660" MODIFIED="1640007615857" TEXT=" for i in range(40):                &#xa;     time.sleep(1)              &#xa;     print(&apos;threading run start &#x7ebf;&#x7a0b;&apos;, self.name, &apos;&#x5f00;&#x59cb;&apos;, &apos;count:{}&apos;.format(i))"/>
+<node CREATED="1640007621766" ID="ID_1740557404" MODIFIED="1640007664041" TEXT=" for k in range(18):                 &#xa;    time.sleep(2)                 &#xa;    print(&apos;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&apos;)"/>
+<node CREATED="1640007672613" ID="ID_90309142" MODIFIED="1640007697497" TEXT="for k in range(36):                 &#xa;     time.sleep(2)                 &#xa;     print(&apos;i am process 3,the lock won&#x2018;t exit***************************************&apos;)"/>
+<node CREATED="1640007729202" ID="ID_1363761772" MODIFIED="1640007741980" TEXT="__main__">
+<node CREATED="1640007743573" ID="ID_352804532" MODIFIED="1640007776754">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      thread1.start()
+    </p>
+    <p>
+      thread1.join()
+    </p>
+    <p>
+      thread2.start()
+    </p>
+    <p>
+      thread2.join()
+    </p>
+    <p>
+      thread3.start()
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1640007785098" ID="ID_1700611700" MODIFIED="1640007792620" TEXT="&#x7ed3;&#x679c;">
+<node CREATED="1640007793624" ID="ID_1716691292" MODIFIED="1640007993329" TEXT="threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:0 &#xa;threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:1 &#xa;threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:2 &#xa;threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:3 &#xa;threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:4&#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#xa;i am process 3,the lock won&#x2018;t exit***************************************&#xa;i am process 3,the lock won&#x2018;t exit*************************************** &#xa;i am process 3,the lock won&#x2018;t exit*************************************** &#xa;i am process 3,the lock won&#x2018;t exit***************************************&#xa; i am process 3,the lock won&#x2018;t exit*************************************** &#xa;i am process 3,the lock won&#x2018;t exit*************************************** &#xa;i am process 3,the lock won&#x2018;t exit***************************************"/>
+<node CREATED="1640007939736" ID="ID_135269338" MODIFIED="1640007972780" TEXT="&#x5982;&#x540c;&#x53ea;&#x4e0a;&#x4e00;&#x4e2a;&#x9501;&#x4e00;&#x6837;&#x5206;&#x522b;&#x6253;&#x5370;&#x51fa;&#x6765;"/>
+</node>
 </node>
 </node>
 </node>
