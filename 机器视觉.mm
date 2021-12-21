@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1637717403522" ID="ID_81977438" MODIFIED="1637717571086" TEXT="&#x673a;&#x5668;&#x89c6;&#x89c9;">
+<node CREATED="1637717403522" ID="ID_81977438" MODIFIED="1640086275856" TEXT="&#x673a;&#x5668;&#x89c6;&#x89c9;">
 <node CREATED="1637717447813" ID="ID_1095992468" MODIFIED="1637718166634" POSITION="right" TEXT="OpenCV">
 <node CREATED="1637718010377" ID="ID_1017017330" MODIFIED="1637718032715" TEXT="&#x6982;&#x8ff0;">
 <node CREATED="1637718035961" ID="ID_1091106841" MODIFIED="1637718386246" TEXT="&#x5f00;&#x6e90;&#x7684;&#x673a;&#x5668;&#x89c6;&#x89c9;&#x548c;&#x5b66;&#x4e60;&#x5e93;&#xff0c;&#x50cf;c++&#xff0c;Python&#xff0c;java&#x548c;MATLAB&#x7b49;"/>
@@ -291,7 +291,34 @@
 <node CREATED="1639971378822" ID="ID_95110170" MODIFIED="1639971400341" TEXT="python3&#x5b50;&#x7c7b;&#x5982;&#x4f55;&#x7ee7;&#x627f;&#x7236;&#x7c7b;">
 <node CREATED="1639971409309" ID="ID_903482976" MODIFIED="1639971434754" TEXT="class Son(Father): #Father&#x5373;&#x7236;&#x7c7b;&#x540d;"/>
 </node>
-<node CREATED="1639972080494" ID="ID_1598994403" MODIFIED="1639972080494" TEXT=""/>
+<node CREATED="1639972080494" ID="ID_1598994403" MODIFIED="1640088698614" TEXT="python3&#x5e38;&#x89c4;API">
+<node CREATED="1640088700469" ID="ID_54533157" MODIFIED="1640088709850" TEXT="&#x6570;&#x7ec4;&#x6dfb;&#x52a0;">
+<node CREATED="1640088711432" ID="ID_239269575" MODIFIED="1640088724949" TEXT="[].append()"/>
+</node>
+</node>
+<node CREATED="1640094513762" ID="ID_1897293813" MODIFIED="1640094781406" TEXT="python&#x5192;&#x53f7;&#x7684;&#x7528;&#x6cd5;&#x603b;&#x7ed3;">
+<arrowlink DESTINATION="ID_1897293813" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_784426030" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1897293813" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_784426030" SOURCE="ID_1897293813" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<node COLOR="#ff66ff" CREATED="1640094657448" ID="ID_336285667" MODIFIED="1640094778295" TEXT="&#x5355;&#x4e2a;&#x5192;&#x53f7;&#x5199;&#x5b8c;&#x6574;&#x7684;&#x60c5;&#x51b5;">
+<node CREATED="1640094532463" ID="ID_679045766" MODIFIED="1640094543950" TEXT="&#x200b; &#x5355;&#x4e2a;&#x5192;&#x53f7;&#x7684;&#x60c5;&#x51b5;&#x4e0b;&#xff0c;&#x5bf9;&#x6570;&#x7ec4;&#x7684;&#x904d;&#x5386;&#x64cd;&#x4f5c;&#x662f;&#x4ece;&#x524d;&#x5411;&#x540e;&#x64cd;&#x4f5c;&#x3002;&#x5982;&#xff1a;arr[a:b] &#xff0c;&#x5192;&#x53f7;&#x524d;&#x7684;a&#x542b;&#x4e49;&#x662f;&#x4ece;a&#x5f00;&#x59cb;&#x904d;&#x5386;&#xff0c;&#x5192;&#x53f7;&#x540e;&#x7684;b&#x542b;&#x4e49;&#x662f;&#x5230;b&#x622a;&#x6b62;&#xff08;&#x4e0d;&#x5305;&#x62ec;b&#xff09;&#x3002;">
+<node CREATED="1640094563850" ID="ID_734630480" MODIFIED="1640094565731" TEXT="&#x4f8b;&#x5b50;">
+<node CREATED="1640094566875" ID="ID_945552070" MODIFIED="1640094579855" TEXT="arr = [1, 2, 3, 4, 5, 6, 7]   print(arr[1:3])"/>
+<node CREATED="1640094582098" ID="ID_1504703519" MODIFIED="1640094588910" TEXT="conclution">
+<node CREATED="1640094589724" ID="ID_1785678465" MODIFIED="1640094599656" TEXT="[2,3]"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#ff33ff" CREATED="1640094852710" ID="ID_47774941" MODIFIED="1640094985918" TEXT="&#x5192;&#x53f7;&#x524d;&#x9762;&#x7701;&#x7565;&#x6570;&#x5b57;&#x7684;&#x60c5;&#x51b5;&#x4e0b;&#x7cfb;&#x7edf;&#x9ed8;&#x8ba4;&#x4e3a;1">
+<node CREATED="1640094896635" ID="ID_303607397" MODIFIED="1640094898195" TEXT="arr = [1, 2, 3, 4, 5, 6, 7] print(arr[:3])"/>
+<node CREATED="1640094900947" ID="ID_1249407824" MODIFIED="1640094906326" TEXT="[1, 2, 3]"/>
+</node>
+<node COLOR="#ff33cc" CREATED="1640094987222" ID="ID_1890121021" MODIFIED="1640095032231" TEXT="&#x5192;&#x53f7;&#x540e;&#x9762;&#x7701;&#x7565;&#x6570;&#x5b57;&#x7684;&#x60c5;&#x51b5;&#x4e0b;&#x7cfb;&#x7edf;&#x9ed8;&#x8ba4;&#x904d;&#x5386;&#x5230;&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x5143;&#x7d20;&#x4e3a;&#x6b62;">
+<node CREATED="1640095166161" ID="ID_1799202262" MODIFIED="1640095208435" TEXT="arr = [1, 2, 3, 4, 5, 6, 7] print(arr[3:])"/>
+<node CREATED="1640095185696" ID="ID_362167855" MODIFIED="1640095215431" TEXT="[4, 5, 6, 7]"/>
+</node>
+<node CREATED="1640095079784" ID="ID_1887555125" MODIFIED="1640095150075" TEXT="&#x4e0d;&#x540c;&#x5192;&#x53f7;&#x7528;&#x6cd5;&#x4e4b;&#x95f4;&#x5dee;&#x5f02;&#x6027;&#x8f83;&#x5927;&#x6240;&#x4ee5;&#x8981;&#x6ce8;&#x610f;"/>
+</node>
 <node CREATED="1639901257238" ID="ID_637219340" MODIFIED="1639904224650" TEXT="python3&#x591a;&#x7ebf;&#x7a0b;">
 <arrowlink DESTINATION="ID_637219340" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1080719079" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_637219340" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1080719079" SOURCE="ID_637219340" STARTARROW="None" STARTINCLINATION="0;0;"/>
@@ -310,10 +337,10 @@
 <node CREATED="1639901797404" ID="ID_1942118864" MODIFIED="1639901829051" TEXT="&#x4e0d;&#x9700;&#x8981;&#x5185;&#x6838;&#x652f;&#x6301;&#x800c;&#x5728;&#x7528;&#x6237;&#x7a0b;&#x5e8f;&#x4e2d;&#x5b9e;&#x73b0;&#x7684;&#x7ebf;&#x7a0b;"/>
 </node>
 </node>
-<node CREATED="1639901912933" ID="ID_1520097867" MODIFIED="1639901917971" TEXT="&#x77e5;&#x8bc6;&#x56de;&#x987e;">
+<node CREATED="1639901912933" ID="ID_1520097867" MODIFIED="1640094762313" TEXT="&#x77e5;&#x8bc6;&#x56de;&#x987e;">
 <node CREATED="1639901920752" ID="ID_322390707" MODIFIED="1639901981067" TEXT="&#x7ebf;&#x7a0b;&#x662f;&#x8fdb;&#x7a0b;&#x7684;&#x4e00;&#x4e2a;&#x5b9e;&#x4f53;&#xff0c;&#x662f;CPU&#x8c03;&#x5ea6;&#x548c;&#x5206;&#x6d3e;&#x7684;&#x57fa;&#x672c;&#x5355;&#x4f4d;&#x3002;&#x8fdb;&#x7a0b;&#x662f;&#x8d44;&#x6e90;&#x5206;&#x914d;&#x7684;&#x6700;&#x5c0f;&#x5355;&#x4f4d;&#xff0c;&#x7ebf;&#x7a0b;&#x662f;&#x7a0b;&#x5e8f;&#x6267;&#x884c;&#x7684;&#x6700;&#x5c0f;&#x5355;&#x4f4d;"/>
 </node>
-<node CREATED="1639902827173" ID="ID_1609095046" MODIFIED="1639902839374" TEXT="python3 threading API">
+<node CREATED="1639902827173" FOLDED="true" ID="ID_1609095046" MODIFIED="1640095403507" TEXT="python3 threading API">
 <node CREATED="1639902866560" FOLDED="true" ID="ID_1929741164" MODIFIED="1639975684187" TEXT="threading.enumerate() #&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x6b63;&#x5728;&#x8fd0;&#x884c;&#x7684;&#x7ebf;&#x7a0b;list">
 <node CREATED="1639903018012" ID="ID_1170157075" MODIFIED="1639903042092" TEXT="    print(&apos;threading.enumerate is:&apos;, threading.enumerate())">
 <node CREATED="1639903048437" ID="ID_840746285" MODIFIED="1639903058429" TEXT="threading.enumerate is: [&lt;_MainThread(MainThread, started 8396)&gt;]"/>
@@ -346,7 +373,7 @@
 <node CREATED="1639975982993" ID="ID_1027525303" MODIFIED="1639976036763" TEXT="threading.thread.start() # &#x542f;&#x7528;&#x7ebf;&#x7a0b;&#x7684;&#x65b9;&#x6cd5;"/>
 </node>
 <node CREATED="1639904230491" ID="ID_1219621415" MODIFIED="1639904239767" TEXT="python3 _thread API">
-<node COLOR="#ff6666" CREATED="1639906286318" ID="ID_1124588447" MODIFIED="1639908053071" TEXT="&#x9519;&#x8bef;&#xff1a;&#x6267;&#x884c;&#x5b8c;start_new_thread&#x5b8c;&#x4e86;&#x4e4b;&#x540e;&#x76f4;&#x63a5;&#x7ed3;&#x675f;&#xff0c;&#x6ca1;&#x6709;&#x8fd4;&#x56de;&#x4efb;&#x4f55;&#x51fd;&#x6570;&#x503c;&#xff0c;&#x8fdb;&#x7a0b;&#x7ed3;&#x675f;">
+<node COLOR="#ff6666" CREATED="1639906286318" FOLDED="true" ID="ID_1124588447" MODIFIED="1640095390705" TEXT="&#x9519;&#x8bef;&#xff1a;&#x6267;&#x884c;&#x5b8c;start_new_thread&#x5b8c;&#x4e86;&#x4e4b;&#x540e;&#x76f4;&#x63a5;&#x7ed3;&#x675f;&#xff0c;&#x6ca1;&#x6709;&#x8fd4;&#x56de;&#x4efb;&#x4f55;&#x51fd;&#x6570;&#x503c;&#xff0c;&#x8fdb;&#x7a0b;&#x7ed3;&#x675f;">
 <arrowlink DESTINATION="ID_1124588447" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_28761489" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1124588447" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_28761489" SOURCE="ID_1124588447" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <node CREATED="1639906441895" FOLDED="true" ID="ID_1701734128" MODIFIED="1639908394516" TEXT="&#x589e;&#x52a0;while.....pass.....,&#x8fd9;&#x5c5e;&#x4e8e;&#x4e00;&#x4e2a;&#x7a7a;&#x5faa;&#x73af;&#xff0c;&#x7531;&#x4e8e;&#x8fdb;&#x7a0b;&#x5728;&#x6267;&#x884c;&#x7684;&#x65f6;&#x5019;&#x5c31;&#x5df2;&#x7ecf;&#x7ed3;&#x675f;&#x7f16;&#x8bd1;&#x4e86;&#x7a0b;&#x5e8f;&#x5c31;&#x7ed3;&#x675f;&#x4e86;&#xff0c;&#x8981;&#x52a0;&#x4e2a;&#x65f6;&#x95f4;&#x51fd;&#x6570;&#x4fdd;&#x8bc1;&#x7a0b;&#x5e8f;&#x7684;&#x8fd0;&#x884c;&#x72b6;&#x6001;">
@@ -377,7 +404,7 @@
 <node CREATED="1639981491705" ID="ID_484391975" MODIFIED="1639981506889" TEXT="&#x9501;&#x80fd;&#x6709;&#x5f88;&#x591a;&#x4e2a;&#x5417;&#xff1f;">
 <node CREATED="1640003562299" ID="ID_58447356" MODIFIED="1640003622717" TEXT="&#x53ef;&#x4ee5;&#x7684;&#x548c;&#x7ebf;&#x7a0b;&#x4e00;&#x6837;&#x9501;&#x4e5f;&#x80fd;&#x521b;&#x5efa;&#x5f88;&#x591a;&#x4e2a;&#xff0c;&#x4e0d;&#x540c;&#x9501;&#x4e4b;&#x95f4;&#x4e0d;&#x4f1a;&#x76f8;&#x4e92;&#x7684;&#x5e72;&#x6270;"/>
 </node>
-<node CREATED="1640003823610" ID="ID_61032538" MODIFIED="1640004071380" TEXT="&#x5982;&#x679c;&#x7528;&#x540c;&#x4e00;&#x4e2a;&#x9501;&#x6765;&#x63a7;&#x5236;&#x4e24;&#x4e2a;&#x4e0d;&#x540c;&#x7684;&#x8fdb;&#x7a0b;&#x4f1a;&#x600e;&#x4e48;&#x6837;&#x5462;&#xff1f;&#x4e00;&#x8d77;run()&#x5de6;&#x8fb9;&#x4e24;&#x4e2a;activity">
+<node CREATED="1640003823610" FOLDED="true" ID="ID_61032538" MODIFIED="1640095388049" TEXT="&#x5982;&#x679c;&#x7528;&#x540c;&#x4e00;&#x4e2a;&#x9501;&#x6765;&#x63a7;&#x5236;&#x4e24;&#x4e2a;&#x4e0d;&#x540c;&#x7684;&#x8fdb;&#x7a0b;&#x4f1a;&#x600e;&#x4e48;&#x6837;&#x5462;&#xff1f;&#x4e00;&#x8d77;run()&#x5de6;&#x8fb9;&#x4e24;&#x4e2a;activity">
 <node CREATED="1640003884411" ID="ID_419862872" MODIFIED="1640004028904" TEXT="self.lock.acquire()             &#xa;    for i in range(6):               &#xa;         time.sleep(2)                 &#xa;         print(&apos;threading run start &#x7ebf;&#x7a0b;&apos;, self.name, &#x5f00;&#x59cb;&apos;,&apos;count:{}&apos;.format(i))             &#xa;         self.lock.release()"/>
 <node CREATED="1640004075411" ID="ID_663865050" MODIFIED="1640004128816" TEXT="self.lock.acquire()             &#xa;       for k in range(36):                 &#xa;       time.sleep(4)                 &#xa;       print(&apos;i am process 3,the lock won&#x2018;t exit&apos;)             &#xa;       self.lock.release()"/>
 <node CREATED="1640004223222" ID="ID_1206718203" MODIFIED="1640004318268" TEXT="&#x7ed3;&#x679c;">
@@ -391,11 +418,11 @@
 <node CREATED="1640007276889" ID="ID_1288547670" MODIFIED="1640007336971" TEXT="&#x963b;&#x585e;&#x540e;&#x7eed;&#x7684;&#x7ebf;&#x7a0b;&#xff0c;&#x5148;&#x5b8c;&#x6210;&#x5f53;&#x524d;&#x7ebf;&#x7a0b;&#x7684;&#x4efb;&#x52a1;"/>
 </node>
 </node>
-<node CREATED="1640007343564" ID="ID_763249253" MODIFIED="1640007669515" TEXT="&#x4e09;&#x4e2a;&#x4e0d;&#x540c;&#x7684;&#x7ebf;&#x7a0b;&#x6ca1;&#x6709;&#x4e0a;&#x9501;">
+<node CREATED="1640007343564" FOLDED="true" ID="ID_763249253" MODIFIED="1640095380189" TEXT="&#x4e09;&#x4e2a;&#x4e0d;&#x540c;&#x7684;&#x7ebf;&#x7a0b;&#x6ca1;&#x6709;&#x4e0a;&#x9501;">
 <node CREATED="1640007588912" ID="ID_1547143660" MODIFIED="1640007615857" TEXT=" for i in range(40):                &#xa;     time.sleep(1)              &#xa;     print(&apos;threading run start &#x7ebf;&#x7a0b;&apos;, self.name, &apos;&#x5f00;&#x59cb;&apos;, &apos;count:{}&apos;.format(i))"/>
 <node CREATED="1640007621766" ID="ID_1740557404" MODIFIED="1640007664041" TEXT=" for k in range(18):                 &#xa;    time.sleep(2)                 &#xa;    print(&apos;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&apos;)"/>
 <node CREATED="1640007672613" ID="ID_90309142" MODIFIED="1640007697497" TEXT="for k in range(36):                 &#xa;     time.sleep(2)                 &#xa;     print(&apos;i am process 3,the lock won&#x2018;t exit***************************************&apos;)"/>
-<node CREATED="1640007729202" ID="ID_1363761772" MODIFIED="1640007741980" TEXT="__main__">
+<node CREATED="1640007729202" FOLDED="true" ID="ID_1363761772" MODIFIED="1640095377535" TEXT="__main__">
 <node CREATED="1640007743573" ID="ID_352804532" MODIFIED="1640007776754">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -418,21 +445,127 @@
       thread3.start()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1640007785098" ID="ID_1700611700" MODIFIED="1640007792620" TEXT="&#x7ed3;&#x679c;">
+<node CREATED="1640007785098" FOLDED="true" ID="ID_1700611700" MODIFIED="1640095375570" TEXT="&#x7ed3;&#x679c;">
 <node CREATED="1640007793624" ID="ID_1716691292" MODIFIED="1640007993329" TEXT="threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:0 &#xa;threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:1 &#xa;threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:2 &#xa;threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:3 &#xa;threading run start &#x7ebf;&#x7a0b; &#x7ebf;&#x7a0b;&#xff1a;1  &#x5f00;&#x59cb; count:4&#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ &#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#xa;i am process 2,i am studying python now$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#xa;i am process 3,the lock won&#x2018;t exit***************************************&#xa;i am process 3,the lock won&#x2018;t exit*************************************** &#xa;i am process 3,the lock won&#x2018;t exit*************************************** &#xa;i am process 3,the lock won&#x2018;t exit***************************************&#xa; i am process 3,the lock won&#x2018;t exit*************************************** &#xa;i am process 3,the lock won&#x2018;t exit*************************************** &#xa;i am process 3,the lock won&#x2018;t exit***************************************"/>
 <node CREATED="1640007939736" ID="ID_135269338" MODIFIED="1640007972780" TEXT="&#x5982;&#x540c;&#x53ea;&#x4e0a;&#x4e00;&#x4e2a;&#x9501;&#x4e00;&#x6837;&#x5206;&#x522b;&#x6253;&#x5370;&#x51fa;&#x6765;"/>
 </node>
 </node>
 </node>
 </node>
+<node CREATED="1640078605457" ID="ID_103860083" MODIFIED="1640078616700" POSITION="left" TEXT="&#x7b97;&#x6cd5;">
+<node CREATED="1640078621133" ID="ID_803847760" MODIFIED="1640078639674" TEXT="&#x7406;&#x8bba;&#x57fa;&#x7840;">
+<node CREATED="1640078640731" ID="ID_1261094126" MODIFIED="1640078791791" TEXT="&#x673a;&#x5668;&#x5b66;&#x4e60;&#x7684;&#x7b97;&#x6cd5;&#x5373;&#x51fd;&#x6570;&#x7684;&#x903c;&#x8fd1;&#xff0c;&#x5c31;&#x50cf;&#x662f;&#x5c06;&#x4e00;&#x4e2a;&#x5706;&#x5206;&#x5272;&#x6210;&#x5341;&#x5206;&#x591a;&#x4e2a;&#x5c0f;&#x5757;"/>
+<node CREATED="1640078799573" ID="ID_340662732" MODIFIED="1640078912046" TEXT="&#x4e0d;&#x540c;&#x7b97;&#x6cd5;&#x7684;&#x62df;&#x5408;&#x548c;&#x521b;&#x5efa;-&gt;&#x5b66;&#x4e60;&#x6a21;&#x578b;&#x7684;&#x5efa;&#x7acb;-&gt;&#x5206;&#x7c7b;&#x7684;&#x786e;&#x5b9a;"/>
+</node>
+<node CREATED="1640078996747" ID="ID_577878885" MODIFIED="1640079001172" TEXT="&#x7b97;&#x6cd5;&#x6d41;&#x7a0b;">
+<node CREATED="1640079002320" ID="ID_570722007" MODIFIED="1640079024776" TEXT="&lt;-&#x8f93;&#x5165;&#x6570;&#x636e;">
+<node CREATED="1640079028816" ID="ID_388794633" MODIFIED="1640079137747" TEXT="&#x8f6c;&#x6362;&lt;-&#x7279;&#x5f81;&#x63d0;&#x53d6;&lt;-&#x63d0;&#x53d6;">
+<node CREATED="1640079068582" ID="ID_1247449322" MODIFIED="1640079210276" TEXT="&lt;-&#x6570;&#x636e;&#x7279;&#x5f81;">
+<node CREATED="1640079146517" ID="ID_1317244389" MODIFIED="1640079219439" TEXT="&lt;-&#x91c7;&#x7528;&#x7b97;&#x6cd5;">
+<node CREATED="1640079152672" ID="ID_1118531252" MODIFIED="1640079236099" TEXT="&lt;-&#x8bad;&#x7ec3;&#x6a21;&#x578b;&lt;-&#x8ba1;&#x7b97;">
+<node CREATED="1640079188825" ID="ID_11891692" MODIFIED="1640079197436" TEXT="&#x9884;&#x6d4b;&#x6570;&#x636e;"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1640079283629" ID="ID_48581874" MODIFIED="1640079290501" TEXT="&#x56de;&#x5f52;&#x7b97;&#x6cd5;">
+<node CREATED="1640079299635" FOLDED="true" ID="ID_1921476765" MODIFIED="1640079597462" TEXT="&#x4ec0;&#x4e48;&#x662f;&#x56de;&#x5f52;&#x5462;&#xff1f;">
+<node CREATED="1640079321418" ID="ID_981496653" MODIFIED="1640079442854" TEXT="&#x82e5;&#x7236;&#x6bcd;&#x8eab;&#x9ad8;&#x4f4e;&#x4e8e;&#x793e;&#x4f1a;&#x4eba;&#x7fa4;&#x5e73;&#x5747;&#x8eab;&#x9ad8;&#xff0c;&#x5219;&#x5176;&#x5b50;&#x5973;&#x8eab;&#x9ad8;&#x4f1a;&#x503e;&#x5411;&#x66f4;&#x9ad8;&#xff1b;&#x82e5;&#x7236;&#x6bcd;&#x8eab;&#x9ad8;&#x9ad8;&#x4e8e;&#x5e73;&#x5747;&#x751a;&#x9ad8;&#x7684;&#x8bdd;&#xff0c;&#x5176;&#x5b50;&#x5973;&#x4f1a;&#x8eab;&#x9ad8;&#x8f83;&#x9ad8;&#xff0c;&#x66f4;&#x52a0;&#x7684;&#x63a5;&#x8fd1;&#x4e8e;&#x666e;&#x904d;&#x8eab;&#x9ad8;"/>
+</node>
+<node CREATED="1640079492020" ID="ID_439496775" MODIFIED="1640079617457" TEXT="&#x7406;&#x8bba;">
+<node CREATED="1640079618726" ID="ID_897302489" MODIFIED="1640079649063" TEXT="&#x786e;&#x5b9a;&#x4e24;&#x79cd;&#x6216;&#x4e24;&#x79cd;&#x4ee5;&#x4e0a;&#x53d8;&#x6570;&#x95f4;&#x76f8;&#x4e92;&#x4f9d;&#x8d56;&#x7684;&#x5b9a;&#x91cf;&#x5173;&#x7cfb;&#x7684;&#x4e00;&#x79cd;&#x7edf;&#x8ba1;&#x65b9;&#x6cd5;">
+<node CREATED="1640079677491" ID="ID_1072479067" MODIFIED="1640079739120" TEXT="&#x5728;&#x56de;&#x5f52;&#x5206;&#x6790;&#x5f53;&#x4e2d;&#x82e5;&#x53ea;&#x6709;&#x4e00;&#x4e2a;&#x81ea;&#x53d8;&#x91cf;&#x548c;&#x4e00;&#x4e2a;&#x56e0;&#x53d8;&#x91cf;&#x5219;&#x79f0;&#x4e3a;&#x4e00;&#x5143;&#x7ebf;&#x6027;&#x56de;&#x5f52;"/>
+<node CREATED="1640079741942" ID="ID_451479175" MODIFIED="1640079809043" TEXT="&#x5728;&#x56de;&#x5f52;&#x5206;&#x6790;&#x4e2d;&#x5305;&#x542b;&#x4e24;&#x4e2a;&#x6216;&#x4e24;&#x4e2a;&#x4ee5;&#x4e0a;&#x7684;&#x81ea;&#x53d8;&#x91cf;&#xff0c;&#x4e14;&#x56e0;&#x53d8;&#x91cf;&#x548c;&#x81ea;&#x53d8;&#x91cf;&#x662f;&#x5448;&#x7ebf;&#x6027;&#x5173;&#x7cfb;&#x90a3;&#x4e48;&#x79f0;&#x4e3a;&#x591a;&#x5143;&#x7ebf;&#x6027;&#x56de;&#x5f52;"/>
+</node>
+</node>
+<node CREATED="1640080970287" ID="ID_854761680" MODIFIED="1640080973772" TEXT="&#x7ebf;&#x6027;&#x56de;&#x5f52;">
+<node CREATED="1640080983861" ID="ID_393716921" MODIFIED="1640081138104" TEXT="&#x82e5;&#x6709;&#x4e24;&#x4e2a;&#x7279;&#x5f81;&#x56e0;&#x5b50;&#xff0c;&#x65e0;&#x8bba;&#x5173;&#x8054;&#x4e0e;&#x5426;&#xff0c;&#x80fd;&#x591f;&#x5f97;&#x5230;&#x4e00;&#x4e2a;&#x7ebf;&#x6027;&#x7684;&#x5173;&#x8054;&#x516c;&#x5f0f;=&gt;h&#x3b8;&#xff08;x&#xff09;=&#x3b8;0+&#x3b8;1x"/>
+<node CREATED="1640081215022" ID="ID_155889767" MODIFIED="1640081226115" TEXT="&#x4e3e;&#x4e00;&#x53cd;&#x4e09;">
+<node CREATED="1640081227114" ID="ID_1792291745" MODIFIED="1640081305860" TEXT="&#x6709;&#x4e24;&#x4e2a;&#x4ee5;&#x4e0a;&#x7684;&#x7279;&#x5f81;&#x56e0;&#x5b50;&#xff0c;&#x80fd;&#x591f;&#x770b;&#x5230;&#x4e00;&#x4e2a;&#x7ebf;&#x6027;&#x7684;&#x5173;&#x8054;&#x516c;&#x5f0f;=&gt;h&#x3b8;&#xff08;x&#xff09;=&#x3b8;0+&#x3b8;1x+&#x3b8;2x&#x3002;&#x3002;&#x3002;&#x3002;&#x3002;"/>
+</node>
+<node CREATED="1640081325718" ID="ID_58128810" MODIFIED="1640081355168" TEXT="&#x7ebf;&#x6027;&#x56de;&#x5f52;&#x5c31;&#x662f;&#x5728;&#x6c42;&#x3b8;1&#xff1b;&#x3b8;2&#xff1b;&#x3b8;3.&#x3002;&#x3002;&#x3002;&#x8fd9;&#x4e9b;&#x4e1c;&#x897f;"/>
+</node>
+<node COLOR="#6666ff" CREATED="1640082572099" ID="ID_726473915" MODIFIED="1640082593428" TEXT="&#x903b;&#x8f91;&#x56de;&#x5f52;"/>
+</node>
+</node>
+<node CREATED="1640086278257" ID="ID_298389933" MODIFIED="1640091789538" POSITION="right" TEXT="&#x673a;&#x5668;&#x89c6;&#x89c9;API">
+<node CREATED="1640086300911" ID="ID_818740604" MODIFIED="1640089126787" TEXT="numpy #&#x6570;&#x636e;&#x5904;&#x7406;&#x5e93;">
+<node CREATED="1640086323600" ID="ID_1032553238" MODIFIED="1640088599440" TEXT="numpy.mat # &#x77e9;&#x9635;&#x8f93;&#x51fa;">
+<node COLOR="#ff3366" CREATED="1640086510248" ID="ID_1243451966" MODIFIED="1640086566705" TEXT="&#x9519;&#x8bef;&#xff1a;asmatrix() takes from 1 to 2 positional arguments but 5 were given">
+<node CREATED="1640086708269" ID="ID_1128007145" MODIFIED="1640087088054" TEXT="&#x89e3;&#x51b3;&#x65b9;&#x5f0f;">
+<node CREATED="1640087089360" ID="ID_830769500" MODIFIED="1640087123904" TEXT="&#x5728;&#x77e9;&#x9635;&#x5916;&#x518d;&#x52a0;&#x4e00;&#x5c42;&#x5927;&#x62ec;&#x53f7;&#x4f5c;&#x4e3a;&#x4e00;&#x4e2a;&#x6574;&#x4f53;&#x7684;&#x53c2;&#x6570;"/>
+</node>
+</node>
+<node CREATED="1640087129636" ID="ID_904800893" MODIFIED="1640087221551" TEXT="data = np.mat([[1, 200, 105, 3, False],                   &#xa;                              [2, 165, 80, 2, False],                   &#xa;                              [3, 184.5, 120, 2, False],                    &#xa;                               [4, 116, 70.8, 1, False],                   &#xa;                              [5, 270, 150, 4, True]]">
+<node CREATED="1640087227634" ID="ID_255082002" MODIFIED="1640087266648" TEXT="[[  1.  200.  105.    3.    0. ]  &#xa; [  2.  165.   80.    2.    0. ]  &#xa; [  3.  184.5 120.    2.    0. ] &#xa; [  4.  116.   70.8   1.    0. ]  &#xa; [  5.  270.  150.    4.    1. ]] "/>
+</node>
+</node>
+<node CREATED="1640088999019" ID="ID_1133912040" MODIFIED="1640089022165" TEXT="numpy.sum #&#x6c42;&#x548c;"/>
+<node CREATED="1640089025238" ID="ID_1231330914" MODIFIED="1640089038450" TEXT="numpy.std #&#x6c42;&#x6807;&#x51c6;&#x5dee;"/>
+<node CREATED="1640089044793" ID="ID_1024960363" MODIFIED="1640089069036" TEXT="numpy.var #&#x6c42;&#x65b9;&#x5dee;"/>
+</node>
+<node CREATED="1640091792729" ID="ID_340481475" MODIFIED="1640091835882" TEXT="matplotlib #matlab python API">
+<node COLOR="#ff3366" CREATED="1640091842907" ID="ID_1185032369" MODIFIED="1640091960237" TEXT="&#x9519;&#x8bef;&#xff1a;AttributeError: module &apos;pylab&apos; has no attribute &apos;plot&apos; ">
+<node CREATED="1640091961804" ID="ID_1549163863" MODIFIED="1640091968188" TEXT="&#x89e3;&#x51b3;&#x65b9;&#x5f0f;">
+<node CREATED="1640091968979" ID="ID_1635202063" MODIFIED="1640093026873" TEXT="&#x8c03;&#x7528;matplotlib&#x91cc;&#x9762;&#x7684;pylab&#x6587;&#x4ef6;&#xff0c;&#x5b98;&#x7f51;api&#x6587;&#x6863;">
+<node COLOR="#ff0066" CREATED="1640093027914" ID="ID_1226916899" MODIFIED="1640093166506" TEXT="&#x8b66;&#x544a;  &#x7531;&#x4e8e;&#x5927;&#x91cf;&#x5bfc;&#x5165;&#x5230;&#x5168;&#x5c40;&#x540d;&#x79f0;&#x7a7a;&#x95f4;&#x53ef;&#x80fd;&#x4f1a;&#x5bfc;&#x81f4;&#x610f;&#x5916;&#x884c;&#x4e3a;&#xff0c;&#x56e0;&#x6b64;&#x5f3a;&#x70c8;&#x5efa;&#x8bae;&#x4e0d;&#x8981;&#x4f7f;&#x7528;pylab&#x3002;&#x8bf7;&#x6539;&#x7528;matplotlib.pyplot"/>
+</node>
+</node>
+</node>
+<node CREATED="1640092351292" ID="ID_1007367792" MODIFIED="1640092790147" TEXT="matplotlib.pylab as mpl">
+<node CREATED="1640092426429" ID="ID_1783956686" MODIFIED="1640093143297" TEXT="mpl.show() #&#x9; Display all open figures.&#x663e;&#x793a;&#x6240;&#x6709;&#x7684;&#x5f00;&#x653e;&#x6570;&#x636e;"/>
+<node CREATED="1640095981268" ID="ID_434147754" MODIFIED="1640096060407" TEXT="mpl.scatter() #A scatter plot of y vs. x with varying marker size and/or color.&#x5177;&#x6709;&#x4e0d;&#x540c;&#x6807;&#x8bb0;&#x5c3a;&#x5bf8;&#x548c;/&#x6216;&#x989c;&#x8272;&#x7684;y&#x4e0e;x&#x7684;&#x6563;&#x5c04;&#x56fe;&#x3002;">
+<node CREATED="1640096064167" ID="ID_265093462" MODIFIED="1640096082284" TEXT="matplotlib.pyplot.scatter(x, y, s=None, c=None, marker=None, cmap=None, norm=None, vmin=None, vmax=None, alpha=None, linewidths=None, *, edgecolors=None, plotnonfinite=False, data=None, **kwargs)[source]">
+<node CREATED="1640096102304" ID="ID_1476182844" MODIFIED="1640096106490" TEXT="&#x4f8b;&#x5b50;">
+<node CREATED="1640096109244" FOLDED="true" ID="ID_594622114" MODIFIED="1640096221935" TEXT="mplot.scatter(dataRow1, dataRow2)   mplot.xlabel(&apos;Attribute 1&apos;)     mplot.ylabel(&apos;Attribute 2&apos;)">
+<node CREATED="1640096143105" ID="ID_1025617799" MODIFIED="1640096219285">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/Figure_2.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1640092469002" ID="ID_1762336061" MODIFIED="1640092500971" TEXT="scipy #&#x4e13;&#x95e8;&#x7684;&#x673a;&#x5668;&#x5b66;&#x4e60;&#x6570;&#x636e;&#x5904;&#x7406;&#x5305; API">
+<node CREATED="1640092502352" ID="ID_1405993248" MODIFIED="1640092605578" TEXT="scipy.stats.probplot() #&#x8ba1;&#x7b97;&#x6982;&#x7387;&#x56fe;&#x7684;&#x91cf;&#x7ea7;&#xff0c;&#x5e76;&#x4e14;&#x53ef;&#x9009;&#x5730;&#x663e;&#x793a;&#x66f2;&#x7ebf;&#x3002;">
+<node CREATED="1640092688352" ID="ID_1920495912" MODIFIED="1640092690234" TEXT="scipy.stats.probplot(x, sparams=(), dist=&apos;norm&apos;, fit=True, plot=None, rvalue=False)"/>
+<node CREATED="1640092715441" ID="ID_985648815" MODIFIED="1640092743624" TEXT="&#x4f8b;&#x5b50;&#xff1a;">
+<node CREATED="1640092739716" FOLDED="true" ID="ID_1489280056" MODIFIED="1640092773436" TEXT="stats.probplot(collect, plot=mpl)">
+<node CREATED="1640092184647" ID="ID_206731412" MODIFIED="1640092340592">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/Figure_1.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1640093261258" ID="ID_458887394" MODIFIED="1640093527214" TEXT="pandas "/>
+</node>
 <node CREATED="1639888721092" ID="ID_995517684" MODIFIED="1639888732761" POSITION="right" TEXT="&#x989c;&#x8272;&#x4ee3;&#x8868;&#x7684;&#x542b;&#x4e49;">
 <node COLOR="#ff6666" CREATED="1639888734419" ID="ID_998613055" MODIFIED="1639888798168" TEXT="&#x7ea2;&#x8272;&#xff1a;&#x9519;&#x8bef;&#x548c;&#x9519;&#x8bef;&#x7684;&#x539f;&#x56e0;"/>
 <node COLOR="#33ff33" CREATED="1639888767407" ID="ID_1379301071" MODIFIED="1639888809026" TEXT="&#x7eff;&#x8272;&#xff1a;&#x5f85;&#x89e3;&#x51b3;&#x7684;&#x95ee;&#x9898;"/>
 <node COLOR="#6666ff" CREATED="1639888778001" ID="ID_104950220" MODIFIED="1639888821882" TEXT="&#x7d2b;&#x8272;&#xff1a;&#x5361;&#x4f4f;"/>
+<node COLOR="#ff66ff" CREATED="1640094710354" ID="ID_495684533" MODIFIED="1640094748446" TEXT="&#x7c89;&#x8272;&#xff1a;&#x8282;&#x70b9;&#x4e0e;&#x8282;&#x70b9;&#x4e4b;&#x95f4;&#x5bf9;&#x6bd4;&#x6709;&#x91cd;&#x5927;&#x5dee;&#x5f02;&#x6027;"/>
 </node>
 </node>
 </map>
