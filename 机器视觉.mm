@@ -15,9 +15,9 @@
 <node CREATED="1637718399171" ID="ID_27288331" MODIFIED="1637718448869" TEXT="&#x5bf9;&#x4e8e;&#x67d0;&#x4e00;&#x4e9b;&#x5de5;&#x5177;&#x6765;&#x8bf4;&#x6ca1;&#x90a3;&#x4e48;&#x597d;&#x7684;&#x8bc6;&#x522b;&#x65b9;&#x5f0f;&#xff0c;&#x50cf;matlab&#x7b49;&#x7b49;"/>
 </node>
 </node>
-<node CREATED="1637717458070" ID="ID_230655780" MODIFIED="1637721982287" POSITION="right" TEXT="TensorFlow">
+<node CREATED="1637717458070" ID="ID_230655780" MODIFIED="1640504433790" POSITION="right" TEXT="TensorFlow">
 <node CREATED="1637718460068" ID="ID_1191411921" MODIFIED="1637718463130" TEXT="&#x6982;&#x8ff0;">
-<node CREATED="1637718464609" ID="ID_527557171" MODIFIED="1637718533644" TEXT="&#x7aef;&#x5bf9;&#x7aef;&#x7684;&#x5f00;&#x6e90;&#x673a;&#x5668;&#x5b66;&#x4e60;&#x5e93; python c c++ java &#x6216;&#x8005;javascrip"/>
+<node CREATED="1637718464609" ID="ID_527557171" MODIFIED="1640504447914" TEXT="&#x7aef;&#x5bf9;&#x7aef;&#x7684;&#x5f00;&#x6e90;&#x673a;&#x5668;&#x5b66;&#x4e60;&#x6846;&#x67b6; python c c++ java &#x6216;&#x8005;javascrip"/>
 </node>
 <node CREATED="1637718539048" ID="ID_1838158567" MODIFIED="1637718542683" TEXT="&#x4f18;&#x70b9;">
 <node CREATED="1637718543998" ID="ID_1615021310" MODIFIED="1637718555793" TEXT="&#x5f00;&#x6e90;&#x5e73;&#x53f0;"/>
@@ -492,6 +492,50 @@
 </node>
 <node COLOR="#6666ff" CREATED="1640082572099" ID="ID_726473915" MODIFIED="1640082593428" TEXT="&#x903b;&#x8f91;&#x56de;&#x5f52;"/>
 </node>
+<node CREATED="1640511034562" ID="ID_1108084240" MODIFIED="1640511078928" TEXT="&#x6df1;&#x5ea6;&#x5b66;&#x4e60;">
+<node CREATED="1640511081441" ID="ID_1504196082" MODIFIED="1640511085376" TEXT="&#x7406;&#x8bba;&#x7b97;&#x6cd5;">
+<node CREATED="1640511088257" ID="ID_436660973" MODIFIED="1640511093691" TEXT="&#x76f8;&#x4f3c;&#x5ea6;&#x8ba1;&#x7b97;">
+<node CREATED="1640511115044" ID="ID_1887234859" MODIFIED="1640516933907" TEXT="&#x6b27;&#x51e0;&#x91cc;&#x5f97;&#x8ddd;&#x79bb; #&#x6b27;&#x51e0;&#x91cc;&#x5f97;&#x76f8;&#x4f3c;&#x6027;&#x66f4;&#x52a0;&#x7684;&#x770b;&#x91cd;&#x76ee;&#x6807;&#x4e4b;&#x95f4;&#x7684;&#x5dee;&#x5f02;&#x6027;">
+<node CREATED="1640512906966" ID="ID_1926788567" MODIFIED="1640512921835" TEXT="&#x7406;&#x8bba;">
+<node CREATED="1640512923065" ID="ID_942896624" MODIFIED="1640513528432" TEXT="&#x5750;&#x6807;&#x503c;&#x68c0;&#x70b9;&#x4e0e;&#x70b9;&#x4e4b;&#x95f4;&#x7684;&#x8ddd;&#x79bb;"/>
+</node>
+<node CREATED="1640512939047" ID="ID_624628494" MODIFIED="1640512940802" TEXT="&#x516c;&#x5f0f;">
+<node CREATED="1640513467810" ID="ID_829745231" MODIFIED="1640513478013">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/&#x6b27;&#x51e0;&#x91cc;&#x5f97;&#x7b97;&#x6cd5;.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1640513510431" ID="ID_321919674" MODIFIED="1640513512833" TEXT="&#x7ed3;&#x679c;">
+<node CREATED="1640513513895" ID="ID_1028267259" MODIFIED="1640513860780" TEXT="&#x7531;&#x4e8e;&#x6700;&#x7ec8;&#x6570;&#x503c;d&#x4e0e;&#x76f8;&#x4f3c;&#x7684;&#x7684;&#x6837;&#x5f0f;&#x6210;&#x53cd;&#x6bd4;&#x6240;&#x4ee5;&#x5e38;&#x7528;&#x6b27;&#x51e0;&#x91cc;&#x5f97;&#x8ddd;&#x79bb;&#x7684;&#x5012;&#x6570;&#x4f5c;&#x4e3a;&#x76f8;&#x4f3c;&#x5ea6;&#x7684;&#x8fd1;&#x4f3c;&#x503c; &#xff1a;1/d+1"/>
+</node>
+</node>
+<node CREATED="1640511132683" ID="ID_285677389" MODIFIED="1640516977478" TEXT="&#x4f59;&#x5f26;&#x89d2;&#x5ea6; #&#x4f59;&#x5f26;&#x89d2;&#x5ea6;&#x663e;&#x793a;&#x7684;&#x662f;&#x76ee;&#x6807;&#x65b9;&#x5411;&#x4e0a;&#x7684;&#x5dee;&#x5f02;&#x6027;">
+<node CREATED="1640516347970" ID="ID_1612668326" MODIFIED="1640516398843" TEXT="&#x7406;&#x8bba;">
+<node CREATED="1640516405541" ID="ID_1085680648" MODIFIED="1640516580859" TEXT="&#x4ece;&#x5750;&#x6807;&#x539f;&#x70b9;&#x51fa;&#x53d1;&#xff0c;&#x82e5;&#x4e24;&#x4e2a;&#x76ee;&#x6807;&#x8f83;&#x4e3a;&#x76f8;&#x8fd1;&#x90a3;&#x4e48;&#x5939;&#x89d2;&#x8f83;&#x5c0f;&#xff0c;&#x82e5;&#x4e24;&#x4e2a;&#x76ee;&#x6807;&#x4e0d;&#x76f8;&#x8fd1;&#x90a3;&#x4e48;&#x5939;&#x89d2;&#x7684;&#x89d2;&#x5ea6;&#x8f83;&#x5927;&#x3002;"/>
+</node>
+<node CREATED="1640516585123" ID="ID_279532316" MODIFIED="1640516587789" TEXT="&#x516c;&#x5f0f;">
+<node CREATED="1640516589105" ID="ID_1688178365" MODIFIED="1640516846159">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/&#x4f59;&#x5f26;&#x89d2;&#x5ea6;&#x76f8;&#x4f3c;&#x5ea6;.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1640086278257" ID="ID_298389933" MODIFIED="1640091789538" POSITION="right" TEXT="&#x673a;&#x5668;&#x89c6;&#x89c9;API">
 <node CREATED="1640086300911" ID="ID_818740604" MODIFIED="1640089126787" TEXT="numpy #&#x6570;&#x636e;&#x5904;&#x7406;&#x5e93;">
@@ -509,7 +553,7 @@
 <node CREATED="1640089025238" ID="ID_1231330914" MODIFIED="1640089038450" TEXT="numpy.std #&#x6c42;&#x6807;&#x51c6;&#x5dee;"/>
 <node CREATED="1640089044793" ID="ID_1024960363" MODIFIED="1640089069036" TEXT="numpy.var #&#x6c42;&#x65b9;&#x5dee;"/>
 </node>
-<node CREATED="1640091792729" ID="ID_340481475" MODIFIED="1640091835882" TEXT="matplotlib #matlab python API">
+<node CREATED="1640091792729" FOLDED="true" ID="ID_340481475" MODIFIED="1640506838518" TEXT="matplotlib #matlab python API">
 <node COLOR="#ff3366" CREATED="1640091842907" ID="ID_1185032369" MODIFIED="1640091960237" TEXT="&#x9519;&#x8bef;&#xff1a;AttributeError: module &apos;pylab&apos; has no attribute &apos;plot&apos; ">
 <node CREATED="1640091961804" ID="ID_1549163863" MODIFIED="1640091968188" TEXT="&#x89e3;&#x51b3;&#x65b9;&#x5f0f;">
 <node CREATED="1640091968979" ID="ID_1635202063" MODIFIED="1640093026873" TEXT="&#x8c03;&#x7528;matplotlib&#x91cc;&#x9762;&#x7684;pylab&#x6587;&#x4ef6;&#xff0c;&#x5b98;&#x7f51;api&#x6587;&#x6863;">
@@ -560,8 +604,7 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/Figure_3_subplot.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -587,8 +630,7 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/mpl_legend.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -609,8 +651,7 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/xticks.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -625,8 +666,7 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/Figure_4.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -684,6 +724,12 @@
 </node>
 <node CREATED="1640237280454" ID="ID_785335273" MODIFIED="1640237287361" TEXT="panda.DataFrame.loc()">
 <node CREATED="1640237680368" ID="ID_1028100746" MODIFIED="1640237719811" TEXT="df.loc[rangment].astype(&apos;float64&apos;)# &#x9009;&#x53d6;&#x5730;rangment&#x4e2a;&#x5143;&#x7d20;&#x5e76;&#x4e14;&#x5c06;&#x5176;&#x8f6c;&#x5316;&#x4e3a;&#x2018;float64&#x2019;"/>
+</node>
+<node CREATED="1640510084424" ID="ID_1742127025" MODIFIED="1640510114757" TEXT="panda.DataFrame.iar()">
+<node CREATED="1640510117897" ID="ID_1049476759" MODIFIED="1640510202133" TEXT="dataFile.iat[i, 10] &gt;= 7 # &#x5728;(i,10)&#x5750;&#x6807;&#x4e0a;&#x7684;&#x5143;&#x7d20;"/>
+</node>
+<node CREATED="1640517122273" ID="ID_1001433176" MODIFIED="1640517135493" TEXT="panda.DataFrame.describe() ">
+<node CREATED="1640517198349" ID="ID_210360518" MODIFIED="1640517312179" TEXT="dataFile.describe() # &#x751f;&#x6210;&#x6570;&#x636e;&#x683c;&#x5f0f;&#xff0c;&#x63cf;&#x8ff0;&#x6027;&#x7edf;&#x8ba1;&#x6570;&#x636e;&#x5305;&#x62ec;&#x603b;&#x7ed3;&#x6570;&#x636e;&#x96c6;&#x5206;&#x5e03;&#x7684;&#x4e2d;&#x592e;&#x8d8b;&#x52bf;&#xff0c;&#x5206;&#x6563;&#x548c;&#x5f62;&#x72b6;&#x7684;&#x4eba;&#xff0c;&#x4e0d;&#x5305;&#x62ec;NAN&#x503c;&#x3002;"/>
 </node>
 </node>
 </node>
