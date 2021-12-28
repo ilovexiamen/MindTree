@@ -552,8 +552,13 @@
 <node CREATED="1640088999019" ID="ID_1133912040" MODIFIED="1640089022165" TEXT="numpy.sum #&#x6c42;&#x548c;"/>
 <node CREATED="1640089025238" ID="ID_1231330914" MODIFIED="1640089038450" TEXT="numpy.std #&#x6c42;&#x6807;&#x51c6;&#x5dee;"/>
 <node CREATED="1640089044793" ID="ID_1024960363" MODIFIED="1640089069036" TEXT="numpy.var #&#x6c42;&#x65b9;&#x5dee;"/>
+<node CREATED="1640609385720" ID="ID_46819499" MODIFIED="1640609474138" TEXT="numpy.zeros() #&#x7ed9;&#x4e00;&#x4e2a;&#x6570;&#x7ec4;&#x5143;&#x7d20;&#x5168;&#x90fd;&#x4e3a; 0  ">
+<node CREATED="1640609480226" ID="ID_1646934228" MODIFIED="1640609489382" TEXT="&#x793a;&#x4f8b;">
+<node CREATED="1640609493670" ID="ID_649955561" MODIFIED="1640609782997" TEXT="np.zeros((300, 300)) # &#x8f93;&#x51fa;300 * 300&#x7684;&#x957f;&#x5ea6;&#x77e9;&#x9635;"/>
 </node>
-<node CREATED="1640091792729" FOLDED="true" ID="ID_340481475" MODIFIED="1640506838518" TEXT="matplotlib #matlab python API">
+</node>
+</node>
+<node CREATED="1640091792729" ID="ID_340481475" MODIFIED="1640595147817" TEXT="matplotlib #matlab python API">
 <node COLOR="#ff3366" CREATED="1640091842907" ID="ID_1185032369" MODIFIED="1640091960237" TEXT="&#x9519;&#x8bef;&#xff1a;AttributeError: module &apos;pylab&apos; has no attribute &apos;plot&apos; ">
 <node CREATED="1640091961804" ID="ID_1549163863" MODIFIED="1640091968188" TEXT="&#x89e3;&#x51b3;&#x65b9;&#x5f0f;">
 <node CREATED="1640091968979" ID="ID_1635202063" MODIFIED="1640093026873" TEXT="&#x8c03;&#x7528;matplotlib&#x91cc;&#x9762;&#x7684;pylab&#x6587;&#x4ef6;&#xff0c;&#x5b98;&#x7f51;api&#x6587;&#x6863;">
@@ -616,6 +621,19 @@
 <node CREATED="1640362870843" ID="ID_310206475" MODIFIED="1640362941028" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640362878918" ID="ID_1932671177" MODIFIED="1640362923838" TEXT="mpl.plot(x_xticks, y_collect_Import_Quantity, &apos;o&apos;, color=&apos;blue&apos;)"/>
 <node CREATED="1640362967284" ID="ID_1933049916" MODIFIED="1640363034282" TEXT=" mpl.plot(x_xticks, y_collect_Import_Quantity, color=&apos;blue&apos;, lw=1.0, ls=&quot;-&quot;,label=&apos;Import Marine Fish, Other Quantity&apos;) #lw -- &#x7ebf;&#x5bbd; color --&#x989c;&#x8272; ls -- &#x7ebf;&#x6761;&#x6837;&#x5f0f;"/>
+<node CREATED="1640608448595" ID="ID_230875101" MODIFIED="1640608640903" TEXT="labelColor = (summary.iloc[i, 1:12] - mingRing) / (maxRing - mingRing)  array_Row.plot(color=mptl.cm.RdYlBu(labelColor), alpha=0.5) # &#x591a;&#x70b9;&#x6837;&#x5f0f;&#x56fe;&#x5f62;">
+<node CREATED="1640608465899" ID="ID_304834161" MODIFIED="1640608540092">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/&#x591a;&#x70b9;&#x6837;&#x5f0f;&#x56fe;&#x5f62;.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -640,7 +658,7 @@
 <node CREATED="1640363540703" ID="ID_931018621" MODIFIED="1640363542486" TEXT="  mpl.xlabel(&apos;2010-2019 Years China Mainland United_Nations Overview of Food Data&apos;)"/>
 </node>
 </node>
-<node CREATED="1640363329890" FOLDED="true" ID="ID_1485597480" MODIFIED="1640363567911" TEXT="mpl.xticks()# X&#x8f74;&#x4e0a;&#x663e;&#x793a;&#x7684;&#x533a;&#x95f4;&#x8303;&#x56f4;">
+<node CREATED="1640363329890" ID="ID_1485597480" MODIFIED="1640595859642" TEXT="mpl.xticks()# X&#x8f74;&#x4e0a;&#x663e;&#x793a;&#x7684;&#x533a;&#x95f4;&#x8303;&#x56f4;">
 <node CREATED="1640363388678" ID="ID_582353800" MODIFIED="1640363390936" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640363392052" ID="ID_1247352620" MODIFIED="1640363415859" TEXT="mpl.xticks(np.arange(2010, 2020, 1)) ">
 <node CREATED="1640363417415" ID="ID_567667810" MODIFIED="1640363468764">
@@ -656,6 +674,8 @@
 </node>
 </node>
 </node>
+<node CREATED="1640595861369" ID="ID_661767409" MODIFIED="1640595874874" TEXT="mpl.boxplot() #&#x5448;&#x73b0;&#x7bb1;&#x56fe;"/>
+<node CREATED="1640597509940" ID="ID_1244765292" MODIFIED="1640597721711" TEXT="mpl.pcolor() # Create a pseudocolor plot with a non-regular rectangular grid.&#x7c7b;&#x4f3c;&#x4e8e;&#x4e00;&#x79cd;&#x5bc6;&#x5ea6;&#x56fe;"/>
 <node CREATED="1640363569476" ID="ID_41540007" MODIFIED="1640363586158" TEXT="mpl.show() #&#x5c55;&#x793a;&#x6240;&#x6709;&#x80fd;&#x5c55;&#x793a;&#x7684;&#x5185;&#x5bb9;">
 <node CREATED="1640363594282" ID="ID_816028721" MODIFIED="1640363597796" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640363598814" ID="ID_1801709356" MODIFIED="1640363639326">
@@ -728,8 +748,68 @@
 <node CREATED="1640510084424" ID="ID_1742127025" MODIFIED="1640510114757" TEXT="panda.DataFrame.iar()">
 <node CREATED="1640510117897" ID="ID_1049476759" MODIFIED="1640510202133" TEXT="dataFile.iat[i, 10] &gt;= 7 # &#x5728;(i,10)&#x5750;&#x6807;&#x4e0a;&#x7684;&#x5143;&#x7d20;"/>
 </node>
+<node CREATED="1640594565579" ID="ID_694657935" MODIFIED="1640594646753" TEXT="panda.DataFrame.head() #&#x53d6;&#x5934;5&#x884c;&#x7684;&#x6570;&#x636e;">
+<node CREATED="1640594608144" ID="ID_855684226" MODIFIED="1640594715591" TEXT="pd.read_csv(filepath).head()">
+<node CREATED="1640594753775" ID="ID_762814266" MODIFIED="1640594840483" TEXT="summary_head    20001  6.15  7.06  5.24  2.61     0  ...  5.15.2  7.7  3.18  6.10  8.3  12.9 0  20002  6.53  6.15  9.85  4.03  0.10  ...       6    7     1     8    1    24 1  20003  8.22  3.23  1.69  0.41  0.02  ...       1    8     8     1    7     6 2  20004  6.79  4.99  1.50  2.85  5.53  ...       6    8     1     6    5    12                                                                                  3  20005 -1.00 -1.00 -1.00 -1.00 -1.00  ...       8    8     1     8    8     1 4  20006  3.01  5.12  6.54  3.53  3.99  ...       7    7    15     3    7    26"/>
+</node>
+</node>
+<node CREATED="1640594647483" ID="ID_1073846425" MODIFIED="1640594696309" TEXT="panda.DataFrame.head() #&#x53d6;&#x540e;5&#x884c;&#x7684;&#x6570;&#x636e;">
+<node CREATED="1640594718114" ID="ID_1667128888" MODIFIED="1640594743637" TEXT="pd.read_csv(filepath).tail()">
+<node CREATED="1640594805392" ID="ID_773495372" MODIFIED="1640594818743" TEXT="summary_tail      20001  6.15  7.06  5.24  2.61     0  ...  5.15.2  7.7  3.18  6.10  8.3  12.9 195  20197  3.59  5.63  6.21  5.24  1.88  ...       6    8     9     8    4    28 196  20198  7.27  5.31  9.35  2.77  0.00  ...       1    8    24     7    8    14 197  20199  6.18  5.05  6.43  6.05  1.93  ...       7    7     3     3    7     4 198  20200  6.12  7.45  1.05  1.03  0.16  ...       4    7     6     8    7    12 199  20201  5.60  6.29  6.11  2.64  0.11  ...       7    8     1     2    7    23"/>
+</node>
+</node>
 <node CREATED="1640517122273" ID="ID_1001433176" MODIFIED="1640517135493" TEXT="panda.DataFrame.describe() ">
-<node CREATED="1640517198349" ID="ID_210360518" MODIFIED="1640517312179" TEXT="dataFile.describe() # &#x751f;&#x6210;&#x6570;&#x636e;&#x683c;&#x5f0f;&#xff0c;&#x63cf;&#x8ff0;&#x6027;&#x7edf;&#x8ba1;&#x6570;&#x636e;&#x5305;&#x62ec;&#x603b;&#x7ed3;&#x6570;&#x636e;&#x96c6;&#x5206;&#x5e03;&#x7684;&#x4e2d;&#x592e;&#x8d8b;&#x52bf;&#xff0c;&#x5206;&#x6563;&#x548c;&#x5f62;&#x72b6;&#x7684;&#x4eba;&#xff0c;&#x4e0d;&#x5305;&#x62ec;NAN&#x503c;&#x3002;"/>
+<node CREATED="1640517198349" ID="ID_210360518" MODIFIED="1640517312179" TEXT="dataFile.describe() # &#x751f;&#x6210;&#x6570;&#x636e;&#x683c;&#x5f0f;&#xff0c;&#x63cf;&#x8ff0;&#x6027;&#x7edf;&#x8ba1;&#x6570;&#x636e;&#x5305;&#x62ec;&#x603b;&#x7ed3;&#x6570;&#x636e;&#x96c6;&#x5206;&#x5e03;&#x7684;&#x4e2d;&#x592e;&#x8d8b;&#x52bf;&#xff0c;&#x5206;&#x6563;&#x548c;&#x5f62;&#x72b6;&#x7684;&#x4eba;&#xff0c;&#x4e0d;&#x5305;&#x62ec;NAN&#x503c;&#x3002;">
+<node CREATED="1640593462091" ID="ID_1969224554" MODIFIED="1640593473417" TEXT="&#x793a;&#x4f8b;">
+<node CREATED="1640593476638" ID="ID_973221557" MODIFIED="1640593506943" TEXT="summary = dataFile.describe() print(summary)">
+<node CREATED="1640593510500" ID="ID_1683670142" MODIFIED="1640593524587" TEXT="               0           1           2     ...        1136        1137        1138 count    201.000000  201.000000  201.000000  ...  201.000000  201.000000  201.000000 mean   20101.000000    5.266219    6.447015  ...    5.631841    5.572139   16.776119 std       58.167861    2.273933    2.443789  ...    2.510733    2.517145    8.507916 min    20001.000000   -1.000000   -1.000000  ...    1.000000    1.000000    1.000000 25%    20051.000000    4.130000    5.190000  ...    3.000000    4.000000   11.000000 50%    20101.000000    5.240000    6.410000  ...    7.000000    7.000000   17.000000 75%    20151.000000    6.590000    7.790000  ...    8.000000    7.000000   23.000000 max    20201.000000   13.150000   13.960000  ...    8.000000    8.000000   33.000000">
+<node CREATED="1640595892176" ID="ID_901642045" MODIFIED="1640595897159" TEXT="count">
+<node CREATED="1640595897700" ID="ID_1347276916" MODIFIED="1640595901334" TEXT="&#x8ba1;&#x6570;"/>
+</node>
+<node CREATED="1640595902673" ID="ID_498822890" MODIFIED="1640595910757" TEXT="mean">
+<node CREATED="1640595911471" ID="ID_766650513" MODIFIED="1640595914272" TEXT="&#x5747;&#x503c;"/>
+</node>
+<node CREATED="1640595915240" ID="ID_1324036637" MODIFIED="1640595919368" TEXT="std">
+<node CREATED="1640595920338" ID="ID_872953015" MODIFIED="1640595922923" TEXT="&#x65b9;&#x5dee;"/>
+</node>
+<node CREATED="1640595924037" ID="ID_1002336420" MODIFIED="1640595954399" TEXT="min --&#x300b; max">
+<node CREATED="1640595929754" ID="ID_1354392015" MODIFIED="1640595963895" TEXT="&#x6700;&#x5c0f;&#x503c; --&#x300b;&#x6700;&#x5927;&#x503c;"/>
+</node>
+</node>
+</node>
+<node CREATED="1640595563077" ID="ID_72279821" MODIFIED="1640595826387" TEXT=" array = summary.iloc[:, 5:10].values mpl.boxplot(array) #&#x7bb1;&#x56fe; mpl.show()">
+<node CREATED="1640595671947" ID="ID_15181622" MODIFIED="1640595778410">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/&#x7bb1;&#x56fe;.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1640597109822" ID="ID_260260254" MODIFIED="1640597157311" TEXT="panda.DataFrame.corr() #&#x8f93;&#x51fa;&#x4e0d;&#x540c;&#x5217;&#x4e4b;&#x95f4;&#x7684;&#x76f8;&#x5173;&#x6027;">
+<node CREATED="1640597183040" ID="ID_657114698" MODIFIED="1640597186629" TEXT="&#x793a;&#x4f8b;">
+<node CREATED="1640597187451" ID="ID_1014725873" MODIFIED="1640597226695" TEXT="corMat = pd.DataFrame(summary.iloc[1:20, 1:20].corr())"/>
+<node CREATED="1640597191208" ID="ID_1317217673" MODIFIED="1640597216464" TEXT="mpl.pcolor(corMat)">
+<node CREATED="1640597234478" ID="ID_1969228030" MODIFIED="1640597331973">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/&#x70ed;&#x70b9;&#x56fe;.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
