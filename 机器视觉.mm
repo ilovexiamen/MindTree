@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1637717403522" ID="ID_81977438" MODIFIED="1640086275856" TEXT="&#x673a;&#x5668;&#x89c6;&#x89c9;">
-<node CREATED="1637717447813" ID="ID_1095992468" MODIFIED="1637718166634" POSITION="right" TEXT="OpenCV">
+<node CREATED="1637717447813" ID="ID_1095992468" MODIFIED="1640676817362" POSITION="right" TEXT="OpenCV 4.5.4">
 <node CREATED="1637718010377" ID="ID_1017017330" MODIFIED="1637718032715" TEXT="&#x6982;&#x8ff0;">
 <node CREATED="1637718035961" ID="ID_1091106841" MODIFIED="1637718386246" TEXT="&#x5f00;&#x6e90;&#x7684;&#x673a;&#x5668;&#x89c6;&#x89c9;&#x548c;&#x5b66;&#x4e60;&#x5e93;&#xff0c;&#x50cf;c++&#xff0c;Python&#xff0c;java&#x548c;MATLAB&#x7b49;"/>
 </node>
@@ -13,6 +13,52 @@
 </node>
 <node CREATED="1637718394184" ID="ID_1143486937" MODIFIED="1637718397693" TEXT="&#x7f3a;&#x70b9;">
 <node CREATED="1637718399171" ID="ID_27288331" MODIFIED="1637718448869" TEXT="&#x5bf9;&#x4e8e;&#x67d0;&#x4e00;&#x4e9b;&#x5de5;&#x5177;&#x6765;&#x8bf4;&#x6ca1;&#x90a3;&#x4e48;&#x597d;&#x7684;&#x8bc6;&#x522b;&#x65b9;&#x5f0f;&#xff0c;&#x50cf;matlab&#x7b49;&#x7b49;"/>
+</node>
+<node CREATED="1640661568129" ID="ID_1386243434" MODIFIED="1640661569780" TEXT="&#x5b66;&#x4e60;">
+<node CREATED="1640661916650" ID="ID_1551226257" MODIFIED="1640661940239" TEXT="import cv2 as cv">
+<node CREATED="1640676365416" ID="ID_251509978" MODIFIED="1640676713916" TEXT="cv.imread() #&#x8bfb;&#x51fa;&#x6587;&#x4ef6;&#xff0c;&#x8f6c;&#x6362;&#x6210;&#x77e9;&#x9635;&#x683c;&#x5f0f;&#x8f93;&#x51fa;">
+<node CREATED="1640677242570" FOLDED="true" ID="ID_1339181262" MODIFIED="1640682222069" TEXT=" Mat cv::imread&#x9;(&#x9;const String &amp; &#x9;filename, int &#x9;flags = IMREAD_COLOR  )">
+<node CREATED="1640677269939" ID="ID_399902103" MODIFIED="1640677271604" TEXT="&#x793a;&#x4f8b;">
+<node CREATED="1640677324112" ID="ID_155739693" MODIFIED="1640677387580" TEXT="    file_path = &quot;Book/photo_collection/fishing_boat.jfif&quot; # &#x8bf7;&#x52a1;&#x5fc5;&#x6ce8;&#x610f;&#x54c8;&#x6587;&#x4ef6;&#x7684;&#x8def;&#x5f84;&#x5fc5;&#x987b;&#x4e0d;&#x80fd;&#x6709;&#x4e2d;&#x6587;&#x540d;&#x51fa;&#x73b0;&#x5426;&#x5219;&#x4f1a;&#x7d22;&#x5f15;&#x4e0d;&#x5230;"/>
+<node CREATED="1640677281956" ID="ID_859376279" MODIFIED="1640677288162" TEXT="image = cv.imread(file_path, 0)"/>
+<node CREATED="1640677391154" ID="ID_951241004" MODIFIED="1640677422287" TEXT="cv.imshow(&quot;hello&quot;,image)">
+<node CREATED="1640677424944" ID="ID_1552917532" MODIFIED="1640677464199">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/imshow2.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1640661943177" ID="ID_716313724" MODIFIED="1640662651153" TEXT="cv.imshow() # &#x5728;&#x89c6;&#x7a97;&#x4e0a;&#x5c55;&#x73b0;&#x56fe;&#x6837;">
+<node CREATED="1640662808752" ID="ID_4686749" MODIFIED="1640662811736" TEXT="&#x793a;&#x4f8b;">
+<node CREATED="1640662812707" FOLDED="true" ID="ID_1270076761" MODIFIED="1640682223213" TEXT="cv.imshow(np.array(Image.open(filepath)))">
+<node CREATED="1640662991215" ID="ID_665264808" MODIFIED="1640663004610">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/imshow.PNG" />
+  </body>
+</html>
+</richcontent>
+<node CREATED="1640675922973" ID="ID_831177759" MODIFIED="1640675961569" TEXT="&#x4e3a;&#x4ec0;&#x4e48;&#x56fe;&#x7247;&#x7684;&#x683c;&#x5f0f;&#x4f1a;&#x6709;&#x4e9b;&#x504f;&#x5dee;&#x5462;&#xff1f;">
+<node CREATED="1640675963506" ID="ID_171246524" MODIFIED="1640676015509" TEXT="imshow()&#x6240;&#x5c55;&#x73b0;&#x51fa;&#x6765;&#x7684;&#x683c;&#x5f0f;&#x662f;BGR&#x683c;&#x5f0f;&#x7684;&#x56fe;&#x50cf;&#xff0c;&#x53ef;&#x662f;&#x539f;&#x56fe;&#x50cf;&#x662f;RGB&#x54c1;&#x8d28;&#x7684;&#x56fe;&#x50cf;&#x6240;&#x4ee5;&#x4f1a;&#x6709;&#x504f;&#x5dee;"/>
+</node>
+</node>
+</node>
+<node CREATED="1640662900349" ID="ID_1867031010" MODIFIED="1640676344308" TEXT="cv.waitKey(0) #&#x7b49;&#x5f85;&#x7528;&#x6237;&#x89e6;&#x53d1;&#x9f20;&#x6807;&#x7684;&#x6309;&#x94ae;&#x4e8b;&#x4ef6;&#xff0c;&#x5426;&#x5219;&#x4e8b;&#x4ef6;&#x4f1a;&#x76f4;&#x63a5;&#x7ed3;&#x675f;"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1637717458070" ID="ID_230655780" MODIFIED="1640504433790" POSITION="right" TEXT="TensorFlow">
@@ -291,9 +337,18 @@
 <node CREATED="1639971378822" ID="ID_95110170" MODIFIED="1639971400341" TEXT="python3&#x5b50;&#x7c7b;&#x5982;&#x4f55;&#x7ee7;&#x627f;&#x7236;&#x7c7b;">
 <node CREATED="1639971409309" ID="ID_903482976" MODIFIED="1639971434754" TEXT="class Son(Father): #Father&#x5373;&#x7236;&#x7c7b;&#x540d;"/>
 </node>
-<node CREATED="1639972080494" ID="ID_1598994403" MODIFIED="1640088698614" TEXT="python3&#x5e38;&#x89c4;API">
+<node CREATED="1639972080494" ID="ID_1598994403" MODIFIED="1640679301545" TEXT="python3.9.7 API">
 <node CREATED="1640088700469" ID="ID_54533157" MODIFIED="1640088709850" TEXT="&#x6570;&#x7ec4;&#x6dfb;&#x52a0;">
 <node CREATED="1640088711432" ID="ID_239269575" MODIFIED="1640088724949" TEXT="[].append()"/>
+</node>
+<node CREATED="1640679732367" ID="ID_1394640178" MODIFIED="1640679755271" TEXT="bytearray() # class bytearray([source[, encoding[, errors]]])">
+<node CREATED="1640679763674" ID="ID_1206557590" MODIFIED="1640679765565" TEXT="&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x65b0;&#x7684; bytes &#x6570;&#x7ec4;&#x3002; bytearray &#x7c7b;&#x662f;&#x4e00;&#x4e2a;&#x53ef;&#x53d8;&#x5e8f;&#x5217;&#xff0c;&#x5305;&#x542b;&#x8303;&#x56f4;&#x4e3a; 0 &lt;= x &lt; 256 &#x7684;&#x6574;&#x6570;&#x3002;&#x5b83;&#x6709;&#x53ef;&#x53d8;&#x5e8f;&#x5217;&#x5927;&#x90e8;&#x5206;&#x5e38;&#x89c1;&#x7684;&#x65b9;&#x6cd5;&#xff0c;&#x89c1; &#x53ef;&#x53d8;&#x5e8f;&#x5217;&#x7c7b;&#x578b; &#x7684;&#x63cf;&#x8ff0;&#xff1b;&#x540c;&#x65f6;&#x6709; bytes &#x7c7b;&#x578b;&#x7684;&#x5927;&#x90e8;&#x5206;&#x65b9;&#x6cd5;&#xff0c;&#x53c2;&#x89c1; bytes &#x548c; bytearray &#x64cd;&#x4f5c;&#x3002;">
+<node CREATED="1640679800973" ID="ID_369797221" MODIFIED="1640679814126" TEXT="&#x793a;&#x4f8b;">
+<node CREATED="1640679815801" FOLDED="true" ID="ID_1065169925" MODIFIED="1640679876985" TEXT="imageByteArray = bytearray(image) #&#x5176;&#x4e2d; image&#x662f;&#x56fe;&#x7247;">
+<node CREATED="1640679856100" ID="ID_209957567" MODIFIED="1640679875111" TEXT="bytearray(b&apos;\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xc1\xc1\xc1\xc1\xc1\xc1\xc1\xc1\xc0\xc0\xc0\xc1\xc1\xc2\xc2\xc2\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc4\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc4\xc4\xc4\xc5\xc5\xc5\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc6\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc5\xc6\xc6\xc6\xc5\xc5\xc4\xc4\xc4\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xbf\xc1\xc1\xc1\xc1\xc1\xc1\xc1\xc1\xc0\xc0\xc0\xc1\xc1\xc2\xc2\xc2\xc3\xc3\xc3\xc3\xc3\xc3\xc3\xc3\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\xc2\ &#x3002;&#x3002;&#x3002;&#x3002;&#x3002;"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1640094513762" ID="ID_1897293813" MODIFIED="1640094781406" TEXT="python&#x5192;&#x53f7;&#x7684;&#x7528;&#x6cd5;&#x603b;&#x7ed3;">
@@ -508,8 +563,7 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/&#x6b27;&#x51e0;&#x91cc;&#x5f97;&#x7b97;&#x6cd5;.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1640513510431" ID="ID_321919674" MODIFIED="1640513512833" TEXT="&#x7ed3;&#x679c;">
@@ -555,6 +609,27 @@
 <node CREATED="1640609385720" ID="ID_46819499" MODIFIED="1640609474138" TEXT="numpy.zeros() #&#x7ed9;&#x4e00;&#x4e2a;&#x6570;&#x7ec4;&#x5143;&#x7d20;&#x5168;&#x90fd;&#x4e3a; 0  ">
 <node CREATED="1640609480226" ID="ID_1646934228" MODIFIED="1640609489382" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640609493670" ID="ID_649955561" MODIFIED="1640609782997" TEXT="np.zeros((300, 300)) # &#x8f93;&#x51fa;300 * 300&#x7684;&#x957f;&#x5ea6;&#x77e9;&#x9635;"/>
+</node>
+</node>
+<node CREATED="1640679955387" ID="ID_912412633" MODIFIED="1640679971389" TEXT="&#x56fe;&#x5f62;&#x91cd;&#x6784;&#x5efa;">
+<node CREATED="1640680053073" ID="ID_609567865" MODIFIED="1640680087714" TEXT="bytearray(image) #&#x5c06;&#x56fe;&#x7247;&#x8f6c;&#x6362;&#x4e3a;16&#x8fdb;&#x5236;&#x6a21;&#x5f0f;"/>
+<node CREATED="1640680089054" ID="ID_545791237" MODIFIED="1640680353688" TEXT="np.array(imageByteArray).reshape(2, 25168) # &#x7528;np&#x7684;&#x77e9;&#x9635;&#x8f6c;&#x6362;&#x5c06;&#x539f;&#x6765;2*25168&#x683c;&#x5f0f;&#x7684;&#x56fe;&#x50cf;&#x8fdb;&#x884c;&#x8f6c;&#x6362;&#xff0c;&#x8f6c;&#x6362;&#x4e3a;[2,25168]&#x7684;&#x77e9;&#x9635;"/>
+</node>
+<node CREATED="1640681793092" FOLDED="true" ID="ID_1697583570" MODIFIED="1640682216557" TEXT="&#x5229;&#x7528;numpy&#x91cd;&#x65b0;&#x6784;&#x5efa;array(),&#x5c06;&#x8f93;&#x51fa;&#x7684;&#x56fe;&#x7247;&#x8fdb;&#x884c;&#x6807;&#x8bb0;">
+<node CREATED="1640681924376" ID="ID_1886637258" MODIFIED="1640681954569" TEXT="&#x793a;&#x4f8b;">
+<node CREATED="1640681955684" ID="ID_689137346" MODIFIED="1640682133470" TEXT="# &#x8f93;&#x51fa;&#x6709;&#x767d;&#x6846;&#x7684;&#x56fe;&#x6848;&#x56fe;&#x50cf;&#x5927;&#x5c0f;&#x4e3a;194*259 &#x901a;&#x9053;&#x4e3a;3&#xa;using_numpy_path = &quot;Book/photo_collection/fishing_boat5.jfif&quot;  &#xa;image = cv.imread(using_numpy_path)&#xa;# (194 , 259 , 3)  &#xa;# print(np.array(image).shape)  &#xa;img = np.array(image)  &#xa;img[:, 10] = 255  &#xa;img[10, :] = 255  &#xa;img[:, -10] = 255  &#xa;img[-10, :] = 255  &#xa;cv.imshow(&quot;ising_numpy_change_line&quot;, img)  &#xa;cv.waitKey(0) ">
+<node CREATED="1640682135539" ID="ID_1527940498" MODIFIED="1640682206871">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/fishing_frame_catching.PNG" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -630,8 +705,7 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/&#x591a;&#x70b9;&#x6837;&#x5f0f;&#x56fe;&#x5f62;.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -786,8 +860,7 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/&#x7bb1;&#x56fe;.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -805,8 +878,7 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/&#x70ed;&#x70b9;&#x56fe;.PNG" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
