@@ -16,7 +16,7 @@
 </node>
 <node CREATED="1640661568129" ID="ID_1386243434" MODIFIED="1640661569780" TEXT="&#x5b66;&#x4e60;">
 <node CREATED="1640661916650" ID="ID_1551226257" MODIFIED="1640661940239" TEXT="import cv2 as cv">
-<node CREATED="1640676365416" ID="ID_251509978" MODIFIED="1640676713916" TEXT="cv.imread() #&#x8bfb;&#x51fa;&#x6587;&#x4ef6;&#xff0c;&#x8f6c;&#x6362;&#x6210;&#x77e9;&#x9635;&#x683c;&#x5f0f;&#x8f93;&#x51fa;">
+<node CREATED="1640676365416" ID="ID_251509978" MODIFIED="1640847996870" TEXT="cv.imread() #&#x8bfb;&#x51fa;&#x6587;&#x4ef6;&#xff0c;&#x8f6c;&#x6362;&#x6210;&#x77e9;&#x9635;&#x683c;&#x5f0f;&#x8f93;&#x51fa;">
 <node CREATED="1640677242570" FOLDED="true" ID="ID_1339181262" MODIFIED="1640682222069" TEXT=" Mat cv::imread&#x9;(&#x9;const String &amp; &#x9;filename, int &#x9;flags = IMREAD_COLOR  )">
 <node CREATED="1640677269939" ID="ID_399902103" MODIFIED="1640677271604" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640677324112" ID="ID_155739693" MODIFIED="1640677387580" TEXT="    file_path = &quot;Book/photo_collection/fishing_boat.jfif&quot; # &#x8bf7;&#x52a1;&#x5fc5;&#x6ce8;&#x610f;&#x54c8;&#x6587;&#x4ef6;&#x7684;&#x8def;&#x5f84;&#x5fc5;&#x987b;&#x4e0d;&#x80fd;&#x6709;&#x4e2d;&#x6587;&#x540d;&#x51fa;&#x73b0;&#x5426;&#x5219;&#x4f1a;&#x7d22;&#x5f15;&#x4e0d;&#x5230;"/>
@@ -36,7 +36,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1640661943177" ID="ID_716313724" MODIFIED="1640662651153" TEXT="cv.imshow() # &#x5728;&#x89c6;&#x7a97;&#x4e0a;&#x5c55;&#x73b0;&#x56fe;&#x6837;">
+<node CREATED="1640661943177" FOLDED="true" ID="ID_716313724" MODIFIED="1640847993940" TEXT="cv.imshow() # &#x5728;&#x89c6;&#x7a97;&#x4e0a;&#x5c55;&#x73b0;&#x56fe;&#x6837;">
 <node CREATED="1640662808752" ID="ID_4686749" MODIFIED="1640662811736" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640662812707" FOLDED="true" ID="ID_1270076761" MODIFIED="1640682223213" TEXT="cv.imshow(np.array(Image.open(filepath)))">
 <node CREATED="1640662991215" ID="ID_665264808" MODIFIED="1640663004610">
@@ -56,7 +56,7 @@
 <node CREATED="1640662900349" ID="ID_1867031010" MODIFIED="1640676344308" TEXT="cv.waitKey(0) #&#x7b49;&#x5f85;&#x7528;&#x6237;&#x89e6;&#x53d1;&#x9f20;&#x6807;&#x7684;&#x6309;&#x94ae;&#x4e8b;&#x4ef6;&#xff0c;&#x5426;&#x5219;&#x4e8b;&#x4ef6;&#x4f1a;&#x76f4;&#x63a5;&#x7ed3;&#x675f;"/>
 </node>
 </node>
-<node CREATED="1640753408887" ID="ID_737871557" MODIFIED="1640753429881" TEXT="cv.resize() # &#x6539;&#x53d8;&#x6e90;&#x6587;&#x4ef6;&#x5230;&#x6307;&#x5b9a;&#x5927;&#x5c0f;&#x7684;&#x6587;&#x4ef6;">
+<node CREATED="1640753408887" FOLDED="true" ID="ID_737871557" MODIFIED="1640847991276" TEXT="cv.resize() # &#x6539;&#x53d8;&#x6e90;&#x6587;&#x4ef6;&#x5230;&#x6307;&#x5b9a;&#x5927;&#x5c0f;&#x7684;&#x6587;&#x4ef6;">
 <node CREATED="1640753482019" ID="ID_1159177885" MODIFIED="1640753484040" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640753485043" ID="ID_1155632865" MODIFIED="1640770097016" TEXT="img = cv2.resize(photo_path, (300, 300)) #&#x5c06;photo_path array&#x6570;&#x7ec4;&#x8c03;&#x6574;&#x4e3a;300*300&#xff09;&#x50cf;&#x7d20;&#x7684;&#x56fe;&#x7247;">
 <node CREATED="1640769839487" ID="ID_50358948" MODIFIED="1640770078439">
@@ -67,13 +67,73 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/fishing_resize.png" />
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1640829084522" FOLDED="true" ID="ID_819993556" MODIFIED="1640847989071" TEXT="cv.LUT() # &#x6539;&#x53d8;&#x8272;&#x57df;&#xff0c;&#x5c06;&#x666e;&#x901a;&#x663e;&#x793a;&#x5668;&#x6240;&#x663e;&#x793a;&#x4e0d;&#x51fa;&#x6765;&#x7684;&#x8272;&#x57df;&#x8fdb;&#x884c;&#x6269;&#x5145;&#x6539;&#x53d8;">
+<node CREATED="1640829248324" ID="ID_988845908" MODIFIED="1640829264158" TEXT="&#x9;cv.LUT(&#x9;src, lut[, dst]&#x9;) -&gt;&#x9;dst ">
+<node CREATED="1640829274964" ID="ID_1107659794" MODIFIED="1640829277501" TEXT="&#x793a;&#x4f8b;">
+<node CREATED="1640829311353" ID="ID_335531673" MODIFIED="1640829312852" TEXT="gamma_change = [np.power(x / 255, 0.4) * 255 for x in range(256)]"/>
+<node CREATED="1640829325828" ID="ID_857385728" MODIFIED="1640829327339" TEXT="  guamma_img = np.round(np.array(gamma_change)).astype(np.uint8)"/>
+<node CREATED="1640829328614" ID="ID_1920087308" MODIFIED="1640829345552" TEXT="img_corrcted = cv2.LUT(img, guamma_img)">
+<node CREATED="1640829351082" ID="ID_777166361" MODIFIED="1640829398529">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/Guamma_photo.png" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1640850488321" ID="ID_1864464525" MODIFIED="1640850499061" TEXT="cv&#x9f20;&#x6807;&#x70b9;&#x51fb;&#x4e8b;&#x4ef6;"/>
+<node CREATED="1640849412900" ID="ID_911585177" MODIFIED="1640849486249" TEXT="cv.getRotationMatrix2D() # &#x6539;&#x53d8;&#x56fe;&#x50cf;&#x7684;&#x89d2;&#x5ea6;&#xff0c;&#x5e76;&#x4e14;&#x53ef;&#x4ee5;&#x8ba9;&#x56fe;&#x50cf;&#x653e;&#x5927;&#x6216;&#x8005;&#x7f29;&#x5c0f;">
+<node CREATED="1640849487489" ID="ID_1102700750" MODIFIED="1640849920134">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;Mat cv::getRotationMatrix2D(&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Point2f&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;center,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;double&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;angle,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;double&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;scale&#160;&#160;
+    </p>
+    <p>
+      )&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1640849930873" ID="ID_724151902" MODIFIED="1640850025186" TEXT="def random_retangle_photo():     &#xa;&#x9;mplot.figure()     &#xa;&#x9;path_file = &quot;photo/fishing_boat6.jpg&quot;     &#xa;&#x9;img = cv2.imread(path_file)     &#xa;&#x9;array_img = np.array(img)     &#xa;&#x9;width, height, depth = array_img.shape     &#xa;&#x9;gs = mplot.GridSpec(1, 2)     &#xa;&#x9;mplot.subplot(gs[0, 0])     &#xa;&#x9;mplot.imshow(array_img)     &#xa;&#x9;# getRotationMatrix2D((width / 2, height / 2), 45, 1)     &#xa;&#x9;# ==&gt; (width / 2, height / 2) (x,y)&#x65cb;&#x8f6c;&#x5750;&#x6807;&#x539f;&#x70b9;     &#xa;&#x9;# ==&gt; 45 &#x9006;&#x65f6;&#x9488;&#x65cb;&#x8f6c;45&#xb0;     &#xa;&#x9;# 1 ==&gt; 1&#x662f;&#x7f29;&#x653e;&#x7684;&#x500d;&#x6570;     &#xa;&#x9;img_change = cv2.getRotationMatrix2D((width / 2, height / 2), 45, 1)     &#xa;&#x9;img_finally = cv2.warpAffine(array_img, img_change, (height, width))     &#xa;&#x9;mplot.subplot(gs[0, 1])     &#xa;&#x9;mplot.imshow(img_finally)     &#xa;&#x9;mplot.show()">
+<node CREATED="1640850026878" ID="ID_1725959503" MODIFIED="1640850086671">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/getrotationMatrix.png" />
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1640698808267" ID="ID_454099246" MODIFIED="1640698830656" TEXT="&#x521d;&#x8bc6;&#x9ad8;&#x65af;&#x6ee4;&#x6ce2;">
+<node CREATED="1640698808267" FOLDED="true" ID="ID_454099246" MODIFIED="1640847983154" TEXT="&#x521d;&#x8bc6;&#x9ad8;&#x65af;&#x6ee4;&#x6ce2;">
 <node CREATED="1640698348950" ID="ID_1513050521" MODIFIED="1640698370520" TEXT="cv.GaussianBlur() #&#x4f7f;&#x7528;&#x9ad8;&#x65af;&#x904e;&#x6ffe;&#x5668;&#x6a21;&#x7cca;&#x5716;&#x50cf;&#x3002;  &#x8a72;&#x51fd;&#x6578;&#x5c07;&#x6e90;&#x5716;&#x50cf;&#x8207;&#x6307;&#x5b9a;&#x7684;&#x9ad8;&#x65af;&#x5167;&#x6838;&#x65cb;&#x8f49;&#x3002;&#x652f;&#x6301;&#x5c31;&#x5730;&#x6ffe;&#x6ce2;">
 <node CREATED="1640698389662" ID="ID_1965258154" MODIFIED="1640698464155" TEXT=" void cv::GaussianBlur&#x9;(InputArray &#x9;src, &#xa;                                            OutputArray dst, &#xa;                                            Size &#x9;ksize, &#xa;                                            double &#x9;sigmaX, &#xa;                                            double &#x9;sigmaY = 0, &#xa;                                            int &#x9;borderType = BORDER_DEFAULT  )&#x9;&#x9; ">
 <node CREATED="1640700646462" ID="ID_1036175631" MODIFIED="1640700736030" TEXT="src">
@@ -100,7 +160,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1640751260441" ID="ID_1586282248" MODIFIED="1640751276586" TEXT="&#x5377;&#x79ef;&#x6838;&#x6a21;&#x62df;&#x5668;">
+<node CREATED="1640751260441" FOLDED="true" ID="ID_1586282248" MODIFIED="1640847979320" TEXT="&#x5377;&#x79ef;&#x6838;&#x6a21;&#x62df;&#x5668;">
 <node CREATED="1640751435656" ID="ID_1231669596" MODIFIED="1640751627875" TEXT="# &#x5377;&#x79ef;&#x6838;&#x65b9;&#x6cd5; &#xa;def  kernel_photo_gensture(dataMat, kernel):     &#xa;        m, n = dataMat.shape    &#xa;        kernel_m, kernel_n = kernel.shape     &#xa;        # Return a new array of given shape and type, filled with ones.     &#xa;        newMat = np.ones(((m - kernel_m + 1), (n - kernel_n + 1)))     &#xa;        tempMat = np.ones((kernel_m, kernel_n))     &#xa;        print(&apos;new_Mat np.ones :&apos;, newMat)     &#xa;        for row in range(m - kernel_m + 1):         &#xa;              for col in range(n - kernel_n + 1):             &#xa;                    for m_k in range(kernel_m):                 &#xa;                          for n_k in range(kernel_n):                     &#xa;                                 tempMat[m_k, n_k] = dataMat[(row + m_k), (col + n_k)] * kernel[m_k, n_k]             &#xa;                                 # &#x6743;&#x91cd;&#x503c;&#x76f8;&#x52a0;             &#xa;                                 newMat[row, col] = np.sum(tempMat)            &#xa;                                 # print(&apos;newMat[&apos;, row, &apos;,&apos;, col, &apos;]&apos;, newMat[row, col])             &#xa;                                 time.sleep(1)     &#xa;          return newMat"/>
 </node>
 </node>
@@ -395,6 +455,10 @@
 </node>
 </node>
 </node>
+<node CREATED="1640846311990" ID="ID_1872881360" MODIFIED="1640847562991" TEXT="random api">
+<node CREATED="1640846330361" ID="ID_1625440613" MODIFIED="1640846367455" TEXT="random.random() # &#x8fd4;&#x56de; [0.0, 1.0) &#x8303;&#x56f4;&#x5185;&#x7684;&#x4e0b;&#x4e00;&#x4e2a;&#x968f;&#x673a;&#x6d6e;&#x70b9;&#x6570;"/>
+<node CREATED="1640846371288" ID="ID_1236471765" MODIFIED="1640846401485" TEXT="random.uniform(a, b) # &#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x968f;&#x673a;&#x6d6e;&#x70b9;&#x6570; N &#xff0c;&#x5f53; a &lt;= b &#x65f6; a &lt;= N &lt;= b &#xff0c;&#x5f53; b &lt; a &#x65f6; b &lt;= N &lt;= a &#x3002;  &#x53d6;&#x51b3;&#x4e8e;&#x7b49;&#x5f0f; a + (b-a) * random() &#x4e2d;&#x7684;&#x6d6e;&#x70b9;&#x820d;&#x5165;&#xff0c;&#x7ec8;&#x70b9; b &#x53ef;&#x4ee5;&#x5305;&#x62ec;&#x6216;&#x4e0d;&#x5305;&#x62ec;&#x5728;&#x8be5;&#x8303;&#x56f4;&#x5185;&#x3002;"/>
+</node>
 </node>
 <node CREATED="1640094513762" ID="ID_1897293813" MODIFIED="1640094781406" TEXT="python&#x5192;&#x53f7;&#x7684;&#x7528;&#x6cd5;&#x603b;&#x7ed3;">
 <arrowlink DESTINATION="ID_1897293813" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_784426030" STARTARROW="None" STARTINCLINATION="0;0;"/>
@@ -599,7 +663,7 @@
 <node CREATED="1640512906966" ID="ID_1926788567" MODIFIED="1640512921835" TEXT="&#x7406;&#x8bba;">
 <node CREATED="1640512923065" ID="ID_942896624" MODIFIED="1640513528432" TEXT="&#x5750;&#x6807;&#x503c;&#x68c0;&#x70b9;&#x4e0e;&#x70b9;&#x4e4b;&#x95f4;&#x7684;&#x8ddd;&#x79bb;"/>
 </node>
-<node CREATED="1640512939047" ID="ID_624628494" MODIFIED="1640512940802" TEXT="&#x516c;&#x5f0f;">
+<node CREATED="1640512939047" FOLDED="true" ID="ID_624628494" MODIFIED="1640848007124" TEXT="&#x516c;&#x5f0f;">
 <node CREATED="1640513467810" ID="ID_829745231" MODIFIED="1640513478013">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -619,7 +683,7 @@
 <node CREATED="1640516347970" ID="ID_1612668326" MODIFIED="1640516398843" TEXT="&#x7406;&#x8bba;">
 <node CREATED="1640516405541" ID="ID_1085680648" MODIFIED="1640516580859" TEXT="&#x4ece;&#x5750;&#x6807;&#x539f;&#x70b9;&#x51fa;&#x53d1;&#xff0c;&#x82e5;&#x4e24;&#x4e2a;&#x76ee;&#x6807;&#x8f83;&#x4e3a;&#x76f8;&#x8fd1;&#x90a3;&#x4e48;&#x5939;&#x89d2;&#x8f83;&#x5c0f;&#xff0c;&#x82e5;&#x4e24;&#x4e2a;&#x76ee;&#x6807;&#x4e0d;&#x76f8;&#x8fd1;&#x90a3;&#x4e48;&#x5939;&#x89d2;&#x7684;&#x89d2;&#x5ea6;&#x8f83;&#x5927;&#x3002;"/>
 </node>
-<node CREATED="1640516585123" ID="ID_279532316" MODIFIED="1640516587789" TEXT="&#x516c;&#x5f0f;">
+<node CREATED="1640516585123" FOLDED="true" ID="ID_279532316" MODIFIED="1640848009438" TEXT="&#x516c;&#x5f0f;">
 <node CREATED="1640516589105" ID="ID_1688178365" MODIFIED="1640516846159">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -651,16 +715,52 @@
 <node CREATED="1640088999019" ID="ID_1133912040" MODIFIED="1640089022165" TEXT="numpy.sum #&#x6c42;&#x548c;"/>
 <node CREATED="1640089025238" ID="ID_1231330914" MODIFIED="1640089038450" TEXT="numpy.std #&#x6c42;&#x6807;&#x51c6;&#x5dee;"/>
 <node CREATED="1640089044793" ID="ID_1024960363" MODIFIED="1640089069036" TEXT="numpy.var #&#x6c42;&#x65b9;&#x5dee;"/>
-<node CREATED="1640609385720" ID="ID_46819499" MODIFIED="1640609474138" TEXT="numpy.zeros() #&#x7ed9;&#x4e00;&#x4e2a;&#x6570;&#x7ec4;&#x5143;&#x7d20;&#x5168;&#x90fd;&#x4e3a; 0  ">
+<node CREATED="1640609385720" FOLDED="true" ID="ID_46819499" MODIFIED="1640847955248" TEXT="numpy.zeros() #&#x7ed9;&#x4e00;&#x4e2a;&#x6570;&#x7ec4;&#x5143;&#x7d20;&#x5168;&#x90fd;&#x4e3a; 0  ">
 <node CREATED="1640609480226" ID="ID_1646934228" MODIFIED="1640609489382" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640609493670" ID="ID_649955561" MODIFIED="1640609782997" TEXT="np.zeros((300, 300)) # &#x8f93;&#x51fa;300 * 300&#x7684;&#x957f;&#x5ea6;&#x77e9;&#x9635;"/>
+</node>
+</node>
+<node CREATED="1640827295178" ID="ID_915807786" MODIFIED="1640827939849" TEXT="numpy.power() # &#x5bf9;&#x4e00;&#x4e2a;&#x6570;&#x503c;&#x5f00;&#x5e73;&#x65b9;">
+<node CREATED="1640827943451" FOLDED="true" ID="ID_1387116299" MODIFIED="1640847952031" TEXT="numpy.power(x1, x2, /, out=None, *, where=True, casting=&apos;same_kind&apos;, order=&apos;K&apos;, dtype=None, subok=True[, signature, extobj]) = &lt;ufunc &apos;power&apos;&gt;">
+<node CREATED="1640827974215" ID="ID_463139952" MODIFIED="1640827982906" TEXT="&#x793a;&#x4f8b;">
+<node CREATED="1640828011041" ID="ID_788379881" MODIFIED="1640828619541" TEXT="1&#x3001;np.power(x / 255, 0.4) # &#x5373;&#x5bf9;(x/255)&#x5f00;0.4&#x6b21;&#x65b9;&#xff0c;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x6570;&#x503c;"/>
+<node CREATED="1640828605537" ID="ID_1468929204" MODIFIED="1640828736857">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2&#12289;&#160;&#160;&#160;array_first = np.array([1, 2, 3, 4])&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;array_second = np.array([3, 1, 2, 3])&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;array_power = np.power(array_first<span style="color: #cc7832"><font color="#cc7832">, </font></span>array_second)
+    </p>
+    <p>
+      <span style="color: #8888c6"><font color="#8888c6">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;print</font></span>(array_power)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1640828742785" ID="ID_1571996156" MODIFIED="1640828763309" TEXT="==&#x300b;[ 1  2  9 64] #&#x6bcf;&#x4e2a;&#x5143;&#x7d20;&#x9636;&#x4e58;"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1640829469559" ID="ID_1603081312" MODIFIED="1640829497074" TEXT="numpy.round() # &#x5c06;&#x4e00;&#x4e2a;&#x6570;&#x5b57;&#x56db;&#x820d;&#x4e94;&#x5165;&#x5230;&#x60f3;&#x8981;&#x7684;&#x4f4d;&#x7f6e;">
+<node CREATED="1640829748611" FOLDED="true" ID="ID_1340492904" MODIFIED="1640847953207" TEXT="numpy.around(a, decimals=0, out=None) # Evenly round to the given number of decimals.">
+<node CREATED="1640829798363" ID="ID_183893812" MODIFIED="1640829800597" TEXT="&#x793a;&#x4f8b;">
+<node CREATED="1640829804027" ID="ID_407725484" MODIFIED="1640829859167" TEXT="np.round(27.792275631203346) ==&#x300b;28"/>
+</node>
 </node>
 </node>
 <node CREATED="1640679955387" ID="ID_912412633" MODIFIED="1640679971389" TEXT="&#x56fe;&#x5f62;&#x91cd;&#x6784;&#x5efa;">
 <node CREATED="1640680053073" ID="ID_609567865" MODIFIED="1640680087714" TEXT="bytearray(image) #&#x5c06;&#x56fe;&#x7247;&#x8f6c;&#x6362;&#x4e3a;16&#x8fdb;&#x5236;&#x6a21;&#x5f0f;"/>
 <node CREATED="1640680089054" ID="ID_545791237" MODIFIED="1640680353688" TEXT="np.array(imageByteArray).reshape(2, 25168) # &#x7528;np&#x7684;&#x77e9;&#x9635;&#x8f6c;&#x6362;&#x5c06;&#x539f;&#x6765;2*25168&#x683c;&#x5f0f;&#x7684;&#x56fe;&#x50cf;&#x8fdb;&#x884c;&#x8f6c;&#x6362;&#xff0c;&#x8f6c;&#x6362;&#x4e3a;[2,25168]&#x7684;&#x77e9;&#x9635;"/>
 </node>
-<node CREATED="1640681793092" ID="ID_1697583570" MODIFIED="1640772046659" TEXT="&#x5229;&#x7528;numpy&#x91cd;&#x65b0;&#x6784;&#x5efa;array(),&#x5c06;&#x8f93;&#x51fa;&#x7684;&#x56fe;&#x7247;&#x8fdb;&#x884c;&#x6807;&#x8bb0;">
+<node CREATED="1640681793092" FOLDED="true" ID="ID_1697583570" MODIFIED="1640847821762" TEXT="&#x5229;&#x7528;numpy&#x91cd;&#x65b0;&#x6784;&#x5efa;array(),&#x5c06;&#x8f93;&#x51fa;&#x7684;&#x56fe;&#x7247;&#x8fdb;&#x884c;&#x6807;&#x8bb0;">
 <node CREATED="1640681924376" ID="ID_1886637258" MODIFIED="1640681954569" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640681955684" ID="ID_689137346" MODIFIED="1640682133470" TEXT="# &#x8f93;&#x51fa;&#x6709;&#x767d;&#x6846;&#x7684;&#x56fe;&#x6848;&#x56fe;&#x50cf;&#x5927;&#x5c0f;&#x4e3a;194*259 &#x901a;&#x9053;&#x4e3a;3&#xa;using_numpy_path = &quot;Book/photo_collection/fishing_boat5.jfif&quot;  &#xa;image = cv.imread(using_numpy_path)&#xa;# (194 , 259 , 3)  &#xa;# print(np.array(image).shape)  &#xa;img = np.array(image)  &#xa;img[:, 10] = 255  &#xa;img[10, :] = 255  &#xa;img[:, -10] = 255  &#xa;img[-10, :] = 255  &#xa;cv.imshow(&quot;ising_numpy_change_line&quot;, img)  &#xa;cv.waitKey(0) ">
 <node CREATED="1640682135539" ID="ID_1527940498" MODIFIED="1640682206871">
@@ -676,7 +776,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1640772053067" ID="ID_738925778" MODIFIED="1640772063988" TEXT="&#x5bf9;&#x56fe;&#x5f62;&#x8fdb;&#x884c;&#x88c1;&#x526a;">
+<node CREATED="1640772053067" FOLDED="true" ID="ID_738925778" MODIFIED="1640847818476" TEXT="&#x5bf9;&#x56fe;&#x5f62;&#x8fdb;&#x884c;&#x88c1;&#x526a;">
 <node CREATED="1640772065571" ID="ID_1818571675" MODIFIED="1640772069329" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640772102047" ID="ID_1571783414" MODIFIED="1640772202693" TEXT="# &#x5207;&#x56fe; def snip_photo():     &#xa;                        for i in range(2, 7):         &#xa;&#x9;photo_path = &quot;photo/fishing_boat{}.jpg&quot;.format(i)         &#xa;&#x9;photo_path = np.array(cv2.imread(photo_path))         &#xa;&#x9;print(photo_path.shape)         &#xa;&#x9;# resize(src,(x_pxil, y_pxil)) x_pixl&#x548c;y_pixl&#x7f29;&#x5c0f;&#x4e4b;&#x540e;&#x7684;x&#xff0c;y&#x6837;&#x5f0f;&#x5927;&#x5c0f;         &#xa;&#x9;# img = cv2.resize(photo_path, (300, 300))         &#xa;&#x9;# &#x539f;&#x6765; phtot_path.shape_x 522 photo_path.shape_y 696         &#xa;&#x9;# &#x4ee5;&#x4e0b;&#x622a;&#x56fe;&#x622a;&#x4e0b;&#x6765;&#x53ea;&#x5269;&#x4e0b;522-300 = 222 696-400 = 296 &#xff08;222&#xff0c;296&#xff09;&#x53ea;&#x5269;&#x4e0b;222 * 296&#x5927;&#x5c0f;&#x7684;&#x56fe;&#x6848;&#xff08;&#x622a;&#x56fe;&#x662f;&#x4ece;&#x5de6;&#x4e0a;&#x89d2;&#x4f5c;&#x4e3a;&#x4e00;&#x4e2a;&#x57fa;&#x51c6;&#x9762;&#x5f00;&#x59cb;&#x7684;&#xff09;         &#xa;&#x9;patch_tree = photo_path[300:, 400:]         &#xa;&#x9;print(&quot;patch_tree is:&quot;, patch_tree)         &#xa;&#x9;cv2.imshow(&quot;hello img&quot;, patch_tree)         &#xa;&#x9;cv2.waitKey(0) ">
 <node CREATED="1640772287828" ID="ID_1111225578" MODIFIED="1640772369077">
@@ -687,13 +787,29 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/snip_photo.png" />
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1640847594745" FOLDED="true" ID="ID_1964090860" MODIFIED="1640847808864" TEXT="&#x5bf9;&#x4e8e;&#x56fe;&#x7247;&#x7684;&#x968f;&#x673a;&#x88c1;&#x526a;">
+<node CREATED="1640847613919" ID="ID_940108370" MODIFIED="1640847615753" TEXT="&#x793a;&#x4f8b;">
+<node CREATED="1640847617102" FOLDED="true" ID="ID_1066295548" MODIFIED="1640847805125" TEXT="# &#x968f;&#x673a;&#x5207;&#x56fe; &#x6269;&#x5145;&#x6570;&#x636e;&#x5e93; &#xa;def random_snip_photo():     &#xa;&#x9;mplot.figure()     &#xa;&#x9;photo_path = &quot;photo/fishing_boat2.jpg&quot;     &#xa;&#x9;array_img = np.array(cv2.imread(photo_path))     &#xa;&#x9;width, height, depth = array_img.shape     &#xa;&#x9;gs = mplot.GridSpec(2, 2)     &#xa;&#x9;mplot.subplot(gs[0, :])     &#xa;&#x9;mplot.imshow(array_img)     &#xa;&#x9;mplot.xlabel(&quot;origin_photo&quot;)     #############################################     &#xa;&#x9;for i in range(2):         &#xa;&#x9;    mplot.subplot(gs[1, i])         &#xa;&#x9;    start_random_x = int(random.uniform(0, width / 2))         &#xa;&#x9;    end_random_x = int(random.uniform(width / 2, width))          &#xa;&#x9;    start_random_y = int(random.uniform(0, height / 2))         &#xa;&#x9;    end_random_y = int(random.uniform(height / 2, height))         &#xa;&#x9;    random_snip_img = array_img[start_random_x:end_random_x, start_random_y:end_random_y]         &#xa;&#x9;   mplot.imshow(random_snip_img)         &#xa;&#x9;   mplot.xlabel(&quot;{}&quot;.format(i))      &#xa;&#x9;   mplot.show()">
+<node CREATED="1640847733228" ID="ID_200922499" MODIFIED="1640847791366">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/random_snip_photo.png" />
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1640775852191" ID="ID_1067858409" MODIFIED="1640783786419" TEXT="&#x5bf9;HSV&#x56fe;&#x6848;&#x7684;&#x8272;&#x8c03;&#x8fdb;&#x884c;&#x8c03;&#x63a7;">
+<node CREATED="1640775852191" FOLDED="true" ID="ID_1067858409" MODIFIED="1640847824514" TEXT="&#x5bf9;HSV&#x56fe;&#x6848;&#x7684;&#x8272;&#x8c03;&#x8fdb;&#x884c;&#x8c03;&#x63a7;">
 <node CREATED="1640775878014" ID="ID_485159157" MODIFIED="1640783879034" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640783318537" ID="ID_317980544" MODIFIED="1640783942091" TEXT="def color_hues():     &#xa;&#x9;path_file = &quot;photo/fishing_boat3.jpg&quot;     &#xa;&#x9;path_file = np.array(cv2.imread(path_file))     &#xa;&#x9;img_hsv = cv2.cvtColor(path_file, cv2.COLOR_RGB2HSV)     &#xa;&#x9;# &#x76f4;&#x63a5;&#x590d;&#x5236;&#x8fc7;&#x53bb;     &#xa;&#x9;turn_Green_hsv = img_hsv.copy()     &#xa;&#x9;print(&quot;turn_Green_hsv is:&quot;, turn_Green_hsv[:, :, 0])     &#xa;&#x9;# [:.:.0] &#x5206;&#x522b;&#x4ee3;&#x8868;&#x7684;&#x662f;&#x77e9;&#x9635;&#x7684;x&#x8f74;&#x5750;&#x6807;&#x548c;&#x77e9;&#x9635;&#x7684;y&#x8f74;&#x5750;&#x6807; ,h -- 0 &#x8272;&#x8c03; &#xff1b; s -- 1 &#x9971;&#x548c;&#x5ea6; &#xff1b; v -- 2 &#x660e;&#x6697;&#x5ea6;     &#xa;&#x9;turn_Green_hsv[:, :, 0] = (turn_Green_hsv[:, :, 0] - 0) % 180   ##############################################################     &#xa;&#x9;# &#x4e3a;&#x4ec0;&#x4e48;&#x8fd9;&#x6bb5;&#x4ee3;&#x7801;&#x6240;&#x5c55;&#x73b0;&#x7684;y&#x8f74;&#x6807;&#x5fd7;&#x6709;&#x504f;&#x5dee; rgb&#x7684;&#x6807;&#x5fd7;&#x8dd1;&#x53bb;bgr&#x4e86;     &#x9;&#x9;mplot.subplot(3, 2, 1)     &#xa;&#x9;mplot.imshow(turn_Green_hsv)     &#xa;&#x9;mplot.ylabel(&quot;hsv&quot;)     &#xa;&#x9;turn_Green_bgr = cv2.cvtColor(turn_Green_hsv, cv2.COLOR_HSV2BGR)     &#xa;&#x9;mplot.subplot(3, 2, 2)     &#xa;&#x9;mplot.imshow(turn_Green_bgr)     &#xa;&#x9;mplot.ylabel(&quot;bgr&quot;)     &#xa;&#x9;turn_Green_rgb = cv2.cvtColor(turn_Green_bgr, cv2.COLOR_BGR2RGB)     &#xa;&#x9;mplot.subplot(3, 2, 3)     &#xa;&#x9;mplot.imshow(turn_Green_rgb)     ################################################################     &#x9;&#x9;mplot.ylabel(&quot;rgb&quot;)     &#xa;&#x9;cv2.imshow(&quot;test_hsv&quot;, turn_Green_hsv)     &#xa;&#x9;cv2.waitKey(0)     &#xa;&#x9;cv2.imshow(&quot;test_bgr&quot;, turn_Green_bgr)     &#xa;&#x9;cv2.waitKey(0)     &#xa;&#x9;cv2.imshow(&quot;test_rgb&quot;, turn_Green_rgb)     &#xa;&#x9;cv2.waitKey(0)     &#xa;&#x9;mplot.figure()     # subplot &#x6700;&#x540e;&#x4e00;&#x4f4d;&#x4e3a;&#x7d22;&#x5f15;&#x53f7;     &#xa;&#x9;mplot.show() ">
 <node CREATED="1640783791953" ID="ID_984398274" MODIFIED="1640783850232">
@@ -704,13 +820,12 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/Figure_5.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1640783509704" ID="ID_1038944779" MODIFIED="1640783546052" TEXT="Gamma&#x8ba1;&#x7b97; LUT&#x6821;&#x6b63; &#x8c03;&#x6574;&#x673a;&#x5668;&#x4e0e;&#x4eba;&#x773c;&#x89c6;&#x89c9;&#x4e4b;&#x95f4;&#x7684;&#x504f;&#x5dee;">
+<node CREATED="1640783509704" FOLDED="true" ID="ID_1038944779" MODIFIED="1640847827860" TEXT="Gamma&#x8ba1;&#x7b97; LUT&#x6821;&#x6b63; &#x8c03;&#x6574;&#x673a;&#x5668;&#x4e0e;&#x4eba;&#x773c;&#x89c6;&#x89c9;&#x4e4b;&#x95f4;&#x7684;&#x504f;&#x5dee;">
 <node CREATED="1640783548048" ID="ID_616533320" MODIFIED="1640783550027" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640783552024" FOLDED="true" ID="ID_1069430896" MODIFIED="1640783939412" TEXT="# Gamma&#x8ba1;&#x7b97; &#x611f;&#x89c9;&#x5dee;&#x5f02;&#x66f4;&#x5927;&#x4e86; == &#xa;def upload_photo_specific_feature():     &#xa;&#x9;pathfile = &quot;photo/fishing_boat5.jpg&quot;     &#xa;&#x9;# img = np.array(cv2.imread(pathfile))     &#xa;&#x9;img = np.array(mplot.imread(pathfile))     #############################################################     # &#x8fd9;&#x4e24;&#x79cd;&#x5199;&#x6cd5;&#x90fd;&#x4e00;&#x6837;     &#xa;&#x9;# power&#x7684;&#x7528;&#x6cd5;&#x662f;&#x5bf9;&#x52a0;&#x8fdb;&#x6765;&#x7684;&#x5143;&#x7d20;&#x8fdb;&#x884c;&#x5f00;&#x5e73;&#x65b9; &#x5373; &#xff08;x/255&#xff09;^0.4&#x8fd4;&#x56de;&#x8fd9;&#x4e00;&#x6570;&#x503c;     &#xa;&#x9;gamma_change = [np.power(x / 255, 0.4) * 255 for x in range(256)]     &#x9;&#x9;print(&apos;gamma_change&apos;, gamma_change)     ####################################################     &#xa;&#x9;guamma_change2 = []     &#xa;&#x9;for x in range(256):         &#xa;&#x9;guamma_change2.append(np.power(x / 255, 0.4) * 255)     &#x9;&#x9;&#x9;print(&apos;gamma_change_2&apos;, guamma_change2)     #############################################################      # np.round() &#x5c31;&#x662f;&#x5c0f;&#x6570;&#x70b9;&#x540e;&#x51e0;&#x4f4d;&#x8981;&#x8fdb;&#x884c;&#x56db;&#x820d;&#x4e94;&#x5165; &#x5982;27.792275631203346 ==&#x300b; 28     &#x9;&#x9;guamma_img = np.round(np.array(gamma_change)).astype(np.uint8)     &#x9;&#x9;print(&apos;guamma_img &apos;, guamma_img)     &#xa;&#x9;cv2.imshow(&apos;img&apos;, img)     &#xa;&#x9;cv2.waitKey(0)     &#xa;&#x9;# cv.LUT(src, dst, lut) &#x2192; None     &#xa;&#x9;# &#x7c7b;&#x578b;&#x8f6c;&#x6362; CV_8U   -------&gt;&gt;&gt;&gt;&gt;&gt;&gt;   CV_8S     # src &#x2013; Source array of 8-bit elements.     &#xa;&#x9;# lut &#x2013; Look-up table of 256 elements. In case of multi-channel source array, the table should either have a single channel (in this case the same table is used for all channels) or the same number of channels as in the source array.     &#x9;&#x9;&#x9;# dst &#x2013; Destination array of the same size and the same number of channels as src , and the same depth as lut .     &#xa;&#xa;&#x9;img_corrcted = cv2.LUT(img, guamma_img)     &#x9;&#x9;&#x9;&#x9;&#xa;&#x9;cv2.imshow(&apos;img_corrected&apos;, img_corrcted)     &#xa;&#x9;cv2.waitKey(0) ">
 <node CREATED="1640783710198" ID="ID_1110734883" MODIFIED="1640783742005">
@@ -721,8 +836,7 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/Gamma_changing.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -738,7 +852,7 @@
 </node>
 <node CREATED="1640092351292" ID="ID_1007367792" MODIFIED="1640092790147" TEXT="matplotlib.pylab as mpl">
 <node CREATED="1640092426429" ID="ID_1783956686" MODIFIED="1640093143297" TEXT="mpl.show() #&#x9; Display all open figures.&#x663e;&#x793a;&#x6240;&#x6709;&#x7684;&#x5f00;&#x653e;&#x6570;&#x636e;"/>
-<node CREATED="1640095981268" ID="ID_434147754" MODIFIED="1640096060407" TEXT="mpl.scatter() #A scatter plot of y vs. x with varying marker size and/or color.&#x5177;&#x6709;&#x4e0d;&#x540c;&#x6807;&#x8bb0;&#x5c3a;&#x5bf8;&#x548c;/&#x6216;&#x989c;&#x8272;&#x7684;y&#x4e0e;x&#x7684;&#x6563;&#x5c04;&#x56fe;&#x3002;">
+<node CREATED="1640095981268" FOLDED="true" ID="ID_434147754" MODIFIED="1640847831641" TEXT="mpl.scatter() #A scatter plot of y vs. x with varying marker size and/or color.&#x5177;&#x6709;&#x4e0d;&#x540c;&#x6807;&#x8bb0;&#x5c3a;&#x5bf8;&#x548c;/&#x6216;&#x989c;&#x8272;&#x7684;y&#x4e0e;x&#x7684;&#x6563;&#x5c04;&#x56fe;&#x3002;">
 <node CREATED="1640096064167" ID="ID_265093462" MODIFIED="1640096082284" TEXT="matplotlib.pyplot.scatter(x, y, s=None, c=None, marker=None, cmap=None, norm=None, vmin=None, vmax=None, alpha=None, linewidths=None, *, edgecolors=None, plotnonfinite=False, data=None, **kwargs)[source]">
 <node CREATED="1640096102304" ID="ID_1476182844" MODIFIED="1640096106490" TEXT="&#x4f8b;&#x5b50;">
 <node CREATED="1640096109244" FOLDED="true" ID="ID_594622114" MODIFIED="1640362960080" TEXT="mplot.scatter(dataRow1, dataRow2)   mplot.xlabel(&apos;Attribute 1&apos;)     mplot.ylabel(&apos;Attribute 2&apos;)">
@@ -762,7 +876,7 @@
 <node CREATED="1640357839330" ID="ID_962844638" MODIFIED="1640358100118" TEXT="matplotlib.pyplot as mpl">
 <node CREATED="1640357861594" ID="ID_1896018370" MODIFIED="1640358116205" TEXT="mpl.figure() # &#x4f5c;&#x4e3a;&#x4e00;&#x4e2a;&#x5bb9;&#x5668;&#x7528;&#x6765;&#x5b58;&#x653e;&#x793a;&#x4f8b;&#x4ee3;&#x7801;&#x751f;&#x6210;&#x7684;&#x56fe;&#x7247;&#xff0c;&#x4e00;&#x5b9a;&#x8981;&#x52a0;"/>
 <node CREATED="1640358102097" ID="ID_472804472" MODIFIED="1640358442743" TEXT="mpl.subplot() #&#x5c06;&#x8f74;&#x6b63;&#x786e;&#x7684;&#x653e;&#x5728;&#x6b63;&#x786e;&#x7684;&#x4f4d;&#x7f6e;&#x4e0a;">
-<node CREATED="1640358477874" ID="ID_71505028" MODIFIED="1640358490606" TEXT="matplotlib.pyplot.subplot(*args, **kwargs)">
+<node CREATED="1640358477874" FOLDED="true" ID="ID_71505028" MODIFIED="1640847843598" TEXT="matplotlib.pyplot.subplot(*args, **kwargs)">
 <node CREATED="1640358503611" ID="ID_910338337" MODIFIED="1640358523856" TEXT="*args">
 <node CREATED="1640358507549" ID="ID_299173415" MODIFIED="1640358511539" TEXT="*argsint, (int, int, index), or SubplotSpec, default: (1, 1, 1)">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -795,15 +909,14 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/Figure_5.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1640362554281" ID="ID_1424615828" MODIFIED="1640362723775" TEXT="mpl.plot() #&#x8bbe;&#x7f6e;x&#xff0c;y&#x8f74;&#x7684;&#x5750;&#x6807;&#xff0c;&#x5e76;&#x4e14;&#x9009;&#x5b9a;&#x5750;&#x6807;&#x7684;&#x6837;&#x5f0f;&#x548c;&#x5750;&#x6807;&#x7684;&#x989c;&#x8272;">
+<node CREATED="1640362554281" FOLDED="true" ID="ID_1424615828" MODIFIED="1640847854319" TEXT="mpl.plot() #&#x8bbe;&#x7f6e;x&#xff0c;y&#x8f74;&#x7684;&#x5750;&#x6807;&#xff0c;&#x5e76;&#x4e14;&#x9009;&#x5b9a;&#x5750;&#x6807;&#x7684;&#x6837;&#x5f0f;&#x548c;&#x5750;&#x6807;&#x7684;&#x989c;&#x8272;">
 <node CREATED="1640362726637" ID="ID_71020871" MODIFIED="1640362765432" TEXT="matplotlib.pyplot.plot(*args, scalex=True, scaley=True, data=None, **kwargs) #Plot y versus x as lines and/or markers.">
 <node CREATED="1640362870843" ID="ID_310206475" MODIFIED="1640362941028" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640362878918" ID="ID_1932671177" MODIFIED="1640362923838" TEXT="mpl.plot(x_xticks, y_collect_Import_Quantity, &apos;o&apos;, color=&apos;blue&apos;)"/>
@@ -823,7 +936,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1640363059383" ID="ID_1049795793" MODIFIED="1640363093636" TEXT="mpl.legend()# &#x663e;&#x793a;&#x7ebf;&#x6761;&#x6837;&#x5f0f;&#x6240;&#x5bf9;&#x5e94;&#x7684;&#x5185;&#x5bb9;">
+<node CREATED="1640363059383" FOLDED="true" ID="ID_1049795793" MODIFIED="1640847857866" TEXT="mpl.legend()# &#x663e;&#x793a;&#x7ebf;&#x6761;&#x6837;&#x5f0f;&#x6240;&#x5bf9;&#x5e94;&#x7684;&#x5185;&#x5bb9;">
 <node CREATED="1640363157967" ID="ID_166572851" MODIFIED="1640363161924" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640363162943" ID="ID_190348389" MODIFIED="1640363168941" TEXT="mpl.legend(title=&apos;Parameter present&apos;)">
 <node CREATED="1640363280799" ID="ID_106215904" MODIFIED="1640363291189">
@@ -839,12 +952,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1640363307126" ID="ID_67784168" MODIFIED="1640363520772" TEXT="mpl.xlabel() #x&#x8f74;&#x4e0a;&#x7684;&#x6587;&#x672c;&#x6837;&#x5f0f;">
+<node CREATED="1640363307126" FOLDED="true" ID="ID_67784168" MODIFIED="1640847861457" TEXT="mpl.xlabel() #x&#x8f74;&#x4e0a;&#x7684;&#x6587;&#x672c;&#x6837;&#x5f0f;">
 <node CREATED="1640363522564" ID="ID_589388184" MODIFIED="1640363525710" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640363540703" ID="ID_931018621" MODIFIED="1640363542486" TEXT="  mpl.xlabel(&apos;2010-2019 Years China Mainland United_Nations Overview of Food Data&apos;)"/>
 </node>
 </node>
-<node CREATED="1640363329890" ID="ID_1485597480" MODIFIED="1640595859642" TEXT="mpl.xticks()# X&#x8f74;&#x4e0a;&#x663e;&#x793a;&#x7684;&#x533a;&#x95f4;&#x8303;&#x56f4;">
+<node CREATED="1640363329890" FOLDED="true" ID="ID_1485597480" MODIFIED="1640847862887" TEXT="mpl.xticks()# X&#x8f74;&#x4e0a;&#x663e;&#x793a;&#x7684;&#x533a;&#x95f4;&#x8303;&#x56f4;">
 <node CREATED="1640363388678" ID="ID_582353800" MODIFIED="1640363390936" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640363392052" ID="ID_1247352620" MODIFIED="1640363415859" TEXT="mpl.xticks(np.arange(2010, 2020, 1)) ">
 <node CREATED="1640363417415" ID="ID_567667810" MODIFIED="1640363468764">
@@ -862,7 +975,7 @@
 </node>
 <node CREATED="1640595861369" ID="ID_661767409" MODIFIED="1640595874874" TEXT="mpl.boxplot() #&#x5448;&#x73b0;&#x7bb1;&#x56fe;"/>
 <node CREATED="1640597509940" ID="ID_1244765292" MODIFIED="1640597721711" TEXT="mpl.pcolor() # Create a pseudocolor plot with a non-regular rectangular grid.&#x7c7b;&#x4f3c;&#x4e8e;&#x4e00;&#x79cd;&#x5bc6;&#x5ea6;&#x56fe;"/>
-<node CREATED="1640363569476" ID="ID_41540007" MODIFIED="1640363586158" TEXT="mpl.show() #&#x5c55;&#x793a;&#x6240;&#x6709;&#x80fd;&#x5c55;&#x793a;&#x7684;&#x5185;&#x5bb9;">
+<node CREATED="1640363569476" FOLDED="true" ID="ID_41540007" MODIFIED="1640847868961" TEXT="mpl.show() #&#x5c55;&#x793a;&#x6240;&#x6709;&#x80fd;&#x5c55;&#x793a;&#x7684;&#x5185;&#x5bb9;">
 <node CREATED="1640363594282" ID="ID_816028721" MODIFIED="1640363597796" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640363598814" ID="ID_1801709356" MODIFIED="1640363639326">
 <richcontent TYPE="NODE"><html>
@@ -879,7 +992,7 @@
 </node>
 </node>
 <node CREATED="1640092469002" ID="ID_1762336061" MODIFIED="1640092500971" TEXT="scipy #&#x4e13;&#x95e8;&#x7684;&#x673a;&#x5668;&#x5b66;&#x4e60;&#x6570;&#x636e;&#x5904;&#x7406;&#x5305; API">
-<node CREATED="1640092502352" ID="ID_1405993248" MODIFIED="1640092605578" TEXT="scipy.stats.probplot() #&#x8ba1;&#x7b97;&#x6982;&#x7387;&#x56fe;&#x7684;&#x91cf;&#x7ea7;&#xff0c;&#x5e76;&#x4e14;&#x53ef;&#x9009;&#x5730;&#x663e;&#x793a;&#x66f2;&#x7ebf;&#x3002;">
+<node CREATED="1640092502352" FOLDED="true" ID="ID_1405993248" MODIFIED="1640847874302" TEXT="scipy.stats.probplot() #&#x8ba1;&#x7b97;&#x6982;&#x7387;&#x56fe;&#x7684;&#x91cf;&#x7ea7;&#xff0c;&#x5e76;&#x4e14;&#x53ef;&#x9009;&#x5730;&#x663e;&#x793a;&#x66f2;&#x7ebf;&#x3002;">
 <node CREATED="1640092688352" ID="ID_1920495912" MODIFIED="1640092690234" TEXT="scipy.stats.probplot(x, sparams=(), dist=&apos;norm&apos;, fit=True, plot=None, rvalue=False)"/>
 <node CREATED="1640092715441" ID="ID_985648815" MODIFIED="1640092743624" TEXT="&#x4f8b;&#x5b50;&#xff1a;">
 <node CREATED="1640092739716" ID="ID_1489280056" MODIFIED="1640358614856" TEXT="stats.probplot(collect, plot=mpl)">
@@ -896,7 +1009,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1640696198837" ID="ID_910398789" MODIFIED="1640696270724" TEXT="from scipy import ndimage # &#x6b64;&#x5305;&#x5305;&#x542b;&#x591a;&#x7dad;&#x5716;&#x50cf;&#x8655;&#x7406;&#x7684;&#x5404;&#x7a2e;&#x529f;&#x80fd;&#x3002;">
+<node CREATED="1640696198837" FOLDED="true" ID="ID_910398789" MODIFIED="1640847895311" TEXT="from scipy import ndimage # &#x6b64;&#x5305;&#x5305;&#x542b;&#x591a;&#x7dad;&#x5716;&#x50cf;&#x8655;&#x7406;&#x7684;&#x5404;&#x7a2e;&#x529f;&#x80fd;&#x3002;">
 <node CREATED="1640696220972" ID="ID_405993998" MODIFIED="1640696449715" TEXT="convolve() #Multidimensional convolution.  The array is convolved with the given kernel.&#x591a;&#x7ef4;&#x5377;&#x79ef;">
 <node CREATED="1640696452191" ID="ID_1809381048" MODIFIED="1640696465668" TEXT="scipy.ndimage.convolve(input, weights, output=None, mode=&apos;reflect&apos;, cval=0.0, origin=0)">
 <node CREATED="1640697181302" ID="ID_281992056" MODIFIED="1640697194862" TEXT="input">
@@ -925,7 +1038,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1640232735116" ID="ID_313740641" MODIFIED="1640232792267" TEXT="panda.read_csv() # &#x8bfb;&#x53d6;.csv&#x6587;&#x4ef6;">
+<node CREATED="1640232735116" FOLDED="true" ID="ID_313740641" MODIFIED="1640847904244" TEXT="panda.read_csv() # &#x8bfb;&#x53d6;.csv&#x6587;&#x4ef6;">
 <node CREATED="1640237902755" ID="ID_855751515" MODIFIED="1640237906426" TEXT="pandas.read_csv(filepath_or_buffer, sep=NoDefault.no_default, delimiter=None, header=&apos;infer&apos;, names=NoDefault.no_default, index_col=None, usecols=None, squeeze=False, prefix=NoDefault.no_default, mangle_dupe_cols=True, dtype=None, engine=None, converters=None, true_values=None, false_values=None, skipinitialspace=False, skiprows=None, skipfooter=0, nrows=None, na_values=None, keep_default_na=True, na_filter=True, verbose=False, skip_blank_lines=True, parse_dates=False, infer_datetime_format=False, keep_date_col=False, date_parser=None, dayfirst=False, cache_dates=True, iterator=False, chunksize=None, compression=&apos;infer&apos;, thousands=None, decimal=&apos;.&apos;, lineterminator=None, quotechar=&apos;&quot;&apos;, quoting=0, doublequote=True, escapechar=None, comment=None, encoding=None, encoding_errors=&apos;strict&apos;, dialect=None, error_bad_lines=None, warn_bad_lines=None, on_bad_lines=None, delim_whitespace=False, low_memory=True, memory_map=False, float_precision=None, storage_options=None)">
 <node CREATED="1640237948869" ID="ID_181390476" MODIFIED="1640237951451" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640237833581" ID="ID_503532451" MODIFIED="1640237847068" TEXT="pd.read_csv(filepath, header=None, prefix=None) #&#x8bfb;&#x53d6;fileoath&#x8fd9;&#x4e2a;&#x6587;&#x4ef6;"/>
@@ -948,17 +1061,17 @@
 <node CREATED="1640510084424" ID="ID_1742127025" MODIFIED="1640510114757" TEXT="panda.DataFrame.iar()">
 <node CREATED="1640510117897" ID="ID_1049476759" MODIFIED="1640510202133" TEXT="dataFile.iat[i, 10] &gt;= 7 # &#x5728;(i,10)&#x5750;&#x6807;&#x4e0a;&#x7684;&#x5143;&#x7d20;"/>
 </node>
-<node CREATED="1640594565579" ID="ID_694657935" MODIFIED="1640594646753" TEXT="panda.DataFrame.head() #&#x53d6;&#x5934;5&#x884c;&#x7684;&#x6570;&#x636e;">
+<node CREATED="1640594565579" FOLDED="true" ID="ID_694657935" MODIFIED="1640847910272" TEXT="panda.DataFrame.head() #&#x53d6;&#x5934;5&#x884c;&#x7684;&#x6570;&#x636e;">
 <node CREATED="1640594608144" ID="ID_855684226" MODIFIED="1640594715591" TEXT="pd.read_csv(filepath).head()">
 <node CREATED="1640594753775" ID="ID_762814266" MODIFIED="1640594840483" TEXT="summary_head    20001  6.15  7.06  5.24  2.61     0  ...  5.15.2  7.7  3.18  6.10  8.3  12.9 0  20002  6.53  6.15  9.85  4.03  0.10  ...       6    7     1     8    1    24 1  20003  8.22  3.23  1.69  0.41  0.02  ...       1    8     8     1    7     6 2  20004  6.79  4.99  1.50  2.85  5.53  ...       6    8     1     6    5    12                                                                                  3  20005 -1.00 -1.00 -1.00 -1.00 -1.00  ...       8    8     1     8    8     1 4  20006  3.01  5.12  6.54  3.53  3.99  ...       7    7    15     3    7    26"/>
 </node>
 </node>
-<node CREATED="1640594647483" ID="ID_1073846425" MODIFIED="1640594696309" TEXT="panda.DataFrame.head() #&#x53d6;&#x540e;5&#x884c;&#x7684;&#x6570;&#x636e;">
+<node CREATED="1640594647483" FOLDED="true" ID="ID_1073846425" MODIFIED="1640847936864" TEXT="panda.DataFrame.tail() #&#x53d6;&#x540e;5&#x884c;&#x7684;&#x6570;&#x636e;">
 <node CREATED="1640594718114" ID="ID_1667128888" MODIFIED="1640594743637" TEXT="pd.read_csv(filepath).tail()">
 <node CREATED="1640594805392" ID="ID_773495372" MODIFIED="1640594818743" TEXT="summary_tail      20001  6.15  7.06  5.24  2.61     0  ...  5.15.2  7.7  3.18  6.10  8.3  12.9 195  20197  3.59  5.63  6.21  5.24  1.88  ...       6    8     9     8    4    28 196  20198  7.27  5.31  9.35  2.77  0.00  ...       1    8    24     7    8    14 197  20199  6.18  5.05  6.43  6.05  1.93  ...       7    7     3     3    7     4 198  20200  6.12  7.45  1.05  1.03  0.16  ...       4    7     6     8    7    12 199  20201  5.60  6.29  6.11  2.64  0.11  ...       7    8     1     2    7    23"/>
 </node>
 </node>
-<node CREATED="1640517122273" ID="ID_1001433176" MODIFIED="1640517135493" TEXT="panda.DataFrame.describe() ">
+<node CREATED="1640517122273" FOLDED="true" ID="ID_1001433176" MODIFIED="1640847940790" TEXT="panda.DataFrame.describe() ">
 <node CREATED="1640517198349" ID="ID_210360518" MODIFIED="1640517312179" TEXT="dataFile.describe() # &#x751f;&#x6210;&#x6570;&#x636e;&#x683c;&#x5f0f;&#xff0c;&#x63cf;&#x8ff0;&#x6027;&#x7edf;&#x8ba1;&#x6570;&#x636e;&#x5305;&#x62ec;&#x603b;&#x7ed3;&#x6570;&#x636e;&#x96c6;&#x5206;&#x5e03;&#x7684;&#x4e2d;&#x592e;&#x8d8b;&#x52bf;&#xff0c;&#x5206;&#x6563;&#x548c;&#x5f62;&#x72b6;&#x7684;&#x4eba;&#xff0c;&#x4e0d;&#x5305;&#x62ec;NAN&#x503c;&#x3002;">
 <node CREATED="1640593462091" ID="ID_1969224554" MODIFIED="1640593473417" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640593476638" ID="ID_973221557" MODIFIED="1640593506943" TEXT="summary = dataFile.describe() print(summary)">
@@ -992,7 +1105,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1640597109822" ID="ID_260260254" MODIFIED="1640597157311" TEXT="panda.DataFrame.corr() #&#x8f93;&#x51fa;&#x4e0d;&#x540c;&#x5217;&#x4e4b;&#x95f4;&#x7684;&#x76f8;&#x5173;&#x6027;">
+<node CREATED="1640597109822" FOLDED="true" ID="ID_260260254" MODIFIED="1640847942906" TEXT="panda.DataFrame.corr() #&#x8f93;&#x51fa;&#x4e0d;&#x540c;&#x5217;&#x4e4b;&#x95f4;&#x7684;&#x76f8;&#x5173;&#x6027;">
 <node CREATED="1640597183040" ID="ID_657114698" MODIFIED="1640597186629" TEXT="&#x793a;&#x4f8b;">
 <node CREATED="1640597187451" ID="ID_1014725873" MODIFIED="1640597226695" TEXT="corMat = pd.DataFrame(summary.iloc[1:20, 1:20].corr())"/>
 <node CREATED="1640597191208" ID="ID_1317217673" MODIFIED="1640597216464" TEXT="mpl.pcolor(corMat)">
