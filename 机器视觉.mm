@@ -93,7 +93,7 @@
 </node>
 </node>
 <node CREATED="1640850488321" ID="ID_1864464525" MODIFIED="1640850499061" TEXT="cv&#x9f20;&#x6807;&#x70b9;&#x51fb;&#x4e8b;&#x4ef6;"/>
-<node CREATED="1640849412900" ID="ID_911585177" MODIFIED="1640849486249" TEXT="cv.getRotationMatrix2D() # &#x6539;&#x53d8;&#x56fe;&#x50cf;&#x7684;&#x89d2;&#x5ea6;&#xff0c;&#x5e76;&#x4e14;&#x53ef;&#x4ee5;&#x8ba9;&#x56fe;&#x50cf;&#x653e;&#x5927;&#x6216;&#x8005;&#x7f29;&#x5c0f;">
+<node CREATED="1640849412900" FOLDED="true" ID="ID_911585177" MODIFIED="1641096336901" TEXT="cv.getRotationMatrix2D() # &#x6539;&#x53d8;&#x56fe;&#x50cf;&#x7684;&#x89d2;&#x5ea6;&#xff0c;&#x5e76;&#x4e14;&#x53ef;&#x4ee5;&#x8ba9;&#x56fe;&#x50cf;&#x653e;&#x5927;&#x6216;&#x8005;&#x7f29;&#x5c0f;">
 <node CREATED="1640849487489" ID="ID_1102700750" MODIFIED="1640849920134">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -116,8 +116,7 @@
       )&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1640849930873" ID="ID_724151902" MODIFIED="1640850025186" TEXT="def random_retangle_photo():     &#xa;&#x9;mplot.figure()     &#xa;&#x9;path_file = &quot;photo/fishing_boat6.jpg&quot;     &#xa;&#x9;img = cv2.imread(path_file)     &#xa;&#x9;array_img = np.array(img)     &#xa;&#x9;width, height, depth = array_img.shape     &#xa;&#x9;gs = mplot.GridSpec(1, 2)     &#xa;&#x9;mplot.subplot(gs[0, 0])     &#xa;&#x9;mplot.imshow(array_img)     &#xa;&#x9;# getRotationMatrix2D((width / 2, height / 2), 45, 1)     &#xa;&#x9;# ==&gt; (width / 2, height / 2) (x,y)&#x65cb;&#x8f6c;&#x5750;&#x6807;&#x539f;&#x70b9;     &#xa;&#x9;# ==&gt; 45 &#x9006;&#x65f6;&#x9488;&#x65cb;&#x8f6c;45&#xb0;     &#xa;&#x9;# 1 ==&gt; 1&#x662f;&#x7f29;&#x653e;&#x7684;&#x500d;&#x6570;     &#xa;&#x9;img_change = cv2.getRotationMatrix2D((width / 2, height / 2), 45, 1)     &#xa;&#x9;img_finally = cv2.warpAffine(array_img, img_change, (height, width))     &#xa;&#x9;mplot.subplot(gs[0, 1])     &#xa;&#x9;mplot.imshow(img_finally)     &#xa;&#x9;mplot.show()">
 <node CREATED="1640850026878" ID="ID_1725959503" MODIFIED="1640850086671">
 <richcontent TYPE="NODE"><html>
@@ -127,8 +126,7 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/getrotationMatrix.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -197,6 +195,20 @@
 <node CREATED="1637722829359" ID="ID_884621397" MODIFIED="1637722844432" TEXT="importlib"/>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1641192087672" ID="ID_330346739" MODIFIED="1641192108496" TEXT="import tensorflow as tf">
+<node CREATED="1641192131830" ID="ID_1300926045" MODIFIED="1641192208768" TEXT="tf.constant() #Creates a constant tensor from a tensor-like object. &#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x5e38;&#x6570;&#x5f20;&#x91cf;">
+<node CREATED="1641192210019" ID="ID_827949116" MODIFIED="1641193519342" TEXT="tf.constant(value, dtype=None, shape=None, name=&apos;Const&apos; ) #&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x5e38;&#x6570;&#x5f20;&#x91cf;&#xff0c;&#x5e76;&#x4e14;&#x8bf4;&#x660e;&#x5f20;&#x91cf;&#x7684;&#x5927;&#x5c0f;">
+<node CREATED="1641193780821" ID="ID_1622805868" MODIFIED="1641193784281" TEXT="&#x4f8b;&#x5b50;">
+<node CREATED="1641193785227" ID="ID_1196718304" MODIFIED="1641193854275" TEXT="Tensor = tf.constant(0, shape=(2, 3), dtype=tf.int64) #&#x521b;&#x5efa;&#x4e00;&#x4e2a;[2,3]&#x7684;&#x5f20;&#x91cf; &#x5e76;&#x4e14;&#x662f;int64&#x7c7b;&#x578b;">
+<node CREATED="1641193835932" ID="ID_214947467" MODIFIED="1641193856928" TEXT="tf.Tensor( [[0 0 0]  [0 0 0]], shape=(2, 3), dtype=int64)"/>
+</node>
+</node>
+</node>
+<node COLOR="#ff3333" CREATED="1641193881287" ID="ID_109264148" MODIFIED="1641193944680" TEXT="&#x9519;&#x8bef;:Tensor = tf.constant([1, 2, 3], shape=(2, 3)) #&#x672c;&#x4ee5;&#x4e3a;&#x4f1a;&#x50cf;&#x4e66;&#x4e0a;&#x81ea;&#x52a8;&#x8865;&#x5168;[3,3,3]&#x7684;array&#x53ef;&#x662f;&#x5374;&#x4fdd;&#x9519;">
+<node CREATED="1641193981483" ID="ID_1417338086" MODIFIED="1641194075082" TEXT="TypeError: Eager execution of tf.constant with unsupported shape. Tensor [1 2 3] (converted from [1, 2, 3]) has 3 elements, but got `shape` (2, 3) with 6 elements). #&#x4e0d;&#x652f;&#x6301;&#x8fd9;&#x6837;&#x7684;&#x6570;&#x636e;&#x7c7b;&#x578b;&#x597d;&#x50cf;&#x8981;&#x586b;&#x6ee1;&#x6570;&#x636e;"/>
 </node>
 </node>
 </node>
@@ -441,6 +453,9 @@
 </node>
 <node CREATED="1639971378822" ID="ID_95110170" MODIFIED="1639971400341" TEXT="python3&#x5b50;&#x7c7b;&#x5982;&#x4f55;&#x7ee7;&#x627f;&#x7236;&#x7c7b;">
 <node CREATED="1639971409309" ID="ID_903482976" MODIFIED="1639971434754" TEXT="class Son(Father): #Father&#x5373;&#x7236;&#x7c7b;&#x540d;"/>
+</node>
+<node CREATED="1641096257185" ID="ID_995849882" MODIFIED="1641096298177" TEXT="python&#x4e2d; __name__ == &apos;__main__&apos;&#x8fd9;&#x4e2a;&#x65b9;&#x6cd5;&#x662f;&#x5565;">
+<node CREATED="1641096300032" ID="ID_1200481534" MODIFIED="1641096329441" TEXT="__name__&#x53d8;&#x91cf;&#x662f;&#x4f5c;&#x4e3a;python&#x7684;&#x5185;&#x7f6e;&#x53d8;&#x91cf;"/>
 </node>
 <node CREATED="1639972080494" ID="ID_1598994403" MODIFIED="1640679301545" TEXT="python3.9.7 API">
 <node CREATED="1640088700469" ID="ID_54533157" MODIFIED="1640088709850" TEXT="&#x6570;&#x7ec4;&#x6dfb;&#x52a0;">
@@ -803,8 +818,7 @@
   <body>
     <img src="photo/&#x673a;&#x5668;&#x89c6;&#x89c9;/random_snip_photo.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
