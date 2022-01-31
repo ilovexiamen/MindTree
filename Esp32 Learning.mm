@@ -150,8 +150,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1643080079094" ID="ID_1623476364" MODIFIED="1643080298239" TEXT="2&#x3001;&#x5b58;&#x50a8;&#x6570;&#x636e;&#x4e0e;SPIFFS">
-<node CREATED="1643080301750" ID="ID_230042265" MODIFIED="1643080391477">
+<node CREATED="1643080079094" ID="ID_1623476364" MODIFIED="1643200871257" TEXT="2&#x3001;&#x5b58;&#x50a8;&#x6570;&#x636e;&#x4e8e;SPIFFS">
+<node CREATED="1643080301750" FOLDED="true" ID="ID_230042265" MODIFIED="1643200912962">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -292,8 +292,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1643095449559" ID="ID_1772604272" MODIFIED="1643095539247" TEXT="&#x83b7;&#x53d6;&#x5230;&#x4fe1;&#x606f;&#x4e4b;&#x540e;&#xff0c;&#x5224;&#x65ad;&#x662f;&#x4ec0;&#x4e48;&#x7c7b;&#x578b;&#x7684;&#x6570;&#x636e;&#xff0c;&#x7136;&#x540e;&#x5199;&#x5165;&#x5230;&#x5bf9;&#x5e94;&#x6570;&#x636e;"/>
 </node>
 </node>
@@ -305,9 +304,253 @@
 </node>
 </node>
 </node>
+<node CREATED="1643200872334" ID="ID_1034042639" MODIFIED="1643200901091" TEXT="3&#x3001;esp32&#x4f5c;&#x4e3a;&#x65e0;&#x7ebf;&#x53d1;&#x5c04;&#x7aef;ap(access point)">
+<node CREATED="1643200902250" ID="ID_1714304207" MODIFIED="1643200967301" TEXT="&#x5de5;&#x5177;&#xa0; ">
+<node CREATED="1643200932733" ID="ID_1757216933" MODIFIED="1643200934168" TEXT=" vscode+platformIO "/>
+<node CREATED="1643200963409" ID="ID_96999272" MODIFIED="1643200964957" TEXT="  ESP32"/>
+</node>
+<node CREATED="1643200968133" FOLDED="true" ID="ID_240491971" MODIFIED="1643201006476" TEXT="lib">
+<node CREATED="1643200969901" ID="ID_1462508384" MODIFIED="1643200981316" TEXT="WiFi.h"/>
+</node>
+<node CREATED="1643201007510" ID="ID_1241425356" MODIFIED="1643201019003" TEXT="step">
+<node CREATED="1643201020201" ID="ID_1660681580" MODIFIED="1643201037654" TEXT="first">
+<node CREATED="1643201038416" ID="ID_59346404" MODIFIED="1643201069279" TEXT="WiFi.softAP(ssid,passwd)"/>
+<node CREATED="1643201072272" ID="ID_1810708218" MODIFIED="1643201083038" TEXT=".softAP(const char* ssid, const char* password, int channel, int ssid_hidden, int max_connection)">
+<node CREATED="1643201085889" ID="ID_180631976" MODIFIED="1643201087617" TEXT="ssid">
+<node CREATED="1643201089414" ID="ID_187421665" MODIFIED="1643201101855" TEXT="SSID (defined earlier): maximum of 63 characters;&#x7528;&#x6237;&#x540d;"/>
+</node>
+<node CREATED="1643201103273" ID="ID_1838613706" MODIFIED="1643201108267" TEXT="password">
+<node CREATED="1643201109326" ID="ID_589863349" MODIFIED="1643201142381" TEXT="password(defined earlier): minimum of 8 characters; set to NULL if you want the access point to be open;&#x5bc6;&#x7801;"/>
+</node>
+<node CREATED="1643201143750" ID="ID_1118566614" MODIFIED="1643201147093" TEXT="channel">
+<node CREATED="1643201147601" ID="ID_295714610" MODIFIED="1643201197130" TEXT="channel: Wi-Fi channel number (1-13) //&#x4ee3;&#x8868;&#x4e0d;&#x540c;&#x7684;&#x4fe1;&#x9053;&#x9891;&#x7387;"/>
+</node>
+<node CREATED="1643201203398" ID="ID_598496004" MODIFIED="1643201212580" TEXT="ssid_hidden">
+<node CREATED="1643201213551" ID="ID_1266649914" MODIFIED="1643201221186" TEXT="ssid_hidden: (0 = broadcast SSID, 1 = hide SSID)"/>
+</node>
+<node CREATED="1643201231726" ID="ID_1137728051" MODIFIED="1643201242105" TEXT="max_connection">
+<node CREATED="1643201242601" ID="ID_1011943644" MODIFIED="1643201243717" TEXT="max_connection: maximum simultaneous connected clients (1-4)"/>
+</node>
+</node>
+</node>
+<node CREATED="1643201290923" ID="ID_1518469827" MODIFIED="1643201293480" TEXT="second">
+<node CREATED="1643201294602" ID="ID_718641131" MODIFIED="1643201309545" TEXT=" WiFi.softAPIP();">
+<node CREATED="1643201310439" ID="ID_1519531945" MODIFIED="1643201401208" TEXT="&#x8f93;&#x51fa;ip&#x5730;&#x5740;"/>
+</node>
+<node CREATED="1643201322210" ID="ID_868553148" MODIFIED="1643201322893" TEXT="exp">
+<node CREATED="1643201323690" ID="ID_1416032909" MODIFIED="1643201334871">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      IPAddress IP = WiFi.softAPIP();
+    </p>
+    <p>
+      Serial.print(&quot;AP IP address: &quot;);
+    </p>
+    <p>
+      Serial.println(IP);
+    </p>
+  </body>
+</html></richcontent>
+<arrowlink DESTINATION="ID_1416032909" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_274521645" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1416032909" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_274521645" SOURCE="ID_1416032909" STARTARROW="None" STARTINCLINATION="0;0;"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1643343169356" ID="ID_347321680" MODIFIED="1643347169364" POSITION="right" TEXT="ESP Async WebServer Lib">
+<node CREATED="1643347176319" ID="ID_1175020191" MODIFIED="1643351472507" TEXT="WiFi.h">
+<node CREATED="1643351476163" ID="ID_1237253261" MODIFIED="1643351495246" TEXT="WiFiGeneric.h">
+<node CREATED="1643349660929" ID="ID_1023845323" MODIFIED="1643350470278" TEXT="WiFi.mode(mode arg) //&#x8bbe;&#x7f6e;WiFi&#x6a21;&#x5f0f;">
+<node CREATED="1643350297096" ID="ID_1725733469" MODIFIED="1643350312176" TEXT="arg">
+<node CREATED="1643350313044" ID="ID_872260100" MODIFIED="1643350318638" TEXT="WIFI_OFF"/>
+<node CREATED="1643350319156" ID="ID_1099748293" MODIFIED="1643350330150" TEXT="WIFI_STA"/>
+<node CREATED="1643350331204" ID="ID_1422638790" MODIFIED="1643350336236" TEXT="WIFI_AP"/>
+<node CREATED="1643350341931" ID="ID_1056353311" MODIFIED="1643350342987" TEXT="WIFI_AP_STA"/>
+</node>
+</node>
+</node>
+<node CREATED="1643351503964" ID="ID_272429779" MODIFIED="1643351511309" TEXT="WiFiSTA.h">
+<node CREATED="1643351371264" ID="ID_1067069628" MODIFIED="1643353695758" TEXT="WiFi.config();">
+<node CREATED="1643351580275" ID="ID_405024409" MODIFIED="1643351620025" TEXT=" bool config(&#xa;&#x9;IPAddress local_ip, &#xa;&#x9;IPAddress gateway, &#xa;&#x9;IPAddress subnet, &#xa;&#x9;IPAddress dns1 = (uint32_t)0x00000000, &#xa;&#x9;IPAddress dns2 = (uint32_t)0x00000000&#xa;);">
+<node CREATED="1643351686564" ID="ID_1850348236" MODIFIED="1643351688259" TEXT="exp">
+<node CREATED="1643351689265" ID="ID_548578574" MODIFIED="1643351724847">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      IPAddress localIP;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      IPAddress gateway(192, 168, 1, 1);
+    </p>
+    <p>
+      IPAddress subnet(255, 255, 0, 0);&#160;
+    </p>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#d4d4d4">!</font><font color="#9cdcfe">WiFi</font><font color="#d4d4d4">.</font><font color="#dcdcaa">config</font><font color="#d4d4d4">(</font><font color="#9cdcfe">localIP</font><font color="#d4d4d4">, </font><font color="#9cdcfe">gateway</font><font color="#d4d4d4">, </font><font color="#9cdcfe">subnet</font><font color="#d4d4d4">)</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1643351774840" ID="ID_754803770" MODIFIED="1643351963812" TEXT="&#xff08;&#x66f4;&#x6539;IP&#x914d;&#x7f6e;&#x8bbe;&#x7f6e;&#x7981;&#x7528;DHCP&#x5ba2;&#x6237;&#x7aef;&#xff09;&#x82e5;wifi&#x8bbe;&#x7f6e;&#x90fd;&#x6ca1;&#x6709;&#x95ee;&#x9898;&#x7684;&#x8bdd;&#x5c31;&#x4f1a;&#x8fd4;&#x56de;true"/>
+</node>
+<node CREATED="1643353039672" ID="ID_192868318" MODIFIED="1643353698022" TEXT="WiFi.begin();">
+<node CREATED="1643353048121" ID="ID_1475260146" MODIFIED="1643353263120" TEXT="wl_status_t begin(&#xa;&#x9;const char* ssid, &#xa;&#x9;const char *passphrase = NULL, &#xa;&#x9;int32_t channel = 0, &#xa;&#x9;const uint8_t* bssid = NULL, &#xa;&#x9;bool connect = true);&#xa;/**&#xa; * Start Wifi connection&#xa; * if passphrase is set the most secure supported mode will be automatically selected&#xa; * @param ssid const char*          Pointer to the SSID string.&#xa; * @param passphrase const char *   Optional. Passphrase. Valid characters in a passphrase must be between ASCII 32-126 (decimal).&#xa; * @param bssid uint8_t[6]          Optional. BSSID / MAC of AP&#xa; * @param channel                   Optional. Channel of AP&#xa; * @param connect                   Optional. call connect&#xa; * @return&#xa; */">
+<node CREATED="1643353235689" ID="ID_1347304447" MODIFIED="1643353237943" TEXT="exp">
+<node CREATED="1643353256502" ID="ID_408189034" MODIFIED="1643353257818" TEXT="WiFi.begin(ssid.c_str(), pass.c_str());">
+<node CREATED="1643353265037" ID="ID_788140470" MODIFIED="1643353283057" TEXT="&#x8f93;&#x5165;ssid password&#x5f00;&#x59cb;&#x8fde;&#x63a5;wifi"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1643353354000" ID="ID_1651160384" MODIFIED="1643353364219" TEXT="WiFi.status();">
+<node CREATED="1643353366927" ID="ID_58367088" MODIFIED="1643353459764">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      /**&#160;&#160;* Return Connection status.&#160;&#160;* @return one of the value defined in wl_status_t&#160;&#160;*&#160;&#160;*/
+    </p>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#4ec9b0">wl_status_t</font><font color="#d4d4d4">&#160;</font><font color="#4ec9b0">WiFiSTAClass</font><font color="#d4d4d4">::</font><font color="#dcdcaa">status</font><font color="#d4d4d4">()</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1643353462836" ID="ID_312978943" MODIFIED="1643353464170" TEXT="exp">
+<node CREATED="1643353464877" ID="ID_1440625488" MODIFIED="1643353562483" TEXT="WiFi.status() != WL_CONNECTED">
+<node CREATED="1643353667319" ID="ID_1512114209" MODIFIED="1643353680758" TEXT="&#x6ca1;&#x6709;&#x94fe;&#x63a5;&#x4e0a;"/>
+</node>
+<node CREATED="1643353603603" ID="ID_159888817" MODIFIED="1643353647887" TEXT="    WL_NO_SHIELD = 255,   // for compatibility with WiFi Shield library     &#xa;    WL_IDLE_STATUS      = 0,     &#xa;    WL_NO_SSID_AVAIL    = 1,     &#xa;    WL_SCAN_COMPLETED   = 2,     &#xa;    WL_CONNECTED        = 3,     &#xa;    WL_CONNECT_FAILED   = 4,     &#xa;    WL_CONNECTION_LOST  = 5,     &#xa;    WL_DISCONNECTED     = 6"/>
+</node>
+</node>
+</node>
+<node CREATED="1643353725865" ID="ID_1683906401" MODIFIED="1643353734733" TEXT="WiFi.localIP();">
+<node CREATED="1643353735717" ID="ID_629264809" MODIFIED="1643353763603">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      /**&#160;&#160;* Get the station interface IP address.&#160;&#160;* @return IPAddress station IP&#160;&#160;*/
+    </p>
+    <p>
+      WiFiSTAClass::localIP()
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1643353824069" ID="ID_1040078622" MODIFIED="1643353830172" TEXT="exp">
+<node CREATED="1643353831208" ID="ID_1356301014" MODIFIED="1643353845986" TEXT=" Serial.println(WiFi.localIP());">
+<node CREATED="1643353847118" ID="ID_1323149021" MODIFIED="1643353853122" TEXT="&#x83b7;&#x53d6;ip&#x6570;&#x636e;"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1643347198612" ID="ID_138372309" MODIFIED="1643347210646" TEXT="ESPAsynvWebServer.h">
+<node CREATED="1643357009044" ID="ID_1633215158" MODIFIED="1643357012854" TEXT="server.on">
+<node CREATED="1643357055989" ID="ID_941159634" MODIFIED="1643357070755" TEXT="on(const char* uri, ArRequestHandlerFunction onRequest);"/>
+<node CREATED="1643357088585" ID="ID_520239522" MODIFIED="1643357090229" TEXT="on(const char* uri, WebRequestMethodComposite method, ArRequestHandlerFunction onRequest);">
+<node CREATED="1643357523340" ID="ID_1257956934" MODIFIED="1643357526943" TEXT="uri">
+<node CREATED="1643357528380" ID="ID_1849462347" MODIFIED="1643357532431" TEXT="&#x5730;&#x5740;"/>
+</node>
+<node CREATED="1643357536787" ID="ID_553167633" MODIFIED="1643358633749" TEXT="method">
+<node CREATED="1643357540141" ID="ID_1185683668" MODIFIED="1643357577809" TEXT="HTTP_GET     = 0b00000001,   &#xa;HTTP_POST    = 0b00000010,   &#xa;HTTP_DELETE  = 0b00000100,   &#xa;HTTP_PUT     = 0b00001000,   &#xa;HTTP_PATCH   = 0b00010000,   &#xa;HTTP_HEAD    = 0b00100000,   &#xa;HTTP_OPTIONS = 0b01000000,   &#xa;HTTP_ANY     = 0b01111111"/>
+</node>
+<node CREATED="1643358634794" ID="ID_1421020329" MODIFIED="1643358640400" TEXT="onRequest">
+<node CREATED="1643358626118" ID="ID_1090207199" MODIFIED="1643358627376" TEXT="typedef std::function&lt;void(AsyncWebServerRequest *request)&gt; ArRequestHandlerFunction;"/>
+<node CREATED="1643358850208" ID="ID_598977135" MODIFIED="1643358867777" TEXT="class AsyncWebServerRequest">
+<node CREATED="1643358873611" ID="ID_167061892" MODIFIED="1643358948577" TEXT="onRequest &#x4e3a;AsyncWebServerRequest&#x8fd9;&#x4e2a;class&#x7684;&#x58f0;&#x660e;">
+<node CREATED="1643358886684" ID="ID_1643669412" MODIFIED="1643358966765" TEXT="exp">
+<node CREATED="1643358978611" ID="ID_807927134" MODIFIED="1643359021547" TEXT=" server.on(&quot;/&quot;, HTTP_GET, [](AsyncWebServerRequest *request) {       &#xa;&#x9;request-&gt;send(SPIFFS, &quot;/index.html&quot;, &#xa;&#x9;&quot;text/html&quot;, false, processor);     &#xa;});">
+<node CREATED="1643359265464" ID="ID_514525522" MODIFIED="1643359384018" TEXT="send&#x5373;&#x4e3a;AsyncWebServerRequest&#x4e0b;&#x7684;&#x65b9;&#x6cd5;"/>
+<node CREATED="1643359385709" ID="ID_396000813" MODIFIED="1643359474608" TEXT="void send(&#xa;&#x9;FS &amp;fs, &#xa;&#x9;const String&amp; path, &#xa;&#x9;const String&amp; contentType=String(), &#xa;&#x9;bool download=false, &#xa;&#x9;AwsTemplateProcessor callback=nullptr&#xa;);"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1643357098133" ID="ID_588872289" MODIFIED="1643357123445" TEXT="on(const char* uri, WebRequestMethodComposite method, ArRequestHandlerFunction onRequest, ArUploadHandlerFunction onUpload);"/>
+<node CREATED="1643357187635" ID="ID_355812166" MODIFIED="1643357189430" TEXT="on(const char* uri, WebRequestMethodComposite method, ArRequestHandlerFunction onRequest, ArUploadHandlerFunction onUpload, ArBodyHandlerFunction onBody);"/>
+</node>
+</node>
+<node CREATED="1643347211087" ID="ID_743753188" MODIFIED="1643347218133" TEXT="AsyncTCP.h">
+<node CREATED="1643347776019" ID="ID_1190268110" MODIFIED="1643347788948" TEXT="class IPAddress">
+<node CREATED="1643350613209" ID="ID_1980085272" MODIFIED="1643350644525" TEXT="bool fromString(const char *address);   &#xa;bool fromString(const String &amp;address) { return fromString(address.c_str()); }">
+<node CREATED="1643350850566" ID="ID_1924023687" MODIFIED="1643350856542" TEXT="&#x8f93;&#x51fa;ip&#x5730;&#x5740;"/>
+</node>
+</node>
+</node>
+<node CREATED="1643347218826" ID="ID_282076518" MODIFIED="1643347228695" TEXT="SPIFFS.h">
+<node CREATED="1643348333610" ID="ID_461559947" MODIFIED="1643348345752" TEXT="include &quot;FS.h&quot;">
+<node CREATED="1643349238895" ID="ID_1010830633" MODIFIED="1643349277251" TEXT="File open(const char* path, const char* mode);     &#xa;File open(const String&amp; path, const char* mode = FILE_READ);">
+<node CREATED="1643349292941" ID="ID_1802509323" MODIFIED="1643349638759" TEXT="fs.open(path) &#x6253;&#x5f00;&#x6587;&#x4ef6;"/>
+</node>
+</node>
+<node CREATED="1643348369974" ID="ID_408073736" MODIFIED="1643349153957" TEXT="SPIFFS.begin(true) //&#x5224;&#x65ad;SPIFFS&#x6709;&#x6728;&#x6709;&#x5f00;&#x542f;&#x7684;"/>
+</node>
+</node>
+<node CREATED="1643343323279" ID="ID_1139845026" MODIFIED="1643359660546" POSITION="right" TEXT="ESP32 &#xff08;&#x57fa;&#x4e8e;vscode+paltformIO IDE&#xff09;">
+<node CREATED="1643343371603" FOLDED="true" ID="ID_1698267565" MODIFIED="1643344553887" TEXT="&#x81ea;&#x884c;&#x5206;&#x533a;&#x7684;&#x65b9;&#x5f0f;">
+<node CREATED="1643343411456" ID="ID_161685124" MODIFIED="1643343443162" TEXT="step1">
+<node CREATED="1643343443967" ID="ID_127780183" MODIFIED="1643343528273" TEXT="&#x5728;&#x540c;&#x7ea7;&#x6587;&#x4ef6;&#x5939;&#x4e0b;&#x9762;&#x6dfb;&#x52a0;.csv(custom partitions table)&#x6587;&#x4ef6;">
+<node CREATED="1643343534182" ID="ID_361637962" MODIFIED="1643343545661" TEXT="&#x6587;&#x4ef6;&#x5185;&#x5bb9;&#x793a;&#x4f8b;">
+<node CREATED="1643343546672" ID="ID_419652420" MODIFIED="1643343548274" TEXT="exp">
+<node CREATED="1643343608429" ID="ID_270993016" MODIFIED="1643343613025" TEXT="Arduino&#x5e73;&#x53f0;">
+<node CREATED="1643343549024" ID="ID_909260051" MODIFIED="1643343566803" TEXT="https://github.com/espressif/arduino-esp32/tree/master/tools/partitions"/>
+</node>
+<node CREATED="1643343613517" ID="ID_251541371" MODIFIED="1643343628387" TEXT="Esp iot&#x5f00;&#x53d1;&#x6846;&#x67b6;">
+<node CREATED="1643343630157" ID="ID_720693445" MODIFIED="1643343662862" TEXT="https://github.com/espressif/esp-idf/tree/master/components/partition_table"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1643343810592" ID="ID_1957128312" MODIFIED="1643344084626" TEXT="step2">
+<node CREATED="1643343814758" ID="ID_1572846453" MODIFIED="1643343914802" TEXT="&#x5728; platformio.ini &#x6587;&#x4ef6;&#x91cc;&#x9762;&#x52a0;&#x5165;">
+<node CREATED="1643343936171" ID="ID_133395820" MODIFIED="1643343969764" TEXT="board_build.partitions = &#x540d;&#x79f0;.csv"/>
+</node>
+</node>
+<node CREATED="1643344085810" ID="ID_1460835553" MODIFIED="1643344086993" TEXT="https://docs.platformio.org/en/latest/platforms/espressif32.html#tutorials"/>
+</node>
+<node CREATED="1643344113195" FOLDED="true" ID="ID_1062330422" MODIFIED="1643359613444" TEXT="&#x5728;spiffs&#x6587;&#x4ef6;&#x7cfb;&#x7edf;&#x4e2d;&#x52a0;&#x5165;&#x8981;&#x8bfb;&#x53d6;&#x7684;&#x6587;&#x4ef6;">
+<node CREATED="1643344160348" ID="ID_390210691" MODIFIED="1643344174703" TEXT="step1">
+<node CREATED="1643344175687" ID="ID_665245528" MODIFIED="1643344215490" TEXT="&#x521b;&#x5efa;data&#x6587;&#x4ef6;&#x548c;src&#x6587;&#x4ef6;&#x540c;&#x7ea7;"/>
+</node>
+<node CREATED="1643344242720" ID="ID_1929931322" MODIFIED="1643344244652" TEXT="step2">
+<node CREATED="1643344293233" ID="ID_1526730431" MODIFIED="1643344310469" TEXT="way1">
+<node CREATED="1643344245429" ID="ID_1350956119" MODIFIED="1643344291755" TEXT="&#x5728;platformio&#x63a7;&#x5236;&#x53f0;&#x70b9;&#x51fb; &#xff08;Upload File System image&#xff09;&#x5c31;&#x53ef;&#x4ee5;&#x4f20;&#x5230;&#x6587;&#x4ef6;&#x4e86;"/>
+</node>
+<node CREATED="1643344311533" ID="ID_734749467" MODIFIED="1643344313004" TEXT="way2">
+<node CREATED="1643344426176" ID="ID_793795534" MODIFIED="1643344457417" TEXT="&#x5728;teminal&#x4e2d;&#x8f93;&#x5165; pio run --target&#x5373;&#x53ef;"/>
+</node>
+</node>
+<node CREATED="1643344537635" ID="ID_58952557" MODIFIED="1643344542756" TEXT="https://docs.platformio.org/en/latest/platforms/espressif32.html#tutorials"/>
+</node>
 </node>
 <node CREATED="1643082663563" ID="ID_1439974315" MODIFIED="1643082694402" POSITION="left" TEXT="Arduino c/c++&#x8bed;&#x6cd5;&#x56de;&#x987e;">
-<node CREATED="1643082695727" ID="ID_975379996" MODIFIED="1643082699564" TEXT="namespace">
+<node CREATED="1643082695727" FOLDED="true" ID="ID_975379996" MODIFIED="1643348380597" TEXT="namespace">
 <node CREATED="1643082700350" ID="ID_1270696991" MODIFIED="1643082772239" TEXT="&#x9632;&#x6b62;&#x53d1;&#x751f;&#x547d;&#x540d;&#x51b2;&#x7a81;"/>
 <node CREATED="1643082775096" ID="ID_951962559" MODIFIED="1643082776252" TEXT="exp">
 <node CREATED="1643082785139" ID="ID_392812669" MODIFIED="1643083110594">
@@ -388,6 +631,13 @@
   </body>
 </html></richcontent>
 <node CREATED="1643083118627" ID="ID_1259833825" MODIFIED="1643083158711" TEXT="&#x5728;&#x547d;&#x540d;&#x7a7a;&#x95f4;&#x521b;&#x5efa;&#x76f8;&#x540c;&#x7684;&#x53d8;&#x91cf;&#x548c;&#x51fd;&#x6570;&#x4e0d;&#x4f1a;&#x53bb;&#x5176;&#x4ed6;&#x547d;&#x540d;&#x7a7a;&#x95f4;&#x53d1;&#x751f;&#x51b2;&#x7a81;"/>
+</node>
+</node>
+</node>
+<node CREATED="1643348383307" ID="ID_95589431" MODIFIED="1643348438452" TEXT="c++ :&#xff08;&#x5192;&#x53f7;&#xff09;&#x7684;&#x7528;&#x6cd5;">
+<node CREATED="1643348443258" ID="ID_1378383915" MODIFIED="1643348444064" TEXT="exp">
+<node CREATED="1643348409437" ID="ID_359926357" MODIFIED="1643348422152" TEXT="A( int aa, int bb ):a(aa),b(bb) { }">
+<node CREATED="1643348450475" ID="ID_589521068" MODIFIED="1643348741639" TEXT="&#x53d8;&#x91cf;&#x5f15;&#x7528;"/>
 </node>
 </node>
 </node>
