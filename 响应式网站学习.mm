@@ -1241,8 +1241,7 @@
       testRegex.test(testStr);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1643507182545" ID="ID_1135740726" MODIFIED="1643507200431" TEXT="&#x4e0e;&#x5185;&#x5bb9;&#x76f8;&#x5339;&#x914d;&#x6240;&#x4ee5;&#x4e3a;true"/>
 </node>
 </node>
@@ -1253,6 +1252,11 @@
 <node CREATED="1643507354596" ID="ID_52569579" MODIFIED="1643507383469" TEXT="/yes|no|hello|^[a-z]/">
 <node CREATED="1643507385692" ID="ID_1109819936" MODIFIED="1643507435582" TEXT="&#x80fd;&#x540c;&#x65f6;&#x521b;&#x5efa;&#x591a;&#x4e2a;&#x89c4;&#x5219;&#xff0c;&#x82e5;&#x6709;&#x4e00;&#x4e2a;&#x80fd;&#x591f;&#x6ee1;&#x8db3;&#x60c5;&#x51b5;&#x5219;test()&#x4f1a;&#x8fd4;&#x56de;true"/>
 </node>
+</node>
+</node>
+<node CREATED="1643801751055" ID="ID_262602489" MODIFIED="1643801764625" TEXT="&#x68c0;&#x67e5;&#x6df7;&#x5408;&#x5b57;&#x7b26;&#x7ec4;">
+<node CREATED="1643801765625" ID="ID_156595827" MODIFIED="1643801776395" TEXT="exp">
+<node CREATED="1643801777225" ID="ID_1633317457" MODIFIED="1643801795882" TEXT="/P(engu|umpk)in/g"/>
 </node>
 </node>
 <node CREATED="1643508598732" ID="ID_1037255296" MODIFIED="1643508623576" TEXT="&#x770b;&#x662f;&#x5426;&#x80fd;&#x591f;&#x7b26;&#x5408;arg(1~4)"/>
@@ -1275,8 +1279,7 @@
       &#33509;&#35201;&#22810;&#27425;&#25628;&#23547;&#25110;&#25552;&#21462;&#65292;&#21017;&#38656;&#35201;&#29992;&#21040;&#20840;&#23616;&#21305;&#37197;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1643508356918" FOLDED="true" ID="ID_1104215106" MODIFIED="1643508515920" TEXT="/arg/g">
 <node CREATED="1643508380828" ID="ID_304326794" MODIFIED="1643508391250" TEXT="exp">
@@ -1296,8 +1299,7 @@
       testStr.match(ourRegex);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1643508426880" ID="ID_60955166" MODIFIED="1643508513288" TEXT="return [&quot;Repeat&quot;, &quot;Repeat&quot;, &quot;Repeat&quot;];"/>
 </node>
@@ -1323,8 +1325,7 @@
       huRegex.test(humStr);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1643509151785" ID="ID_161583585" MODIFIED="1643509158643" TEXT="return true&#xff1b;"/>
 </node>
@@ -1365,8 +1366,7 @@
       &#21305;&#37197;&#20986;&#29616;&#19968;&#27425;&#25110;&#32773;&#36830;&#32493;&#22810;&#27425;&#30340;&#21305;&#37197;&#39033;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1643530635160" ID="ID_1687855105" MODIFIED="1643530654170" TEXT="/arg+/">
 <node CREATED="1643530655504" ID="ID_813412395" MODIFIED="1643530656808" TEXT="exp">
 <node CREATED="1643530657629" ID="ID_1363982245" MODIFIED="1643530717722" TEXT="&quot;aabc&quot;.match(/a+/g);"/>
@@ -1376,7 +1376,7 @@
 <node CREATED="1643530675463" ID="ID_1657215" MODIFIED="1643530679482" TEXT="&#x5b57;&#x7b26;&#x6216;&#x5339;&#x914d;&#x6a21;&#x5f0f;&#x5fc5;&#x987b;&#x4e00;&#x4e2a;&#x63a5;&#x4e00;&#x4e2a;&#x5730;&#x8fde;&#x7eed;&#x51fa;&#x73b0;&#x3002; &#x8fd9;&#x5c31;&#x662f;&#x8bf4;&#xff0c;&#x5b57;&#x7b26;&#x5fc5;&#x987b;&#x4e00;&#x4e2a;&#x63a5;&#x4e00;&#x4e2a;&#x5730;&#x91cd;&#x590d;&#x3002;"/>
 </node>
 <node COLOR="#3399ff" CREATED="1643530777938" ID="ID_768613589" MODIFIED="1643544589036" TEXT="&#x5339;&#x914d;&#x51fa;&#x73b0;&#x96f6;&#x6b21;&#x6216;&#x8005;&#x591a;&#x6b21;&#x7684;&#x5339;&#x914d;&#x9879;">
-<node CREATED="1643540735733" ID="ID_1194176969" MODIFIED="1643540794507" TEXT="/arg*/ //&#x5728;&#x5143;&#x7d20;&#x53f3;&#x8fb9;&#x52a0;&#x4e0a;*&#x4ee3;&#x8868;&#x8fd9;&#x4e2a;&#x5143;&#x7d20;&#x80fd;&#x591f;&#x51fa;&#x73b0;0~N&#x6b21;">
+<node CREATED="1643540735733" FOLDED="true" ID="ID_1194176969" MODIFIED="1643798404252" TEXT="/arg*/ //&#x5728;&#x5143;&#x7d20;&#x53f3;&#x8fb9;&#x52a0;&#x4e0a;*&#x4ee3;&#x8868;&#x8fd9;&#x4e2a;&#x5143;&#x7d20;&#x80fd;&#x591f;&#x51fa;&#x73b0;0~N&#x6b21;">
 <node CREATED="1643540857047" ID="ID_629404821" MODIFIED="1643540859408" TEXT="exp">
 <node CREATED="1643540860580" ID="ID_1735648140" MODIFIED="1643540891446" TEXT="let soccerWord = &quot;gooooooooal!&quot;; &#xa;let gPhrase = &quot;gut feeling&quot;; &#xa;let oPhrase = &quot;over the moon&quot;; &#xa;let goRegex = /go*/; &#xa;soccerWord.match(goRegex); &#xa;gPhrase.match(goRegex); &#xa;oPhrase.match(goRegex);"/>
 <node CREATED="1643540897364" ID="ID_505462142" MODIFIED="1643540945821" TEXT="return [&quot;goooooooooo&quot;] [&quot;g&quot;] null"/>
@@ -1386,6 +1386,9 @@
 <node COLOR="#3399ff" CREATED="1643541738755" ID="ID_1380682690" MODIFIED="1643541870127" TEXT="&#x61d2;&#x60f0;&#x5339;&#x914d;">
 <node CREATED="1643541748610" ID="ID_21939687" MODIFIED="1643541861664" TEXT="&#x9ed8;&#x8ba4;&#x7684;&#x6a21;&#x5f0f;&#x90fd;&#x662f;&#x8d2a;&#x5a6a;&#x5339;&#x914d;&#x4f1a;&#x5339;&#x914d;&#x5230;&#x6700;&#x540e;"/>
 <node CREATED="1643541876020" ID="ID_668578810" MODIFIED="1643541998015" TEXT="/.*?i/ //&#x82e5;&#x63a5;&#x672f;&#x7b26;&#x6709;&#x591a;&#x4e2a;i&#x7684;&#x8bdd;&#x90a3;&#x4e48;&#x4f1a;&#x5728;&#x7b2c;&#x4e00;&#x4e2a;i&#x505c;&#x4e0b;"/>
+<node COLOR="#3399ff" CREATED="1643798560422" ID="ID_741841127" MODIFIED="1643798737147" TEXT="&#x60f3;&#x8981;&#x5143;&#x7d20;arg&#x5b58;&#x5728;&#x6216;&#x8005;&#x4e0d;&#x5b58;&#x5728;">
+<node CREATED="1643798606602" ID="ID_528013238" MODIFIED="1643798725353" TEXT="/arg?/"/>
+</node>
 </node>
 </node>
 <node COLOR="#3399ff" CREATED="1643544590559" ID="ID_1222633048" MODIFIED="1643544635265" TEXT="&#x5426;&#x5b9a;&#x5b57;&#x7b26;&#x96c6;&amp;&amp;&#x5339;&#x914d;&#x5b57;&#x7b26;&#x4e32;&#x5f00;&#x59cb;&#x4f4d;&#x7f6e;">
@@ -1404,8 +1407,7 @@
       &#21305;&#37197;&#23383;&#31526;&#20018;&#26411;&#23614;&#20803;&#32032;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1643547781125" ID="ID_1653835883" MODIFIED="1643547830423" TEXT="/arg$/ //&#x770b;&#x5b57;&#x7b26;&#x4e32;&#x672b;&#x5c3e;&#x6709;&#x6ca1;&#x6709;arg&#x8fd9;&#x4e2a;&#x5143;&#x7d20;"/>
 </node>
 <node COLOR="#3399ff" CREATED="1643547859228" ID="ID_1821889909" MODIFIED="1643548461223" TEXT="&#x5339;&#x914d;&#x6240;&#x6709;&#x7684;&#x5b57;&#x6bcd;&#x548c;&#x6570;&#x5b57;">
@@ -1420,6 +1422,49 @@
 <node CREATED="1643548480556" ID="ID_1213221571" MODIFIED="1643548504027" TEXT="/\d/&#x4ee3;&#x8868;&#x7684;&#x662f;[0-9]"/>
 <node COLOR="#3399ff" CREATED="1643548534084" ID="ID_839603967" MODIFIED="1643548563433" TEXT="&#x53cd;&#x8fc7;&#x6765; &#x5339;&#x914d;&#x9664;&#x4e86;&#x6240;&#x6709;&#x7684;&#x5b57;&#x6bcd;&#x548c;&#x6570;&#x5b57;D&#x53d8;&#x4e3a;&#x5927;&#x5199;">
 <node CREATED="1643548552970" ID="ID_791064319" MODIFIED="1643548570777" TEXT="/\D/"/>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1643797566964" ID="ID_137847187" MODIFIED="1643797912776" TEXT="&#x5339;&#x914d;&#x7279;&#x6b8a;&#x5b57;&#x7b26;">
+<node CREATED="1643797576675" ID="ID_1154071396" MODIFIED="1643797822642" TEXT="&#x7a7a;&#x683c;&#x3001;&#x5236;&#x8868;&#x7b26;&#x3001;&#x6362;&#x9875;&#x7b26;">
+<node CREATED="1643797616166" ID="ID_105630854" MODIFIED="1643797623739" TEXT="[\s]"/>
+<node COLOR="#3399ff" CREATED="1643797951339" ID="ID_396103057" MODIFIED="1643798013374" TEXT="&#x5339;&#x914d;&#x975e;&#x7a7a;&#x767d;&#x5b57;&#x7b26;">
+<node CREATED="1643797964548" ID="ID_1351907935" MODIFIED="1643797981215" TEXT="[\S]"/>
+</node>
+</node>
+<node CREATED="1643797588147" ID="ID_1613492693" MODIFIED="1643797594352" TEXT="&#x56de;&#x8f66;&#x7b26;">
+<node CREATED="1643797630378" ID="ID_1786384751" MODIFIED="1643797640447" TEXT="[\r]"/>
+</node>
+<node CREATED="1643797594907" ID="ID_1260610061" MODIFIED="1643797598360" TEXT="&#x5236;&#x8868;&#x7b26;">
+<node CREATED="1643797642796" ID="ID_487637229" MODIFIED="1643797666074" TEXT="[\t]"/>
+</node>
+<node CREATED="1643797598956" ID="ID_240501451" MODIFIED="1643797608566" TEXT="&#x6362;&#x9875;&#x7b26;">
+<node CREATED="1643797669396" ID="ID_720441200" MODIFIED="1643797858462" TEXT="[\f]"/>
+</node>
+<node CREATED="1643797609817" ID="ID_482542162" MODIFIED="1643797612707" TEXT="&#x6362;&#x884c;&#x7b26;">
+<node CREATED="1643797867928" ID="ID_150894211" MODIFIED="1643797872594" TEXT="[\n]"/>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1643798016459" ID="ID_1930602772" MODIFIED="1643798177024" TEXT="&#x5339;&#x914d;&#x540c;&#x4e00;&#x8303;&#x56f4;&#x7684;&#x5b57;&#x7b26;&#xff0c;&#x91cd;&#x590d;&#x6700;&#x4e3a;&#x91cd;&#x8981;">
+<node CREATED="1643798063469" ID="ID_691316308" MODIFIED="1643798134492" TEXT="/arg{1,3}/">
+<node CREATED="1643798137199" ID="ID_1895345416" MODIFIED="1643798171139" TEXT="&#x4ee3;&#x8868;&#x81f3;&#x5c11;&#x4e00;&#x4e2a;arg&#x5b57;&#x7b26;&#xff0c;&#x5e76;&#x4e14;arg&#x5b57;&#x7b26;&#x4e0d;&#x4f1a;&#x8d85;&#x8fc7;3&#x4e2a;"/>
+</node>
+<node CREATED="1643798272799" ID="ID_843939488" MODIFIED="1643798285824" TEXT="/arg{n,}/">
+<node CREATED="1643798241749" ID="ID_1455744902" MODIFIED="1643798301706" TEXT="&#x82e5;&#x8981;&#x81f3;&#x5c11;&#x51fa;&#x73b0;n&#x6b21;&#x4ee5;&#x4e0a;&#x7684;arg"/>
+</node>
+<node CREATED="1643798340178" ID="ID_1532543503" MODIFIED="1643798350161" TEXT="/arg{n}/">
+<node CREATED="1643798322829" ID="ID_1108611419" MODIFIED="1643798338484" TEXT="&#x53ea;&#x91cd;&#x590d;n&#x6b21;&#x7684;arg"/>
+</node>
+</node>
+<node CREATED="1643798809595" ID="ID_1099296909" MODIFIED="1643798818409" TEXT="&#x65ad;&#x8a00;">
+<node COLOR="#3399ff" CREATED="1643798819824" ID="ID_1018542686" MODIFIED="1643798862345" TEXT="&#x6b63;&#x5411;&#x5148;&#x884c;&#x65ad;&#x8a00;">
+<node CREATED="1643798935625" ID="ID_500868490" MODIFIED="1643798957011" TEXT="/arg_1(?=arg_2)/">
+<node COLOR="#3399ff" CREATED="1643798989316" ID="ID_1549288925" MODIFIED="1643799080123" TEXT="&#x4ece;&#x5934;&#x5f00;&#x59cb;&#x5bfb;&#x627e;&#xff0c;&#x82e5;&#x78b0;&#x5230;&#x4e86;arg_2&#x5b58;&#x5728;&#xff0c;&#x5728;.match()&#x4e4b;&#x540e;&#x4e0d;&#x4f1a;&#x6355;&#x83b7;&#x5230;arg_2,&#x4f1a;&#x8fd4;&#x56de;arg_1"/>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1643798830597" ID="ID_1946172940" MODIFIED="1643798869554" TEXT="&#x8d1f;&#x5411;&#x5148;&#x884c;&#x65ad;&#x8a00;">
+<node CREATED="1643798963265" ID="ID_392198360" MODIFIED="1643798987340" TEXT="/arg_1(?!arg_2)/">
+<node COLOR="#3399ff" CREATED="1643799083977" ID="ID_1989774162" MODIFIED="1643799172164" TEXT="&#x82e5;&#x4e0d;&#x5e0c;&#x671b;arg_2&#x5b58;&#x5728;&#x4e8e;&#x53e5;&#x5b50;&#x5f53;&#x4e2d;"/>
+</node>
 </node>
 </node>
 </node>
