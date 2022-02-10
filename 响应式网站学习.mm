@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1642673256137" ID="ID_1513739110" MODIFIED="1643172647272" TEXT="&#x54cd;&#x5e94;&#x5f0f;&#x9875;&#x9762;&#x5f00;&#x53d1;&#x5b66;&#x4e60;">
+<node CREATED="1642673256137" ID="ID_1513739110" MODIFIED="1644458267124" TEXT="&#x54cd;&#x5e94;&#x5f0f;&#x9875;&#x9762;&#x5f00;&#x53d1;&#x5b66;&#x4e60;">
 <node CREATED="1642687642292" ID="ID_925445610" MODIFIED="1644115625649" POSITION="right" TEXT="html html5&#x5b66;&#x4e60;">
 <node CREATED="1642673498418" ID="ID_817050318" MODIFIED="1643204287030" TEXT="&#x57fa;&#x7840;">
 <node COLOR="#0099ff" CREATED="1642673509077" ID="ID_382618358" MODIFIED="1644396293627" TEXT="&#x6b63;&#x6807;&#x9898;">
@@ -199,6 +199,19 @@
 </node>
 </node>
 <node COLOR="#0099ff" CREATED="1643205586486" ID="ID_129916167" MODIFIED="1644396354367" TEXT="&lt;link&gt;&lt;/link&gt;&#x7684;&#x4f7f;&#x7528;&#x65b9;&#x5f0f;">
+<node CREATED="1644416505995" ID="ID_1920836872" MODIFIED="1644416541474" TEXT="&lt;link&gt;&#x53ea;&#x80fd;&#x5b58;&#x50a8;&#x4e8e;head&#x90e8;&#x5206;"/>
+<node CREATED="1644416367799" ID="ID_1476752699" MODIFIED="1644416383925" TEXT="rel">
+<node CREATED="1644416415810" ID="ID_1504276042" MODIFIED="1644416456864" TEXT="rel&#x5c5e;&#x6027;&#x89c4;&#x5b9a;&#x5f53;&#x524d;&#x6587;&#x6863;&#x4e0e;&#x88ab;&#x94fe;&#x63a5;&#x6587;&#x6863;&#x4e4b;&#x95f4;&#x7684;&#x5173;&#x7cfb;"/>
+<node CREATED="1644416385244" ID="ID_248678174" MODIFIED="1644416391092" TEXT="stylesheet">
+<node CREATED="1644416392353" ID="ID_881362350" MODIFIED="1644416414029" TEXT="&#x6587;&#x6863;&#x7684;&#x5916;&#x90e8;&#x6837;&#x5f0f;&#x8868;"/>
+</node>
+</node>
+<node CREATED="1644416550726" ID="ID_853268380" MODIFIED="1644416622518" TEXT="href">
+<node CREATED="1644416555033" ID="ID_1008197334" MODIFIED="1644416570130" TEXT="&#x89c4;&#x5b9a;&#x88ab;&#x94fe;&#x63a5;&#x6587;&#x6863;&#x7684;&#x4f4d;&#x7f6e;"/>
+</node>
+<node CREATED="1644416614711" ID="ID_602736702" MODIFIED="1644416618738" TEXT="type">
+<node CREATED="1644416620818" ID="ID_1597541718" MODIFIED="1644416674123" TEXT="type&#x5c5e;&#x6027;&#x89c4;&#x5b9a;&#x88ab;&#x8fde;&#x63a5;&#x6587;&#x6863;&#x7684;MIME&#x7c7b;&#x578b; &#x6700;&#x5e38;&#x89c1;&#x7684;&#x662f;text/css&#x7c7b;&#x578b;&#xff0c;&#x8be5;&#x7c7b;&#x578b;&#x63cf;&#x8ff0;&#x6837;&#x5f0f;&#x8868;"/>
+</node>
 <node CREATED="1643205653681" ID="ID_975644607" MODIFIED="1643205655806" TEXT="exp">
 <node CREATED="1643205656635" ID="ID_411520813" MODIFIED="1643205671520" TEXT="&lt;link href=&quot;main.css&quot; rel=&quot;stylesheet&quot;&gt;">
 <node CREATED="1643205676016" ID="ID_1920877437" MODIFIED="1643205680069" TEXT="href">
@@ -219,7 +232,8 @@
 <node COLOR="#0099ff" CREATED="1642687119165" ID="ID_754342311" MODIFIED="1644396365873" TEXT="&#x65e0;&#x5e8f;&#x5217;&#x8868;&lt;ul&gt;&lt;/ul&gt;"/>
 <node COLOR="#0099ff" CREATED="1642687136883" ID="ID_296797388" MODIFIED="1644396368561" TEXT="&#x6709;&#x5e8f;&#x5217;&#x8868;&lt;ol&gt;&lt;/ol&gt;"/>
 </node>
-<node CREATED="1642687173902" ID="ID_1122938827" MODIFIED="1642687180183" TEXT="&#x521b;&#x5efa;&#x8f93;&#x5165;&#x6846;">
+<node CREATED="1642687173902" ID="ID_1122938827" MODIFIED="1644467980898" TEXT="&#x521b;&#x5efa;&#x8f93;&#x5165;&#x6846;">
+<node CREATED="1644468299524" ID="ID_31341336" MODIFIED="1644468354280" TEXT="&lt;input&gt;&lt;/input&gt;">
 <node CREATED="1642687424850" ID="ID_1773902881" MODIFIED="1642687428597" TEXT="exp">
 <node CREATED="1642687181309" ID="ID_712903704" MODIFIED="1642687224755" TEXT="&lt;input type=&quot;text&quot;&gt;"/>
 </node>
@@ -249,6 +263,21 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#0099ff" CREATED="1644468587117" ID="ID_597339544" MODIFIED="1644468663492" TEXT="&#x4e3a;&#x8f93;&#x5165;&#x6846;&#x6dfb;&#x52a0;&#x4e0a;&#x4e0b;&#x9650;&#x503c;">
+<node CREATED="1644468609664" ID="ID_429388746" MODIFIED="1644468618007" TEXT="minlength"/>
+<node CREATED="1644468618446" ID="ID_240646098" MODIFIED="1644468621549" TEXT="maxlength"/>
+<node CREATED="1644468601175" ID="ID_194212666" MODIFIED="1644468602398" TEXT="exp">
+<node CREATED="1644468630830" ID="ID_736240270" MODIFIED="1644468641633" TEXT="&lt;input type=&quot;number&quot; id=&quot;number&quot; placeholder=&quot;Input your Age&quot; required minlength=&quot;0&quot; maxlength=&quot;2&quot;&gt;">
+<node CREATED="1644468643102" ID="ID_1050384000" MODIFIED="1644468652027" TEXT="&#x4e0b;&#x9650;&#x4e3a;0 &#x4e0a;&#x9650;&#x4e3a;2"/>
+</node>
+</node>
+</node>
+<node COLOR="#0099ff" CREATED="1644467994644" ID="ID_318965509" MODIFIED="1644468271064" TEXT="&#x82e5;&#x591a;&#x4e2a;&#x4e0d;&#x540c;&#x7684;&#x9009;&#x9879;&#x6846;&#x8981;&#x8fdb;&#x884c;&#x533a;&#x5206;&#x7684;&#x8bdd;&#x90a3;&#x4e48;&#x9009;&#x9879;&#x6846;&#x7684;name&#x5fc5;&#x987b;&#x8981;&#x76f8;&#x540c;&#xff0c;&#x5176;&#x6b21;value&#x4e3a;&#x60f3;&#x8981;&#x8fd4;&#x56de;&#x7684;&#x503c;">
+<node CREATED="1644468139540" ID="ID_583862045" MODIFIED="1644468141070" TEXT="exp">
+<node CREATED="1644468142117" ID="ID_1259451272" MODIFIED="1644468209724" TEXT="&lt;div&gt;&lt;input type=&quot;radio&quot; id=&quot;radio2&quot; value=&quot;P.E&quot; name=&quot;favorite_subject&quot;&gt;             &#xa;&lt;label for=&quot;radio2&quot;&gt;P.E&lt;/label&gt;         &#xa;&lt;/div&gt;         &#xa;&lt;div&gt;&lt;input type=&quot;radio&quot; id=&quot;radio3&quot; value=&quot;Dance&quot; name=&quot;favorite_subject&quot;&gt;             &#xa;&lt;label for=&quot;radio2&quot;&gt;Dance &lt;/label&gt;         &#xa;&lt;/div&gt;         &#xa;&lt;div&gt;             &#xa;&lt;input type=&quot;checkbox&quot; name=&quot;inproved&quot; value=&quot;Front-end Projects&quot;&gt;             &#xa;&lt;label&gt;Front-end Projects&lt;/label&gt;        &#xa;&lt;/div&gt;"/>
 </node>
 </node>
 </node>
@@ -732,7 +761,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1642861181468" ID="ID_510222759" MODIFIED="1642861193000" TEXT="&#x8fb9;&#x8ddd;">
+<node CREATED="1642861181468" ID="ID_510222759" MODIFIED="1644458266034" TEXT="&#x8fb9;&#x8ddd;">
 <node CREATED="1642861193894" ID="ID_1848675355" MODIFIED="1644396948400" TEXT="&#x8c03;&#x6574;&#x5143;&#x7d20;&#x7684;&#x5185;&#x8fb9;&#x8ddd;">
 <node CREATED="1642861208305" ID="ID_1379800015" MODIFIED="1642861210688" TEXT="exp">
 <node CREATED="1642861211422" ID="ID_854119253" MODIFIED="1642862104342" TEXT="&lt;style&gt;.first_id{padding:10px}&lt;/style&gt;">
@@ -1263,8 +1292,7 @@
       &quot;arg3 arg1 arg2&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0099ff" CREATED="1644393271765" ID="ID_1573307948" MODIFIED="1644393467085" TEXT="grid-area">
@@ -1286,8 +1314,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1310,8 +1337,7 @@
       &#26681;&#25454;&#35774;&#23450;&#30340;&#20803;&#32032;&#22359;&#30340;&#38271;&#24230;&#36827;&#34892;&#35843;&#25972;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#0099ff" CREATED="1644393690067" ID="ID_1871672855" MODIFIED="1644393834046" TEXT="auto-fit">
