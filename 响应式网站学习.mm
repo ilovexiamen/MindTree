@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1642673256137" ID="ID_1513739110" MODIFIED="1644735592717" TEXT="&#x54cd;&#x5e94;&#x5f0f;&#x7f51;&#x7ad9;&#x5b66;&#x4e60;">
-<node CREATED="1642687642292" ID="ID_925445610" MODIFIED="1644115625649" POSITION="right" TEXT="html html5&#x5b66;&#x4e60;">
+<node CREATED="1642687642292" FOLDED="true" ID="ID_925445610" MODIFIED="1644889702471" POSITION="right" TEXT="html html5&#x5b66;&#x4e60;">
 <node CREATED="1642673498418" ID="ID_817050318" MODIFIED="1643204287030" TEXT="&#x57fa;&#x7840;">
 <node COLOR="#0099ff" CREATED="1642673509077" ID="ID_382618358" MODIFIED="1644396293627" TEXT="&#x6b63;&#x6807;&#x9898;">
 <node CREATED="1642673520739" ID="ID_1152600691" MODIFIED="1642673546177" TEXT="&lt;h1&gt;&lt;/h1&gt;"/>
@@ -321,7 +321,7 @@
 <node COLOR="#0099ff" CREATED="1642688358804" ID="ID_1938439329" MODIFIED="1644396459345" TEXT="&lt;!DOCTYPE html&gt;==&gt;DOCTYPE &#x4ee3;&#x8868;&#x7684;&#x662f;html5"/>
 </node>
 </node>
-<node CREATED="1642858245669" ID="ID_1435164619" MODIFIED="1644115663464" POSITION="right" TEXT="css&#x5b66;&#x4e60;">
+<node CREATED="1642858245669" FOLDED="true" ID="ID_1435164619" MODIFIED="1644889699675" POSITION="right" TEXT="css&#x5b66;&#x4e60;">
 <node CREATED="1642858262844" ID="ID_253168369" MODIFIED="1643884846209" TEXT="&#x57fa;&#x7840;">
 <node CREATED="1642858265447" ID="ID_516876759" MODIFIED="1642858324451" TEXT="&#x66f4;&#x6539;html&#x6837;&#x5f0f;&#xff0c;&#x66f4;&#x6539;&#x6587;&#x672c;&#x989c;&#x8272;">
 <node CREATED="1642858325485" ID="ID_325483230" MODIFIED="1642858345225" TEXT="way1">
@@ -1773,7 +1773,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1643506211806" ID="ID_1083955627" MODIFIED="1644478116185" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;">
+<node CREATED="1643506211806" FOLDED="true" ID="ID_1083955627" MODIFIED="1644889716115" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;">
 <node CREATED="1643506334231" ID="ID_524389909" MODIFIED="1643506706636" TEXT="&#x6d4b;&#x8bd5;&#x65b9;&#x6cd5;">
 <node COLOR="#3399ff" CREATED="1643506218462" ID="ID_314094726" MODIFIED="1643530229738" TEXT=".test()">
 <node CREATED="1643507586065" ID="ID_510254770" MODIFIED="1643507612471" TEXT="&#x68c0;&#x67e5;&#x5339;&#x914d;&#x6a21;&#x5f0f;&#x662f;&#x5426;&#x5b58;&#x5728;&#x4e0e;&#x5b57;&#x7b26;&#x4e32;&#x4e2d;"/>
@@ -2055,7 +2055,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1643940549053" ID="ID_1997470983" MODIFIED="1644888432803" TEXT="&#x8c03;&#x8bd5;">
+<node CREATED="1643940549053" FOLDED="true" ID="ID_1997470983" MODIFIED="1644889718449" TEXT="&#x8c03;&#x8bd5;">
 <node COLOR="#0099ff" CREATED="1643940556490" ID="ID_1471917522" MODIFIED="1644888553802" TEXT="console.log() ">
 <node CREATED="1644888516592" ID="ID_1028478353" MODIFIED="1644888517922" TEXT="&#x6253;&#x5370;"/>
 </node>
@@ -2064,6 +2064,271 @@
 </node>
 <node COLOR="#0099ff" CREATED="1643940614354" ID="ID_1090344410" MODIFIED="1644888558225" TEXT="typeof()">
 <node CREATED="1644888546130" ID="ID_1257783212" MODIFIED="1644888550472" TEXT="&#x67e5;&#x8be2;&#x6570;&#x636e;&#x7c7b;&#x578b;"/>
+</node>
+</node>
+<node CREATED="1644890094727" ID="ID_1499254367" MODIFIED="1644890105932" TEXT="javaScript&#x9762;&#x5411;&#x5bf9;&#x8c61;">
+<node CREATED="1644890109401" ID="ID_1570573926" MODIFIED="1644890170881" TEXT="exp">
+<node CREATED="1644890171828" ID="ID_160245451" MODIFIED="1644890190043">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      let duck = {&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;name: &quot;Aflac&quot;,&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;numLegs: 2
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html>
+</richcontent>
+<node COLOR="#3399ff" CREATED="1644890191527" ID="ID_753506015" MODIFIED="1644890817205" TEXT="duck&#x4e3a;&#x5bf9;&#x8c61;&#x7684;&#x5b9e;&#x4f8b;"/>
+<node COLOR="#3399ff" CREATED="1644890201811" ID="ID_1095077236" MODIFIED="1644890820083" TEXT="name&#xff0c;numLegs&#x4e3a;&#x8fd9;&#x4e2a;&#x5b9e;&#x4f8b;&#x7684;&#x5c5e;&#x6027;&#xff08;&#x952e;&#x503c;&#x5bf9;&#xff09;"/>
+<node COLOR="#3399ff" CREATED="1644890246463" ID="ID_1185417237" MODIFIED="1644890822322" TEXT="&#x201c;Aflac&#x201d; &#x201c;2&#x201d;&#x4e3a;&#x5c5e;&#x6027;&#x7684;&#x503c;&#xff08;&#x5185;&#x5bb9;&#xff09;"/>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1644890558714" ID="ID_819588731" MODIFIED="1644890805618" TEXT="&#x5b9e;&#x4f8b;.&#x5c5e;&#x6027;">
+<node CREATED="1644890625426" ID="ID_1128987352" MODIFIED="1644890663037" TEXT="&#x8bbf;&#x95ee;&#x5bf9;&#x8c61;&#x5c5e;&#x6027;&#x7684;&#x503c;&#x7684;&#x65b9;&#x5f0f;"/>
+<node CREATED="1644890765188" ID="ID_1445536445" MODIFIED="1644890769058" TEXT="exp">
+<node CREATED="1644890769492" ID="ID_1431067207" MODIFIED="1644890794681">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      let duck = {&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;name: &quot;Aflac&quot;,&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;numLegs: 2
+    </p>
+    <p>
+      };
+    </p>
+    <p>
+      console.log(duck.name);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1644890855765" ID="ID_1896345979" MODIFIED="1644891005147" TEXT="key&#xff1a;function(){return ....}">
+<node CREATED="1644890906031" ID="ID_1972913073" MODIFIED="1644890922534" TEXT="&#x5728;&#x5bf9;&#x8c61;&#x4e0a;&#x4e5f;&#x53ef;&#x4ee5;&#x521b;&#x5efa;&#x65b9;&#x6cd5;"/>
+<node CREATED="1644890923102" ID="ID_88377287" MODIFIED="1644890931460" TEXT="exp">
+<node CREATED="1644890932280" ID="ID_787692066" MODIFIED="1644890993419" TEXT="let duck = {   &#xa;&#x9;name: &quot;Aflac&quot;,   &#xa;&#x9;numLegs: 2,   &#xa;&#x9;sayName: function() &#xa;&#x9;&#x9;{return &quot;The name of this duck is &quot; +&#xa; &#x9;&#x9;&#x9;duck.name + &quot;.&quot;;} &#xa;}; &#xa;&#x9;duck.sayName();"/>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1644891290381" ID="ID_521747391" MODIFIED="1644891312853" TEXT="this&#x5173;&#x952e;&#x5b57;">
+<node COLOR="#3399ff" CREATED="1644891314467" ID="ID_1168064284" MODIFIED="1644891466193" TEXT="this&#x80fd;&#x591f;&#x4ee3;&#x8868;&#x5b9e;&#x4f8b;&#xff0c;&#x9632;&#x6b62;&#x56e0;&#x5b9e;&#x4f8b;&#x540d;&#x5b57;&#x7684;&#x53d8;&#x5316;&#xff0c;&#x5f15;&#x7528;&#x5185;&#x90e8;&#x7684;&#x5c5e;&#x6027;&#x65f6;&#x5019;&#x8981;&#x628a;&#x5b9e;&#x4f8b;&#x540d;&#x4e00;&#x4e00;&#x6539;&#x4e00;&#x904d;"/>
+<node CREATED="1644891302454" ID="ID_1900807652" MODIFIED="1644891307424" TEXT="exp">
+<node CREATED="1644891426693" ID="ID_1236927498" MODIFIED="1644891458289" TEXT="let duck = {   &#xa;&#x9;name: &quot;Aflac&quot;,   &#xa;&#x9;numLegs: 2,   &#xa;&#x9;sayName: function() {&#xa;&#x9;return &quot;The name of this duck is &quot; + this.name + &quot;.&quot;;&#xa;&#x9;} &#xa;};"/>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1644891876121" ID="ID_1048394319" MODIFIED="1644891888125" TEXT="&#x6784;&#x9020;&#x51fd;&#x6570;">
+<node COLOR="#3399ff" CREATED="1644891889397" ID="ID_593429972" MODIFIED="1644892128119" TEXT="&#x65b9;&#x4fbf;&#x4ee5;&#x540e;&#x80fd;&#x591f;new&#x51fa;&#x6765;&#xff0c;&#x5e76;&#x4e14;&#x6784;&#x9020;&#x51fd;&#x6570;&#x5185;&#x53ef;&#x4ee5;&#x4e8b;&#x5148;&#x58f0;&#x660e;"/>
+<node CREATED="1644892204812" ID="ID_1807243178" MODIFIED="1644892206354" TEXT="exp">
+<node CREATED="1644892136948" ID="ID_575875530" MODIFIED="1644892165187">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function Bird() {&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this.name = &quot;Albert&quot;;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this.color = &quot;blue&quot;;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this.numLegs = 2;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1644892210222" ID="ID_192039071" MODIFIED="1644892228169" TEXT="&#x7528;&#x6784;&#x9020;&#x51fd;&#x6570;&#x521b;&#x5efa;&#x5b9e;&#x4f8b;">
+<node CREATED="1644892302785" ID="ID_119488206" MODIFIED="1644892332229" TEXT="let newFunction = new Function();"/>
+<node CREATED="1644892297810" FOLDED="true" ID="ID_1265151732" MODIFIED="1644892335632" TEXT="exp">
+<node CREATED="1644892229324" ID="ID_476814854" MODIFIED="1644892235846" TEXT="let blueBird = new Bird();"/>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1644892274935" ID="ID_743817577" MODIFIED="1644892434239" TEXT="&#x6784;&#x9020;&#x51fd;&#x6570;&#x80fd;&#x63d0;&#x524d;&#x63a5;&#x6536;&#x53c2;&#x6570;">
+<node CREATED="1644892342151" ID="ID_1944914483" MODIFIED="1644892408731">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function Function(arg1,arg2)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this.arg1 = arg1;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this.arg2=arg2;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1644892440084" FOLDED="true" ID="ID_784248834" MODIFIED="1644892486230" TEXT="exp">
+<node CREATED="1644892456861" ID="ID_779043596" MODIFIED="1644892481826">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function Bird(name, color) {&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this.name = name;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this.color = color;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this.numLegs = 2;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1644894353460" ID="ID_877985388" MODIFIED="1644894388716" TEXT="&#x5224;&#x65ad;&#x5b9e;&#x4f8b;&#x662f;&#x5426;&#x4e3a;&#x6b63;&#x786e;&#x7684;&#x5bf9;&#x8c61;">
+<node CREATED="1644894390270" ID="ID_1792081405" MODIFIED="1644894392353" TEXT="way1">
+<node COLOR="#3399ff" CREATED="1644893141477" ID="ID_9893985" MODIFIED="1644893222056" TEXT="instanceof">
+<node COLOR="#3399ff" CREATED="1644893156750" ID="ID_1473401171" MODIFIED="1644894535303" TEXT="&#x5224;&#x65ad;&#x5b9e;&#x4f8b;&#x662f;&#x4e0d;&#x662f;&#x5c5e;&#x4e8e;&#x6b63;&#x786e;&#x7684;&#x5bf9;&#x8c61;&#x51fd;&#x6570;"/>
+<node CREATED="1644893223627" ID="ID_450957417" MODIFIED="1644893226209" TEXT="exp">
+<node CREATED="1644893226741" ID="ID_1385636665" MODIFIED="1644893270540" TEXT="let Bird = function(name, color) {   &#xa;                this.name = name;   &#xa;                this.color = color;    &#xa;                this.numLegs = 2; &#xa;}  &#xa;let crow = new Bird(&quot;Alexis&quot;, &quot;black&quot;);  &#xa;crow instanceof Bird;">
+<arrowlink DESTINATION="ID_1385636665" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_550998375" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1385636665" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_550998375" SOURCE="ID_1385636665" STARTARROW="None" STARTINCLINATION="0;0;"/>
+</node>
+<node CREATED="1644893615392" ID="ID_1421688387" MODIFIED="1644893621112" TEXT="return true"/>
+</node>
+</node>
+</node>
+<node CREATED="1644894396684" ID="ID_360585897" MODIFIED="1644894398241" TEXT="way2">
+<node COLOR="#3399ff" CREATED="1644894399197" ID="ID_1009386647" MODIFIED="1644894563302" TEXT="arg.constructor">
+<node CREATED="1644894424111" ID="ID_1224507879" MODIFIED="1644894466153" TEXT="&#x5224;&#x65ad;arg&#xff08;&#x5b9e;&#x4f8b;&#xff09;&#x662f;&#x5426;&#x662f;&#x7531;&#x6b63;&#x786e;&#x7684;&#x5bf9;&#x8c61;&#x6784;&#x9020;&#x51fa;&#x6765;&#x7684;"/>
+<node CREATED="1644894569323" FOLDED="true" ID="ID_1754900478" MODIFIED="1644894836549" TEXT="exp">
+<node CREATED="1644894582236" ID="ID_424394798" MODIFIED="1644894623510" TEXT="let duck = new Bird(); &#xa;let beagle = new Dog();  &#xa;console.log(duck.constructor === Bird);  &#xa;console.log(beagle.constructor === Dog);"/>
+</node>
+<node COLOR="#3399ff" CREATED="1644894838211" ID="ID_1827659346" MODIFIED="1644895034790">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#26356;&#25913;&#21407;&#22411;&#20989;&#25968;&#30340;&#26102;&#20505;&#65292;&#35201;&#25913;&#21464;&#20854;&#20869;&#37096;&#30340;constructor&#23646;&#24615;&#65292;constructor&#23646;&#24615;&#33021;&#22815;&#34987;&#25913;&#21464;&#65292;&#21542;&#21017;&#20250;&#21028;&#26029;&#38169;&#35823;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1644894978264" ID="ID_1162662515" MODIFIED="1644894979469" TEXT="exp">
+<node CREATED="1644894980290" ID="ID_528921157" MODIFIED="1644895078098" TEXT="Bird.prototype = {   &#xa;           constructor: Bird,   &#xa;           numLegs: 2,   &#xa;           eat: function() {     &#xa;&#x9;console.log(&quot;nom nom nom&quot;);   &#xa;&#x9;},   &#xa;           describe: function() {     &#xa;&#x9;console.log(&quot;My name is &quot; + this.name);    &#xa;&#x9;} &#xa;};"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1644893892181" ID="ID_1240569165" MODIFIED="1644894058546" TEXT="&#x5b9e;&#x4f8b;.prototype.name = ...;">
+<node CREATED="1644893913832" ID="ID_1746225941" MODIFIED="1644894030464" TEXT="&#x521b;&#x5efa;&#x539f;&#x578b;&#x5c5e;&#x6027;&#xff08;&#x80fd;&#x591f;&#x91cd;&#x590d;&#x4f7f;&#x7528;&#x7684;&#x5c5e;&#x6027;&#xff09;"/>
+<node CREATED="1644894035093" ID="ID_1125745371" MODIFIED="1644894042488" TEXT="name&#x662f;&#x540d;&#x5b57;"/>
+<node CREATED="1644894045406" ID="ID_713643180" MODIFIED="1644894046387" TEXT="exp">
+<node CREATED="1644894047218" ID="ID_1633688916" MODIFIED="1644894053179" TEXT="Bird.prototype.numLegs = 2;"/>
+</node>
+<node CREATED="1644895213925" ID="ID_1866946375" MODIFIED="1644895229131" TEXT="isPrototypeOf">
+<node CREATED="1644895230277" ID="ID_1746359375" MODIFIED="1644895264958" TEXT="&#x7528;&#x6765;&#x5224;&#x65ad;&#x5b9e;&#x4f8b;&#x7684;&#x539f;&#x578b;&#x662f;&#x6765;&#x81ea;&#x4e8e;&#x54ea;&#x91cc;"/>
+<node COLOR="#3399ff" CREATED="1644895119825" ID="ID_635752411" MODIFIED="1644895212331" TEXT="&#x6784;&#x9020;&#x51fd;&#x6570;.prototype.isPrototypeOf(&#x5b9e;&#x4f8b;);"/>
+</node>
+</node>
+<node CREATED="1644896107467" ID="ID_1877125706" MODIFIED="1644896111887" TEXT="object">
+<node CREATED="1644896113379" ID="ID_510492623" MODIFIED="1644896121649" TEXT="&#x6240;&#x6709;&#x539f;&#x578b;&#x94fe;&#x7684;&#x6e90;&#x5934;"/>
+<node CREATED="1644896123466" ID="ID_1947944481" MODIFIED="1644896131511" TEXT="&#x65b9;&#x6cd5;api">
+<node COLOR="#3399ff" CREATED="1644896132570" ID="ID_217248078" MODIFIED="1644896509414" TEXT="Object.create();">
+<node COLOR="#3399ff" CREATED="1644896473394" ID="ID_392824763" MODIFIED="1644896521154" TEXT="&#x521b;&#x5efa;&#x65b0;&#x7684;&#x539f;&#x578b;&#x5bf9;&#x8c61;"/>
+<node CREATED="1644896457296" ID="ID_923849042" MODIFIED="1644897233408" TEXT="exp">
+<node CREATED="1644896459271" ID="ID_1775635738" MODIFIED="1644896460501" TEXT="let animal = Object.create(Animal.prototype);"/>
+</node>
+<node COLOR="#3399ff" CREATED="1644897246024" ID="ID_1041696296" MODIFIED="1644897299649" TEXT="&#x5c06;subset&#x7684;&#x539f;&#x578b;&#x4f20;&#x7ed9;superset&#x7684;&#x539f;&#x578b;">
+<node CREATED="1644897291973" ID="ID_915148727" MODIFIED="1644897293781" TEXT="exp">
+<node CREATED="1644897294728" ID="ID_682135179" MODIFIED="1644898109048">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      animal.prototype&#160;= Object.create(Animal.prototype);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1644898259317" ID="ID_1351102312" MODIFIED="1644898266685" TEXT="&#x7acb;&#x5373;&#x6267;&#x884c;&#x7684;&#x51fd;&#x6570;">
+<node COLOR="#3399ff" CREATED="1644898267716" ID="ID_1103652070" MODIFIED="1644898314725" TEXT="(function () {   console.log(&quot;Chirp, chirp!&quot;); })();">
+<node CREATED="1644898284628" ID="ID_1607118951" MODIFIED="1644898286160" TEXT="exp">
+<node CREATED="1644898287117" ID="ID_472670448" MODIFIED="1644898309921">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (function () {&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log(&quot;A cozy nest is ready&quot;);
+    </p>
+    <p>
+      })();&#160;&#160;
+    </p>
+    <p>
+      makeNest();
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
