@@ -1520,6 +1520,88 @@
 <node CREATED="1644568654081" ID="ID_1267199037" MODIFIED="1644568777729" TEXT="&#x4ee3;&#x8868;&#x6839;&#x636e;&#x7a7a;&#x683c;&#x5c06;&#x5b57;&#x7b26;&#x4e32;&#x62fc;&#x63a5;&#x6210;&#x4ee5;&#x201c; &#x201d;&#x4f5c;&#x4e3a;&#x5206;&#x5272;&#x7684;&#x5b57;&#x7b26;&#x4e32;"/>
 </node>
 </node>
+<node COLOR="#3399ff" CREATED="1644910662442" ID="ID_1839201455" MODIFIED="1644911174862" TEXT="[].map((arg1,arg2,arg3)=&gt;....);">
+<node CREATED="1644910714707" ID="ID_1451192982" MODIFIED="1644911406502" TEXT="map&#x65b9;&#x6cd5;&#x662f;&#x8fed;&#x4ee3;&#x6570;&#x7ec4;&#x4e2d;&#x6bcf;&#x4e00;&#x9879;&#x7684;&#x65b9;&#x5f0f;&#x4e4b;&#x4e00;,&#x6309;&#x7167;&#x4e00;&#x5b9a;&#x7684;&#x89c4;&#x5219;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x65b0;&#x7684;&#x6570;&#x7ec4;&#xff0c;&#x4e00;&#x5171;&#x6709;1~3&#x4e2a;&#x53c2;&#x6570;&#x4f4d;&#x53ef;&#x4ee5;&#x9009;"/>
+<node CREATED="1644910782066" ID="ID_15212653" MODIFIED="1644910791660" TEXT="arg1">
+<node CREATED="1644910792520" ID="ID_530384388" MODIFIED="1644910806386" TEXT="&#x5f53;&#x524d;&#x6b63;&#x5728;&#x5904;&#x7406;&#x7684;&#x6570;&#x7ec4;&#x9879;"/>
+</node>
+<node CREATED="1644910808678" ID="ID_1756950481" MODIFIED="1644910811911" TEXT="arg2">
+<node CREATED="1644910814219" ID="ID_620762143" MODIFIED="1644910824460" TEXT="&#x5f53;&#x524d;&#x6570;&#x7ec4;&#x9879;&#x7684;&#x7d22;&#x5f15;&#x503c;"/>
+</node>
+<node CREATED="1644910827016" ID="ID_1188965111" MODIFIED="1644910830398" TEXT="arg3">
+<node CREATED="1644910832255" ID="ID_1248004385" MODIFIED="1644910868035" TEXT="&#x5728;&#x53c2;&#x6570;&#x4e4b;&#x4e0a;&#x8c03;&#x7528;map&#x7684;&#x65b9;&#x6cd5;&#x7684;&#x6570;&#x7ec4;&#xff0c;&#x9012;&#x5f52;"/>
+</node>
+<node CREATED="1644910873868" ID="ID_1239529497" MODIFIED="1644910874761" TEXT="exp">
+<node CREATED="1644910875609" ID="ID_476676957" MODIFIED="1644910998756" TEXT="const users = [   &#xa;&#x9;{ name: &apos;John&apos;, age: 34 },   &#xa;&#x9;{ name: &apos;Amy&apos;, age: 20 },   &#xa;&#x9;{ name: &apos;camperCat&apos;, age: 10 } &#xa;&#x9;];  &#xa;const names = users.map(user =&gt; user.name);"/>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1644911075693" ID="ID_951431804" MODIFIED="1644911267975" TEXT="[].filter((arg1,arg2,arg3)=&gt;(arg1.age&gt;30 ......))">
+<node CREATED="1644911365432" ID="ID_1888835604" MODIFIED="1644911420335" TEXT="filter &#x63a5;&#x6536;&#x4e00;&#x4e2a;&#x56de;&#x8c03;&#x51fd;&#x6570;&#xff0c;&#x5c06;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x5185;&#x7684;&#x903b;&#x8f91;&#x5e94;&#x7528;&#x4e8e;&#x6570;&#x7ec4;&#x7684;&#x6bcf;&#x4e2a;&#x5143;&#x7d20;&#xff0c;&#x65b0;&#x6570;&#x7ec4;&#x5305;&#x542b;&#x6839;&#x636e;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x5185;&#x6761;&#x4ef6;&#x8fd4;&#x56de; true &#x7684;&#x5143;&#x7d20;,&#x4e00;&#x5171;&#x6709;1~3&#x4e2a;&#x53c2;&#x6570;&#x4f4d;&#x53ef;&#x4ee5;&#x9009;."/>
+<node CREATED="1644911157454" ID="ID_434479751" MODIFIED="1644911238613" TEXT="arg1">
+<node CREATED="1644911247256" ID="ID_1418067635" MODIFIED="1644911248500" TEXT="&#x5f53;&#x524d;&#x6b63;&#x5728;&#x5904;&#x7406;&#x7684;&#x6570;&#x7ec4;&#x9879; "/>
+</node>
+<node CREATED="1644911238981" ID="ID_389634404" MODIFIED="1644911240638" TEXT="arg2">
+<node CREATED="1644911253692" ID="ID_1121159100" MODIFIED="1644911254712" TEXT="&#x5f53;&#x524d;&#x6570;&#x7ec4;&#x9879;&#x7684;&#x7d22;&#x5f15;&#x503c; "/>
+</node>
+<node CREATED="1644911240931" ID="ID_891225931" MODIFIED="1644911242565" TEXT="arg3">
+<node CREATED="1644911258946" ID="ID_907579696" MODIFIED="1644911259862" TEXT="&#x5728;&#x53c2;&#x6570;&#x4e4b;&#x4e0a;&#x8c03;&#x7528;map&#x7684;&#x65b9;&#x6cd5;&#x7684;&#x6570;&#x7ec4;&#xff0c;&#x9012;&#x5f52; "/>
+</node>
+<node CREATED="1644911271782" ID="ID_1616345767" MODIFIED="1644911272463" TEXT="exp">
+<node CREATED="1644911273359" ID="ID_1134737742" MODIFIED="1644911527751" TEXT="const users = [    &#xa;&#x9;{ name: &apos;John&apos;, age: 34 },    &#x9;&#xa;&#x9;{ name: &apos;Amy&apos;, age: 20 },    &#x9;&#xa;&#x9;{ name: &apos;camperCat&apos;, age: 10 }  &#x9;&#xa;&#x9;];   &#xa;const names = users.filter(user =&gt; user.age);">
+<arrowlink DESTINATION="ID_1134737742" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_139830545" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1134737742" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_139830545" SOURCE="ID_1134737742" STARTARROW="None" STARTINCLINATION="0;0;"/>
+</node>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1644911613833" ID="ID_1154607584" MODIFIED="1644912040003" TEXT="[].reduce((arg1,arg2,arg3)=&gt;....,start_symble);">
+<node CREATED="1644911684433" ID="ID_1236848865" MODIFIED="1644911709157" TEXT=" reduce&#x65b9;&#x6cd5;&#x904d;&#x5386;&#x6570;&#x7ec4;&#x4e2d;&#x7684;&#x6bcf;&#x4e2a;&#x9879;&#x76ee;&#x5e76;&#x8fd4;&#x56de;&#x5355;&#x4e2a;&#x503c;&#xff08;&#x5373;&#x5b57;&#x7b26;&#x4e32;&#x3001;&#x6570;&#x5b57;&#x3001;&#x5bf9;&#x8c61;&#x3001;&#x6570;&#x7ec4;&#xff09;&#x3002; &#x8fd9;&#x662f;&#x901a;&#x8fc7;&#x5728;&#x6bcf;&#x6b21;&#x8fed;&#x4ee3;&#x4e2d;&#x8c03;&#x7528;&#x4e00;&#x4e2a;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x6765;&#x5b9e;&#x73b0;&#x7684;&#x3002;"/>
+<node CREATED="1644911795836" ID="ID_1520438766" MODIFIED="1644911797929" TEXT="arg1">
+<node CREATED="1644911812189" ID="ID_1974607838" MODIFIED="1644911819934" TEXT=" &#x7b2c;&#x4e00;&#x4e2a;&#x53c2;&#x6570;&#x79f0;&#x4e3a;&#x53e0;&#x52a0;&#x5668;&#xff0c;&#x5b83;&#x662f;&#x4e0a;&#x4e00;&#x6b21;&#x8fed;&#x4ee3;&#x4e2d;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x7684;&#x8fd4;&#x56de;&#x503c;"/>
+</node>
+<node CREATED="1644911799111" ID="ID_1690461164" MODIFIED="1644911802091" TEXT="arg2">
+<node CREATED="1644911821500" ID="ID_1482276449" MODIFIED="1644911830322" TEXT="&#x7b2c;&#x4e8c;&#x4e2a;&#x53c2;&#x6570;&#x662f;&#x5f53;&#x524d;&#x6b63;&#x5728;&#x5904;&#x7406;&#x7684;&#x6570;&#x7ec4;&#x5143;&#x7d20;"/>
+</node>
+<node CREATED="1644911802533" ID="ID_409591573" MODIFIED="1644911804403" TEXT="arg3">
+<node CREATED="1644911834423" ID="ID_389070734" MODIFIED="1644911846242" TEXT="&#x7b2c;&#x4e09;&#x4e2a;&#x53c2;&#x6570;&#x662f;&#x8be5;&#x53c2;&#x6570;&#x7684;&#x7d22;&#x5f15;"/>
+</node>
+<node CREATED="1644911848971" ID="ID_1628023806" MODIFIED="1644911853378" TEXT="start_symble">
+<node CREATED="1644911854364" ID="ID_415671148" MODIFIED="1644911863087" TEXT="&#x7b2c;&#x56db;&#x4e2a;&#x53c2;&#x6570;&#x662f;&#x5728;&#x5176;&#x4e0a;&#x8c03;&#x7528; reduce &#x65b9;&#x6cd5;&#x7684;&#x6570;&#x7ec4;"/>
+</node>
+<node CREATED="1644911867797" ID="ID_714789393" MODIFIED="1644911868654" TEXT="exp">
+<node CREATED="1644911869524" ID="ID_1175835639" MODIFIED="1644911933128" TEXT="const users = [   &#xa;&#x9;{ name: &apos;John&apos;, age: 34 },   &#xa;&#x9;{ name: &apos;Amy&apos;, age: 20 },   &#xa;&#x9;{ name: &apos;camperCat&apos;, age: 10 } &#xa;&#x9;];  &#xa;const sumOfAges = users.reduce((sum, user) =&gt; sum + user.age, 0);"/>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1644912277460" ID="ID_695898693" MODIFIED="1644912408567" TEXT="[].every(function(){return .......});">
+<node CREATED="1644912318012" ID="ID_922284790" MODIFIED="1644912342806" TEXT="&#x67e5;&#x8be2;&#x7d22;&#x5f15;&#x4e2d;&#x6240;&#x6709;&#x7684;&#x5143;&#x7d20;&#x662f;&#x5426;&#x7b26;&#x5408;&#x6761;&#x4ef6;&#xff0c;&#x8fd4;&#x56de;true&#x6216;&#x8005;false"/>
+<node CREATED="1644912344262" ID="ID_32861602" MODIFIED="1644912345519" TEXT="exp">
+<node CREATED="1644912346338" ID="ID_1309167833" MODIFIED="1644912371581">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      const numbers = [1, 5, 8, 0, 10, 11];&#160;&#160;
+    </p>
+    <p>
+      numbers.every(function(currentValue) {&#160;&#160;&#160;
+    </p>
+    <p>
+      return currentValue &lt; 10;
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1644912373990" ID="ID_59335834" MODIFIED="1644912380656" TEXT="return false"/>
+</node>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1644912409775" ID="ID_885375963" MODIFIED="1644912470842" TEXT="[].some(function(){return ...});">
+<node CREATED="1644912444793" ID="ID_793417461" MODIFIED="1644912463494" TEXT="&#x67e5;&#x8be2;&#x6570;&#x7ec4;&#x53ea;&#x8981;&#x6709;&#x4e00;&#x4e2a;&#x6ee1;&#x8db3;&#x6761;&#x4ef6;&#x5c31;&#x8fd4;&#x56de;true&#x6216;&#x8005;false"/>
+</node>
 </node>
 <node COLOR="#0099ff" CREATED="1644165329829" ID="ID_304900466" MODIFIED="1644591440332" TEXT="...[]">
 <node CREATED="1644165318155" ID="ID_974285317" MODIFIED="1644165327655" TEXT="&#x538b;&#x7f29;&#x6570;&#x7ec4;&#x7684;&#x65b9;&#x5f0f;">
@@ -1630,6 +1712,11 @@
 <node CREATED="1642934323024" ID="ID_1466805506" MODIFIED="1642934346894" TEXT="&#x51fd;&#x6570;">
 <node CREATED="1642934347937" ID="ID_136678020" MODIFIED="1642934398807" TEXT="function Name(pre1,pre2){return;}"/>
 <node CREATED="1642934507038" ID="ID_1997373889" MODIFIED="1642934524094" TEXT="&#x51fd;&#x6570;&#x80fd;&#x591f;&#x8fd4;&#x56de;undefined&#xff0c;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x7a7a;&#x7684;&#x4e1c;&#x4e1c;"/>
+<node CREATED="1644909428126" ID="ID_345313284" MODIFIED="1644909971690" TEXT="&#x4e0d;&#x7528;function&#x521b;&#x5efa;&#x51fd;&#x6570;&#x7684;&#x65b9;&#x6cd5;">
+<node CREATED="1644909445045" ID="ID_943538765" MODIFIED="1644909463479" TEXT="exp">
+<node CREATED="1644909464384" ID="ID_1612353533" MODIFIED="1644909517366" TEXT="const prepareTea =()=&gt;&apos;greenTea&apos;;"/>
+</node>
+</node>
 </node>
 <node CREATED="1642934432413" ID="ID_1758819996" MODIFIED="1642934473732" TEXT="&#x4f5c;&#x7528;&#x57df;&#x548c;c&#x4e00;&#x6837;">
 <node CREATED="1642934446539" ID="ID_1214398957" MODIFIED="1642934455406" TEXT="&#x5168;&#x5c40;&#x4f5c;&#x7528;&#x57df;"/>
@@ -2087,8 +2174,7 @@
       };
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#3399ff" CREATED="1644890191527" ID="ID_753506015" MODIFIED="1644890817205" TEXT="duck&#x4e3a;&#x5bf9;&#x8c61;&#x7684;&#x5b9e;&#x4f8b;"/>
 <node COLOR="#3399ff" CREATED="1644890201811" ID="ID_1095077236" MODIFIED="1644890820083" TEXT="name&#xff0c;numLegs&#x4e3a;&#x8fd9;&#x4e2a;&#x5b9e;&#x4f8b;&#x7684;&#x5c5e;&#x6027;&#xff08;&#x952e;&#x503c;&#x5bf9;&#xff09;"/>
 <node COLOR="#3399ff" CREATED="1644890246463" ID="ID_1185417237" MODIFIED="1644890822322" TEXT="&#x201c;Aflac&#x201d; &#x201c;2&#x201d;&#x4e3a;&#x5c5e;&#x6027;&#x7684;&#x503c;&#xff08;&#x5185;&#x5bb9;&#xff09;"/>
@@ -2119,8 +2205,7 @@
       console.log(duck.name);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2193,8 +2278,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1644892440084" FOLDED="true" ID="ID_784248834" MODIFIED="1644892486230" TEXT="exp">
 <node CREATED="1644892456861" ID="ID_779043596" MODIFIED="1644892481826">
@@ -2219,8 +2303,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2253,8 +2336,7 @@
       &#22312;&#26356;&#25913;&#21407;&#22411;&#20989;&#25968;&#30340;&#26102;&#20505;&#65292;&#35201;&#25913;&#21464;&#20854;&#20869;&#37096;&#30340;constructor&#23646;&#24615;&#65292;constructor&#23646;&#24615;&#33021;&#22815;&#34987;&#25913;&#21464;&#65292;&#21542;&#21017;&#20250;&#21028;&#26029;&#38169;&#35823;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1644894978264" ID="ID_1162662515" MODIFIED="1644894979469" TEXT="exp">
 <node CREATED="1644894980290" ID="ID_528921157" MODIFIED="1644895078098" TEXT="Bird.prototype = {   &#xa;           constructor: Bird,   &#xa;           numLegs: 2,   &#xa;           eat: function() {     &#xa;&#x9;console.log(&quot;nom nom nom&quot;);   &#xa;&#x9;},   &#xa;           describe: function() {     &#xa;&#x9;console.log(&quot;My name is &quot; + this.name);    &#xa;&#x9;} &#xa;};"/>
 </node>
@@ -2294,8 +2376,7 @@
       animal.prototype&#160;= Object.create(Animal.prototype);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2324,8 +2405,7 @@
       makeNest();
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
