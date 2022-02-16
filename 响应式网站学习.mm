@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1642673256137" ID="ID_1513739110" MODIFIED="1644735592717" TEXT="&#x54cd;&#x5e94;&#x5f0f;&#x7f51;&#x7ad9;&#x5b66;&#x4e60;">
+<node CREATED="1642673256137" ID="ID_1513739110" MODIFIED="1645024953588" TEXT="&#x524d;&#x7aef;">
 <node CREATED="1642687642292" FOLDED="true" ID="ID_925445610" MODIFIED="1644889702471" POSITION="right" TEXT="html html5&#x5b66;&#x4e60;">
 <node CREATED="1642673498418" ID="ID_817050318" MODIFIED="1643204287030" TEXT="&#x57fa;&#x7840;">
 <node COLOR="#0099ff" CREATED="1642673509077" ID="ID_382618358" MODIFIED="1644396293627" TEXT="&#x6b63;&#x6807;&#x9898;">
@@ -1355,7 +1355,7 @@
 </node>
 </node>
 <node CREATED="1642908176026" ID="ID_1921265322" MODIFIED="1642908185670" POSITION="left" TEXT="javascript&#x5b66;&#x4e60;">
-<node CREATED="1642908252509" ID="ID_758107217" MODIFIED="1644164629306" TEXT="&#x57fa;&#x7840;">
+<node CREATED="1642908252509" FOLDED="true" ID="ID_758107217" MODIFIED="1645024431246" TEXT="&#x57fa;&#x7840;">
 <node CREATED="1642908385538" ID="ID_590000728" MODIFIED="1642908397420" TEXT="ctrl+/">
 <node CREATED="1642908263371" ID="ID_1588820969" MODIFIED="1642908371212" TEXT="&#x6ce8;&#x91ca;&#x4ee3;&#x7801;"/>
 </node>
@@ -1539,7 +1539,7 @@
 </node>
 </node>
 <node COLOR="#3399ff" CREATED="1644911075693" ID="ID_951431804" MODIFIED="1644911267975" TEXT="[].filter((arg1,arg2,arg3)=&gt;(arg1.age&gt;30 ......))">
-<node CREATED="1644911365432" ID="ID_1888835604" MODIFIED="1644911420335" TEXT="filter &#x63a5;&#x6536;&#x4e00;&#x4e2a;&#x56de;&#x8c03;&#x51fd;&#x6570;&#xff0c;&#x5c06;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x5185;&#x7684;&#x903b;&#x8f91;&#x5e94;&#x7528;&#x4e8e;&#x6570;&#x7ec4;&#x7684;&#x6bcf;&#x4e2a;&#x5143;&#x7d20;&#xff0c;&#x65b0;&#x6570;&#x7ec4;&#x5305;&#x542b;&#x6839;&#x636e;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x5185;&#x6761;&#x4ef6;&#x8fd4;&#x56de; true &#x7684;&#x5143;&#x7d20;,&#x4e00;&#x5171;&#x6709;1~3&#x4e2a;&#x53c2;&#x6570;&#x4f4d;&#x53ef;&#x4ee5;&#x9009;."/>
+<node CREATED="1644911365432" ID="ID_1888835604" MODIFIED="1645010817719" TEXT="filter &#x63a5;&#x6536;&#x4e00;&#x4e2a;&#x56de;&#x8c03;&#x51fd;&#x6570;&#xff0c;&#x5c06;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x5185;&#x7684;&#x903b;&#x8f91;&#x5e94;&#x7528;&#x4e8e;&#x6570;&#x7ec4;&#x7684;&#x6bcf;&#x4e2a;&#x5143;&#x7d20;&#xff0c;&#x65b0;&#x6570;&#x7ec4;&#x5305;&#x542b;&#x6839;&#x636e;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x5185;&#x6761;&#x4ef6;&#x8fd4;&#x56de; true &#x7684;&#x5143;&#x7d20;,&#x4e00;&#x5171;&#x6709;1~3&#x4e2a;&#x53c2;&#x6570;&#x4f4d;&#x53ef;&#x4ee5;&#x9009;&#xff0c;&#x8fd4;&#x56de;&#x901a;&#x8fc7;&#x6d4b;&#x8bd5;&#x7684;&#x6570;&#x7ec4;&#x3002;"/>
 <node CREATED="1644911157454" ID="ID_434479751" MODIFIED="1644911238613" TEXT="arg1">
 <node CREATED="1644911247256" ID="ID_1418067635" MODIFIED="1644911248500" TEXT="&#x5f53;&#x524d;&#x6b63;&#x5728;&#x5904;&#x7406;&#x7684;&#x6570;&#x7ec4;&#x9879; "/>
 </node>
@@ -1550,7 +1550,7 @@
 <node CREATED="1644911258946" ID="ID_907579696" MODIFIED="1644911259862" TEXT="&#x5728;&#x53c2;&#x6570;&#x4e4b;&#x4e0a;&#x8c03;&#x7528;map&#x7684;&#x65b9;&#x6cd5;&#x7684;&#x6570;&#x7ec4;&#xff0c;&#x9012;&#x5f52; "/>
 </node>
 <node CREATED="1644911271782" ID="ID_1616345767" MODIFIED="1644911272463" TEXT="exp">
-<node CREATED="1644911273359" ID="ID_1134737742" MODIFIED="1644911527751" TEXT="const users = [    &#xa;&#x9;{ name: &apos;John&apos;, age: 34 },    &#x9;&#xa;&#x9;{ name: &apos;Amy&apos;, age: 20 },    &#x9;&#xa;&#x9;{ name: &apos;camperCat&apos;, age: 10 }  &#x9;&#xa;&#x9;];   &#xa;const names = users.filter(user =&gt; user.age);">
+<node CREATED="1644911273359" ID="ID_1134737742" MODIFIED="1645011294294" TEXT="function filterByID(item) {&#xa;  if (isNumber(item.id) &amp;&amp; item.id !== 0) {&#xa;    return true;&#xa;  }&#xa;  invalidEntries++;&#xa;  return false;&#xa;}&#xa;&#xa;var arrByID = arr.filter(filterByID);">
 <arrowlink DESTINATION="ID_1134737742" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_139830545" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1134737742" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_139830545" SOURCE="ID_1134737742" STARTARROW="None" STARTINCLINATION="0;0;"/>
 </node>
@@ -1867,7 +1867,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1643506211806" ID="ID_1083955627" MODIFIED="1644986293138" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;">
+<node CREATED="1643506211806" FOLDED="true" ID="ID_1083955627" MODIFIED="1645025111845" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;">
 <node CREATED="1643506334231" ID="ID_524389909" MODIFIED="1643506706636" TEXT="&#x6d4b;&#x8bd5;&#x65b9;&#x6cd5;">
 <node COLOR="#3399ff" CREATED="1643506218462" ID="ID_314094726" MODIFIED="1643530229738" TEXT=".test()">
 <node CREATED="1643507586065" ID="ID_510254770" MODIFIED="1643507612471" TEXT="&#x68c0;&#x67e5;&#x5339;&#x914d;&#x6a21;&#x5f0f;&#x662f;&#x5426;&#x5b58;&#x5728;&#x4e0e;&#x5b57;&#x7b26;&#x4e32;&#x4e2d;"/>
@@ -2025,7 +2025,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#3399ff" CREATED="1643530314522" FOLDED="true" ID="ID_195559644" MODIFIED="1644567410556">
+<node COLOR="#3399ff" CREATED="1643530314522" ID="ID_195559644" MODIFIED="1645015841485">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2142,6 +2142,14 @@
 </node>
 </node>
 <node COLOR="#3399ff" CREATED="1643856580815" ID="ID_830635280" MODIFIED="1643856617668" TEXT="&#x641c;&#x7d22;&#x4e0e;&#x66ff;&#x6362;">
+<node COLOR="#3399ff" CREATED="1645024472178" ID="ID_571692551" MODIFIED="1645024895064" TEXT="str.replace(regexp|substr, newSubStr|function[, flags])">
+<node CREATED="1645024519229" ID="ID_1937678625" MODIFIED="1645024530736" TEXT="regexp|substr">
+<node CREATED="1645024531731" ID="ID_1299696782" MODIFIED="1645024618623" TEXT="&#x4ee3;&#x8868;&#x7684;&#x662f;&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;&#x6216;&#x8005;string&#x7c7b;&#x578b;"/>
+</node>
+<node CREATED="1645024558877" ID="ID_855911739" MODIFIED="1645024583161" TEXT="newSubStr|function[,flags]">
+<node CREATED="1645024602244" ID="ID_200289683" MODIFIED="1645024888600" TEXT="&#x540e;&#x9762;&#x5c31;&#x662f;&#x66ff;&#x6362;&#x9879;&#x53ef;&#x4ee5;&#x662f;string&#x4e5f;&#x53ef;&#x4ee5;&#x662f;function $1 $2"/>
+</node>
+</node>
 <node CREATED="1643856610104" ID="ID_209559482" MODIFIED="1643856642859" TEXT="exp">
 <node CREATED="1643856644287" ID="ID_47603386" MODIFIED="1643856671972" TEXT="&quot;Code Camp&quot;.replace(/(\w+)\s(\w+)/, &apos;$2 $1&apos;);"/>
 <node CREATED="1643856685802" ID="ID_617857377" MODIFIED="1643856728447" TEXT="$2&#x4e0e;$1&#x5206;&#x522b;&#x4ee3;&#x8868;&#x7684;&#x662f;(\w+)"/>
@@ -2160,7 +2168,7 @@
 <node CREATED="1644888546130" ID="ID_1257783212" MODIFIED="1644888550472" TEXT="&#x67e5;&#x8be2;&#x6570;&#x636e;&#x7c7b;&#x578b;"/>
 </node>
 </node>
-<node CREATED="1644890094727" ID="ID_1499254367" MODIFIED="1644890105932" TEXT="javaScript&#x9762;&#x5411;&#x5bf9;&#x8c61;">
+<node CREATED="1644890094727" FOLDED="true" ID="ID_1499254367" MODIFIED="1645025109590" TEXT="javaScript&#x9762;&#x5411;&#x5bf9;&#x8c61;">
 <node CREATED="1644890109401" ID="ID_1570573926" MODIFIED="1644890170881" TEXT="exp">
 <node CREATED="1644890171828" ID="ID_160245451" MODIFIED="1644890190043">
 <richcontent TYPE="NODE"><html>
