@@ -1520,6 +1520,9 @@
 <node CREATED="1644568654081" ID="ID_1267199037" MODIFIED="1644568777729" TEXT="&#x4ee3;&#x8868;&#x6839;&#x636e;&#x7a7a;&#x683c;&#x5c06;&#x5b57;&#x7b26;&#x4e32;&#x62fc;&#x63a5;&#x6210;&#x4ee5;&#x201c; &#x201d;&#x4f5c;&#x4e3a;&#x5206;&#x5272;&#x7684;&#x5b57;&#x7b26;&#x4e32;"/>
 </node>
 </node>
+<node COLOR="#0099ff" CREATED="1644986844108" ID="ID_1446431739" MODIFIED="1644986890540" TEXT="[].concat([]);">
+<node CREATED="1644986830457" ID="ID_1336326250" MODIFIED="1644986838632" TEXT="&#x7ec4;&#x5408;&#x5b57;&#x7b26;&#x4e32;"/>
+</node>
 <node COLOR="#3399ff" CREATED="1644910662442" ID="ID_1839201455" MODIFIED="1644911174862" TEXT="[].map((arg1,arg2,arg3)=&gt;....);">
 <node CREATED="1644910714707" ID="ID_1451192982" MODIFIED="1644911406502" TEXT="map&#x65b9;&#x6cd5;&#x662f;&#x8fed;&#x4ee3;&#x6570;&#x7ec4;&#x4e2d;&#x6bcf;&#x4e00;&#x9879;&#x7684;&#x65b9;&#x5f0f;&#x4e4b;&#x4e00;,&#x6309;&#x7167;&#x4e00;&#x5b9a;&#x7684;&#x89c4;&#x5219;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x65b0;&#x7684;&#x6570;&#x7ec4;&#xff0c;&#x4e00;&#x5171;&#x6709;1~3&#x4e2a;&#x53c2;&#x6570;&#x4f4d;&#x53ef;&#x4ee5;&#x9009;"/>
 <node CREATED="1644910782066" ID="ID_15212653" MODIFIED="1644910791660" TEXT="arg1">
@@ -1593,8 +1596,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1644912373990" ID="ID_59335834" MODIFIED="1644912380656" TEXT="return false"/>
 </node>
 </node>
@@ -1716,6 +1718,11 @@
 <node CREATED="1644909445045" ID="ID_943538765" MODIFIED="1644909463479" TEXT="exp">
 <node CREATED="1644909464384" ID="ID_1612353533" MODIFIED="1644909517366" TEXT="const prepareTea =()=&gt;&apos;greenTea&apos;;"/>
 </node>
+</node>
+<node COLOR="#3399ff" CREATED="1644998253914" ID="ID_1474501527" MODIFIED="1644998386534" TEXT="function.arguments">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1644998331686" ID="ID_1983618645" MODIFIED="1644998333000" TEXT="function.arguments &#x5c5e;&#x6027;&#x4ee3;&#x8868;&#x4f20;&#x5165;&#x51fd;&#x6570;&#x7684;&#x5b9e;&#x53c2;&#xff0c;&#x5b83;&#x662f;&#x4e00;&#x4e2a;&#x7c7b;&#x6570;&#x7ec4;&#x5bf9;&#x8c61;&#x3002;"/>
+<node COLOR="#ff3366" CREATED="1644998345195" ID="ID_1683337632" MODIFIED="1644998392860" TEXT="&#x5373;&#x5c06;&#x88ab;&#x5e9f;&#x5f03;&#x6389;"/>
 </node>
 </node>
 <node CREATED="1642934432413" ID="ID_1758819996" MODIFIED="1642934473732" TEXT="&#x4f5c;&#x7528;&#x57df;&#x548c;c&#x4e00;&#x6837;">
@@ -1860,7 +1867,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1643506211806" FOLDED="true" ID="ID_1083955627" MODIFIED="1644889716115" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;">
+<node CREATED="1643506211806" ID="ID_1083955627" MODIFIED="1644986293138" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;">
 <node CREATED="1643506334231" ID="ID_524389909" MODIFIED="1643506706636" TEXT="&#x6d4b;&#x8bd5;&#x65b9;&#x6cd5;">
 <node COLOR="#3399ff" CREATED="1643506218462" ID="ID_314094726" MODIFIED="1643530229738" TEXT=".test()">
 <node CREATED="1643507586065" ID="ID_510254770" MODIFIED="1643507612471" TEXT="&#x68c0;&#x67e5;&#x5339;&#x914d;&#x6a21;&#x5f0f;&#x662f;&#x5426;&#x5b58;&#x5728;&#x4e0e;&#x5b57;&#x7b26;&#x4e32;&#x4e2d;"/>
@@ -1880,12 +1887,12 @@
 </node>
 </node>
 <node CREATED="1643506340917" ID="ID_949056209" MODIFIED="1643506701191" TEXT="&#x8bed;&#x6cd5;&#x5339;&#x914d;&#x89c4;&#x5219;">
-<node CREATED="1643506345478" FOLDED="true" ID="ID_854007351" MODIFIED="1643530254392" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;&#x653e;&#x5728;&#x53cc;&#x659c;&#x6760;&#x5f53;&#x4e2d;&#xff0c;&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;&#x4e2d;&#x4e0d;&#x9700;&#x8981;&#x5f15;&#x53f7;">
+<node CREATED="1643506345478" FOLDED="true" ID="ID_854007351" MODIFIED="1644986686505" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;&#x653e;&#x5728;&#x53cc;&#x659c;&#x6760;&#x5f53;&#x4e2d;&#xff0c;&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;&#x4e2d;&#x4e0d;&#x9700;&#x8981;&#x5f15;&#x53f7;">
 <node CREATED="1643506592072" ID="ID_535628295" MODIFIED="1643506593490" TEXT="exp">
 <node CREATED="1643506594309" ID="ID_204437542" MODIFIED="1643506718515" TEXT="let myRegex = /Hello/;  //Hello&#x5373;&#x662f;&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;&#x7684;&#x5185;&#x5bb9;"/>
 </node>
 </node>
-<node COLOR="#3399ff" CREATED="1643506733822" FOLDED="true" ID="ID_1555701639" MODIFIED="1643530218152" TEXT="&#x5339;&#x914d;&#x6587;&#x5b57;&#x5b57;&#x7b26;&#x4e32;">
+<node COLOR="#3399ff" CREATED="1643506733822" FOLDED="true" ID="ID_1555701639" MODIFIED="1644986682589" TEXT="&#x5339;&#x914d;&#x6587;&#x5b57;&#x5b57;&#x7b26;&#x4e32;">
 <node CREATED="1643507127259" ID="ID_1482226048" MODIFIED="1643507128968" TEXT="exp">
 <node CREATED="1643507139740" ID="ID_44778692" MODIFIED="1643507181009">
 <richcontent TYPE="NODE"><html>
