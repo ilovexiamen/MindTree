@@ -1354,8 +1354,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1642908176026" ID="ID_1921265322" MODIFIED="1642908185670" POSITION="left" TEXT="javascript&#x5b66;&#x4e60;">
-<node CREATED="1642908252509" FOLDED="true" ID="ID_758107217" MODIFIED="1645024431246" TEXT="&#x57fa;&#x7840;">
+<node CREATED="1642908176026" ID="ID_1921265322" MODIFIED="1645151718299" POSITION="left" TEXT="javascript&#x5b66;&#x4e60;">
+<node CREATED="1642908252509" ID="ID_758107217" MODIFIED="1645072529139" TEXT="&#x57fa;&#x7840;">
 <node CREATED="1642908385538" ID="ID_590000728" MODIFIED="1642908397420" TEXT="ctrl+/">
 <node CREATED="1642908263371" ID="ID_1588820969" MODIFIED="1642908371212" TEXT="&#x6ce8;&#x91ca;&#x4ee3;&#x7801;"/>
 </node>
@@ -1398,7 +1398,7 @@
 </node>
 <node COLOR="#0099ff" CREATED="1644590195159" ID="ID_1427841105" MODIFIED="1644590825880" TEXT="Object.freeze()">
 <node CREATED="1643375617568" ID="ID_42315668" MODIFIED="1644590203294" TEXT="&#x4efb;&#x4f55;&#x66f4;&#x6539;&#x5bf9;&#x8c61;&#x7684;&#x65b9;&#x5f0f;&#x90fd;&#x4f1a;&#x88ab;&#x62d2;&#x7edd;&#xff0c;&#x4e25;&#x683c;&#x6267;&#x884c;&#x811a;&#x672c;">
-<node CREATED="1643375694585" ID="ID_1340539922" MODIFIED="1643375703276" TEXT="exp">
+<node CREATED="1643375694585" FOLDED="true" ID="ID_1340539922" MODIFIED="1645150340159" TEXT="exp">
 <node CREATED="1643375705160" ID="ID_55485272" MODIFIED="1643375755307" TEXT="function freezeObj() {   &#xa;&#x9;const MATH_CONSTANTS = {     PI: 3.14   };    &#x9;&#x9;&#x9;&#x9;&#xa;&#x9;Object.freeze(MATH_CONSTANTS);&#xa;}">
 <node CREATED="1643375760683" ID="ID_1049774892" MODIFIED="1643375809928" TEXT="&#x4efb;&#x4f55;&#x6539;&#x53d8;&#x90fd;&#x6ca1;&#x5f97;&#x529e;&#x6cd5;&#x6539;&#x53d8;MATH_CONSTANTS&#x91cc;&#x9762;pi&#x8fd9;&#x4e2a;&#x5c5e;&#x6027;"/>
 </node>
@@ -1450,11 +1450,11 @@
 <node CREATED="1642932828729" ID="ID_1973140763" MODIFIED="1642932832538" TEXT="+"/>
 <node CREATED="1642932833542" ID="ID_375630251" MODIFIED="1642932835600" TEXT="+="/>
 </node>
-<node COLOR="#0099ff" CREATED="1642932876943" FOLDED="true" ID="ID_1403558968" MODIFIED="1644591178955" TEXT="&#x67e5;&#x627e;&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x957f;&#x5ea6;">
+<node COLOR="#0099ff" CREATED="1642932876943" ID="ID_1403558968" MODIFIED="1645089717870" TEXT="&#x67e5;&#x627e;&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x957f;&#x5ea6;">
 <node CREATED="1642932884881" ID="ID_486824926" MODIFIED="1644590871536" TEXT="str.length"/>
 </node>
-<node COLOR="#0099ff" CREATED="1642933296660" ID="ID_749986427" MODIFIED="1644590890336" TEXT="&#x53ef;&#x4ee5;&#x7528;&#x65b9;&#x62ec;&#x53f7;&#x67e5;&#x8be2;&#x5b57;&#x7b26;&#x4e32;&#x4e2d;&#x7684;&#x5b57;&#x7b26;">
-<node CREATED="1642933321817" FOLDED="true" ID="ID_805337167" MODIFIED="1644590893351" TEXT="exp">
+<node COLOR="#0099ff" CREATED="1642933296660" ID="ID_749986427" MODIFIED="1645089799521" TEXT="&#x53ef;&#x4ee5;&#x7528;&#x65b9;&#x62ec;&#x53f7;&#x67e5;&#x8be2;&#x5b57;&#x7b26;&#x4e32;&#x4e2d;&#x7684;&#x5b57;&#x7b26;">
+<node CREATED="1642933321817" FOLDED="true" ID="ID_805337167" MODIFIED="1645151847318" TEXT="exp">
 <node CREATED="1642933331467" ID="ID_1739082013" MODIFIED="1644590878384" TEXT="str[str.length-1]">
 <node CREATED="1642933375636" ID="ID_413918358" MODIFIED="1642933404052" TEXT="&#x4ee3;&#x8868;&#x7684;&#x662f;&#x5b57;&#x7b26;&#x4e32;&#x4e2d;&#x6700;&#x540e;&#x7684;&#x4e00;&#x4e2a;&#x5143;&#x7d20;"/>
 </node>
@@ -1499,14 +1499,17 @@
 <node COLOR="#0099ff" CREATED="1644165189343" ID="ID_1037749824" MODIFIED="1644591420173" TEXT="[].slice(arg1,arg2)">
 <node CREATED="1644591306467" ID="ID_676902029" MODIFIED="1644591308810" TEXT="way1">
 <node CREATED="1644591411319" ID="ID_744906971" MODIFIED="1644591412710" TEXT="[].slice(arg1,arg2)">
-<node CREATED="1644591365618" ID="ID_70615853" MODIFIED="1644591368737" TEXT="exp">
+<node CREATED="1644591365618" FOLDED="true" ID="ID_70615853" MODIFIED="1645150280009" TEXT="exp">
 <node CREATED="1644591369779" ID="ID_471621520" MODIFIED="1644735581013" TEXT="&#x4ece;arg1&#x7684;&#x4f4d;&#x7f6e;&#x5f00;&#x59cb;&#x63d0;&#x53d6;arg2&#x4e2a;&#x53c2;&#x6570;"/>
+</node>
+<node CREATED="1645080989010" ID="ID_647343072" MODIFIED="1645080999055" TEXT="[].slice(number)">
+<node CREATED="1645081000905" ID="ID_1024230124" MODIFIED="1645081010502" TEXT="&#x53d6;&#x51fa;number&#x4e4b;&#x540e;&#x7684;&#x5143;&#x7d20;"/>
 </node>
 </node>
 </node>
 <node CREATED="1644568534718" ID="ID_1112729915" MODIFIED="1644568539825" TEXT="way2">
 <node CREATED="1644568541220" ID="ID_1481711435" MODIFIED="1644591332551" TEXT="[].prototype.slice()">
-<node CREATED="1644568550169" ID="ID_972105104" MODIFIED="1644568551776" TEXT="exp">
+<node CREATED="1644568550169" FOLDED="true" ID="ID_972105104" MODIFIED="1645150282191" TEXT="exp">
 <node CREATED="1644568553056" ID="ID_1142023523" MODIFIED="1644568600825" TEXT="[].toUpperCase.slice(1,2)//&#x53d6;&#x51fa;&#x7b2c;&#x4e8c;&#x4e2a;&#x548c;&#x7b2c;&#x4e09;&#x4e2a;&#x5143;&#x7d20;"/>
 </node>
 </node>
@@ -1523,7 +1526,50 @@
 <node COLOR="#0099ff" CREATED="1644986844108" ID="ID_1446431739" MODIFIED="1644986890540" TEXT="[].concat([]);">
 <node CREATED="1644986830457" ID="ID_1336326250" MODIFIED="1644986838632" TEXT="&#x7ec4;&#x5408;&#x5b57;&#x7b26;&#x4e32;"/>
 </node>
-<node COLOR="#3399ff" CREATED="1644910662442" ID="ID_1839201455" MODIFIED="1644911174862" TEXT="[].map((arg1,arg2,arg3)=&gt;....);">
+<node COLOR="#3399ff" CREATED="1645089827428" ID="ID_794760028" MODIFIED="1645089904728" TEXT="str.charCodeAt(index)">
+<node CREATED="1645089850489" ID="ID_128749147" MODIFIED="1645089977985" TEXT="&#x63d0;&#x53d6;index&#x7d22;&#x5f15;&#x4e2d;&#x7684;&#x5b57;&#x7b26;&#x7684;ASCII&#x7801;&#x503c;">
+<node CREATED="1645089931503" FOLDED="true" ID="ID_1035520665" MODIFIED="1645089957946" TEXT="exp">
+<node CREATED="1645089934653" ID="ID_149174029" MODIFIED="1645089950193">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      const sentence = 'The quick brown fox jumps over the lazy dog.';
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      const index = 4;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      console.log(`The character code ${sentence.charCodeAt(index)} is equal to ${sentence.charAt(index)}`);
+    </p>
+    <p>
+      // expected output: &quot;The character code 113 is equal to q&quot;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1645089906952" ID="ID_373716754" MODIFIED="1645089928382" TEXT="stt.charAt(index)">
+<node CREATED="1645089980352" ID="ID_1361078063" MODIFIED="1645089994134" TEXT="&#x63d0;&#x53d6;index&#x7d22;&#x5f15;&#x5f53;&#x4e2d;&#x7684;&#x5b57;&#x7b26;"/>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1645149767633" ID="ID_229110233" MODIFIED="1645150094289" TEXT="String.fromCharCode(ASCII)">
+<node CREATED="1645150057970" ID="ID_223942751" MODIFIED="1645150083325" TEXT="&#x5c06;ASCII&#x7801;&#x503c;&#x8f6c;&#x5316;&#x4e3a;&#x5b57;&#x7b26;String&#x7c7b;&#x578b;&#x8f93;&#x51fa;&#x51fa;&#x6765;"/>
+<node CREATED="1645150098556" FOLDED="true" ID="ID_588978205" MODIFIED="1645150307821" TEXT="exp">
+<node CREATED="1645150288172" ID="ID_939218732" MODIFIED="1645150290490" TEXT="console.log(String.fromCharCode(230, 43, 190, 61));"/>
+<node CREATED="1645150293708" ID="ID_1710352702" MODIFIED="1645150305929" TEXT="return &quot;&#xe6;+&#xbe;=&quot;"/>
+</node>
+</node>
+<node COLOR="#3399ff" CREATED="1644910662442" FOLDED="true" ID="ID_1839201455" MODIFIED="1645150261077" TEXT="[].map((arg1,arg2,arg3)=&gt;....);">
 <node CREATED="1644910714707" ID="ID_1451192982" MODIFIED="1644911406502" TEXT="map&#x65b9;&#x6cd5;&#x662f;&#x8fed;&#x4ee3;&#x6570;&#x7ec4;&#x4e2d;&#x6bcf;&#x4e00;&#x9879;&#x7684;&#x65b9;&#x5f0f;&#x4e4b;&#x4e00;,&#x6309;&#x7167;&#x4e00;&#x5b9a;&#x7684;&#x89c4;&#x5219;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x65b0;&#x7684;&#x6570;&#x7ec4;&#xff0c;&#x4e00;&#x5171;&#x6709;1~3&#x4e2a;&#x53c2;&#x6570;&#x4f4d;&#x53ef;&#x4ee5;&#x9009;"/>
 <node CREATED="1644910782066" ID="ID_15212653" MODIFIED="1644910791660" TEXT="arg1">
 <node CREATED="1644910792520" ID="ID_530384388" MODIFIED="1644910806386" TEXT="&#x5f53;&#x524d;&#x6b63;&#x5728;&#x5904;&#x7406;&#x7684;&#x6570;&#x7ec4;&#x9879;"/>
@@ -1538,7 +1584,7 @@
 <node CREATED="1644910875609" ID="ID_476676957" MODIFIED="1644910998756" TEXT="const users = [   &#xa;&#x9;{ name: &apos;John&apos;, age: 34 },   &#xa;&#x9;{ name: &apos;Amy&apos;, age: 20 },   &#xa;&#x9;{ name: &apos;camperCat&apos;, age: 10 } &#xa;&#x9;];  &#xa;const names = users.map(user =&gt; user.name);"/>
 </node>
 </node>
-<node COLOR="#3399ff" CREATED="1644911075693" ID="ID_951431804" MODIFIED="1644911267975" TEXT="[].filter((arg1,arg2,arg3)=&gt;(arg1.age&gt;30 ......))">
+<node COLOR="#3399ff" CREATED="1644911075693" FOLDED="true" ID="ID_951431804" MODIFIED="1645150405140" TEXT="[].filter((arg1,arg2,arg3)=&gt;(arg1.age&gt;30 ......))">
 <node CREATED="1644911365432" ID="ID_1888835604" MODIFIED="1645010817719" TEXT="filter &#x63a5;&#x6536;&#x4e00;&#x4e2a;&#x56de;&#x8c03;&#x51fd;&#x6570;&#xff0c;&#x5c06;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x5185;&#x7684;&#x903b;&#x8f91;&#x5e94;&#x7528;&#x4e8e;&#x6570;&#x7ec4;&#x7684;&#x6bcf;&#x4e2a;&#x5143;&#x7d20;&#xff0c;&#x65b0;&#x6570;&#x7ec4;&#x5305;&#x542b;&#x6839;&#x636e;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x5185;&#x6761;&#x4ef6;&#x8fd4;&#x56de; true &#x7684;&#x5143;&#x7d20;,&#x4e00;&#x5171;&#x6709;1~3&#x4e2a;&#x53c2;&#x6570;&#x4f4d;&#x53ef;&#x4ee5;&#x9009;&#xff0c;&#x8fd4;&#x56de;&#x901a;&#x8fc7;&#x6d4b;&#x8bd5;&#x7684;&#x6570;&#x7ec4;&#x3002;"/>
 <node CREATED="1644911157454" ID="ID_434479751" MODIFIED="1644911238613" TEXT="arg1">
 <node CREATED="1644911247256" ID="ID_1418067635" MODIFIED="1644911248500" TEXT="&#x5f53;&#x524d;&#x6b63;&#x5728;&#x5904;&#x7406;&#x7684;&#x6570;&#x7ec4;&#x9879; "/>
@@ -1549,14 +1595,14 @@
 <node CREATED="1644911240931" ID="ID_891225931" MODIFIED="1644911242565" TEXT="arg3">
 <node CREATED="1644911258946" ID="ID_907579696" MODIFIED="1644911259862" TEXT="&#x5728;&#x53c2;&#x6570;&#x4e4b;&#x4e0a;&#x8c03;&#x7528;map&#x7684;&#x65b9;&#x6cd5;&#x7684;&#x6570;&#x7ec4;&#xff0c;&#x9012;&#x5f52; "/>
 </node>
-<node CREATED="1644911271782" ID="ID_1616345767" MODIFIED="1644911272463" TEXT="exp">
+<node CREATED="1644911271782" FOLDED="true" ID="ID_1616345767" MODIFIED="1645150317097" TEXT="exp">
 <node CREATED="1644911273359" ID="ID_1134737742" MODIFIED="1645011294294" TEXT="function filterByID(item) {&#xa;  if (isNumber(item.id) &amp;&amp; item.id !== 0) {&#xa;    return true;&#xa;  }&#xa;  invalidEntries++;&#xa;  return false;&#xa;}&#xa;&#xa;var arrByID = arr.filter(filterByID);">
 <arrowlink DESTINATION="ID_1134737742" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_139830545" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1134737742" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_139830545" SOURCE="ID_1134737742" STARTARROW="None" STARTINCLINATION="0;0;"/>
 </node>
 </node>
 </node>
-<node COLOR="#3399ff" CREATED="1644911613833" ID="ID_1154607584" MODIFIED="1644912040003" TEXT="[].reduce((arg1,arg2,arg3)=&gt;....,start_symble);">
+<node COLOR="#3399ff" CREATED="1644911613833" FOLDED="true" ID="ID_1154607584" MODIFIED="1645150404100" TEXT="[].reduce((arg1,arg2,arg3)=&gt;....,start_symble);">
 <node CREATED="1644911684433" ID="ID_1236848865" MODIFIED="1644911709157" TEXT=" reduce&#x65b9;&#x6cd5;&#x904d;&#x5386;&#x6570;&#x7ec4;&#x4e2d;&#x7684;&#x6bcf;&#x4e2a;&#x9879;&#x76ee;&#x5e76;&#x8fd4;&#x56de;&#x5355;&#x4e2a;&#x503c;&#xff08;&#x5373;&#x5b57;&#x7b26;&#x4e32;&#x3001;&#x6570;&#x5b57;&#x3001;&#x5bf9;&#x8c61;&#x3001;&#x6570;&#x7ec4;&#xff09;&#x3002; &#x8fd9;&#x662f;&#x901a;&#x8fc7;&#x5728;&#x6bcf;&#x6b21;&#x8fed;&#x4ee3;&#x4e2d;&#x8c03;&#x7528;&#x4e00;&#x4e2a;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x6765;&#x5b9e;&#x73b0;&#x7684;&#x3002;"/>
 <node CREATED="1644911795836" ID="ID_1520438766" MODIFIED="1644911797929" TEXT="arg1">
 <node CREATED="1644911812189" ID="ID_1974607838" MODIFIED="1644911819934" TEXT=" &#x7b2c;&#x4e00;&#x4e2a;&#x53c2;&#x6570;&#x79f0;&#x4e3a;&#x53e0;&#x52a0;&#x5668;&#xff0c;&#x5b83;&#x662f;&#x4e0a;&#x4e00;&#x6b21;&#x8fed;&#x4ee3;&#x4e2d;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x7684;&#x8fd4;&#x56de;&#x503c;"/>
@@ -1570,13 +1616,13 @@
 <node CREATED="1644911848971" ID="ID_1628023806" MODIFIED="1644911853378" TEXT="start_symble">
 <node CREATED="1644911854364" ID="ID_415671148" MODIFIED="1644911863087" TEXT="&#x7b2c;&#x56db;&#x4e2a;&#x53c2;&#x6570;&#x662f;&#x5728;&#x5176;&#x4e0a;&#x8c03;&#x7528; reduce &#x65b9;&#x6cd5;&#x7684;&#x6570;&#x7ec4;"/>
 </node>
-<node CREATED="1644911867797" ID="ID_714789393" MODIFIED="1644911868654" TEXT="exp">
+<node CREATED="1644911867797" FOLDED="true" ID="ID_714789393" MODIFIED="1645150318720" TEXT="exp">
 <node CREATED="1644911869524" ID="ID_1175835639" MODIFIED="1644911933128" TEXT="const users = [   &#xa;&#x9;{ name: &apos;John&apos;, age: 34 },   &#xa;&#x9;{ name: &apos;Amy&apos;, age: 20 },   &#xa;&#x9;{ name: &apos;camperCat&apos;, age: 10 } &#xa;&#x9;];  &#xa;const sumOfAges = users.reduce((sum, user) =&gt; sum + user.age, 0);"/>
 </node>
 </node>
 <node COLOR="#3399ff" CREATED="1644912277460" ID="ID_695898693" MODIFIED="1644912408567" TEXT="[].every(function(){return .......});">
 <node CREATED="1644912318012" ID="ID_922284790" MODIFIED="1644912342806" TEXT="&#x67e5;&#x8be2;&#x7d22;&#x5f15;&#x4e2d;&#x6240;&#x6709;&#x7684;&#x5143;&#x7d20;&#x662f;&#x5426;&#x7b26;&#x5408;&#x6761;&#x4ef6;&#xff0c;&#x8fd4;&#x56de;true&#x6216;&#x8005;false"/>
-<node CREATED="1644912344262" ID="ID_32861602" MODIFIED="1644912345519" TEXT="exp">
+<node CREATED="1644912344262" FOLDED="true" ID="ID_32861602" MODIFIED="1645150319880" TEXT="exp">
 <node CREATED="1644912346338" ID="ID_1309167833" MODIFIED="1644912371581">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1686,7 +1732,7 @@
 </node>
 <node COLOR="#0099ff" CREATED="1644166779837" ID="ID_1383211598" MODIFIED="1644887240840" TEXT="delete object">
 <node CREATED="1644166768243" ID="ID_452614559" MODIFIED="1644166933071" TEXT="&#x5220;&#x9664;&#x5bf9;&#x8c61;&#x5c5e;&#x6027;">
-<node CREATED="1644166790558" ID="ID_818797497" MODIFIED="1644166791726" TEXT="exp">
+<node CREATED="1644166790558" FOLDED="true" ID="ID_818797497" MODIFIED="1645150325876" TEXT="exp">
 <node CREATED="1644166792618" ID="ID_1313360230" MODIFIED="1644166804645" TEXT="delete foods.apples;"/>
 </node>
 </node>
@@ -1702,7 +1748,7 @@
 <node CREATED="1644887369396" ID="ID_1056217381" MODIFIED="1644887372691" TEXT="&#x53d8;&#x5c0f;&#x5199;"/>
 </node>
 </node>
-<node COLOR="#0099ff" CREATED="1644736117688" ID="ID_949264823" MODIFIED="1644887487685" TEXT="[].sort(function[])">
+<node COLOR="#0099ff" CREATED="1644736117688" FOLDED="true" ID="ID_949264823" MODIFIED="1645151815581" TEXT="[].sort(function[])">
 <node COLOR="#0099ff" CREATED="1644736052815" ID="ID_400829058" MODIFIED="1644736243126" TEXT="&#x6570;&#x7ec4;&#x6309;&#x7167;&#x4e00;&#x5b9a;&#x7684;&#x65b9;&#x5f0f;&#x8fdb;&#x884c;&#x6392;&#x5e8f;"/>
 <node CREATED="1644736132817" ID="ID_418537457" MODIFIED="1644736157470" TEXT="sort()&#x662f;&#x7528;&#x6765;&#x8fdb;&#x884c;&#x6570;&#x7ec4;&#x6392;&#x5e8f;&#x7684;&#x65b9;&#x5f0f;"/>
 <node CREATED="1644736157853" ID="ID_749728840" MODIFIED="1644736336095" TEXT="function()&#x5373;&#x4f9d;&#x9760;&#x4e00;&#x5b9a;&#x7684;&#x89c4;&#x5219;&#x6765;&#x529e;&#x4e8b;"/>
@@ -1715,7 +1761,7 @@
 <node CREATED="1642934347937" ID="ID_136678020" MODIFIED="1642934398807" TEXT="function Name(pre1,pre2){return;}"/>
 <node CREATED="1642934507038" ID="ID_1997373889" MODIFIED="1642934524094" TEXT="&#x51fd;&#x6570;&#x80fd;&#x591f;&#x8fd4;&#x56de;undefined&#xff0c;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x7a7a;&#x7684;&#x4e1c;&#x4e1c;"/>
 <node CREATED="1644909428126" ID="ID_345313284" MODIFIED="1644909971690" TEXT="&#x4e0d;&#x7528;function&#x521b;&#x5efa;&#x51fd;&#x6570;&#x7684;&#x65b9;&#x6cd5;">
-<node CREATED="1644909445045" ID="ID_943538765" MODIFIED="1644909463479" TEXT="exp">
+<node CREATED="1644909445045" FOLDED="true" ID="ID_943538765" MODIFIED="1645150329396" TEXT="exp">
 <node CREATED="1644909464384" ID="ID_1612353533" MODIFIED="1644909517366" TEXT="const prepareTea =()=&gt;&apos;greenTea&apos;;"/>
 </node>
 </node>
@@ -1796,7 +1842,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1642935518229" ID="ID_123548256" MODIFIED="1644888163833" TEXT="&#x590d;&#x6742;&#x7684;js&#x5bf9;&#x8c61;">
+<node CREATED="1642935518229" ID="ID_123548256" MODIFIED="1645150356332" TEXT="&#x590d;&#x6742;&#x7684;js&#x5bf9;&#x8c61;">
+<node CREATED="1645150358483" FOLDED="true" ID="ID_939991222" MODIFIED="1645150366693" TEXT="exp">
 <node CREATED="1642935526428" ID="ID_213395356" MODIFIED="1642935666385">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1835,10 +1882,11 @@
 </node>
 </node>
 </node>
+</node>
 <node COLOR="#0099ff" CREATED="1644888096888" ID="ID_1934728031" MODIFIED="1644888107092" TEXT="Math.random()">
 <node CREATED="1642935877067" ID="ID_875849323" MODIFIED="1644888163208" TEXT=" js API &#x968f;&#x673a;&#x6570;,&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#xff08;0&#xff0c;1&#xff09;&#x4e4b;&#x95f4;&#x7684;&#x6570;&#x503c;"/>
 <node COLOR="#0099ff" CREATED="1642936052306" ID="ID_1920185832" MODIFIED="1644888119135" TEXT="&#x751f;&#x6210;(startRange,endRange)&#x8303;&#x56f4;&#x5185;&#x7684;&#x968f;&#x673a;&#x6b63;&#x6574;&#x6570;">
-<node CREATED="1642936077510" ID="ID_1605711719" MODIFIED="1642936078951" TEXT="exp">
+<node CREATED="1642936077510" FOLDED="true" ID="ID_1605711719" MODIFIED="1645150369499" TEXT="exp">
 <node CREATED="1642936080000" ID="ID_1332708874" MODIFIED="1642936098890" TEXT="startRange&#xff0c;endRange"/>
 <node CREATED="1642936099556" ID="ID_1482607730" MODIFIED="1642936161302" TEXT="Math.random()*(endRange+1-startRange)+startRange"/>
 </node>
@@ -1867,11 +1915,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1643506211806" FOLDED="true" ID="ID_1083955627" MODIFIED="1645025111845" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;">
+<node CREATED="1643506211806" ID="ID_1083955627" MODIFIED="1645073601266" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;">
 <node CREATED="1643506334231" ID="ID_524389909" MODIFIED="1643506706636" TEXT="&#x6d4b;&#x8bd5;&#x65b9;&#x6cd5;">
 <node COLOR="#3399ff" CREATED="1643506218462" ID="ID_314094726" MODIFIED="1643530229738" TEXT=".test()">
 <node CREATED="1643507586065" ID="ID_510254770" MODIFIED="1643507612471" TEXT="&#x68c0;&#x67e5;&#x5339;&#x914d;&#x6a21;&#x5f0f;&#x662f;&#x5426;&#x5b58;&#x5728;&#x4e0e;&#x5b57;&#x7b26;&#x4e32;&#x4e2d;"/>
-<node CREATED="1643506818757" FOLDED="true" ID="ID_253229172" MODIFIED="1644740819845" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;.test(&#x5185;&#x5bb9;)">
+<node CREATED="1643506818757" FOLDED="true" ID="ID_253229172" MODIFIED="1645073636963" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;.test(&#x5185;&#x5bb9;)">
 <node CREATED="1643507062432" ID="ID_1523922417" MODIFIED="1643507075716" TEXT="&#x6709;&#x5b58;&#x5728;&#x5373;&#x8fd4;&#x56de;true"/>
 <node CREATED="1643507076773" ID="ID_1917498454" MODIFIED="1643507118579" TEXT="&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;&#x4e2d;&#x7684;&#x5185;&#x5bb9;&#x4e0e;&#x8981;&#x5339;&#x914d;&#x7684;&#x5185;&#x5bb9;&#x4e0d;&#x540c;&#x5373;&#x8fd4;&#x56de;false"/>
 </node>
@@ -2002,7 +2050,7 @@
 </node>
 <node COLOR="#3399ff" CREATED="1643529078479" ID="ID_758921663" MODIFIED="1643530133348" TEXT="&#x5b57;&#x7b26;&#x96c6;">
 <node CREATED="1643529082271" ID="ID_1609812980" MODIFIED="1643529299538" TEXT="/[arg1arg2arg3]/">
-<node CREATED="1643529376031" ID="ID_1736888089" MODIFIED="1643529377149" TEXT="exp">
+<node CREATED="1643529376031" FOLDED="true" ID="ID_1736888089" MODIFIED="1645150372376" TEXT="exp">
 <node CREATED="1643529377950" ID="ID_625845781" MODIFIED="1643529439249" TEXT="let bigStr = &quot;big&quot;; &#xa;let bagStr = &quot;bag&quot;; &#xa;let bugStr = &quot;bug&quot;; &#xa;let bogStr = &quot;bog&quot;; &#xa;let bgRegex = /b[aiu]g/; &#xa;bigStr.match(bgRegex); &#xa;bagStr.match(bgRegex); &#xa;bugStr.match(bgRegex); &#xa;bogStr.match(bgRegex);"/>
 <node CREATED="1643529440856" ID="ID_1349173071" MODIFIED="1643529480813" TEXT="return [&quot;big&quot;][&quot;bag&quot;][&quot;bug&quot;]null"/>
 </node>
@@ -2037,7 +2085,7 @@
   </body>
 </html></richcontent>
 <node CREATED="1643530635160" ID="ID_1687855105" MODIFIED="1643530654170" TEXT="/arg+/">
-<node CREATED="1643530655504" ID="ID_813412395" MODIFIED="1643530656808" TEXT="exp">
+<node CREATED="1643530655504" FOLDED="true" ID="ID_813412395" MODIFIED="1645150376927" TEXT="exp">
 <node CREATED="1643530657629" ID="ID_1363982245" MODIFIED="1643530717722" TEXT="&quot;aabc&quot;.match(/a+/g);"/>
 <node CREATED="1643530718463" ID="ID_963600108" MODIFIED="1643530731895" TEXT="return [&quot;aa&quot;];"/>
 </node>
@@ -2150,7 +2198,7 @@
 <node CREATED="1645024602244" ID="ID_200289683" MODIFIED="1645024888600" TEXT="&#x540e;&#x9762;&#x5c31;&#x662f;&#x66ff;&#x6362;&#x9879;&#x53ef;&#x4ee5;&#x662f;string&#x4e5f;&#x53ef;&#x4ee5;&#x662f;function $1 $2"/>
 </node>
 </node>
-<node CREATED="1643856610104" ID="ID_209559482" MODIFIED="1643856642859" TEXT="exp">
+<node CREATED="1643856610104" FOLDED="true" ID="ID_209559482" MODIFIED="1645150381725" TEXT="exp">
 <node CREATED="1643856644287" ID="ID_47603386" MODIFIED="1643856671972" TEXT="&quot;Code Camp&quot;.replace(/(\w+)\s(\w+)/, &apos;$2 $1&apos;);"/>
 <node CREATED="1643856685802" ID="ID_617857377" MODIFIED="1643856728447" TEXT="$2&#x4e0e;$1&#x5206;&#x522b;&#x4ee3;&#x8868;&#x7684;&#x662f;(\w+)"/>
 </node>
