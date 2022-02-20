@@ -1602,7 +1602,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#3399ff" CREATED="1644911613833" FOLDED="true" ID="ID_1154607584" MODIFIED="1645150404100" TEXT="[].reduce((arg1,arg2,arg3)=&gt;....,start_symble);">
+<node COLOR="#3399ff" CREATED="1644911613833" FOLDED="true" ID="ID_1154607584" MODIFIED="1645326134189" TEXT="[].reduce((arg1,arg2,arg3)=&gt;....,start_symble);">
 <node CREATED="1644911684433" ID="ID_1236848865" MODIFIED="1644911709157" TEXT=" reduce&#x65b9;&#x6cd5;&#x904d;&#x5386;&#x6570;&#x7ec4;&#x4e2d;&#x7684;&#x6bcf;&#x4e2a;&#x9879;&#x76ee;&#x5e76;&#x8fd4;&#x56de;&#x5355;&#x4e2a;&#x503c;&#xff08;&#x5373;&#x5b57;&#x7b26;&#x4e32;&#x3001;&#x6570;&#x5b57;&#x3001;&#x5bf9;&#x8c61;&#x3001;&#x6570;&#x7ec4;&#xff09;&#x3002; &#x8fd9;&#x662f;&#x901a;&#x8fc7;&#x5728;&#x6bcf;&#x6b21;&#x8fed;&#x4ee3;&#x4e2d;&#x8c03;&#x7528;&#x4e00;&#x4e2a;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x6765;&#x5b9e;&#x73b0;&#x7684;&#x3002;"/>
 <node CREATED="1644911795836" ID="ID_1520438766" MODIFIED="1644911797929" TEXT="arg1">
 <node CREATED="1644911812189" ID="ID_1974607838" MODIFIED="1644911819934" TEXT=" &#x7b2c;&#x4e00;&#x4e2a;&#x53c2;&#x6570;&#x79f0;&#x4e3a;&#x53e0;&#x52a0;&#x5668;&#xff0c;&#x5b83;&#x662f;&#x4e0a;&#x4e00;&#x6b21;&#x8fed;&#x4ee3;&#x4e2d;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x7684;&#x8fd4;&#x56de;&#x503c;"/>
@@ -1748,7 +1748,7 @@
 <node CREATED="1644887369396" ID="ID_1056217381" MODIFIED="1644887372691" TEXT="&#x53d8;&#x5c0f;&#x5199;"/>
 </node>
 </node>
-<node COLOR="#0099ff" CREATED="1644736117688" FOLDED="true" ID="ID_949264823" MODIFIED="1645151815581" TEXT="[].sort(function[])">
+<node COLOR="#0099ff" CREATED="1644736117688" FOLDED="true" ID="ID_949264823" MODIFIED="1645167757156" TEXT="[].sort(function[])">
 <node COLOR="#0099ff" CREATED="1644736052815" ID="ID_400829058" MODIFIED="1644736243126" TEXT="&#x6570;&#x7ec4;&#x6309;&#x7167;&#x4e00;&#x5b9a;&#x7684;&#x65b9;&#x5f0f;&#x8fdb;&#x884c;&#x6392;&#x5e8f;"/>
 <node CREATED="1644736132817" ID="ID_418537457" MODIFIED="1644736157470" TEXT="sort()&#x662f;&#x7528;&#x6765;&#x8fdb;&#x884c;&#x6570;&#x7ec4;&#x6392;&#x5e8f;&#x7684;&#x65b9;&#x5f0f;"/>
 <node CREATED="1644736157853" ID="ID_749728840" MODIFIED="1644736336095" TEXT="function()&#x5373;&#x4f9d;&#x9760;&#x4e00;&#x5b9a;&#x7684;&#x89c4;&#x5219;&#x6765;&#x529e;&#x4e8b;"/>
