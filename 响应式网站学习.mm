@@ -1498,7 +1498,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1645690527922" ID="ID_602428895" MODIFIED="1645690537488" POSITION="right" TEXT="jQuery&#x6846;&#x67b6;&#x5b66;&#x4e60;">
+<node CREATED="1645690527922" FOLDED="true" ID="ID_602428895" MODIFIED="1645709348821" POSITION="right" TEXT="jQuery&#x6846;&#x67b6;&#x5b66;&#x4e60;">
 <node CREATED="1645690597947" ID="ID_1153189704" MODIFIED="1645691537102" TEXT="&#x8fd0;&#x884c;&#x524d;&#x63d0;">
 <node CREATED="1645691539775" FOLDED="true" ID="ID_292817603" MODIFIED="1645691569236" TEXT="&#x5f15;&#x7528;&#x7684;&#x5e93;">
 <node CREATED="1645691545105" ID="ID_1450192903" MODIFIED="1645691552844" TEXT="jQuery&#x5e93;"/>
@@ -1520,7 +1520,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1645691190386" ID="ID_366332165" MODIFIED="1645691221592" TEXT=".ready(function(){});">
+<node CREATED="1645691190386" ID="ID_366332165" MODIFIED="1645707599485" TEXT="function(){}">
 <node CREATED="1645691332574" ID="ID_456930317" MODIFIED="1645691358105" TEXT="jQuery&#x51fd;&#x6570;&#xff0c;&#x6240;&#x6709;&#x7684;&#x51fd;&#x6570;&#x90fd;&#x662f;&#x4ee5;$&#x8fdb;&#x884c;&#x6253;&#x5934;"/>
 <node CREATED="1645691224825" FOLDED="true" ID="ID_915992233" MODIFIED="1645693515224" TEXT="$(arg1).addClass(arg2,arg3...);">
 <node CREATED="1645692190217" ID="ID_807382718" MODIFIED="1645692231610" TEXT="&#x6dfb;&#x52a0;&#x7c7b;&#x7684;&#x6837;&#x5f0f;"/>
@@ -1672,6 +1672,157 @@
 <node CREATED="1645694769608" ID="ID_1404873099" MODIFIED="1645694780427" TEXT="&#x6de1;&#x51fa;&#x52a8;&#x753b;"/>
 </node>
 </node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1645706206711" FOLDED="true" ID="ID_1477567173" MODIFIED="1645709346977" POSITION="right" TEXT="sass(.css&#x6846;&#x67b6;&#x4f7f;&#x4ee3;&#x7801;&#x66f4;&#x7b80;&#x6d01;)">
+<node CREATED="1645706401519" ID="ID_212969563" MODIFIED="1645708750069" TEXT="&#x8fd0;&#x884c;&#x524d;&#x63d0;">
+<node CREATED="1645707042616" ID="ID_1693054635" MODIFIED="1645707054707" TEXT="&lt;style&gt;&lt;/style&gt;"/>
+<node CREATED="1645707488615" ID="ID_787936454" MODIFIED="1645707494021" TEXT="step1">
+<node CREATED="1645707494605" ID="ID_1706442630" MODIFIED="1645707500947" TEXT="&#x5b89;&#x88c5;Ruby"/>
+</node>
+<node CREATED="1645707501916" ID="ID_705785995" MODIFIED="1645707508509" TEXT="step2">
+<node CREATED="1645707509303" ID="ID_1749389352" MODIFIED="1645707516009" TEXT="gem install sass"/>
+</node>
+<node CREATED="1645708752723" ID="ID_281804577" MODIFIED="1645708757730" TEXT="step3">
+<node CREATED="1645708758346" ID="ID_298014626" MODIFIED="1645708930181" TEXT="&#x5bfc;&#x5165;&#x5230;main.scss">
+<node CREATED="1645708930814" ID="ID_668617336" MODIFIED="1645708945231" TEXT="@import &quot;.scss&#x6587;&#x4ef6;&#x540d;&quot;"/>
+</node>
+</node>
+</node>
+<node CREATED="1645707792119" ID="ID_1616152514" MODIFIED="1645707799823" TEXT="&#x57fa;&#x7840;">
+<node CREATED="1645707608942" ID="ID_1078097816" MODIFIED="1645707655397" TEXT="&#x58f0;&#x660e;css&#x53d8;&#x91cf;&#xff0c;&#x4e00;&#x822c;css&#x6ca1;&#x6709;&#x53d8;&#x91cf;&#x4e00;&#x8bf4;&#xff0c;&#x4f46;&#x662f;sass&#x80fd;&#x591f;&#x521b;&#x5efa;">
+<node CREATED="1645707647781" ID="ID_253397334" MODIFIED="1645707649310" TEXT="exp">
+<node CREATED="1645707657559" ID="ID_1967564113" MODIFIED="1645707683754">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $main-fonts: Arial, sans-serif;
+    </p>
+    <p>
+      $headings-color: green;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1645707701355" ID="ID_1189705007" MODIFIED="1645707774347">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      h1 {&#160;&#160;&#160;
+    </p>
+    <p>
+      font-family: $main-fonts;&#160;&#160;&#160;
+    </p>
+    <p>
+      color: $headings-color; }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1645707803666" FOLDED="true" ID="ID_98211571" MODIFIED="1645708236758" TEXT="@mixin&#x4e0e;@include">
+<node CREATED="1645707860744" ID="ID_1868900642" MODIFIED="1645707884087" TEXT="@mixin">
+<node CREATED="1645707884981" ID="ID_1117721412" MODIFIED="1645707915133" TEXT="Mixin&#x5c31;&#x50cf;&#x662f;css&#x51fd;&#x6570;&#x4e00;&#x822c;"/>
+<node CREATED="1645708091419" ID="ID_36554913" MODIFIED="1645708141076" TEXT="@mixin &#x7ed3;&#x6784;&#x4f53;&#x540d;&#x79f0;($arg1,$arg2,$arg3){box-shadow:$arg1,$arg2..}">
+<node CREATED="1645708148431" ID="ID_127508878" MODIFIED="1645708150627" TEXT="exp">
+<node CREATED="1645708151470" ID="ID_824853875" MODIFIED="1645708156086" TEXT="@mixin box-shadow($x, $y, $blur, $c){    -webkit-box-shadow: $x $y $blur $c;   -moz-box-shadow: $x $y $blur $c;   -ms-box-shadow: $x $y $blur $c;   box-shadow: $x $y $blur $c; }"/>
+</node>
+</node>
+</node>
+<node CREATED="1645708158493" ID="ID_1803709704" MODIFIED="1645708161250" TEXT="@include">
+<node CREATED="1645708162332" ID="ID_1308511025" MODIFIED="1645708169789" TEXT="&#x8c03;&#x7528;mixin"/>
+<node CREATED="1645708170282" ID="ID_1035507387" MODIFIED="1645708201115" TEXT="@include &#x7ed3;&#x6784;&#x4f53;&#x540d;&#x79f0;($arg1,$arg2,$arg3);">
+<node CREATED="1645708215823" ID="ID_1874301223" MODIFIED="1645708216802" TEXT="exp">
+<node CREATED="1645708217887" ID="ID_1306173710" MODIFIED="1645708232052" TEXT="div {   @include box-shadow(0px, 0px, 4px, #fff); }"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1645708321369" ID="ID_555708806" MODIFIED="1645708324541" TEXT="&#x903b;&#x8f91;&#x8bed;&#x53e5;">
+<node CREATED="1645708241169" ID="ID_1003794581" MODIFIED="1645708319990" TEXT="@if,@else&#x548c;@else if">
+<node CREATED="1645708273247" ID="ID_1416496389" MODIFIED="1645708283514" TEXT="&#x548c;&#x57fa;&#x7840;&#x903b;&#x8f91;&#x601d;&#x8def;&#x5dee;&#x4e0d;&#x591a;"/>
+<node CREATED="1645708285458" ID="ID_494229847" MODIFIED="1645708286752" TEXT="exp">
+<node CREATED="1645708345447" ID="ID_335513932" MODIFIED="1645708364823" TEXT="@mixin text-effect($val) {   &#xa;&#x9;@if $val == danger {     color: red;   }   &#xa;&#x9;@else if $val == alert {     color: yellow;   }   &#xa;&#x9;@else if $val == success {     color: green;   }   &#xa;&#x9;@else {     color: black;   } &#xa;}"/>
+</node>
+</node>
+<node CREATED="1645708328070" ID="ID_1043704784" MODIFIED="1645708332377" TEXT="@for">
+<node CREATED="1645708381699" ID="ID_301420596" MODIFIED="1645708385666" TEXT="&#x5faa;&#x73af;&#x903b;&#x8f91;"/>
+<node CREATED="1645708386394" ID="ID_1535695772" MODIFIED="1645708387552" TEXT="exp">
+<node CREATED="1645708388259" ID="ID_1158199095" MODIFIED="1645708415579">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      @for $i from 1 through 12 {&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;.col-#{$i} {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;width: 100%/12 * $i;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1645708418695" ID="ID_396485798" MODIFIED="1645708488341" TEXT="@each">
+<node CREATED="1645708489825" ID="ID_325870154" MODIFIED="1645708508441" TEXT="&#x5728;&#x6bcf;&#x4e2a;&#x7ed9;&#x5b9a;&#x9879;&#x76ee;&#x4e2d;&#x5faa;&#x73af;"/>
+<node CREATED="1645708508808" ID="ID_760759312" MODIFIED="1645708510029" TEXT="exp">
+<node CREATED="1645708510658" ID="ID_1342557674" MODIFIED="1645708560091" TEXT="$colors: (&#xa;color1: blue, color2: red, color3: green);  &#xa;@each $key, $color in $colors {   &#xa;.#{$color}-text {color: $color;}&#xa; }"/>
+</node>
+</node>
+<node CREATED="1645708575146" ID="ID_959096137" MODIFIED="1645708577291" TEXT="@while">
+<node CREATED="1645708578137" ID="ID_1149932916" MODIFIED="1645708662343" TEXT="&#x5faa;&#x73af;&#x8bed;&#x53e5;"/>
+<node CREATED="1645708663284" ID="ID_828604479" MODIFIED="1645708682688">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $x: 1;
+    </p>
+    <p>
+      @while $x &lt; 13 {&#160;&#160;&#160;
+    </p>
+    <p>
+      .col-#{$x} { width: 100%/12 * $x;}&#160;&#160;&#160;
+    </p>
+    <p>
+      $x: $x + 1;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1645709237938" ID="ID_476023854" MODIFIED="1645709241657" TEXT="@extend">
+<node CREATED="1645709243717" ID="ID_667703766" MODIFIED="1645709286008" TEXT="&#x7ee7;&#x627f;&#x8bed;&#x53e5;"/>
+<node CREATED="1645709291376" ID="ID_1133369686" MODIFIED="1645709295469" TEXT="exp">
+<node CREATED="1645709296251" ID="ID_1796213592" MODIFIED="1645709335926" TEXT=" .info{     &#xa;&#x9;width: 200px;     &#xa;&#x9;border: 1px solid black;     &#xa;&#x9;margin: 0 auto;   &#xa;}&#xa; .info-important{   &#xa;&#x9;@extend .info;   &#xa;&#x9;background-color:magenta; &#xa;}"/>
 </node>
 </node>
 </node>
