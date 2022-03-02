@@ -3,7 +3,7 @@
 <node CREATED="1641448247682" ID="ID_203059441" MODIFIED="1645237923979" TEXT="java&#x5b66;&#x4e60;">
 <node CREATED="1641448260174" ID="ID_68494692" MODIFIED="1645948818178" POSITION="right" TEXT="java&#x5e38;&#x8bc6;">
 <node CREATED="1641448277099" ID="ID_1823149865" MODIFIED="1641448293453" TEXT="&#x53d8;&#x91cf;">
-<node CREATED="1641448285805" ID="ID_1589970451" MODIFIED="1645943415337" TEXT="&#x58f0;&#x660e;&#x53d8;&#x91cf;&#x5b9e;&#x4f8b;&#x7684;&#x65f6;&#x5019;final&#x4e0e;static&#x6709;&#x4ec0;&#x4e48;&#x8f83;&#x5927;&#x7684;&#x533a;&#x522b;&#x5417;&#xff1f;">
+<node CREATED="1641448285805" FOLDED="true" ID="ID_1589970451" MODIFIED="1646061910534" TEXT="&#x58f0;&#x660e;&#x53d8;&#x91cf;&#x5b9e;&#x4f8b;&#x7684;&#x65f6;&#x5019;final&#x4e0e;static&#x6709;&#x4ec0;&#x4e48;&#x8f83;&#x5927;&#x7684;&#x533a;&#x522b;&#x5417;&#xff1f;">
 <node CREATED="1641448480220" ID="ID_1403121420" MODIFIED="1645239245856" TEXT="&#x533a;&#x522b;1&#xff1a;">
 <node CREATED="1641448407479" ID="ID_1278041980" MODIFIED="1641448477618" TEXT="&#x7236;&#x7c7b;&#x58f0;&#x660e;final&#x5b9e;&#x4f8b;&#x4e0d;&#x80fd;&#x88ab;&#x5b50;&#x7c7b;&#x6240;&#x7ee7;&#x627f;"/>
 <node CREATED="1641448418268" ID="ID_836429672" MODIFIED="1641449168991" TEXT="&#x7236;&#x7c7b;&#x58f0;&#x660e;&#x7684;static&#x5b9e;&#x4f8b;&#x80fd;&#x88ab;&#x5b50;&#x7c7b;&#x7ee7;&#x627f;&#xff0c;&#x5e76;&#x4e14;&#x5728;&#x7c7b;&#x7f16;&#x8bd1;&#x4e4b;&#x540e;&#xff0c;&#x521d;&#x59cb;&#x5316;&#x80fd;&#x591f;&#x88ab;&#x6539;&#x53d8;"/>
@@ -32,16 +32,107 @@
 </node>
 </node>
 <node CREATED="1645948820058" ID="ID_873562043" MODIFIED="1645948835528" TEXT="&#x5982;&#x4f55;&#x7406;&#x89e3;Java&#x91cc;&#x9762;&#x7684;get&#x548c;set&#x5462;&#xff1f;">
-<node CREATED="1645948836750" ID="ID_734596136" MODIFIED="1645948918631" TEXT="&#x5728;&#x4e66;&#x4e0a;&#x7684;&#x5b58;&#x50a8;&#x5668;&#x65b9;&#x6cd5;&#x4e2d;&#x5199;&#xff0c;&#x8bfb;&#x53d6;&#x7684;&#x65b9;&#x6cd5;&#x4e00;&#x822c;&#x9ed8;&#x8ba4;&#x7ea6;&#x5b9a;&#x4e3a;get&#x5f00;&#x5934;&#x4f5c;&#x4e3a;&#x5176;&#x65b9;&#x6cd5;&#x540d;&#xff0c;&#x8bbe;&#x7f6e;&#x7684;&#x65b9;&#x6cd5;&#x4e00;&#x822c;&#x9ed8;&#x8ba4;&#x4e3a;set&#x4f5c;&#x4e3a;&#x5176;&#x5f00;&#x5934;"/>
+<node CREATED="1645948836750" ID="ID_734596136" MODIFIED="1646055616461" TEXT="&#x5728;&#x4e66;&#x4e0a;&#x7684;&#x5b58;&#x50a8;&#x5668;&#x65b9;&#x6cd5;&#x4e2d;&#x5199;&#xff0c;&#x8bfb;&#x53d6;&#x7684;&#x65b9;&#x6cd5;&#x4e00;&#x822c;&#x9ed8;&#x8ba4;&#x7ea6;&#x5b9a;&#x4e3a;get&#x5f00;&#x5934;&#x4f5c;&#x4e3a;&#x5176;&#x65b9;&#x6cd5;&#x540d;&#xff0c;&#x4f8b;&#x5982;getMemory &#x8bbe;&#x7f6e;&#x7684;&#x65b9;&#x6cd5;&#x4e00;&#x822c;&#x9ed8;&#x8ba4;&#x4e3a;set&#x4f5c;&#x4e3a;&#x5176;&#x5f00;&#x5934;&#xff0c;&#x4f8b;&#x5982;setMemory"/>
 </node>
 </node>
-<node CREATED="1645944503110" ID="ID_1545238207" MODIFIED="1645944503110" POSITION="right" TEXT=""/>
 <node CREATED="1645943898831" ID="ID_385432669" MODIFIED="1645943909102" POSITION="right" TEXT="java API">
-<node CREATED="1645944246308" FOLDED="true" ID="ID_1705601642" MODIFIED="1645945253053" TEXT="javaSE8">
-<node CREATED="1645943910144" FOLDED="true" ID="ID_1547703117" MODIFIED="1645945249079" TEXT="System">
+<node CREATED="1645944246308" ID="ID_1705601642" MODIFIED="1646117807824" TEXT="javaSE8">
+<node CREATED="1646118949985" ID="ID_400368380" MODIFIED="1646120603409" TEXT="java.lang">
+<node CREATED="1645943910144" FOLDED="true" ID="ID_1547703117" MODIFIED="1646120930572" TEXT="System">
 <node CREATED="1645944079472" ID="ID_510315927" MODIFIED="1645944102414" TEXT="exit();">
 <node CREATED="1645944103310" ID="ID_892464692" MODIFIED="1645944145781" TEXT="Terminates the currently running Java Virtual Machine."/>
 <node CREATED="1645944227181" ID="ID_578952189" MODIFIED="1645944238126" TEXT="&#x8fd4;&#x56de;&#x865a;&#x62df;&#x673a;jvm&#x7684;&#x72b6;&#x6001;&#x7801;"/>
+</node>
+<node CREATED="1646118987998" ID="ID_1694163876" MODIFIED="1646118995403" TEXT="out.">
+<node CREATED="1646118995885" ID="ID_232395182" MODIFIED="1646119010692" TEXT="The &quot;standard&quot; output stream.//&#x72b6;&#x6001;&#x8f93;&#x51fa;&#x6d41;">
+<node CREATED="1646119243312" ID="ID_1832104518" MODIFIED="1646119347955" TEXT="class java.io.PrintStream"/>
+</node>
+</node>
+</node>
+<node CREATED="1646122182916" ID="ID_503629053" MODIFIED="1646122192711" TEXT="Thread()">
+<node CREATED="1646122268315" ID="ID_658802527" MODIFIED="1646122289861" TEXT="Allocates a new Thread object.//&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x65b0;&#x7684;&#x7ebf;&#x7a0b;object"/>
+</node>
+<node CREATED="1646119889364" FOLDED="true" ID="ID_1446128553" MODIFIED="1646120931244" TEXT="Boolean">
+<node CREATED="1646119894831" ID="ID_618175492" MODIFIED="1646119992909" TEXT="Boolean(arg)">
+<node CREATED="1646119994097" ID="ID_1802812751" MODIFIED="1646119995096" TEXT="arg">
+<node CREATED="1646119995965" ID="ID_1329681757" MODIFIED="1646120034548" TEXT="&#x5c06;arg&#x653e;&#x5165;&#x5230;Boolean&#x5f53;&#x4e2d;&#xff0c;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;true&#x6216;&#x8005;false"/>
+</node>
+</node>
+<node CREATED="1646120051389" ID="ID_96096974" MODIFIED="1646120077548" TEXT="praseBoolean(&quot; &quot;);">
+<node CREATED="1646120100545" ID="ID_711786075" MODIFIED="1646120213910" TEXT="Parses the string argument as a boolean.//&#x5c06;&#x5b57;&#x7b26;&#x4e32;&#x89e3;&#x6790;&#x4e3a;bool&#x7c7b;&#x578b;"/>
+</node>
+</node>
+<node CREATED="1646120605192" FOLDED="true" ID="ID_651493211" MODIFIED="1646120932491" TEXT="String">
+<node CREATED="1646120609461" ID="ID_487814593" MODIFIED="1646120629214" TEXT="length()">
+<node CREATED="1646120694316" ID="ID_657748957" MODIFIED="1646120710126" TEXT="Returns the length of this string.//&#x8fd4;&#x56de;&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x957f;&#x5ea6;"/>
+</node>
+<node CREATED="1646120629657" ID="ID_921136044" MODIFIED="1646120636925" TEXT="indexOf()">
+<node CREATED="1646120764683" ID="ID_1034142726" MODIFIED="1646120773747" TEXT="indexOf(String str)">
+<node CREATED="1646120713548" ID="ID_1180045840" MODIFIED="1646120816089" TEXT="Returns the index within this string of the first occurrence of the specified substring.//&#x8fd4;&#x56de;&#x5b57;&#x7b26;&#x4e32;&#x4e2d;&#x7b2c;&#x4e00;&#x6b21;&#x51fa;&#x73b0;&#x6b64;&#x8bcd;&#x7684;&#x4f4d;&#x7f6e;"/>
+</node>
+</node>
+<node CREATED="1646120637343" ID="ID_1648050122" MODIFIED="1646120643338" TEXT="charAt()">
+<node CREATED="1646120860186" ID="ID_1730241532" MODIFIED="1646120865563" TEXT="charAt(int index)">
+<node CREATED="1646120852411" ID="ID_1891450115" MODIFIED="1646120885474">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Returns the char value at the specified index.//&#36820;&#22238;&#25351;&#23450;&#20301;&#32622;&#19978;&#30340;&#23383;&#31526;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1646120643707" ID="ID_118768113" MODIFIED="1646120651664" TEXT="toUpperCase()">
+<node CREATED="1646120902276" ID="ID_756043491" MODIFIED="1646120924028" TEXT="Converts all of the characters in this String to upper case using the rules of the default locale.//&#x5c06;&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x6240;&#x6709;&#x5b57;&#x7b26;&#x53d8;&#x4e3a;&#x5927;&#x5199;"/>
+</node>
+</node>
+<node CREATED="1646122560006" ID="ID_298997255" MODIFIED="1646122562737" TEXT="Math">
+<node CREATED="1646122563294" ID="ID_1168250111" MODIFIED="1646122594886" TEXT="floor(double a)">
+<node CREATED="1646122596242" ID="ID_593373251" MODIFIED="1646122701718" TEXT="Returns the largest (closest to positive infinity) double value that is less than or equal to the argument and is equal to a mathematical integer.//&#x8fd4;&#x56de;double&#x7c7b;&#x578b;&#x6700;&#x5927;&#x6216;&#x8005;&#x5c11;&#x4e8e;&#x7684;double&#x7c7b;&#x578b;&#xff0c;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x6574;&#x6570;"/>
+</node>
+</node>
+<node CREATED="1646121642575" ID="ID_841938929" MODIFIED="1646121709544" TEXT="Integer">
+<node CREATED="1646121710513" ID="ID_1329090179" MODIFIED="1646121726519" TEXT="parseInt()">
+<node CREATED="1646121727251" ID="ID_1322360114" MODIFIED="1646121811957" TEXT="parseInt(String s)">
+<node CREATED="1646121812837" ID="ID_1494649076" MODIFIED="1646121841582" TEXT="Parses the string argument as a signed decimal integer.//&#x5c06;string&#x7c7b;&#x578b;&#x8f6c;&#x6362;&#x4e3a;int&#x7c7b;&#x578b;"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1646119461737" FOLDED="true" ID="ID_845920226" MODIFIED="1646120334512" TEXT="java.util">
+<node CREATED="1646119469111" ID="ID_1748717837" MODIFIED="1646119475831" TEXT="StringTokenizer">
+<node CREATED="1646119549027" ID="ID_1905639708" MODIFIED="1646119556707" TEXT="nextToken()">
+<node CREATED="1646119557519" ID="ID_338122838" MODIFIED="1646119577268" TEXT="nextToken()//&#x8fd4;&#x56de;&#x4e0b;&#x4e00;&#x4e2a;&#x70b9;"/>
+</node>
+</node>
+</node>
+<node CREATED="1646120339041" ID="ID_921816912" MODIFIED="1646120342074" TEXT="java.awt">
+<node CREATED="1646120342996" ID="ID_1914198303" MODIFIED="1646120376312" TEXT="Point">
+<node CREATED="1646120389351" ID="ID_766943843" MODIFIED="1646120447350" TEXT="Point(int x,int y)//&#x6784;&#x9020;&#x51fd;&#x6570;&#x5750;&#x6807;&#x70b9;x&#x548c;&#x5750;&#x6807;&#x70b9;y"/>
+</node>
+</node>
+<node CREATED="1646122324528" ID="ID_1397735452" MODIFIED="1646122328486" TEXT="java.time">
+<node CREATED="1646122330591" ID="ID_173081353" MODIFIED="1646122415062">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      LocalTime
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1646122388154" ID="ID_266180387" MODIFIED="1646122430574" TEXT="now()">
+<node CREATED="1646122431329" ID="ID_140940773" MODIFIED="1646122438461" TEXT="&#x663e;&#x793a;&#x73b0;&#x5728;&#x7684;&#x65f6;&#x95f4;"/>
+</node>
 </node>
 </node>
 </node>
@@ -66,8 +157,7 @@
       <font color="#6633ff">&#31867;&#26159;&#29992;&#26469;&#21019;&#24314;&#23545;&#35937;&#30340;&#27169;&#26495;&#65292;</font>&#31867;&#20013;&#21253;&#21547;&#29305;&#23450;&#23545;&#35937;&#30340;&#29305;&#24449;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#0066ff" CREATED="1645239198388" ID="ID_1223686790" MODIFIED="1645241497921" TEXT="&#x5c5e;&#x6027;">
 <node CREATED="1645239253050" ID="ID_34353928" MODIFIED="1645239262883" TEXT="&#x5b9e;&#x4f8b;&#x53d8;&#x91cf;">
@@ -213,12 +303,11 @@
       ObjectName(Type arg1,Type arg2,Type arg3){<br />this.arg1 = arg1;<br />this.arg2=arg2;<br />this.arg3=arg3}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1645948417755" FOLDED="true" ID="ID_1105443991" MODIFIED="1645949203218" TEXT="&#x9650;&#x5b9a;&#x7b26;">
+<node COLOR="#0033ff" CREATED="1645948417755" ID="ID_1105443991" MODIFIED="1646117580590" TEXT="&#x9650;&#x5b9a;&#x7b26;">
 <node CREATED="1645948464955" ID="ID_1047201629" MODIFIED="1645948716903" TEXT="public&#xff0c;protected&#xff0c;private"/>
 <node CREATED="1645948720957" ID="ID_1935111418" MODIFIED="1645948724952" TEXT="static"/>
 <node CREATED="1645948725158" ID="ID_106723822" MODIFIED="1645948728364" TEXT="final">
@@ -226,10 +315,12 @@
 <node CREATED="1645949000934" ID="ID_1720858786" MODIFIED="1645949016367" TEXT="final function&#x4e0d;&#x80fd;&#x88ab;&#x5b50;&#x7c7b;&#x8986;&#x76d6;"/>
 <node CREATED="1645949016635" ID="ID_1044293852" MODIFIED="1645949035818" TEXT="final value&#x65e0;&#x6cd5;&#x88ab;&#x4fee;&#x6539;"/>
 </node>
-<node CREATED="1645948729333" ID="ID_116959266" MODIFIED="1645948732790" TEXT="abstract"/>
+<node CREATED="1645948729333" ID="ID_116959266" MODIFIED="1645948732790" TEXT="abstract">
+<node CREATED="1646117583983" ID="ID_1934100815" MODIFIED="1646117677370" TEXT="&#x62bd;&#x8c61;&#x7c7b;&#x53ea;&#x80fd;&#x5b9a;&#x4e49;&#x5c5e;&#x6027;&#x548c;&#x65b9;&#x6cd5;&#x540d;&#xff0c;&#x53ef;&#x4ee5;&#x8fd9;&#x6837;&#x7406;&#x89e3;&#x5728;&#x7c7b;&#x7684;&#x5c42;&#x6b21;&#x884c;&#x4e3a;&#x8d8a;&#x9ad8;&#x90a3;&#x4e48;&#x7c7b;&#x7684;&#x62bd;&#x8c61;&#x7a0b;&#x5ea6;&#x5c31;&#x4f1a;&#x8d8a;&#x9ad8;"/>
+</node>
 <node CREATED="1645948733634" ID="ID_1674132296" MODIFIED="1645948806953" TEXT="synchronozed&#x548c;volatitle"/>
 </node>
-<node CREATED="1645949232286" ID="ID_992096317" MODIFIED="1645949236819" TEXT="&#x5305;">
+<node COLOR="#0066ff" CREATED="1645949232286" FOLDED="true" ID="ID_992096317" MODIFIED="1646062076822" TEXT="&#x5305;">
 <node CREATED="1645949237698" ID="ID_1690462294" MODIFIED="1645949285543" TEXT="&#x5305;&#x80fd;&#x5c06;&#x7f16;&#x5199;&#x7684;&#x7c7b;&#x7ec4;&#x7ec7;&#x6210;&#x5355;&#x5143;&#xff0c;&#x5bf9;&#x6bcf;&#x4e2a;&#x7c7b;&#x8fdb;&#x884c;&#x7f16;&#x7ec4;&#x80fd;&#x8ba9;&#x4f60;&#x4f7f;&#x7528;&#x9700;&#x8981;&#x7684;&#x5305;"/>
 <node CREATED="1645949287925" ID="ID_519335187" MODIFIED="1645949297921" TEXT="&#x4f7f;&#x7528;&#x65b9;&#x5f0f;">
 <node CREATED="1645949298700" FOLDED="true" ID="ID_171864215" MODIFIED="1645949395863" TEXT="import">
@@ -242,6 +333,110 @@
 <node CREATED="1645949371412" ID="ID_1105093330" MODIFIED="1645949393269" TEXT="import java.awt.*"/>
 </node>
 </node>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0066ff" CREATED="1646055960822" FOLDED="true" ID="ID_705856463" MODIFIED="1646062075352" TEXT="&#x63a5;&#x53e3;">
+<node CREATED="1646061054055" ID="ID_857816251" MODIFIED="1646061336877" TEXT="&#x5728;&#x6211;&#x773c;&#x91cc;&#x63a5;&#x53e3;&#x5c31;&#x50cf;&#x662f;&#x4e00;&#x79cd;&#x65b9;&#x6cd5;&#x548c;&#x5e38;&#x91cf;&#x7684;&#x58f0;&#x660e;&#xff0c;&#x6ca1;&#x6709;&#x4efb;&#x4f55;&#x5b9e;&#x9645;&#x7684;&#x65b9;&#x5f0f;&#x3002;&#x82e5;&#x8c03;&#x7528;&#x6b64;&#x63a5;&#x53e3;&#x7684;&#x8bdd;&#xff0c;&#x5c31;&#x80fd;&#x591f;&#x6dfb;&#x52a0;&#x63a5;&#x53e3;&#x91cc;&#x7684;&#x65b9;&#x6cd5;&#x7684;&#x5b9e;&#x73b0;"/>
+<node CREATED="1646061345303" ID="ID_1048433812" MODIFIED="1646061614250" TEXT="java&#x4e2d;&#x7684;&#x7c7b;&#x53ea;&#x80fd;&#x5355;&#x7ee7;&#x627f;&#xff0c;&#x53ef;&#x662f;&#x82e5;&#x6709;&#x5f88;&#x591a;&#x7684;&#x7c7b;&#x60f3;&#x8981;&#x8c03;&#x7528;&#x4e0d;&#x540c;&#x7684;&#x65b9;&#x6cd5;&#x600e;&#x4e48;&#x529e;&#x5462;&#xff1f;&#x53ef;&#x4ee5;&#x73b0;&#x5728;&#x63a5;&#x53e3;&#x4e2d;&#x58f0;&#x660e;&#x597d;&#x540d;&#x79f0;&#xff0c;&#x5177;&#x4f53;&#x5b9e;&#x73b0;&#x5728;&#x8c03;&#x7528;&#x7c7b;&#x5f53;&#x4e2d;&#xff0c;&#x8fd9;&#x6837;&#x80fd;&#x8ba9;&#x8bfb;&#x8005;&#x66f4;&#x52a0;&#x6e05;&#x6670;&#x8ba4;&#x77e5;&#x6240;&#x4f7f;&#x7528;&#x7684;&#x65b9;&#x6cd5;"/>
+<node CREATED="1646061939246" ID="ID_1739122342" MODIFIED="1646061964864" TEXT="&#x63a5;&#x53e3;&#x80fd;&#x591f;&#x7ee7;&#x627f;&#x63a5;&#x53e3;extends"/>
+<node CREATED="1646061966534" ID="ID_1249319347" MODIFIED="1646062071565" TEXT="&#x63a5;&#x53e3;&#x4e2d;&#x58f0;&#x660e;&#x7684;&#x5c5e;&#x6027;&#x4e00;&#x5b9a;&#x8981;&#x8fdb;&#x884c;&#x521d;&#x59cb;&#x5316;&#x8d4b;&#x503c;"/>
+<node COLOR="#0033ff" CREATED="1646061624868" FOLDED="true" ID="ID_943259414" MODIFIED="1646061902442" TEXT="implements">
+<node CREATED="1646061635833" ID="ID_1057400024" MODIFIED="1646061641575" TEXT="&#x7c7b;&#x4e2d;&#x8c03;&#x7528;&#x63a5;&#x53e3;"/>
+<node CREATED="1646061641944" ID="ID_1054576040" MODIFIED="1646061644051" TEXT="exp">
+<node CREATED="1646061650407" ID="ID_1387103766" MODIFIED="1646061720426" TEXT="public class AnimatedSign extends Sign implements Runnable,Observer{}"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1646061847932" ID="ID_1467457494" MODIFIED="1646061915545" TEXT="interface">
+<node CREATED="1646061862757" ID="ID_500295772" MODIFIED="1646061868476" TEXT="&#x521b;&#x5efa;&#x63a5;&#x53e3;"/>
+<node CREATED="1646061869406" ID="ID_1234240021" MODIFIED="1646061870738" TEXT="exp">
+<node CREATED="1646061871472" ID="ID_913980055" MODIFIED="1646061884552" TEXT="public interface MyInterface{}"/>
+</node>
+</node>
+</node>
+<node COLOR="#0066ff" CREATED="1646055660624" FOLDED="true" ID="ID_1935272241" MODIFIED="1646059755487" TEXT="&#x7ebf;&#x7a0b;">
+<node CREATED="1646055924971" ID="ID_565441606" MODIFIED="1646055927304" TEXT="way1">
+<node CREATED="1646055686796" ID="ID_254812870" MODIFIED="1646055796053" TEXT="java.lang.Thread &#x8fd9;&#x4e2a;class&#x6a21;&#x677f;"/>
+</node>
+<node CREATED="1646055930321" ID="ID_1560371410" MODIFIED="1646055931967" TEXT="way2">
+<node CREATED="1646055934823" ID="ID_1395791735" MODIFIED="1646055957918" TEXT="&#x8c03;&#x7528;Runnable&#x8fd9;&#x4e2a;&#x63a5;&#x53e3;&#x91cd;&#x5199;run()&#x65b9;&#x6cd5;"/>
+</node>
+<node CREATED="1646055815297" ID="ID_1357741266" MODIFIED="1646055920958" TEXT="java&#x80fd;&#x591f;&#x521b;&#x5efa;&#x591a;&#x4e2a;&#x7ebf;&#x7a0b;&#x5e76;&#x4e14;&#x80fd;&#x591f;&#x9ad8;&#x5e76;&#x53d1;&#x8fdb;&#x884c;&#x4f5c;&#x4e1a;"/>
+<node CREATED="1646056851276" ID="ID_1608001845" MODIFIED="1646056875521" TEXT="&#x4f7f;&#x7528;&#x65b9;&#x5f0f;&#x5728;&#x53f3;&#x4fa7;java API Thread()&#x5f53;&#x4e2d;"/>
+</node>
+<node COLOR="#0066ff" CREATED="1646055673384" FOLDED="true" ID="ID_1748048212" MODIFIED="1646059753895" TEXT="&#x5f02;&#x5e38;">
+<node CREATED="1646055980313" ID="ID_1122075786" MODIFIED="1646056603933" TEXT="using way1">
+<node CREATED="1646056604842" ID="ID_672653145" MODIFIED="1646056659834" TEXT="&#x63d0;&#x524d;&#x544a;&#x77e5;&#x7c7b;&#x7684;&#x7528;&#x6237;&#x6709;&#x7740;&#x6f5c;&#x5728;&#x7684;&#x5f02;&#x5e38;"/>
+</node>
+<node CREATED="1646056670564" ID="ID_1082529598" MODIFIED="1646056679446" TEXT="using way2">
+<node CREATED="1646056680293" ID="ID_161871869" MODIFIED="1646056843348" TEXT="&#x544a;&#x77e5;&#x7528;&#x6237;&#x78b0;&#x5230;&#x5f02;&#x5e38;&#x65f6;&#x5019;&#x7684;&#x89e3;&#x51b3;&#x65b9;&#x5f0f;"/>
+</node>
+<node COLOR="#0066ff" CREATED="1646056998816" ID="ID_983957007" MODIFIED="1646058409817" TEXT="try{}catch(){}finally{}">
+<node CREATED="1646058757775" ID="ID_244399488" MODIFIED="1646058771759" TEXT="&#x7528;&#x6765;&#x68c0;&#x6d4b;&#x4ee3;&#x7801;&#x5f02;&#x5e38;"/>
+<node COLOR="#0066ff" CREATED="1646057036169" FOLDED="true" ID="ID_1591058586" MODIFIED="1646058414824" TEXT="try(){}">
+<node CREATED="1646057049445" ID="ID_1324028263" MODIFIED="1646057082424" TEXT="try&#x65b9;&#x6cd5;&#x91cc;&#x9762;&#x662f;&#x53ef;&#x80fd;&#x4f1a;&#x51fa;&#x73b0;&#x95ee;&#x9898;&#x7684;&#x4ee3;&#x7801;"/>
+<node CREATED="1646057083204" ID="ID_1908556450" MODIFIED="1646057796062" TEXT="&#xff08;&#xff09;&#x62ec;&#x53f7;&#x5185;&#x80fd;&#x591f;&#x58f0;&#x660e;&#x5b9e;&#x4f8b;"/>
+<node CREATED="1646057171672" ID="ID_1147361935" MODIFIED="1646057790533" TEXT="exp">
+<node CREATED="1646057173418" ID="ID_776393543" MODIFIED="1646057499902" TEXT="try(Socket digit = new Socket(host,79);BufferReader in=new BufferReader();){}"/>
+</node>
+</node>
+<node COLOR="#0066ff" CREATED="1646057505806" ID="ID_1578411890" MODIFIED="1646058469795" TEXT="catch(){}">
+<node CREATED="1646057536683" ID="ID_1924301847" MODIFIED="1646057675155" TEXT="catch&#x662f;&#x6293;&#x53d6;&#x53ef;&#x80fd;&#x51fa;&#x73b0;&#x7684;&#x5f02;&#x5e38;"/>
+<node COLOR="#0033ff" CREATED="1646058476915" ID="ID_1063661784" MODIFIED="1646058523512" TEXT="&#x6709;&#x591a;&#x4e2a;catch&#x5757;&#x7684;&#x65f6;&#x5019;&#x53ea;&#x6267;&#x884c;&#x4e00;&#x4e2a;catch&#x5757;&#xff0c;&#x5e76;&#x4e14;&#x5ffd;&#x7565;&#x5176;&#x4ed6;&#x7684;catch&#x5757;"/>
+<node CREATED="1646058525364" ID="ID_370836174" MODIFIED="1646058603670" TEXT="&#x591a;&#x4e2a;&#x5f02;&#x5e38;&#x60c5;&#x51b5;&#x4e0b;&#x9075;&#x4ece;&#x5bbd;&#x677e;&#x539f;&#x5219;&#xff0c;&#x5b50;&#x7c7b;&#x7684;&#x5f02;&#x5e38;&#x8981;&#x5148;&#x629b;&#x51fa;&#x518d;&#x629b;&#x7236;&#x7c7b;&#x7684;&#xff0c;&#x4e0d;&#x7136;&#x7236;&#x7c7b;&#x7684;&#x5f02;&#x5e38;&#x4e00;&#x65e6;&#x629b;&#x51fa;&#x5c31;&#x4e0d;&#x4f1a;&#x5230;&#x5b50;&#x7c7b;&#x7684;&#x5f02;&#x5e38;">
+<node CREATED="1646058627465" ID="ID_1905786385" MODIFIED="1646058629145" TEXT="exp">
+<node CREATED="1646058629662" ID="ID_1185033576" MODIFIED="1646058705502">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      catch(sonClass | fatherClass exc){.......}
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1646057678658" ID="ID_1027585231" MODIFIED="1646057775853" TEXT="&#xff08;&#xff09;&#x62ec;&#x53f7;&#x5185;&#x90e8;&#x653e;&#x7f6e;&#x7740;&#x4e00;&#x4e9b;..Exception&#x7684;class"/>
+<node CREATED="1646057821159" FOLDED="true" ID="ID_1823924576" MODIFIED="1646058018690" TEXT="exp">
+<node CREATED="1646057970884" ID="ID_1179473338" MODIFIED="1646057999654" TEXT="catch(ArrayStoreException arg){....}">
+<node CREATED="1646058000813" ID="ID_704645737" MODIFIED="1646058014642" TEXT="&#x629b;&#x51fa;&#x4ee5;&#x8868;&#x793a;&#x5c1d;&#x8bd5;&#x5c06;&#x9519;&#x8bef;&#x7c7b;&#x578b;&#x7684;&#x5bf9;&#x8c61;&#x5b58;&#x50a8;&#x5230;&#x5bf9;&#x8c61;&#x6570;&#x7ec4;&#x4e2d;&#x3002;"/>
+</node>
+</node>
+</node>
+<node COLOR="#0066ff" CREATED="1646058029173" FOLDED="true" ID="ID_833791846" MODIFIED="1646058406394" TEXT="finally{}">
+<node CREATED="1646058095351" ID="ID_549988555" MODIFIED="1646058163029" TEXT="&#x65e0;&#x8bba;&#x6709;&#x6ca1;&#x6709;&#x89e6;&#x53d1;&#x5f02;&#x5e38;&#x90fd;&#x4e00;&#x5b9a;&#x4f1a;&#x88ab;&#x6267;&#x884c;&#x7684;&#x53e5;&#x5b50;&#xff0c;&#x7528;&#x4e8e;&#x5173;&#x95ed;&#x4e00;&#x4e9b;&#x6587;&#x4ef6;&#x9e2d;&#xff0c;&#x91ca;&#x653e;&#x4e00;&#x4e9b;&#x5916;&#x90e8;&#x8d44;&#x6e90;&#x9e2d;&#x7b49;&#x7b49;&#x65b9;&#x5f0f;"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1646058421725" ID="ID_1296289881" MODIFIED="1646059045415" TEXT="throws">
+<node CREATED="1646058736342" ID="ID_1131992811" MODIFIED="1646058892972" TEXT="&#x7528;&#x6765;&#x68c0;&#x6d4b;&#x201c;&#x65b9;&#x6cd5;&#x201d;&#x5f02;&#x5e38;&#x3002;&#x82e5;&#x65b9;&#x6cd5;&#x6709;&#x51fa;&#x73b0;&#x9519;&#x8bef;&#xff0c;&#x544a;&#x77e5;&#x7528;&#x8005;&#x6b64;&#x65b9;&#x6cd5;&#x53ef;&#x80fd;&#x4f1a;&#x7167;&#x6210;&#x4ec0;&#x4e48;&#x6837;&#x7684;&#x5f02;&#x5e38;&#xff0c;&#x4e0d;&#x662f;&#x5c06;&#x4f1a;&#x53d1;&#x751f;&#x5f02;&#x5e38;"/>
+<node COLOR="#0033ff" CREATED="1646059344416" ID="ID_1282505059" MODIFIED="1646059748641" TEXT="&#x4f46;&#x662f;&#x5728;&#x65b9;&#x6cd5;&#x4f53;&#x4e4b;&#x5185;&#x65e0;&#x6cd5;&#x8fdb;&#x884c;&#x5f02;&#x5e38;&#x629b;&#x51fa;&#xff0c;&#x4e0d;&#x50cf;try catch&#x4f46;&#x662f;catch&#x5f02;&#x5e38;&#x597d;&#x50cf;&#x4e5f;&#x662f;&#x8981;&#x5148;&#x58f0;&#x660e;&#x5f02;&#x5e38;&#x7684;&#xff0c;&#x6240;&#x4ee5;&#x82e5;&#x8981;&#x629b;&#x51fa;&#x5f02;&#x5e38;&#x8981;&#x5148;&#x521b;&#x5efa;&#x5f02;&#x5e38;&#x7684;&#x5b9e;&#x4f8b;&#xff0c;&#x7136;&#x540e;&#x7528;throw&#x629b;&#x51fa;&#x6765;">
+<node CREATED="1646059541723" ID="ID_258702362" MODIFIED="1646059579128" TEXT="exp">
+<node CREATED="1646058896130" ID="ID_1978399850" MODIFIED="1646059730796">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public void Name() throws NumberFormatException,EOFException(){<br />
+    </p>
+    <p>
+      NumberFormatException numberFormat = new NumberFormatException();<br />throw numberFormat;
+    </p>
+    }
+  </body>
+</html></richcontent>
+<node CREATED="1646059732787" ID="ID_917311898" MODIFIED="1646059740776" TEXT="&#x629b;&#x51fa;numberFormat&#x5f02;&#x5e38;"/>
+</node>
+</node>
+</node>
+<node CREATED="1646058894202" ID="ID_1922743080" MODIFIED="1646058895595" TEXT="exp">
+<node CREATED="1646058896130" ID="ID_1207449325" MODIFIED="1646058969572" TEXT="public void Name() throws NumberFormatException,EOFException(){......}">
+<node CREATED="1646058973366" ID="ID_1791289633" MODIFIED="1646058991004" TEXT="&#x4ee3;&#x8868;&#x7684;&#x662f;&#x53ef;&#x80fd;&#x4f1a;&#x53d1;&#x751f;&#x6570;&#x5b57;&#x683c;&#x5f0f;&#x5f02;&#x5e38;"/>
 </node>
 </node>
 </node>
@@ -261,8 +456,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1645944517472" ID="ID_1607821533" MODIFIED="1645944549691" POSITION="left" TEXT="Java main()&#x51fd;&#x6570;(&#x65b9;&#x6cd5;)">
-<node CREATED="1645944550896" ID="ID_391503603" MODIFIED="1645944598589">
+<node COLOR="#0066ff" CREATED="1645944517472" ID="ID_1607821533" MODIFIED="1646055623631" POSITION="left" TEXT="Java main()&#x51fd;&#x6570;(&#x65b9;&#x6cd5;)">
+<node CREATED="1645944550896" FOLDED="true" ID="ID_391503603" MODIFIED="1646061906467">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -272,8 +467,7 @@
       public static void main(String[] argments){&#20869;&#23481;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1645944599988" ID="ID_364229237" MODIFIED="1645944608643" TEXT="argments">
 <node CREATED="1645944683749" ID="ID_687666669" MODIFIED="1645944963230">
 <richcontent TYPE="NODE"><html>
@@ -297,8 +491,7 @@
       java javaName arg1 arg2 arg3
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1645945199137" ID="ID_1932652015" MODIFIED="1645945206545" TEXT="public static">
