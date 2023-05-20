@@ -209,38 +209,122 @@
 </node>
 <node CREATED="1682206863761" ID="ID_1927367665" MODIFIED="1682207320393" TEXT="&#x6570;&#x636e;&#x901f;&#x7387;(R) (bps)&#xff08;&#x8981;&#x8054;&#x7cfb;&#x4e0a;&#x5934;&#x4e24;&#x4e2a;&#x516c;&#x5f0f;&#xff09;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1682312402609" ID="ID_501549787" MODIFIED="1683840730849">
+<node CREATED="1682312402609" ID="ID_501549787" MODIFIED="1684578369091">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#22312;&#29702;&#24819;&#24773;&#20917;&#19979;&#65292;<b>&#26080;&#22122;&#22768;&#20449;&#36947;</b>&#30340;&#24773;&#20917;&#19979;&#30340;<b>&#26631;&#20934;&#36895;&#29575;</b>&#65288;<b>R</b>&#65289;
+      &#26080;&#22122;&#22768;&#20449;&#36947;&#30340;&#24773;&#20917;&#19979;&#30340;<b>&#26368;&#39640;&#30721;&#20803;&#36895;&#29575;&#36895;&#29575;/&#27874;&#29305;&#29575; R<font size="1">B</font></b>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1682207015739" ID="ID_404927860" MODIFIED="1682207018423" TEXT="&#x516c;&#x5f0f;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1682207021767" ID="ID_1857193562" MODIFIED="1684573970187">
+<node CREATED="1682207021767" ID="ID_1857193562" MODIFIED="1684578379917">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      R = B * N = 2 * W * log&#160; <font size="1">2&#160; </font><font size="5">n</font>
+      R <font size="1">B</font>= B * Baud= 2W * Baud
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1682206889445" ID="ID_296824964" MODIFIED="1684578446665">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      R<font size="1">B</font>&#160;== &#26368;&#22823;&#30721;&#20803;&#36895;&#29575;
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1682312785327" ID="ID_856883742" MODIFIED="1684578445332" TEXT="Baud == &#x7801;&#x5143;&#x4f20;&#x8f93;&#x901f;&#x7387;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1682312802139" ID="ID_1380547363" MODIFIED="1684578720883" TEXT="W == &#x4fe1;&#x9053;&#x5e26;&#x5bbd;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1684577802131" ID="ID_227130650" MODIFIED="1684578721985">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21333;&#20301;&#20026;Hz
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684577988008" ID="ID_747964522" MODIFIED="1684578712042">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#27604;&#29305;&#29575;/&#25968;&#25454;&#29575;&#160;R<font size="1">b </font><font size="3">&#65288;bps&#65289;</font></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink DESTINATION="ID_747964522" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1404866924" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_747964522" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1404866924" SOURCE="ID_747964522" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<node CREATED="1684578008872" ID="ID_687496599" MODIFIED="1684578503982">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>R<font size="1">b</font>&#160;= R<font size="1">B</font>&#160;* log2&#65288;N&#65289;</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1684578622428" ID="ID_746679904" MODIFIED="1684578656356">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>R<font size="1">b</font>&#160;== &#27604;&#29305;&#29575;/&#25968;&#25454;&#29575; bps</b>
     </p>
   </body>
 </html></richcontent>
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1682206889445" ID="ID_296824964" MODIFIED="1682312966637" TEXT="R == &#x5728;&#x5355;&#x4f4d;&#x65f6;&#x95f4;&#x5185;&#x4f20;&#x8f93;&#x7684;&#x4fe1;&#x606f;&#x91cf;,bps"/>
-<node CREATED="1682312785327" ID="ID_856883742" MODIFIED="1682312801434" TEXT="B == &#x6700;&#x5927;&#x7801;&#x5143;&#x901f;&#x7387;"/>
-<node CREATED="1682312802139" ID="ID_1380547363" MODIFIED="1682312817844" TEXT="W == &#x4fe1;&#x9053;&#x5e26;&#x5bbd;"/>
-<node CREATED="1682312818188" ID="ID_779221291" MODIFIED="1682313583454" TEXT="N == &#x5355;&#x4e2a;&#x7801;&#x5143;&#x643a;&#x5e26;&#x7684;&#x4fe1;&#x606f;&#x91cf;"/>
-<node CREATED="1682313012768" ID="ID_93744950" MODIFIED="1683808339749" TEXT="n == &#x7801;&#x5143;&#x7684;&#x79cd;&#x7c7b;&#x6570;&#x548c;&#x8c03;&#x5236;&#x7684;&#x65b9;&#x5f0f;&#x6709;&#x5173;&#x7cfb;&#x4f8b;&#x5982;BPSK&#x4e3a;&#x4e8c;&#x5143;&#x8c03;&#x5236;&#x5219;n = 2&#xff0c;&#x5982;&#x679c;&#x4e3a;QPSK&#x5219;&#x4e3a;&#x56db;&#x76f8;&#x8c03;&#x5236;n = 4">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1684578605494" HGAP="18" ID="ID_548771620" MODIFIED="1684578670333" VSHIFT="1">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>R<font size="1">B</font>&#160;== &#26368;&#39640;&#30721;&#20803;&#36895;&#29575;/&#27874;&#29305;&#29575;</b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1684578588574" ID="ID_1590338734" MODIFIED="1684578665163" TEXT="N == 2&#x8fdb;&#x5236;&#x6bd4;&#x7279;&#x4f4d;&#x7684;&#x6570;&#x91cf;">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
