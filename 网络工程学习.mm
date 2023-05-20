@@ -209,14 +209,14 @@
 </node>
 <node CREATED="1682206863761" ID="ID_1927367665" MODIFIED="1682207320393" TEXT="&#x6570;&#x636e;&#x901f;&#x7387;(R) (bps)&#xff08;&#x8981;&#x8054;&#x7cfb;&#x4e0a;&#x5934;&#x4e24;&#x4e2a;&#x516c;&#x5f0f;&#xff09;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1682312402609" ID="ID_501549787" MODIFIED="1684578993217">
+<node CREATED="1682312402609" ID="ID_501549787" MODIFIED="1684579363012">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      &#26080;&#22122;&#22768;&#20449;&#36947;&#30340;&#24773;&#20917;&#19979;&#30340;<b>&#26368;&#39640;&#30721;&#20803;&#36895;&#29575;&#36895;&#29575;R<font size="1">B</font></b>
+      &#26080;&#22122;&#22768;&#20449;&#36947;&#30340;&#24773;&#20917;&#19979;&#30340;<b>&#30721;&#20803;&#36895;&#29575;&#36895;&#29575;R<font size="1">B/</font><font size="4">&#30721;&#20803;/&#31186;</font></b>
     </p>
   </body>
 </html>
@@ -281,17 +281,18 @@
 </node>
 </node>
 </node>
-<node CREATED="1684577988008" ID="ID_747964522" MODIFIED="1684578712042">
+<node CREATED="1684577988008" ID="ID_747964522" MODIFIED="1684579370919">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b>&#27604;&#29305;&#29575;/&#25968;&#25454;&#29575;&#160;R<font size="1">b </font><font size="3">&#65288;bps&#65289;</font></b>
+      <b>&#27604;&#29305;&#29575;/&#25968;&#25454;&#36895;&#29575;&#160;R<font size="1">b </font><font size="3">&#65288;bps&#65289;</font></b>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <arrowlink DESTINATION="ID_747964522" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1404866924" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_747964522" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1404866924" SOURCE="ID_747964522" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <node CREATED="1684578008872" ID="ID_687496599" MODIFIED="1684578503982">
