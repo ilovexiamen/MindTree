@@ -211,8 +211,7 @@
       R <font size="1">B</font>= 2W = 1/T (Baud)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1682206889445" ID="ID_213223287" MODIFIED="1684578446665">
 <richcontent TYPE="NODE"><html>
@@ -237,8 +236,7 @@
       Baud == &#30721;&#20803;&#36895;&#29575;<b>/&#27874;&#29305;&#29575; == 1/T == 2W</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1682312802139" ID="ID_1115510907" MODIFIED="1684578720883" TEXT="W == &#x4fe1;&#x9053;&#x5e26;&#x5bbd;">
@@ -260,6 +258,7 @@
 </node>
 </node>
 </node>
+<node CREATED="1684584263308" ID="ID_747993198" MODIFIED="1684584304917" TEXT="&#x6700;&#x5c0f;&#x7684;&#x91c7;&#x6837;&#x9891;&#x7387;&#x5e94;&#x4e3a;&#x5e26;&#x5bbd;&#x9891;&#x7387;&#x7684;&#x4e24;&#x500d;"/>
 </node>
 <node CREATED="1682206863761" ID="ID_1927367665" MODIFIED="1682207320393" TEXT="&#x6570;&#x636e;&#x901f;&#x7387;(R) (bps)&#xff08;&#x8981;&#x8054;&#x7cfb;&#x4e0a;&#x5934;&#x4e24;&#x4e2a;&#x516c;&#x5f0f;&#xff09;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
