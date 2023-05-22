@@ -373,10 +373,10 @@
 <node CREATED="1682421261409" ID="ID_687104062" MODIFIED="1682501746294" TEXT="&#x53cc;&#x7ede;&#x7ebf;&#xff08;1000Base-T&#xff09;">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1682421644966" ID="ID_73344425" MODIFIED="1682421700283" TEXT="&#x5e02;&#x9762;&#x4e0a;&#x7684;&#x7f51;&#x7ebf;&#x5927;&#x90e8;&#x5206;&#x90fd;&#x91c7;&#x7528;4&#x5bf9;&#x53cc;&#x7ede;&#x7ebf;">
-<node CREATED="1682421507117" FOLDED="true" ID="ID_1349609094" MODIFIED="1682422015017" TEXT="1000Base-T">
+<node CREATED="1682421507117" ID="ID_1349609094" MODIFIED="1684751837154" TEXT="1000Base-T">
 <node CREATED="1682421909657" ID="ID_1127156542" MODIFIED="1682422011452" TEXT="4&#x5bf9;&#x53cc;&#x7ede;&#x7ebf;&#xff0c;&#x6bcf;&#x5bf9;&#x53cc;&#x7ede;&#x7ebf;&#x53cc;&#x5411;&#x4f20;&#x8f93;"/>
 </node>
-<node CREATED="1682421535089" FOLDED="true" ID="ID_1852226557" MODIFIED="1682422016120" TEXT="1000Base-TX">
+<node CREATED="1682421535089" ID="ID_1852226557" MODIFIED="1684751838181" TEXT="1000Base-TX">
 <node CREATED="1682421879685" ID="ID_46643262" MODIFIED="1682421907137" TEXT="4&#x5bf9;&#x53cc;&#x7ede;&#x7ebf;&#xff0c;&#x4e24;&#x5bf9;&#x53d1;&#x9001;&#x4fe1;&#x606f;&#xff0c;&#x4e24;&#x5bf9;&#x6536;&#x53d6;&#x4fe1;&#x606f;"/>
 </node>
 </node>
@@ -396,7 +396,7 @@
 </node>
 <node CREATED="1682422042522" ID="ID_1433123883" MODIFIED="1682501843366" TEXT="&#x540c;&#x8f74;&#x7535;&#x7f06; (1000Base-cx)">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1682422051951" FOLDED="true" ID="ID_870867185" MODIFIED="1682501133362">
+<node CREATED="1682422051951" FOLDED="true" ID="ID_870867185" MODIFIED="1684751835266">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -459,6 +459,19 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1682502055726" ID="ID_1435976619" MODIFIED="1682502084728" TEXT="&#x4f18;&#x70b9;&#x662f;&#x5149;&#x4f20;&#x8f93;&#x4e0d;&#x53d7;&#x7535;&#x78c1;&#x5e72;&#x6270;&#xff0c;&#x4e0d;&#x53ef;&#x80fd;&#x88ab;&#x5077;&#x542c;&#xff0c;&#x4fdd;&#x5bc6;&#x6027;&#x597d;"/>
+</node>
+<node CREATED="1684752063622" HGAP="22" ID="ID_346828471" MODIFIED="1684752135251" VSHIFT="19">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27491;&#24120;&#24773;&#20917;&#19979;&#30340;&#30005;&#32518;&#20256;&#36755;&#26102;&#24310;&#20026; <b>2&#215;10^5 km/s</b>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1682503094036" HGAP="65" ID="ID_1722811686" MODIFIED="1683566354843" VSHIFT="48">
