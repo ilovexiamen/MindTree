@@ -1112,7 +1112,18 @@
 </html></richcontent>
 <node CREATED="1684814431443" ID="ID_1467114520" MODIFIED="1684814443860" TEXT="&#x6570;&#x636e;&#x4f20;&#x8f93;&#x6240;&#x9700;&#x8981;&#x7684;&#x4ecb;&#x8d28;&#x8bbe;&#x5907;"/>
 </node>
-<node CREATED="1685013315983" HGAP="26" ID="ID_225863693" MODIFIED="1685107295649" TEXT="&#x6570;&#x636e;&#x63a7;&#x5236;&#x94fe;&#x8def;&#x534f;&#x8bae;" VSHIFT="-7">
+<node CREATED="1685013315983" HGAP="26" ID="ID_225863693" MODIFIED="1685306655328" VSHIFT="-7">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25968;&#25454;&#25511;&#21046;&#38142;&#36335;&#65288;<b>DLC</b>&#65289;&#21327;&#35758;
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1685013328672" ID="ID_932497310" MODIFIED="1685013341421" TEXT="&#x9762;&#x5411;&#x4f4d;&#x7684;&#x534f;&#x8bae;"/>
 <node CREATED="1685013341696" ID="ID_990399502" MODIFIED="1685013348328" TEXT="&#x9762;&#x5411;&#x5b57;&#x7b26;&#x7684;&#x534f;&#x8bae;"/>
 </node>
@@ -1145,7 +1156,7 @@
 </html></richcontent>
 <node CREATED="1685106967536" ID="ID_1998063285" MODIFIED="1685107012453" TEXT="&#x56fa;&#x5b9a;&#x7684;&#x865a;&#x7535;&#x8def;&#xff0c;&#x50cf;&#x4e13;&#x7ebf;&#x4e00;&#x6837;&#xff0c;&#x4e0d;&#x9700;&#x8981;&#x5efa;&#x7acb;&#x548c;&#x6e05;&#x9664;&#x8fde;&#x63a5;&#xff0c;&#x53ef;&#x4ee5;&#x76f4;&#x63a5;&#x4f20;&#x8f93;&#x6570;&#x636e;&#x3002;"/>
 </node>
-<node CREATED="1685269287159" HGAP="29" ID="ID_908754119" MODIFIED="1685269420766" VSHIFT="19">
+<node CREATED="1685269287159" HGAP="37" ID="ID_908754119" MODIFIED="1685306448444" VSHIFT="23">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1155,8 +1166,21 @@
       &#32508;&#21512;&#19994;&#21153;&#25968;&#23383;&#32593; <b>ISDN</b>&#65288;Intergrated Services Digital Network&#65289;
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1685306513780" FOLDED="true" HGAP="36" ID="ID_1888336762" MODIFIED="1685306610888" VSHIFT="27">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#31364;&#24102;N</b>&#65288;NarrowBoard&#65289;&#21644;<b>&#23485;&#24102;B&#65288;</b>Board&#65289;&#20043;&#38388;&#30340;&#21306;&#21035;
+    </p>
+  </body>
 </html>
 </richcontent>
+<node CREATED="1685306556326" ID="ID_1985193891" MODIFIED="1685306606823" TEXT="&#x7a84;&#x5e26;&#x901a;&#x5e38;&#x6307;&#x7684;&#x662f; &#x5e26;&#x5bbd;4M&#x4ee5;&#x4e0b;&#x7684;&#x94fe;&#x8def; &#x5bbd;&#x5e26;&#x5219;&#x662f; &#x5e26;&#x5bbd;&#x4e3a;4M&#x4ee5;&#x4e0a;&#x7684;&#x94fe;&#x8def;"/>
 </node>
 </node>
 <node CREATED="1684931841579" HGAP="64" ID="ID_987066617" MODIFIED="1685107322538" TEXT="2.1&#x8c03;&#x5236;&#x89e3;&#x8c03;&#x5668; &#xff08;Modem&#xff09;">
@@ -1405,9 +1429,9 @@
 <node CREATED="1685107554528" ID="ID_1091425017" MODIFIED="1685108063782" TEXT="PLP&#x5c06;&#x7528;&#x6237;&#x7684;&#x6570;&#x636e;&#x5206;&#x6210;&#x4e00;&#x5b9a;&#x5927;&#x5c0f;&#x7684;&#x5757;&#xff0c;&#x5728;&#x8fd9;&#x4e9b;&#x5757;&#x4e4b;&#x524d;&#x63d2;&#x5165;&#x5206;&#x7ec4;&#x5934;&#x548c;&#x4fe1;&#x9053;&#x53f7;&#xff0c;&#x5e8f;&#x5217;&#x53f7;&#x7b49;&#x7b49;&#x6253;&#x5305;&#x8fdb;&#x884c;&#x5206;&#x7ec4;&#x53d1;&#x9001;&#x3002;"/>
 <node CREATED="1685108067240" ID="ID_19609402" MODIFIED="1685108142525" TEXT="X.25&#x5177;&#x6709;&#x548c;&#x6d41;&#x91cf;&#x63a7;&#x5236;&#x548c;&#x5dee;&#x9519;&#x63a7;&#x5236;"/>
 </node>
-<node CREATED="1685263562167" HGAP="193" ID="ID_1263059670" MODIFIED="1685266278964" TEXT="2.5 &#x5e27;&#x4e2d;&#x7ee7;FR(Frame Relay)&#x7f51;" VSHIFT="146">
+<node CREATED="1685263562167" FOLDED="true" HGAP="210" ID="ID_1263059670" MODIFIED="1685305240585" TEXT="2.5 &#x5e27;&#x4e2d;&#x7ee7;FR(Frame Relay)&#x7f51;" VSHIFT="144">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1685265478212" ID="ID_1949462667" MODIFIED="1685266393830">
+<node CREATED="1685265478212" HGAP="140" ID="ID_1949462667" MODIFIED="1685301910251" VSHIFT="2">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1419,7 +1443,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1685266360240" FOLDED="true" ID="ID_558937068" MODIFIED="1685269006313" TEXT="&#x5e27;&#x4e2d;&#x7ee7;&#x7684;&#x4e1a;&#x52a1;">
+<node CREATED="1685266360240" HGAP="127" ID="ID_558937068" MODIFIED="1685303161299" TEXT="&#x5e27;&#x4e2d;&#x7ee7;&#x7684;&#x4e1a;&#x52a1;" VSHIFT="-89">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1685268186569" HGAP="34" ID="ID_474736467" MODIFIED="1685268821925" VSHIFT="11">
 <richcontent TYPE="NODE"><html>
@@ -1456,7 +1480,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1685269008139" ID="ID_1632545257" MODIFIED="1685269015070" TEXT="&#x5e27;&#x4e2d;&#x7ee7;&#x534f;&#x8bae;">
+<node CREATED="1685269008139" HGAP="148" ID="ID_1632545257" MODIFIED="1685304744209" TEXT="&#x5e27;&#x4e2d;&#x7ee7;&#x534f;&#x8bae;" VSHIFT="-46">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1685269442171" ID="ID_798200082" MODIFIED="1685269466875" TEXT="&#x5e27;&#x4e2d;&#x7ee7;&#x7684;&#x7ed3;&#x6784;">
 <node CREATED="1685269115081" HGAP="28" ID="ID_1042619226" MODIFIED="1685269506946" VSHIFT="-5">
@@ -1469,8 +1493,7 @@
       &#24103;&#20013;&#32487;&#30340;<b>&#24103;&#32467;&#26500;</b>&#21644;HDLC&#30340;&#24103;&#32467;&#26500;&#26159;&#30456;&#20284;&#30340;&#65292;&#30465;&#21435;&#20102;&#25511;&#21046;&#23383;&#27573;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1685014193012" ID="ID_1805516028" MODIFIED="1685269540640">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1522,8 +1545,7 @@
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1685014414700" ID="ID_1082686508" MODIFIED="1685014798107" TEXT="&#x5e27;&#x6807;&#x5fd7; F">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1685014424737" ID="ID_1360182330" MODIFIED="1685014592843">
@@ -1555,7 +1577,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1685270189533" ID="ID_1712479484" MODIFIED="1685270861962">
+<node CREATED="1685270189533" HGAP="22" ID="ID_1712479484" MODIFIED="1685301127563" VSHIFT="7">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1565,10 +1587,9 @@
       &#24103;&#20013;&#32487;&#20855;&#26377;<b>&#26174;&#31034;&#27969;&#25511;</b>&#30340;&#29305;&#28857;&#65292;&#22312;<b>&#22320;&#22336;&#23383;&#27573;</b>&#20013;&#26377;FECN &#21521;&#21069;&#25317;&#22622;&#20301;&#65292;&#20063;&#26377; BECN&#21521;&#21518;&#25317;&#22622;&#20301;&#65292;&#21487;&#20197;&#26377;&#25928;&#30417;&#27979;&#24103;&#30340;&#27969;&#37327;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1685270865493" ID="ID_228800971" MODIFIED="1685270960221">
+<node CREATED="1685270865493" HGAP="18" ID="ID_228800971" MODIFIED="1685301131500" VSHIFT="22">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1578,12 +1599,67 @@
       *&#22312;&#24103;&#20013;&#32487;&#30340;&#19978;&#23618;&#21327;&#35758;&#36824;&#33021;&#36890;&#36807;&#20390;&#27979;&#24103;&#27969;&#37327;&#36827;&#32780;&#25511;&#21046;&#24103;&#30340;&#27969;&#37327;&#65292;&#36825;&#21483;<b>&#38544;&#24335;&#25511;&#21046;</b>
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1685301926673" HGAP="148" ID="ID_1027472323" MODIFIED="1685304753203" TEXT="&#x5e27;&#x4e2d;&#x7ee7;&#x7684;&#x5e94;&#x7528;" VSHIFT="-79">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1685302632782" ID="ID_656616316" MODIFIED="1685302652793">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="photo/&#x7f51;&#x7edc;&#x5de5;&#x7a0b;&#x5b66;&#x4e60;/&#x5e27;&#x4e2d;&#x7ee7;&#x5728;&#x5c40;&#x57df;&#x7f51;&#x4e0a;&#x7684;&#x5e94;&#x7528;.jpg" />
+  </body>
 </html>
 </richcontent>
 </node>
+<node CREATED="1685302707171" HGAP="23" ID="ID_1000005893" MODIFIED="1685302843313" TEXT="&#x5e27;&#x4e2d;&#x7ee7;&#x8fdc;&#x7a0b;&#x8054;&#x7f51;&#x7684;&#x4f18;&#x70b9;" VSHIFT="111">
+<node CREATED="1685302844818" ID="ID_549731873" MODIFIED="1685302871751" TEXT="&#x57fa;&#x4e8e;&#x5206;&#x7ec4;&#x5e27;&#x4ea4;&#x6362;&#x7684;&#x900f;&#x660e;&#x4f20;&#x8f93;&#xff0c;&#x53ef;&#x4ee5;&#x63d0;&#x4f9b;&#x9762;&#x5411;&#x8fde;&#x63a5;&#x7684;&#x670d;&#x52a1;"/>
+<node CREATED="1685302884897" ID="ID_267856708" MODIFIED="1685302912524" TEXT="&#x5e27;&#x7684;&#x957f;&#x5ea6;&#x53ef;&#x4ee5;&#x53d8;&#x5316;&#xff0c;&#x957f;&#x5ea6;&#x53ef;&#x8fbe;1600~4096&#x5b57;&#x8282;"/>
+<node CREATED="1685302917387" ID="ID_422425939" MODIFIED="1685302934348" TEXT="&#x6570;&#x636e;&#x901f;&#x7387;&#x53ef;&#x8fbe; 2~45Mbps"/>
+<node CREATED="1685302935309" ID="ID_1127248789" MODIFIED="1685302978104">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26082;&#21487;&#20197;&#25353;&#38656;&#25552;&#20379;&#24102;&#23485;&#65292;&#20063;<b>&#21487;&#20197;&#24212;&#23545;&#31361;&#21457;&#30340;&#20256;&#36755;&#25968;&#25454;</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1685302980256" ID="ID_1503786792" MODIFIED="1685303126774" TEXT="&#x6ca1;&#x6709;&#x6d41;&#x63a7;&#x548c;&#x91cd;&#x4f20;&#x673a;&#x5236;"/>
+<node CREATED="1685304182869" ID="ID_1996457449" MODIFIED="1685304669635" TEXT="&#x4f7f;&#x7528;&#x4e86;&#x865a;&#x7535;&#x8def;&#xff0c;&#x5e27;&#x4e2d;&#x7ee7;&#x53ef;&#x4ee5;&#x5efa;&#x7acb;&#x5168;&#x56fd;&#x8303;&#x56f4;&#x5185;&#x7684;&#x865a;&#x62df;&#x4e13;&#x7528;&#x7f51;"/>
+</node>
+<node CREATED="1685304673941" HGAP="27" ID="ID_1932067122" MODIFIED="1685304737073" TEXT="&#x5e27;&#x4e2d;&#x7ee7;&#x7684;&#x7f3a;&#x70b9;" VSHIFT="46">
+<node CREATED="1685304689660" ID="ID_1590238567" MODIFIED="1685304706230" TEXT="&#x4e0d;&#x9002;&#x5408;&#x5bf9;&#x654f;&#x611f;&#x5ef6;&#x8fdf;&#x7684;&#x5e94;&#x7528;"/>
+<node CREATED="1685304706442" ID="ID_1469267755" MODIFIED="1685304718854" TEXT="&#x4e0d;&#x4fdd;&#x8bc1;&#x53ef;&#x9760;&#x7684;&#x6570;&#x636e;&#x63d0;&#x4ea4;"/>
+<node CREATED="1685304719091" ID="ID_826088061" MODIFIED="1685304732461" TEXT="&#x6570;&#x636e;&#x7684;&#x4e22;&#x5931;&#x53d6;&#x51b3;&#x4e8e;&#x8fd0;&#x8425;&#x5546;"/>
 </node>
 </node>
-<node CREATED="1684813748746" HGAP="150" ID="ID_1673373557" MODIFIED="1685263278741" TEXT="* RS-232-C &#x6807;&#x51c6;&#x7684;&#x63a5;&#x53e3;&#x7ebf;" VSHIFT="142">
+</node>
+<node CREATED="1685304965335" HGAP="192" ID="ID_26487155" MODIFIED="1685306861208" TEXT="2.6 &#x7efc;&#x5408;&#x4e1a;&#x52a1;&#x6570;&#x5b57;&#x7f51; ISDN &#xff08;Integrated Service Digital Network&#xff09;" VSHIFT="144">
+<node CREATED="1685305278917" ID="ID_1002976644" MODIFIED="1685305413084" TEXT="ISDN &#x662f;&#x56e0;&#x4e3a;&#x6709;&#x8bb8;&#x591a;&#x4e0d;&#x540c;&#x7684;&#x901a;&#x4fe1;&#x7f51;&#x7edc;&#x50cf; &#x7528;&#x6237;&#x7535;&#x62a5;&#x7f51;&#xff0c;&#x56fa;&#x5b9a;&#x7535;&#x8bdd;&#x7f51;&#xff0c;&#x5c40;&#x57df;&#x7f51;&#xff0c;&#x57ce;&#x57df;&#x7f51;&#xff0c;&#x7535;&#x8def;&#x4ea4;&#x6362;&#x7f51;&#x7b49;&#x7b49; &#x800c;&#x5e94;&#x8fd0;&#x800c;&#x751f;"/>
+<node CREATED="1685305590029" ID="ID_801034806" MODIFIED="1685306440560">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ISDN&#26681;&#25454;&#20256;&#36755;&#30340;&#38656;&#27714;&#37327;&#19981;&#21516;&#21448;&#20998;&#20026; <b>&#31364;&#24102;N -ISDN</b>(Narrowband ISDN) &#21644;<b>&#160;&#23485;&#24102; B-ISDN</b>(Board- ISDN)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1685306366139" ID="ID_165292401" MODIFIED="1685306422065" TEXT="&#x7a84;&#x5e26; N-ISDN&#x6bd4;&#x8f83;&#x65e9;&#x671f;&#x56e0;&#x4e3a;&#x6ee1;&#x8db3;&#x4e0d;&#x4e86;&#x8ba1;&#x7b97;&#x673a;&#x7684;&#x7528;&#x6237;&#x9700;&#x6c42; &#x63d0;&#x5347;&#x5230;&#x4e86; &#x5bbd;&#x5e26; B-ISDN"/>
+</node>
+</node>
+<node CREATED="1684813748746" HGAP="152" ID="ID_1673373557" MODIFIED="1685305273715" TEXT="* RS-232-C &#x6807;&#x51c6;&#x7684;&#x63a5;&#x53e3;&#x7ebf;" VSHIFT="190">
 <node CREATED="1684814081125" ID="ID_1702670593" MODIFIED="1684814177632" TEXT="&#x673a;&#x68b0;&#x7279;&#x6027;">
 <node CREATED="1684814093852" ID="ID_324048479" MODIFIED="1684814168905" TEXT="RS-232-C &#x6ca1;&#x6709;&#x6b63;&#x5f0f;&#x7684;&#x89c4;&#x5b9a;&#x8fde;&#x63a5;&#x5668;&#x7684;&#x6807;&#x51c6;&#xff0c;&#x53ef;&#x4ee5;&#x662f;&#x6709;25&#x4e2a;&#x9488;&#x811a;&#x7684;D&#x578b;&#x63a5;&#x53e3;&#xff0c;&#x4e5f;&#x53ef;&#x4ee5;&#x662f;9&#x9488;&#x7684;&#x8fde;&#x63a5;&#x5668;&#x3002;"/>
 </node>
