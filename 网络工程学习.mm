@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1682155313683" ID="ID_1522482945" MODIFIED="1682203442284" TEXT="&#x7f51;&#x7edc;&#x5de5;&#x7a0b;&#x5b66;&#x4e60;">
+<node CREATED="1682155313683" ID="ID_1522482945" MODIFIED="1686222992860" TEXT="&#x7f51;&#x7edc;&#x5de5;&#x7a0b;&#x5b66;&#x4e60;">
 <font NAME="SansSerif" SIZE="16"/>
 <node CREATED="1682203425275" ID="ID_268698545" MODIFIED="1682421230109" POSITION="right" TEXT="1 &#x6570;&#x636e;&#x901a;&#x4fe1;&#x57fa;&#x7840;">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -1845,6 +1845,88 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1686223008915" ID="ID_705724901" MODIFIED="1686223216586" POSITION="left" TEXT="&#x5c40;&#x57df;&#x7f51;&#xff08;LAN&#xff09;&#x4e0e;&#x57ce;&#x57df;&#x7f51;(MAN)">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1686223065226" HGAP="24" ID="ID_485005919" MODIFIED="1686223073141" TEXT="&#x57fa;&#x7840;" VSHIFT="-21">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1686223078290" ID="ID_239487083" MODIFIED="1686223113258">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#22522;&#24102;&#21516;&#36724;&#30005;&#32518;</b>&#21644;<b>&#23485;&#24102;&#21516;&#36724;&#30005;&#32518;</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1686223115663" FOLDED="true" ID="ID_1967669929" MODIFIED="1686224012549">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22522;&#24102;&#21516;&#36724;&#30005;&#32518; &#20256;&#36755;&#30340;&#36317;&#31163;&lt;3km;
+    </p>
+    <p>
+      10Mbps&#21644;50Mbps;
+    </p>
+    <p>
+      100&#20010;&#31449;&#28857;&#25968;
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1686223668836" ID="ID_1814168462" MODIFIED="1686223691304" TEXT="&#x4e3b;&#x8981;&#x5e94;&#x7528;&#x4e8e;&#x5ba4;&#x5185;&#x6216;&#x591a;&#x4e2a;&#x5efa;&#x7b51;&#x4e4b;&#x95f4;&#x7684;&#x5c40;&#x90e8;&#x8054;&#x7f51;"/>
+</node>
+<node CREATED="1686223298952" FOLDED="true" ID="ID_1014605684" MODIFIED="1686223985958">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23485;&#24102;&#21516;&#36724;&#30005;&#32518; &#20256;&#36755;&#30340;&#36317;&#31163;&lt;30km&#65307;
+    </p>
+    <p>
+      500&#20010;&#20449;&#36947;&#65292;&#27599;&#20010;&#20449;&#36947;20Mbps&#65288;&#39057;&#20998;&#22810;&#36335;&#65289;&#65307;
+    </p>
+    <p>
+      1000&#20010;&#31449;&#28857;
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1686223694960" ID="ID_1512128517" MODIFIED="1686223774790" TEXT="&#x4e3b;&#x8981;&#x5e94;&#x7528;&#x4e8e;&#x57ce;&#x57df;&#x7f51;&#x5f53;&#x4e2d;"/>
+</node>
+</node>
+</node>
+<node CREATED="1686223026410" HGAP="37" ID="ID_910897466" MODIFIED="1686224149948" TEXT="&#x5c40;&#x57df;&#x7f51;" VSHIFT="8">
+<node CREATED="1686223037485" HGAP="31" ID="ID_417757941" MODIFIED="1686224156529" TEXT="&#x62d3;&#x6251;&#x7ed3;&#x6784;&#x548c;&#x91c7;&#x7528;&#x7684;&#x4f20;&#x8f93;&#x4ecb;&#x8d28;" VSHIFT="-16">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1686223559555" ID="ID_1336871878" MODIFIED="1686224057829" TEXT="&#x603b;&#x7ebf;&#x578b; &#x62d3;&#x6251;"/>
+<node CREATED="1686223599031" ID="ID_41006078" MODIFIED="1686224069931" TEXT="&#x73af;&#x5f62; &#x62d3;&#x6251;"/>
+<node CREATED="1686223602769" ID="ID_1089100957" MODIFIED="1686224077876">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26143;&#22411; &#25299;&#25169;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1686223608919" ID="ID_1129879160" MODIFIED="1686224125674" TEXT="&#x6811;&#x578b; &#x62d3;&#x6251;"/>
 </node>
 </node>
 </node>
